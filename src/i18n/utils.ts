@@ -9,3 +9,11 @@ export const localeOptions = [
   { label: 'Português', locale: 'pt', key: 'pt-br' },
   { label: '繁體中文', locale: 'zh', key: 'zh-tw' },
 ];
+
+/** Maps locale (eg. "en") to locale string format used in game (eg. "en-us") */
+export const toGameLocaleKey = (locale: string) =>
+  localeOptions.find((obj) => obj.locale === locale)?.key;
+
+/** Generate boilerplate static paths to populate `locale` param */
+export const getStaticLocalePaths = () =>
+  localeOptions.map(({ locale }) => ({ params: { locale }, props: {} }));
