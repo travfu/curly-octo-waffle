@@ -1,0 +1,253 @@
+{
+  "id": 31,
+  "monsterSpecies": "W_EM114",
+  "monsterSize": "LARGE",
+  "assetKey": "w_em114_00",
+  "nameLocalizationKey": "RADOBAAN",
+  "_guidebook": null,
+  "_parts": {
+    "m_Name": "dat_monster_parts_w_em114_00",
+    "elementalWeaknessChart": {
+      "fire": 0,
+      "water": 0,
+      "thunder": 0,
+      "ice": 1,
+      "dragon": 1,
+      "poison": 0,
+      "paralysis": 1
+    },
+    "parameter": {
+      "partDataList": [
+        {
+          "partKey": "Head",
+          "localizeKey": "HEAD",
+          "headFlag": 1,
+          "partBreakData": {
+            "partBreakType": 1,
+            "monsterPart": 2
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 60,
+                "blunt": 70,
+                "ammo": 60
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 0,
+                "ice": 100,
+                "dragon": 100
+              }
+            },
+            {
+              "statusKey": "Broken",
+              "physical": {
+                "cut": 140,
+                "blunt": 145,
+                "ammo": 130
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 0,
+                "ice": 100,
+                "dragon": 100
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Neck",
+          "localizeKey": "",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 0,
+            "monsterPart": 0
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 80,
+                "blunt": 80,
+                "ammo": 70
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 0,
+                "ice": 100,
+                "dragon": 100
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Body",
+          "localizeKey": "BODY",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 1,
+            "monsterPart": 20
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 80,
+                "blunt": 80,
+                "ammo": 70
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 0,
+                "ice": 100,
+                "dragon": 100
+              }
+            },
+            {
+              "statusKey": "Broken",
+              "physical": {
+                "cut": 130,
+                "blunt": 110,
+                "ammo": 130
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 0,
+                "ice": 100,
+                "dragon": 100
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Hindleg_L",
+          "localizeKey": "HINDLEG_LEFT",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 1,
+            "monsterPart": 9
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 70,
+                "blunt": 80,
+                "ammo": 70
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 0,
+                "ice": 100,
+                "dragon": 100
+              }
+            },
+            {
+              "statusKey": "Broken",
+              "physical": {
+                "cut": 140,
+                "blunt": 130,
+                "ammo": 130
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 0,
+                "ice": 100,
+                "dragon": 100
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Hindleg_R",
+          "localizeKey": "HINDLEG_RIGHT",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 1,
+            "monsterPart": 10
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 70,
+                "blunt": 80,
+                "ammo": 70
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 0,
+                "ice": 100,
+                "dragon": 100
+              }
+            },
+            {
+              "statusKey": "Broken",
+              "physical": {
+                "cut": 140,
+                "blunt": 130,
+                "ammo": 130
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 0,
+                "ice": 100,
+                "dragon": 100
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Tail",
+          "localizeKey": "TAIL",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 2,
+            "monsterPart": 3
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 130,
+                "blunt": 110,
+                "ammo": 110
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 0,
+                "ice": 100,
+                "dragon": 100
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        }
+      ]
+    },
+    "id": "11"
+  }
+}

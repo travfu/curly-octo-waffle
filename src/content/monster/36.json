@@ -1,0 +1,193 @@
+{
+  "id": 36,
+  "monsterSpecies": "W_EM102_01",
+  "monsterSize": "LARGE",
+  "assetKey": "w_em102_01",
+  "nameLocalizationKey": "CORAL_PUKEIPUKEI",
+  "_guidebook": null,
+  "_parts": {
+    "m_Name": "dat_monster_parts_w_em102_01",
+    "elementalWeaknessChart": {
+      "fire": 0,
+      "water": 0,
+      "thunder": 1,
+      "ice": 1,
+      "dragon": 0,
+      "poison": 0,
+      "paralysis": 0
+    },
+    "parameter": {
+      "partDataList": [
+        {
+          "partKey": "Head",
+          "localizeKey": "HEAD",
+          "headFlag": 1,
+          "partBreakData": {
+            "partBreakType": 1,
+            "monsterPart": 2
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 140,
+                "blunt": 145,
+                "ammo": 140
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 100,
+                "ice": 0,
+                "dragon": 0
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Back",
+          "localizeKey": "BACK",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 1,
+            "monsterPart": 7
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 90,
+                "blunt": 100,
+                "ammo": 90
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 100,
+                "ice": 0,
+                "dragon": 0
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Wing_L",
+          "localizeKey": "WING_LEFT",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 1,
+            "monsterPart": 4
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 110,
+                "blunt": 110,
+                "ammo": 120
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 100,
+                "ice": 0,
+                "dragon": 0
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Wing_R",
+          "localizeKey": "WING_RIGHT",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 1,
+            "monsterPart": 5
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 110,
+                "blunt": 110,
+                "ammo": 120
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 100,
+                "ice": 0,
+                "dragon": 0
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Legs",
+          "localizeKey": "",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 0,
+            "monsterPart": 0
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 100,
+                "blunt": 110,
+                "ammo": 100
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 100,
+                "ice": 0,
+                "dragon": 0
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Tail",
+          "localizeKey": "TAIL",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 2,
+            "monsterPart": 3
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 120,
+                "blunt": 110,
+                "ammo": 110
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 100,
+                "ice": 0,
+                "dragon": 0
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        }
+      ]
+    },
+    "id": "110201"
+  }
+}

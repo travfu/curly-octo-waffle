@@ -1,0 +1,303 @@
+{
+  "id": 25,
+  "monsterSpecies": "W_EM001_01",
+  "monsterSize": "LARGE",
+  "assetKey": "w_em001_01",
+  "nameLocalizationKey": "PINK_RATHIAN",
+  "_guidebook": {
+    "Id": 24,
+    "MonsterId": 25,
+    "Obsolete": false,
+    "Order": 14,
+    "SpeciesKey": "MonsterSpecies/FLYING",
+    "DescriptionKey": "MonsterDescription/MONSTER_DESCRIPTION_PINK_RATHIAN",
+    "HintKey": "MonsterHint/MONSTER_HINT_PINK_RATHIAN",
+    "ForestAreaFlag": true,
+    "DesertAreaFlag": false,
+    "SwampAreaFlag": false,
+    "MinGrade": 5,
+    "AcquireMaterialMinMonsterGrade1": 5,
+    "AcquireMaterialMaxMonsterGrade1": 10,
+    "AcquireMaterialId1": 2001101,
+    "AcquireMaterialMinMonsterGrade2": 5,
+    "AcquireMaterialMaxMonsterGrade2": 10,
+    "AcquireMaterialId2": 2001102,
+    "AcquireMaterialMinMonsterGrade3": 5,
+    "AcquireMaterialMaxMonsterGrade3": 10,
+    "AcquireMaterialId3": 2001103,
+    "AcquireMaterialMinMonsterGrade4": 5,
+    "AcquireMaterialMaxMonsterGrade4": 10,
+    "AcquireMaterialId4": 2001104,
+    "AcquireMaterialMinMonsterGrade5": 5,
+    "AcquireMaterialMaxMonsterGrade5": 10,
+    "AcquireMaterialId5": 2001105,
+    "AcquireMaterialMinMonsterGrade6": 6,
+    "AcquireMaterialMaxMonsterGrade6": 10,
+    "AcquireMaterialId6": 2001106,
+    "AcquireMaterialMinMonsterGrade7": 8,
+    "AcquireMaterialMaxMonsterGrade7": 10,
+    "AcquireMaterialId7": 1110004,
+    "AcquireMaterialMinMonsterGrade8": 0,
+    "AcquireMaterialMaxMonsterGrade8": 0,
+    "AcquireMaterialId8": 0,
+    "AcquireMaterialMinMonsterGrade9": 0,
+    "AcquireMaterialMaxMonsterGrade9": 0,
+    "AcquireMaterialId9": 0,
+    "AcquireMaterialMinMonsterGrade10": 0,
+    "AcquireMaterialMaxMonsterGrade10": 0,
+    "AcquireMaterialId10": 0,
+    "AttackElement1": 1,
+    "AttackElement2": 6
+  },
+  "_parts": {
+    "m_Name": "dat_monster_parts_w_em001_01",
+    "elementalWeaknessChart": {
+      "fire": 0,
+      "water": 0,
+      "thunder": 1,
+      "ice": 0,
+      "dragon": 1,
+      "poison": 0,
+      "paralysis": 0
+    },
+    "parameter": {
+      "partDataList": [
+        {
+          "partKey": "Head",
+          "localizeKey": "HEAD",
+          "headFlag": 1,
+          "partBreakData": {
+            "partBreakType": 1,
+            "monsterPart": 2
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 140,
+                "blunt": 145,
+                "ammo": 140
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 100,
+                "ice": 0,
+                "dragon": 100
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Body",
+          "localizeKey": "",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 0,
+            "monsterPart": 20
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 90,
+                "blunt": 100,
+                "ammo": 90
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 100,
+                "ice": 0,
+                "dragon": 100
+              }
+            }
+          ],
+          "damageInfluences": [
+            {
+              "targetPart": 7,
+              "damagePercentage": 100
+            }
+          ],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Back",
+          "localizeKey": "BACK",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 1,
+            "monsterPart": 7
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 90,
+                "blunt": 100,
+                "ammo": 90
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 100,
+                "ice": 0,
+                "dragon": 100
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Wing_L",
+          "localizeKey": "WING_LEFT",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 1,
+            "monsterPart": 4
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 130,
+                "blunt": 130,
+                "ammo": 135
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 100,
+                "ice": 0,
+                "dragon": 100
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Wing_R",
+          "localizeKey": "WING_RIGHT",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 1,
+            "monsterPart": 5
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 130,
+                "blunt": 130,
+                "ammo": 135
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 100,
+                "ice": 0,
+                "dragon": 100
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Legs",
+          "localizeKey": "",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 0,
+            "monsterPart": 0
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 90,
+                "blunt": 90,
+                "ammo": 90
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 100,
+                "ice": 0,
+                "dragon": 100
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Tail",
+          "localizeKey": "TAIL",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 2,
+            "monsterPart": 3
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 100,
+                "blunt": 90,
+                "ammo": 90
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 100,
+                "ice": 0,
+                "dragon": 100
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "TailTip",
+          "localizeKey": "",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 0,
+            "monsterPart": 0
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 135,
+                "blunt": 130,
+                "ammo": 130
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 100,
+                "ice": 0,
+                "dragon": 100
+              }
+            }
+          ],
+          "damageInfluences": [
+            {
+              "targetPart": 3,
+              "damagePercentage": 100
+            }
+          ],
+          "partToOverrideDamageStatusKey": 0
+        }
+      ]
+    },
+    "id": "100101"
+  }
+}
