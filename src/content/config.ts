@@ -103,7 +103,7 @@ const monsterCollection = defineCollection({
 
 const i18nMessagesCollection = defineCollection({
 	type: 'data',
-	schema: z.record(z.record(z.string()))
+	schema: z.record(z.string())
 })
 
 

@@ -23,7 +23,7 @@ console.log({ allMonsters });
           .map((obj) => (
             <div>
               <h6>
-                {messages['data']['Enemy'][obj.data.nameLocalizationKey] ||
+                {messages['data'][`Enemy/${obj.data.nameLocalizationKey}`] ||
                   obj.data.nameLocalizationKey}
               </h6>
               <MonsterIcon key={obj.data.assetKey} />
