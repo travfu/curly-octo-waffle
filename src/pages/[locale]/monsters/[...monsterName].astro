@@ -1,6 +1,7 @@
 ---
 import { getCollection, getEntry } from 'astro:content';
 
+import { MONSTER_CONFIG } from '@config/monsters';
 import Layout from '@layouts/Layout.astro';
 import { localeOptions } from '@i18n/utils';
 import { useTranslation } from '@i18n/useTranslation';
@@ -10,9 +11,11 @@ import type { LocaleCode } from '@i18n/utils';
 export async function getStaticPaths() {
   // generate [locale]/monsters/[monsterName] routes as a product
   // of all languages and monster names (e.g. rathian) in english.
-  const allMonsters = await getCollection('monster');
+  const monsters = (await getCollection('monster')).filter(
+    (obj) => (MONSTER_CONFIG as any)[obj.data.nameLocalizationKey]?.active
+  );
   const enMessages = await getEntry('messages', 'en-us');
-  const values = allMonsters
+  const values = monsters
     .map((obj) => ({
       name: (enMessages['data'][`Enemy/${obj.data.nameLocalizationKey}`] || '')
         .trim()
@@ -24,7 +27,7 @@ export async function getStaticPaths() {
 
   const routes: {
     params: { locale: LocaleCode; monsterName: string };
-    props: { id: (typeof allMonsters)[number]['id'] };
+    props: { id: (typeof monsters)[number]['id'] };
   }[] = [];
   values.forEach((obj) => {
     localeOptions
