@@ -22,7 +22,6 @@ const toMonsterPath = (key: string): string => {
 
 <Layout title={messages.data['Common/MONSTER_LIST']}>
   <main>
-    <h1>Monster Hunter <span class="text-gradient">Now</span></h1>
     <ul role="list" class="link-card-grid">
       {
         allMonsters
@@ -69,13 +68,6 @@ const toMonsterPath = (key: string): string => {
     line-height: 1;
     text-align: center;
     margin-bottom: 1em;
-  }
-  .text-gradient {
-    background-image: var(--accent-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 400%;
-    background-position: 0%;
   }
   .instructions {
     margin-bottom: 2rem;
