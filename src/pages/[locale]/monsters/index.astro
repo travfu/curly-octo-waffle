@@ -1,9 +1,10 @@
 ---
-import { getCollection, getEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
 
 import Layout from '@layouts/Layout.astro';
 import MonsterIcon from '@components/icons/MonsterIcon.astro';
-import { getStaticLocalePaths, localeOptions, toGameLocaleKey } from '@i18n/utils';
+import { getStaticLocalePaths } from '@i18n/utils';
+import { useTranslation } from '@i18n/useTranslation';
 
 export async function getStaticPaths() {
   return getStaticLocalePaths();
@@ -11,16 +12,15 @@ export async function getStaticPaths() {
 
 const { locale } = Astro.params;
 const allMonsters = await getCollection('monster');
-const enMessages = await getEntry('messages', 'en-us');
-const messages = await getEntry('messages', toGameLocaleKey(locale));
+const t = useTranslation(locale);
 
 const toMonsterPath = (key: string): string => {
-  const monsterSlug = enMessages.data[`Enemy/${key}`]?.toLowerCase().replace(' ', '-');
+  const monsterSlug = t(['Enemy', key], 'en')?.toLocaleLowerCase().replace(' ', '-');
   return [import.meta.env.BASE_URL, locale, 'monsters', monsterSlug].join('/');
 };
 ---
 
-<Layout title={messages.data['Common/MONSTER_LIST']}>
+<Layout title={t('Common/MONSTER_LIST')}>
   <main>
     <ul role="list" class="link-card-grid">
       {
@@ -31,10 +31,7 @@ const toMonsterPath = (key: string): string => {
           )
           .map((obj) => (
             <a href={toMonsterPath(obj.data.nameLocalizationKey)}>
-              <h6>
-                {messages['data'][`Enemy/${obj.data.nameLocalizationKey}`] ||
-                  obj.data.nameLocalizationKey}
-              </h6>
+              <h6>{t(['Enemy', obj.data.nameLocalizationKey])}</h6>
               <MonsterIcon key={obj.data.assetKey} />
             </a>
           ))

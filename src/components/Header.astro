@@ -1,7 +1,9 @@
 ---
+import { useTranslation } from '@i18n/useTranslation';
 import LanguageSelect from './LanguageSelect.astro';
 
-const { locale } = Astro.params;
+const { locale = 'en' } = Astro.params;
+const t = useTranslation(locale);
 
 const basePath = [import.meta.env.BASE_URL, locale].join('/');
 ---
@@ -16,9 +18,9 @@ const basePath = [import.meta.env.BASE_URL, locale].join('/');
     </div>
     <ul class="flex gap-4 items-center">
       <li>
-        <a href={basePath + '/monsters'}>Monster Guidebook</a>
+        <a href={basePath + '/monsters'}>{t('Common/MONSTER_LIST')}</a>
       </li>
-      <li>Items</li>
+      <li>{t('Common/ITEM_BOX_TAB_CONSUMABLE')}</li>
     </ul>
     <div class="flex gap-4 items-center">
       <LanguageSelect />

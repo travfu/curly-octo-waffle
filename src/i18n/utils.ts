@@ -8,7 +8,7 @@ export const localeOptions = [
   { label: '한국어', locale: 'ko', key: 'ko-kr' },
   { label: 'Português', locale: 'pt', key: 'pt-br' },
   { label: '繁體中文', locale: 'zh', key: 'zh-tw' },
-];
+] as const;
 
 /** Maps locale (eg. "en") to locale string format used in game (eg. "en-us") */
 export const toGameLocaleKey = (locale: string) =>
@@ -17,3 +17,6 @@ export const toGameLocaleKey = (locale: string) =>
 /** Generate boilerplate static paths to populate `locale` param */
 export const getStaticLocalePaths = () =>
   localeOptions.map(({ locale }) => ({ params: { locale }, props: {} }));
+
+
+export type LocaleCode = typeof localeOptions[number]['locale']
