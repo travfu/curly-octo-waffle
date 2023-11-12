@@ -1,4 +1,9 @@
 ---
+// Supports weights 100-900
+import '@fontsource-variable/overpass';
+
+import Header from '@components/Header.astro';
+
 interface Props {
   title: string;
 }
@@ -17,6 +22,7 @@ const { title } = Astro.props;
     <title>{title}</title>
   </head>
   <body>
+    <Header />
     <slot />
   </body>
 </html>
@@ -33,7 +39,7 @@ const { title } = Astro.props;
     );
   }
   html {
-    font-family: system-ui, sans-serif;
+    font-family: 'Overpass Variable', sans-serif;
     background: #13151a;
     background-size: 224px;
   }

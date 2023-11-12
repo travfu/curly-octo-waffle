@@ -1,0 +1,60 @@
+---
+import { Image } from 'astro:assets';
+
+import w_em001_00 from '@assets/icons/monster/spr_ui_icon_w_em001_00.png';
+import w_em001_01 from '@assets/icons/monster/spr_ui_icon_w_em001_01.png';
+import w_em002_00 from '@assets/icons/monster/spr_ui_icon_w_em002_00.png';
+import w_em002_01 from '@assets/icons/monster/spr_ui_icon_w_em002_01.png';
+import w_em007_00 from '@assets/icons/monster/spr_ui_icon_w_em007_00.png';
+import w_em007_01 from '@assets/icons/monster/spr_ui_icon_w_em007_01.png';
+import w_em044_00 from '@assets/icons/monster/spr_ui_icon_w_em044_00.png';
+import w_em100_00 from '@assets/icons/monster/spr_ui_icon_w_em100_00.png';
+import w_em101_00 from '@assets/icons/monster/spr_ui_icon_w_em101_00.png';
+import w_em102_00 from '@assets/icons/monster/spr_ui_icon_w_em102_00.png';
+import w_em107_00 from '@assets/icons/monster/spr_ui_icon_w_em107_00.png';
+import w_em108_00 from '@assets/icons/monster/spr_ui_icon_w_em108_00.png';
+import w_em109_00 from '@assets/icons/monster/spr_ui_icon_w_em109_00.png';
+import w_em110_00 from '@assets/icons/monster/spr_ui_icon_w_em110_00.png';
+import w_em111_00 from '@assets/icons/monster/spr_ui_icon_w_em111_00.png';
+import w_em112_00 from '@assets/icons/monster/spr_ui_icon_w_em112_00.png';
+import w_ems049_00 from '@assets/icons/monster/spr_ui_icon_w_ems049_00.png';
+import w_ems050_00 from '@assets/icons/monster/spr_ui_icon_w_ems050_00.png';
+import w_ems053_00 from '@assets/icons/monster/spr_ui_icon_w_ems053_00.png';
+import w_ems054_00 from '@assets/icons/monster/spr_ui_icon_w_ems054_00.png';
+import w_ems055_00 from '@assets/icons/monster/spr_ui_icon_w_ems055_00.png';
+import w_ems059_00 from '@assets/icons/monster/spr_ui_icon_w_ems059_00.png';
+
+interface Props {
+  key: string;
+}
+
+const { key } = Astro.props;
+const map: Record<string, ImageMetadata> = {
+  w_em001_00,
+  w_em001_01,
+  w_em002_00,
+  w_em002_01,
+  w_em007_00,
+  w_em007_01,
+  w_em044_00,
+  w_em100_00,
+  w_em101_00,
+  w_em102_00,
+  w_em107_00,
+  w_em108_00,
+  w_em109_00,
+  w_em110_00,
+  w_em111_00,
+  w_em112_00,
+  w_ems049_00,
+  w_ems050_00,
+  w_ems053_00,
+  w_ems054_00,
+  w_ems055_00,
+  w_ems059_00,
+};
+
+const defaultImage = w_em001_00;
+---
+
+<Image src={map[key] || defaultImage} alt="Monster Image" width="100" , height="100" />

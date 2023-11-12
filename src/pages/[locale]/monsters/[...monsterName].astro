@@ -1,0 +1,56 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+
+import { MONSTER_CONFIG } from '@config/monsters';
+import Layout from '@layouts/Layout.astro';
+import { localeOptions } from '@i18n/utils';
+import { useTranslation } from '@i18n/useTranslation';
+
+import type { LocaleCode } from '@i18n/utils';
+
+export async function getStaticPaths() {
+  // generate [locale]/monsters/[monsterName] routes as a product
+  // of all languages and monster names (e.g. rathian) in english.
+  const monsters = (await getCollection('monster')).filter(
+    (obj) => (MONSTER_CONFIG as any)[obj.data.nameLocalizationKey]?.active
+  );
+  const enMessages = await getEntry('messages', 'en-us');
+  const values = monsters
+    .map((obj) => ({
+      name: (enMessages['data'][`Enemy/${obj.data.nameLocalizationKey}`] || '')
+        .trim()
+        .toLowerCase()
+        .replace(' ', '-'),
+      id: obj.data.id,
+    }))
+    .filter(({ name }) => !!name);
+
+  const routes: {
+    params: { locale: LocaleCode; monsterName: string };
+    props: { id: (typeof monsters)[number]['id'] };
+  }[] = [];
+  values.forEach((obj) => {
+    localeOptions
+      .map((obj) => obj.locale)
+      .forEach((lang) => {
+        routes.push({
+          params: { locale: lang, monsterName: obj.name },
+          props: { id: obj.id },
+        });
+      });
+  });
+  return routes;
+}
+
+const { locale } = Astro.params;
+const { id } = Astro.props;
+const t = useTranslation(locale);
+
+const monster = await getEntry('monster', id);
+
+const name = t(['Enemy', monster.data.nameLocalizationKey]);
+---
+
+<Layout title={`${t('Common/MONSTER_LIST')}: ${name}`}>
+  <h1>{name}</h1>
+</Layout>

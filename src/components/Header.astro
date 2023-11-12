@@ -1,0 +1,29 @@
+---
+import { useTranslation } from '@i18n/useTranslation';
+import LanguageSelect from './LanguageSelect.astro';
+
+const { locale = 'en' } = Astro.params;
+const t = useTranslation(locale);
+
+const basePath = [import.meta.env.BASE_URL, locale].join('/');
+---
+
+<header class="sticky top-0 backdrop-blur bg-transparent text-gray-200">
+  <nav class="flex gap-2 items-center justify-between px-9 py-5">
+    <div class="justify-self-start text-lg font-semibold">
+      WYVERIAN | MH<span
+        class="bg-gradient-to-tr from-purple-600 via-purple-400 to-white text-transparent bg-clip-text font-black"
+        style="background-size: 100%;">NOW</span
+      >
+    </div>
+    <ul class="flex gap-4 items-center">
+      <li>
+        <a href={basePath + '/monsters'}>{t('Common/MONSTER_LIST')}</a>
+      </li>
+      <li>{t('Common/ITEM_BOX_TAB_CONSUMABLE')}</li>
+    </ul>
+    <div class="flex gap-4 items-center">
+      <LanguageSelect />
+    </div>
+  </nav>
+</header>
