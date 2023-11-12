@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 
 import Layout from '@layouts/Layout.astro';
 import MonsterIcon from '@components/icons/MonsterIcon.astro';
-import { getStaticLocalePaths } from '@i18n/utils';
+import { getStaticLocalePaths, type LocaleCode } from '@i18n/utils';
 import { useTranslation } from '@i18n/useTranslation';
 import { MONSTER_CONFIG } from '@config/monsters';
 
@@ -11,7 +11,7 @@ export async function getStaticPaths() {
   return getStaticLocalePaths();
 }
 
-const { locale } = Astro.params;
+const locale = Astro.params.locale as LocaleCode;
 const monsters = (await getCollection('monster')).filter(
   (obj) => (MONSTER_CONFIG as any)[obj.data.nameLocalizationKey]?.active
 );
@@ -23,7 +23,7 @@ const toMonsterPath = (key: string): string => {
 };
 ---
 
-<Layout title={t('Common/MONSTER_LIST')}>
+<Layout title={t('Common/MONSTER_LIST')} locale={locale}>
   <main>
     <ul role="list" class="link-card-grid">
       {

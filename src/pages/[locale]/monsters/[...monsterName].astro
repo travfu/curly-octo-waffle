@@ -35,14 +35,14 @@ export async function getStaticPaths() {
       .forEach((lang) => {
         routes.push({
           params: { locale: lang, monsterName: obj.name },
-          props: { id: obj.id },
+          props: { id: obj.id as any },
         });
       });
   });
   return routes;
 }
 
-const { locale } = Astro.params;
+const locale = Astro.params.locale as LocaleCode;
 const { id } = Astro.props;
 const t = useTranslation(locale);
 
@@ -51,6 +51,6 @@ const monster = await getEntry('monster', id);
 const name = t(['Enemy', monster.data.nameLocalizationKey]);
 ---
 
-<Layout title={`${t('Common/MONSTER_LIST')}: ${name}`}>
+<Layout title={`${t('Common/MONSTER_LIST')}: ${name}`} locale={locale}>
   <h1>{name}</h1>
 </Layout>

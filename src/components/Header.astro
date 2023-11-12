@@ -1,8 +1,13 @@
 ---
 import { useTranslation } from '@i18n/useTranslation';
 import LanguageSelect from './LanguageSelect.astro';
+import type { LocaleCode } from '@i18n/utils';
 
-const { locale = 'en' } = Astro.params;
+interface Props {
+  locale?: LocaleCode;
+}
+
+const { locale = 'en' } = Astro.props;
 const t = useTranslation(locale);
 
 const basePath = [import.meta.env.BASE_URL, locale].join('/');
