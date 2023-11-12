@@ -1,0 +1,90 @@
+---
+import { getCollection } from 'astro:content';
+import { Icon } from 'astro-icon';
+
+const { locale } = Astro.params;
+
+const LOCALE_LABELS = {
+  'de-de': 'Deutsch',
+  'en-us': 'English',
+  'es-es': 'Español',
+  'fr-fr': 'Français',
+  'it-it': 'Italiano',
+  'ja-jp': '日本語',
+  'ko-kr': '한국어',
+  'pt-br': 'Português',
+  'zh-tw': '繁體中文',
+} as const;
+
+const allLocaleIds = (await getCollection('messages')).sort().map((i) => i.id);
+const currLocaleId = allLocaleIds.find((localeId) => locale === localeId.slice(0, 2)) || 'en-us';
+
+const toLocalePath = (newLocale: string) =>
+  Astro.url.pathname.replace(`/${locale}/`, `/${newLocale}/`);
+---
+
+<wyverian-lang-select>
+  <button class="rounded px-3 py-1 flex items-center gap-1 hover:text-slate-400">
+    <Icon pack="ion" name="language" class="w-4" />
+    <span>{LOCALE_LABELS[currLocaleId]}</span>
+    <Icon pack="ri" name="arrow-drop-down-line" class="w-6 carat" />
+  </button>
+  <ul class="absolute top-14 bg-slate-800 rounded flex-col gap-1 w-28 flex hidden">
+    {
+      allLocaleIds.map((id, idx) => (
+        <li data-id={id} aria-label={LOCALE_LABELS[id]} class="contents">
+          <a
+            href={toLocalePath(id.slice(0, 2))}
+            class:list={[
+              'px-4 py-0.5',
+              {
+                'cursor-default pointer-events-none': currLocaleId === id,
+                'font-bold text-purple-400': currLocaleId === id,
+                'hover:bg-purple-400': currLocaleId !== id,
+                'pt-1 rounded-t': idx === 0,
+                'pb-1 rounded-b': idx === allLocaleIds.length - 1,
+              },
+            ]}
+            set:html={LOCALE_LABELS[id]}
+          />
+        </li>
+      ))
+    }
+  </ul>
+</wyverian-lang-select>
+
+<style>
+  .wy-show {
+    display: flex;
+  }
+  .wy-hide {
+    display: none;
+  }
+</style>
+
+<script>
+  class WyverianLanguageSelect extends HTMLElement {
+    constructor() {
+      super();
+      const btn = this.querySelector('button')!;
+      const menu = this.querySelector('ul')!;
+      const caratIcon = this.querySelector('svg.carat')!;
+
+      const toggleDropdown = () => {
+        menu.classList.toggle('hidden');
+        caratIcon.classList.toggle('rotate-180');
+      };
+
+      // close dropdown menu on click outside of langauge select
+      window.addEventListener('click', (e) => {
+        if (!this.contains(e.target as Node) && !menu.classList.contains('hidden')) {
+          toggleDropdown();
+        }
+      });
+
+      // toggle dropdown menu on button click
+      btn?.addEventListener('click', toggleDropdown);
+    }
+  }
+  customElements.define('wyverian-lang-select', WyverianLanguageSelect);
+</script>
