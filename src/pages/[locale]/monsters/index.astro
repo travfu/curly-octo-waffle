@@ -38,7 +38,9 @@ const toMonsterPath = (key: string): string => {
               class="flex flex-col items-center gap-1 hover:text-slate-400"
             >
               <div class="text-sm">{t(['Enemy', obj.data.nameLocalizationKey])}</div>
-              <MonsterIcon key={obj.data.assetKey} />
+              <div class="monster-image">
+                <MonsterIcon key={obj.data.assetKey} />
+              </div>
             </a>
           ))
       }
@@ -95,5 +97,9 @@ const toMonsterPath = (key: string): string => {
     grid-template-columns: repeat(auto-fit, minmax(8ch, 1fr));
     gap: 2rem;
     padding: 0;
+  }
+
+  .monster-image:hover {
+    filter: drop-shadow(0px 0px 6px #cbd5e1); /* slate-300 */
   }
 </style>
