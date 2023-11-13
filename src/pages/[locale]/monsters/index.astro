@@ -33,8 +33,11 @@ const toMonsterPath = (key: string): string => {
               (dataA._guidebook?.Order || 9999) - (dataB._guidebook?.Order || 0)
           )
           .map((obj) => (
-            <a href={toMonsterPath(obj.data.nameLocalizationKey)}>
-              <h6>{t(['Enemy', obj.data.nameLocalizationKey])}</h6>
+            <a
+              href={toMonsterPath(obj.data.nameLocalizationKey)}
+              class="flex flex-col items-center gap-1 hover:text-slate-400"
+            >
+              <div class="text-sm">{t(['Enemy', obj.data.nameLocalizationKey])}</div>
               <MonsterIcon key={obj.data.assetKey} />
             </a>
           ))
