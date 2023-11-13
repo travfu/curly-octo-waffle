@@ -7,6 +7,7 @@ import { localeOptions } from '@i18n/utils';
 import { useTranslation } from '@i18n/useTranslation';
 
 import type { LocaleCode } from '@i18n/utils';
+import MonsterIcon from '@components/icons/MonsterIcon.astro';
 
 export async function getStaticPaths() {
   // generate [locale]/monsters/[monsterName] routes as a product
@@ -46,11 +47,24 @@ const locale = Astro.params.locale as LocaleCode;
 const { id } = Astro.props;
 const t = useTranslation(locale);
 
-const monster = await getEntry('monster', id);
+const monster = (await getEntry('monster', id)).data;
 
-const name = t(['Enemy', monster.data.nameLocalizationKey]);
+const name = t(['Enemy', monster.nameLocalizationKey]);
 ---
 
 <Layout title={`${t('Common/MONSTER_LIST')}: ${name}`} locale={locale}>
-  <h1>{name}</h1>
+  <div class="flex w-2/3">
+    <div class="flex flex-col gap-4">
+      <div class="flex items-center gap-2">
+        <MonsterIcon key={monster.assetKey} width={25} height={25} />
+        <h2 class="text-3xl">{name}</h2>
+      </div>
+      <p>{t(monster._guidebook?.DescriptionKey)}</p>
+    </div>
+    <div>
+      <MonsterIcon key={monster.assetKey} width={200} height={200} />
+    </div>
+  </div>
+
+  <p>{t(monster._guidebook?.HintKey)}</p>
 </Layout>

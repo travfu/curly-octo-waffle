@@ -25,7 +25,9 @@ const { title, locale = 'en' } = Astro.props;
   </head>
   <body>
     <Header locale={locale} />
-    <slot />
+    <div class="mx-8 md:mx-20 lg:mx-80 text-white">
+      <slot />
+    </div>
   </body>
 </html>
 <style is:global>
