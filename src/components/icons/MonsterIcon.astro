@@ -26,9 +26,11 @@ import w_ems059_00 from '@assets/icons/monster/spr_ui_icon_w_ems059_00.png';
 
 interface Props {
   key: string;
+  width?: number;
+  height?: number;
 }
 
-const { key } = Astro.props;
+const { key, width = 100, height = 100 } = Astro.props;
 const map: Record<string, ImageMetadata> = {
   w_em001_00,
   w_em001_01,
@@ -57,4 +59,4 @@ const map: Record<string, ImageMetadata> = {
 const defaultImage = w_em001_00;
 ---
 
-<Image src={map[key] || defaultImage} alt="Monster Image" width="100" , height="100" />
+<Image src={map[key] || defaultImage} alt="Monster Image" width={width} , height={height} />
