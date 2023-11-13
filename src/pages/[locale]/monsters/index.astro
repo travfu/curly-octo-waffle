@@ -38,7 +38,7 @@ const toMonsterPath = (key: string): string => {
               class="flex flex-col items-center gap-1 hover:text-slate-400"
             >
               <div class="text-sm">{t(['Enemy', obj.data.nameLocalizationKey])}</div>
-              <div class="monster-image">
+              <div class="monster-image" transition:name={obj.data.assetKey}>
                 <MonsterIcon key={obj.data.assetKey} />
               </div>
             </a>
