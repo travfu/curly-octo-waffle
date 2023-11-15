@@ -1,0 +1,59 @@
+---
+import type { PartsType } from '@content/config';
+import { useTranslation } from '@i18n/useTranslation';
+import type { LocaleCode } from '@i18n/utils';
+
+interface Props {
+  data?: PartsType['parameter']['partDataList'];
+  locale: LocaleCode;
+}
+
+const { data, locale } = Astro.props;
+if (!data) return;
+
+const parts = data.filter(({ damageData }) =>
+  Object.values(damageData[0].physical).reduce((sum, curr) => sum + curr, 0)
+);
+
+const t = useTranslation(locale);
+---
+
+<div>
+  <h3>Parts</h3>
+  <table class="table-fixed">
+    <thead>
+      <tr>
+        <td class="px-3 text-left uppercase text-xs text-gray-500">Part</td>
+        <td class="px-2 text-right uppercase text-xs text-gray-500">Sever</td>
+        <td class="px-2 text-right uppercase text-xs text-gray-500">Blunt</td>
+        <td class="px-2 text-right uppercase text-xs text-gray-500">Ammo</td>
+        <td class="px-2 text-right uppercase text-xs text-gray-500">Fire</td>
+        <td class="px-2 text-right uppercase text-xs text-gray-500">Water</td>
+        <td class="px-2 text-right uppercase text-xs text-gray-500">Thunder</td>
+        <td class="px-2 text-right uppercase text-xs text-gray-500">Ice</td>
+        <td class="px-2 text-right uppercase text-xs text-gray-500">Dragon</td>
+      </tr>
+    </thead>
+    <tbody>
+      {
+        parts.map((obj) => {
+          return (
+            <tr>
+              <td class="px-3 text-left text-sm">
+                {t(['EnemyPart', obj.localizeKey]) || obj.partKey}
+              </td>
+              <td class="px-2 text-right text-sm">{obj.damageData[0].physical.cut}</td>
+              <td class="px-2 text-right text-sm">{obj.damageData[0].physical.blunt}</td>
+              <td class="px-2 text-right text-sm">{obj.damageData[0].physical.ammo}</td>
+              <td class="px-2 text-right text-sm">{obj.damageData[0].elemental.fire}</td>
+              <td class="px-2 text-right text-sm">{obj.damageData[0].elemental.water}</td>
+              <td class="px-2 text-right text-sm">{obj.damageData[0].elemental.thunder}</td>
+              <td class="px-2 text-right text-sm">{obj.damageData[0].elemental.ice}</td>
+              <td class="px-2 text-right text-sm">{obj.damageData[0].elemental.dragon}</td>
+            </tr>
+          );
+        })
+      }
+    </tbody>
+  </table>
+</div>
