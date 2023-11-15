@@ -32,17 +32,26 @@ const toMonsterPath = (key: string): string => {
             ({ data: dataA }, { data: dataB }) =>
               (dataA._guidebook?.Order || 9999) - (dataB._guidebook?.Order || 0)
           )
-          .map((obj) => (
-            <a
-              href={toMonsterPath(obj.data.nameLocalizationKey)}
-              class="flex flex-col items-center gap-1 hover:text-slate-400"
-            >
-              <div class="text-sm">{t(['Enemy', obj.data.nameLocalizationKey])}</div>
-              <div class="monster-image" transition:name={obj.data.assetKey}>
-                <MonsterIcon key={obj.data.assetKey} />
-              </div>
-            </a>
-          ))
+          .map((obj) => {
+            const name = t(['Enemy', obj.data.nameLocalizationKey]);
+            return (
+              <a
+                href={toMonsterPath(obj.data.nameLocalizationKey)}
+                class="flex flex-col items-center gap-1 hover:text-slate-400"
+              >
+                <div class="text-sm">{name}</div>
+                <div class="monster-image" transition:name={obj.data.assetKey}>
+                  <MonsterIcon
+                    variant="icon"
+                    key={obj.data.assetKey}
+                    alt={name}
+                    width={100}
+                    height={100}
+                  />
+                </div>
+              </a>
+            );
+          })
       }
     </ul>
   </main>
