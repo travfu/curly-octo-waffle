@@ -8,6 +8,7 @@ import { useTranslation } from '@i18n/useTranslation';
 
 import type { LocaleCode } from '@i18n/utils';
 import MonsterIcon from '@components/icons/MonsterIcon.astro';
+import BreakablePartsTable from '@components/BreakablePartsTable.astro';
 
 export async function getStaticPaths() {
   // generate [locale]/monsters/[monsterName] routes as a product
@@ -74,4 +75,6 @@ const name = t(['Enemy', monster.nameLocalizationKey]);
       <MonsterIcon variant="portrait" key={monster.assetKey} alt={`${name}-portrait`} />
     </div>
   </div>
+
+  <BreakablePartsTable data={monster._parts?.parameter.partDataList} locale={locale} />
 </Layout>
