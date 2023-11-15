@@ -53,25 +53,25 @@ const name = t(['Enemy', monster.nameLocalizationKey]);
 ---
 
 <Layout title={`${t('Common/MONSTER_LIST')}: ${name}`} locale={locale}>
-  <div class="flex w-2/3">
+  <div class="flex border border-purple-500 p-2">
     <div class="flex flex-col gap-4">
       <div class="flex items-center gap-2">
         <div transition:name={monster.assetKey}>
           <MonsterIcon
+            variant="icon"
             key={monster.assetKey}
+            alt={`${name}-icon`}
             width={25}
             height={25}
-            transition:name={monster.assetKey}
           />
         </div>
         <h2 class="text-3xl">{name}</h2>
       </div>
       <p>{t(monster._guidebook?.DescriptionKey)}</p>
+      <p>{t(monster._guidebook?.HintKey)}</p>
     </div>
-    <div>
-      <MonsterIcon key={monster.assetKey} width={200} height={200} />
+    <div class="self-end">
+      <MonsterIcon variant="portrait" key={monster.assetKey} alt={`${name}-portrait`} />
     </div>
   </div>
-
-  <p>{t(monster._guidebook?.HintKey)}</p>
 </Layout>

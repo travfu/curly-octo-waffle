@@ -1,62 +1,119 @@
 ---
 import { Image } from 'astro:assets';
 
-import w_em001_00 from '@assets/icons/monster/spr_ui_icon_w_em001_00.png';
-import w_em001_01 from '@assets/icons/monster/spr_ui_icon_w_em001_01.png';
-import w_em002_00 from '@assets/icons/monster/spr_ui_icon_w_em002_00.png';
-import w_em002_01 from '@assets/icons/monster/spr_ui_icon_w_em002_01.png';
-import w_em007_00 from '@assets/icons/monster/spr_ui_icon_w_em007_00.png';
-import w_em007_01 from '@assets/icons/monster/spr_ui_icon_w_em007_01.png';
-import w_em044_00 from '@assets/icons/monster/spr_ui_icon_w_em044_00.png';
-import w_em100_00 from '@assets/icons/monster/spr_ui_icon_w_em100_00.png';
-import w_em101_00 from '@assets/icons/monster/spr_ui_icon_w_em101_00.png';
-import w_em102_00 from '@assets/icons/monster/spr_ui_icon_w_em102_00.png';
-import w_em107_00 from '@assets/icons/monster/spr_ui_icon_w_em107_00.png';
-import w_em108_00 from '@assets/icons/monster/spr_ui_icon_w_em108_00.png';
-import w_em109_00 from '@assets/icons/monster/spr_ui_icon_w_em109_00.png';
-import w_em110_00 from '@assets/icons/monster/spr_ui_icon_w_em110_00.png';
-import w_em111_00 from '@assets/icons/monster/spr_ui_icon_w_em111_00.png';
-import w_em112_00 from '@assets/icons/monster/spr_ui_icon_w_em112_00.png';
-import w_ems049_00 from '@assets/icons/monster/spr_ui_icon_w_ems049_00.png';
-import w_ems050_00 from '@assets/icons/monster/spr_ui_icon_w_ems050_00.png';
-import w_ems053_00 from '@assets/icons/monster/spr_ui_icon_w_ems053_00.png';
-import w_ems054_00 from '@assets/icons/monster/spr_ui_icon_w_ems054_00.png';
-import w_ems055_00 from '@assets/icons/monster/spr_ui_icon_w_ems055_00.png';
-import w_ems059_00 from '@assets/icons/monster/spr_ui_icon_w_ems059_00.png';
+/** Icons */
+import icon_w_em001_00 from '@assets/icons/monster/spr_ui_icon_w_em001_00.png';
+import icon_w_em001_01 from '@assets/icons/monster/spr_ui_icon_w_em001_01.png';
+import icon_w_em002_00 from '@assets/icons/monster/spr_ui_icon_w_em002_00.png';
+import icon_w_em002_01 from '@assets/icons/monster/spr_ui_icon_w_em002_01.png';
+import icon_w_em007_00 from '@assets/icons/monster/spr_ui_icon_w_em007_00.png';
+import icon_w_em007_01 from '@assets/icons/monster/spr_ui_icon_w_em007_01.png';
+import icon_w_em044_00 from '@assets/icons/monster/spr_ui_icon_w_em044_00.png';
+import icon_w_em100_00 from '@assets/icons/monster/spr_ui_icon_w_em100_00.png';
+import icon_w_em101_00 from '@assets/icons/monster/spr_ui_icon_w_em101_00.png';
+import icon_w_em102_00 from '@assets/icons/monster/spr_ui_icon_w_em102_00.png';
+import icon_w_em107_00 from '@assets/icons/monster/spr_ui_icon_w_em107_00.png';
+import icon_w_em108_00 from '@assets/icons/monster/spr_ui_icon_w_em108_00.png';
+import icon_w_em109_00 from '@assets/icons/monster/spr_ui_icon_w_em109_00.png';
+import icon_w_em110_00 from '@assets/icons/monster/spr_ui_icon_w_em110_00.png';
+import icon_w_em111_00 from '@assets/icons/monster/spr_ui_icon_w_em111_00.png';
+import icon_w_em112_00 from '@assets/icons/monster/spr_ui_icon_w_em112_00.png';
+import icon_w_ems049_00 from '@assets/icons/monster/spr_ui_icon_w_ems049_00.png';
+import icon_w_ems050_00 from '@assets/icons/monster/spr_ui_icon_w_ems050_00.png';
+import icon_w_ems053_00 from '@assets/icons/monster/spr_ui_icon_w_ems053_00.png';
+import icon_w_ems054_00 from '@assets/icons/monster/spr_ui_icon_w_ems054_00.png';
+import icon_w_ems055_00 from '@assets/icons/monster/spr_ui_icon_w_ems055_00.png';
+import icon_w_ems059_00 from '@assets/icons/monster/spr_ui_icon_w_ems059_00.png';
+
+/** Portraits */
+import portrait_w_em001_00 from '@assets/monster/spr_ui_still_w_em001_00.png';
+import portrait_w_em001_01 from '@assets/monster/spr_ui_still_w_em001_01.png';
+import portrait_w_em002_00 from '@assets/monster/spr_ui_still_w_em002_00.png';
+import portrait_w_em002_01 from '@assets/monster/spr_ui_still_w_em002_01.png';
+import portrait_w_em007_00 from '@assets/monster/spr_ui_still_w_em007_00.png';
+import portrait_w_em007_01 from '@assets/monster/spr_ui_still_w_em007_01.png';
+import portrait_w_em044_00 from '@assets/monster/spr_ui_still_w_em044_00.png';
+import portrait_w_em100_00 from '@assets/monster/spr_ui_still_w_em100_00.png';
+import portrait_w_em101_00 from '@assets/monster/spr_ui_still_w_em101_00.png';
+import portrait_w_em102_00 from '@assets/monster/spr_ui_still_w_em102_00.png';
+import portrait_w_em107_00 from '@assets/monster/spr_ui_still_w_em107_00.png';
+import portrait_w_em108_00 from '@assets/monster/spr_ui_still_w_em108_00.png';
+import portrait_w_em109_00 from '@assets/monster/spr_ui_still_w_em109_00.png';
+import portrait_w_em110_00 from '@assets/monster/spr_ui_still_w_em110_00.png';
+import portrait_w_em111_00 from '@assets/monster/spr_ui_still_w_em111_00.png';
+import portrait_w_em112_00 from '@assets/monster/spr_ui_still_w_em112_00.png';
+import portrait_w_ems049_00 from '@assets/monster/spr_ui_still_w_ems049_00.png';
+import portrait_w_ems050_00 from '@assets/monster/spr_ui_still_w_ems050_00.png';
+import portrait_w_ems053_00 from '@assets/monster/spr_ui_still_w_ems053_00.png';
+import portrait_w_ems054_00 from '@assets/monster/spr_ui_still_w_ems054_00.png';
+import portrait_w_ems055_00 from '@assets/monster/spr_ui_still_w_ems055_00.png';
+import portrait_w_ems059_00 from '@assets/monster/spr_ui_still_w_ems059_00.png';
 
 interface Props {
   key: string;
+  alt: string;
+  variant: 'icon' | 'portrait';
   width?: number;
   height?: number;
 }
 
-const { key, width = 100, height = 100 } = Astro.props;
-const map: Record<string, ImageMetadata> = {
-  w_em001_00,
-  w_em001_01,
-  w_em002_00,
-  w_em002_01,
-  w_em007_00,
-  w_em007_01,
-  w_em044_00,
-  w_em100_00,
-  w_em101_00,
-  w_em102_00,
-  w_em107_00,
-  w_em108_00,
-  w_em109_00,
-  w_em110_00,
-  w_em111_00,
-  w_em112_00,
-  w_ems049_00,
-  w_ems050_00,
-  w_ems053_00,
-  w_ems054_00,
-  w_ems055_00,
-  w_ems059_00,
+const { key, alt, variant, width, height } = Astro.props;
+const iconMap: Record<string, ImageMetadata> = {
+  w_em001_00: icon_w_em001_00,
+  w_em001_01: icon_w_em001_01,
+  w_em002_00: icon_w_em002_00,
+  w_em002_01: icon_w_em002_01,
+  w_em007_00: icon_w_em007_00,
+  w_em007_01: icon_w_em007_01,
+  w_em044_00: icon_w_em044_00,
+  w_em100_00: icon_w_em100_00,
+  w_em101_00: icon_w_em101_00,
+  w_em102_00: icon_w_em102_00,
+  w_em107_00: icon_w_em107_00,
+  w_em108_00: icon_w_em108_00,
+  w_em109_00: icon_w_em109_00,
+  w_em110_00: icon_w_em110_00,
+  w_em111_00: icon_w_em111_00,
+  w_em112_00: icon_w_em112_00,
+  w_ems049_00: icon_w_ems049_00,
+  w_ems050_00: icon_w_ems050_00,
+  w_ems053_00: icon_w_ems053_00,
+  w_ems054_00: icon_w_ems054_00,
+  w_ems055_00: icon_w_ems055_00,
+  w_ems059_00: icon_w_ems059_00,
 };
 
-const defaultImage = w_em001_00;
+const portraitMap: Record<string, ImageMetadata> = {
+  w_em001_00: portrait_w_em001_00,
+  w_em001_01: portrait_w_em001_01,
+  w_em002_00: portrait_w_em002_00,
+  w_em002_01: portrait_w_em002_01,
+  w_em007_00: portrait_w_em007_00,
+  w_em007_01: portrait_w_em007_01,
+  w_em044_00: portrait_w_em044_00,
+  w_em100_00: portrait_w_em100_00,
+  w_em101_00: portrait_w_em101_00,
+  w_em102_00: portrait_w_em102_00,
+  w_em107_00: portrait_w_em107_00,
+  w_em108_00: portrait_w_em108_00,
+  w_em109_00: portrait_w_em109_00,
+  w_em110_00: portrait_w_em110_00,
+  w_em111_00: portrait_w_em111_00,
+  w_em112_00: portrait_w_em112_00,
+  w_ems049_00: portrait_w_ems049_00,
+  w_ems050_00: portrait_w_ems050_00,
+  w_ems053_00: portrait_w_ems053_00,
+  w_ems054_00: portrait_w_ems054_00,
+  w_ems055_00: portrait_w_ems055_00,
+  w_ems059_00: portrait_w_ems059_00,
+};
+
+const defaultIcon = icon_w_em001_00;
+const defaultPortrait = portrait_w_em001_00;
+
+let src;
+if (variant === 'portrait') src = portraitMap[key] || defaultPortrait;
+else if (variant === 'icon') src = iconMap[key] || defaultIcon;
 ---
 
-<Image src={map[key] || defaultImage} alt="Monster Image" width={width} height={height} />
+{!!src && <Image src={src} alt={alt} width={width} height={height} />}
