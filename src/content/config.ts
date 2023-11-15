@@ -111,3 +111,5 @@ export const collections = {
   monster: monsterCollection,
   messages: i18nMessagesCollection,
 };
+
+export type PartsType = z.infer<typeof partsSchema>
