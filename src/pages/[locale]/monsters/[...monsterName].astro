@@ -63,11 +63,14 @@ const name = t(['Enemy', monster.nameLocalizationKey]);
             variant="icon"
             key={monster.assetKey}
             alt={`${name}-icon`}
-            width={25}
-            height={25}
+            width={50}
+            height={50}
           />
         </div>
-        <h2 class="text-3xl">{name}</h2>
+        <div class="flex flex-col">
+          <h2 class="text-3xl">{name}</h2>
+          <div class="text-xs text-gray-400">{t(monster._guidebook?.SpeciesKey)}</div>
+        </div>
       </div>
       <p>{t(monster._guidebook?.DescriptionKey)}</p>
       <p>{t(monster._guidebook?.HintKey)}</p>
