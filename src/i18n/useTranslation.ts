@@ -14,7 +14,7 @@ export const useTranslation = (locale: LocaleCode) => {
     if (key instanceof Array) {
       key = key.join("/")
     }
-    return messages.find(obj => obj.id === toGameLocaleKey(selectLocale || locale))?.data[key] || key
+    return messages.find(obj => obj.id === toGameLocaleKey(selectLocale || locale))?.data[key] || ""
   }
   return getTranslation
 }
