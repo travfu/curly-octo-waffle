@@ -1,0 +1,246 @@
+{
+  "target": "ORE_LIGHTBOWGUN_9",
+  "weaponId": 315,
+  "category": "WEAPON_TYPE2_LIGHT_BOWGUN",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w13_013",
+  "grade": 9,
+  "series": "SERIES_ORE",
+  "seriesId": 1,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 510010,
+  "normalSkill": [
+    {
+      "skillLevelSettingId": 502,
+      "normalSkillKind": "POISON_RESISTANCE",
+      "skillLevel": 2
+    }
+  ],
+  "specialSkill": {
+    "skillLevelSettingId": 5403,
+    "specialSkillKind": "SPECIAL_ATTACK_LIGHTBOWGUN",
+    "skillLevel": 3
+  },
+  "_levels": [
+    {
+      "target": "ORE_LIGHTBOWGUN_9",
+      "weaponId": 315,
+      "level": 1,
+      "attack": 1228
+    },
+    {
+      "target": "ORE_LIGHTBOWGUN_9",
+      "weaponId": 315,
+      "level": 2,
+      "attack": 1289
+    },
+    {
+      "target": "ORE_LIGHTBOWGUN_9",
+      "weaponId": 315,
+      "level": 3,
+      "attack": 1349
+    },
+    {
+      "target": "ORE_LIGHTBOWGUN_9",
+      "weaponId": 315,
+      "level": 4,
+      "attack": 1410
+    },
+    {
+      "target": "ORE_LIGHTBOWGUN_9",
+      "weaponId": 315,
+      "level": 5,
+      "attack": 1471
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "ORE_LIGHTBOWGUN_9",
+      "weaponId": 315,
+      "craftMaterialSettingsId": 461,
+      "upgrade": {
+        "base": "ORE_LIGHTBOWGUN_8",
+        "baseWeaponId": 314
+      },
+      "_materials": {
+        "id": 461,
+        "zenny": 30000,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 50
+          },
+          {
+            "id": 1110004,
+            "num": 6
+          },
+          {
+            "id": 1010003,
+            "num": 50
+          },
+          {
+            "id": 3001018,
+            "num": 7
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_LIGHTBOWGUN_9",
+      "weaponId": 315,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 462,
+      "_materials": {
+        "id": 462,
+        "zenny": 10000,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 50
+          },
+          {
+            "id": 2101101,
+            "num": 70
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_LIGHTBOWGUN_9",
+      "weaponId": 315,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 463,
+      "_materials": {
+        "id": 463,
+        "zenny": 15000,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 50
+          },
+          {
+            "id": 1110004,
+            "num": 6
+          },
+          {
+            "id": 1010002,
+            "num": 60
+          },
+          {
+            "id": 1140003,
+            "num": 50
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_LIGHTBOWGUN_9",
+      "weaponId": 315,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 464,
+      "_materials": {
+        "id": 464,
+        "zenny": 20000,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 50
+          },
+          {
+            "id": 2101101,
+            "num": 70
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_LIGHTBOWGUN_9",
+      "weaponId": 315,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 465,
+      "_materials": {
+        "id": 465,
+        "zenny": 25000,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 150
+          },
+          {
+            "id": 1110004,
+            "num": 6
+          },
+          {
+            "id": 1010004,
+            "num": 60
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_LIGHTBOWGUN_9",
+      "weaponId": 315,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 466,
+      "_materials": {
+        "id": 466,
+        "zenny": 75000,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 50
+          },
+          {
+            "id": 1110004,
+            "num": 10
+          },
+          {
+            "id": 1010003,
+            "num": 60
+          },
+          {
+            "id": 3001018,
+            "num": 9
+          }
+        ]
+      }
+    }
+  ],
+  "_bowgun": {
+    "target": "ORE_LIGHTBOWGUN_9",
+    "weaponId": 315,
+    "ammoProperty": [
+      {
+        "capacity": 5,
+        "recoilType": "RECOIL_MEDIUM",
+        "reloadType": "RELOAD_MEDIUM",
+        "bowgunAmmoSettingsId": 101,
+        "_ammo": {
+          "id": 101,
+          "ammoType": "NORMAL",
+          "elementType": "NO_ELEMENT",
+          "level": 1,
+          "htmlColorCode": "#FFFFFF"
+        }
+      },
+      {
+        "capacity": 4,
+        "recoilType": "RECOIL_LARGE",
+        "reloadType": "RELOAD_LARGE",
+        "bowgunAmmoSettingsId": 201,
+        "_ammo": {
+          "id": 201,
+          "ammoType": "PIERCING",
+          "elementType": "NO_ELEMENT",
+          "level": 1,
+          "iconId": 2,
+          "htmlColorCode": "#5AAAFF"
+        }
+      }
+    ]
+  }
+}

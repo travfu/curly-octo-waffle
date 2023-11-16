@@ -1,0 +1,277 @@
+{
+  "target": "TOBIKADACHI_BOW_6",
+  "weaponId": 526,
+  "category": "WEAPON_TYPE2_BOW",
+  "elementType": "THUNDER",
+  "assetKey": "w_w11_087",
+  "grade": 6,
+  "series": "SERIES_TOBIKADACHI",
+  "seriesId": 8,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 610090,
+  "specialSkill": {
+    "skillLevelSettingId": 5502,
+    "specialSkillKind": "SPECIAL_ATTACK_BOW",
+    "skillLevel": 2
+  },
+  "_levels": [
+    {
+      "target": "TOBIKADACHI_BOW_6",
+      "weaponId": 526,
+      "level": 1,
+      "attack": 475,
+      "elementAttack": 251
+    },
+    {
+      "target": "TOBIKADACHI_BOW_6",
+      "weaponId": 526,
+      "level": 2,
+      "attack": 499,
+      "elementAttack": 267
+    },
+    {
+      "target": "TOBIKADACHI_BOW_6",
+      "weaponId": 526,
+      "level": 3,
+      "attack": 522,
+      "elementAttack": 283
+    },
+    {
+      "target": "TOBIKADACHI_BOW_6",
+      "weaponId": 526,
+      "level": 4,
+      "attack": 546,
+      "elementAttack": 300
+    },
+    {
+      "target": "TOBIKADACHI_BOW_6",
+      "weaponId": 526,
+      "level": 5,
+      "attack": 569,
+      "elementAttack": 316
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "TOBIKADACHI_BOW_6",
+      "weaponId": 526,
+      "craftMaterialSettingsId": 711,
+      "upgrade": {
+        "base": "TOBIKADACHI_BOW_5",
+        "baseWeaponId": 525
+      },
+      "_materials": {
+        "id": 711,
+        "zenny": 3000,
+        "userItem": [
+          {
+            "id": 2109002,
+            "num": 18
+          },
+          {
+            "id": 2109009,
+            "num": 6
+          },
+          {
+            "id": 2109003,
+            "num": 2
+          },
+          {
+            "id": 3001018,
+            "num": 1
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_BOW_6",
+      "weaponId": 526,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 712,
+      "_materials": {
+        "id": 712,
+        "zenny": 1000,
+        "userItem": [
+          {
+            "id": 2109002,
+            "num": 18
+          },
+          {
+            "id": 2101101,
+            "num": 44
+          },
+          {
+            "id": 1020001,
+            "num": 32
+          },
+          {
+            "id": 2112003,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_BOW_6",
+      "weaponId": 526,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 713,
+      "_materials": {
+        "id": 713,
+        "zenny": 1500,
+        "userItem": [
+          {
+            "id": 2109002,
+            "num": 18
+          },
+          {
+            "id": 2109008,
+            "num": 20
+          },
+          {
+            "id": 2109004,
+            "num": 15
+          },
+          {
+            "id": 1140001,
+            "num": 20
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_BOW_6",
+      "weaponId": 526,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 714,
+      "_materials": {
+        "id": 714,
+        "zenny": 2000,
+        "userItem": [
+          {
+            "id": 2109002,
+            "num": 18
+          },
+          {
+            "id": 2101101,
+            "num": 44
+          },
+          {
+            "id": 1020001,
+            "num": 32
+          },
+          {
+            "id": 2112004,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_BOW_6",
+      "weaponId": 526,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 715,
+      "_materials": {
+        "id": 715,
+        "zenny": 2500,
+        "userItem": [
+          {
+            "id": 2109002,
+            "num": 18
+          },
+          {
+            "id": 1020002,
+            "num": 20
+          },
+          {
+            "id": 1020003,
+            "num": 7
+          },
+          {
+            "id": 1020004,
+            "num": 20
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_BOW_6",
+      "weaponId": 526,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 716,
+      "_materials": {
+        "id": 716,
+        "zenny": 6000,
+        "userItem": [
+          {
+            "id": 2109002,
+            "num": 24
+          },
+          {
+            "id": 2109009,
+            "num": 12
+          },
+          {
+            "id": 2109003,
+            "num": 3
+          },
+          {
+            "id": 3001018,
+            "num": 3
+          }
+        ]
+      }
+    }
+  ],
+  "_bow": {
+    "target": "TOBIKADACHI_BOW_6",
+    "weaponId": 526,
+    "bowArrowKind": [
+      "ARROW_PIERCE_01",
+      "ARROW_PIERCE_02",
+      "ARROW_PIERCE_03",
+      "ARROW_PIERCE_04"
+    ],
+    "bowArrowSettingId": [
+      301,
+      302,
+      303,
+      304
+    ],
+    "_arrows": [
+      {
+        "bowArrowKind": "ARROW_PIERCE_01",
+        "settingId": 301,
+        "arrowType": "PIERCE",
+        "level": 1,
+        "nameLocalizationKey": "BowArrow/ARROW_PIERCE_01"
+      },
+      {
+        "bowArrowKind": "ARROW_PIERCE_02",
+        "settingId": 302,
+        "arrowType": "PIERCE",
+        "level": 2,
+        "nameLocalizationKey": "BowArrow/ARROW_PIERCE_02"
+      },
+      {
+        "bowArrowKind": "ARROW_PIERCE_03",
+        "settingId": 303,
+        "arrowType": "PIERCE",
+        "level": 3,
+        "nameLocalizationKey": "BowArrow/ARROW_PIERCE_03"
+      },
+      {
+        "bowArrowKind": "ARROW_PIERCE_04",
+        "settingId": 304,
+        "arrowType": "PIERCE",
+        "level": 4,
+        "nameLocalizationKey": "BowArrow/ARROW_PIERCE_04"
+      }
+    ]
+  }
+}

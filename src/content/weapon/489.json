@@ -1,0 +1,245 @@
+{
+  "target": "RATHALOS_BOW_3",
+  "weaponId": 489,
+  "category": "WEAPON_TYPE2_BOW",
+  "elementType": "FIRE",
+  "assetKey": "w_w11_043",
+  "grade": 3,
+  "series": "SERIES_RATHALOS",
+  "seriesId": 9,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 610150,
+  "specialSkill": {
+    "skillLevelSettingId": 5501,
+    "specialSkillKind": "SPECIAL_ATTACK_BOW",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "RATHALOS_BOW_3",
+      "weaponId": 489,
+      "level": 1,
+      "attack": 180,
+      "elementAttack": 97
+    },
+    {
+      "target": "RATHALOS_BOW_3",
+      "weaponId": 489,
+      "level": 2,
+      "attack": 193,
+      "elementAttack": 106
+    },
+    {
+      "target": "RATHALOS_BOW_3",
+      "weaponId": 489,
+      "level": 3,
+      "attack": 207,
+      "elementAttack": 115
+    },
+    {
+      "target": "RATHALOS_BOW_3",
+      "weaponId": 489,
+      "level": 4,
+      "attack": 220,
+      "elementAttack": 124
+    },
+    {
+      "target": "RATHALOS_BOW_3",
+      "weaponId": 489,
+      "level": 5,
+      "attack": 233,
+      "elementAttack": 133
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "RATHALOS_BOW_3",
+      "weaponId": 489,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_BOW_3",
+      "weaponId": 489,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 182,
+      "_materials": {
+        "id": 182,
+        "zenny": 200,
+        "userItem": [
+          {
+            "id": 2002001,
+            "num": 5
+          },
+          {
+            "id": 2101101,
+            "num": 12
+          },
+          {
+            "id": 1010001,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_BOW_3",
+      "weaponId": 489,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 183,
+      "_materials": {
+        "id": 183,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2002001,
+            "num": 5
+          },
+          {
+            "id": 2002003,
+            "num": 6
+          },
+          {
+            "id": 1040001,
+            "num": 5
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_BOW_3",
+      "weaponId": 489,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 184,
+      "_materials": {
+        "id": 184,
+        "zenny": 400,
+        "userItem": [
+          {
+            "id": 2002001,
+            "num": 5
+          },
+          {
+            "id": 2101101,
+            "num": 12
+          },
+          {
+            "id": 1010001,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_BOW_3",
+      "weaponId": 489,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 185,
+      "_materials": {
+        "id": 185,
+        "zenny": 500,
+        "userItem": [
+          {
+            "id": 2002001,
+            "num": 5
+          },
+          {
+            "id": 1010003,
+            "num": 2
+          },
+          {
+            "id": 1010004,
+            "num": 6
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_BOW_3",
+      "weaponId": 489,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 186,
+      "_materials": {
+        "id": 186,
+        "zenny": 900,
+        "userItem": [
+          {
+            "id": 2002001,
+            "num": 8
+          },
+          {
+            "id": 2002004,
+            "num": 4
+          },
+          {
+            "id": 2002009,
+            "num": 2
+          },
+          {
+            "id": 1010002,
+            "num": 8
+          }
+        ]
+      }
+    }
+  ],
+  "_bow": {
+    "target": "RATHALOS_BOW_3",
+    "weaponId": 489,
+    "bowArrowKind": [
+      "ARROW_RAPID_01",
+      "ARROW_RAPID_02",
+      "ARROW_PIERCE_03",
+      "ARROW_PIERCE_04"
+    ],
+    "bowArrowSettingId": [
+      101,
+      102,
+      303,
+      304
+    ],
+    "_arrows": [
+      {
+        "bowArrowKind": "ARROW_RAPID_01",
+        "settingId": 101,
+        "arrowType": "RAPID",
+        "level": 1,
+        "nameLocalizationKey": "BowArrow/ARROW_RAPID_01"
+      },
+      {
+        "bowArrowKind": "ARROW_RAPID_02",
+        "settingId": 102,
+        "arrowType": "RAPID",
+        "level": 2,
+        "nameLocalizationKey": "BowArrow/ARROW_RAPID_02"
+      },
+      {
+        "bowArrowKind": "ARROW_PIERCE_03",
+        "settingId": 303,
+        "arrowType": "PIERCE",
+        "level": 3,
+        "nameLocalizationKey": "BowArrow/ARROW_PIERCE_03"
+      },
+      {
+        "bowArrowKind": "ARROW_PIERCE_04",
+        "settingId": 304,
+        "arrowType": "PIERCE",
+        "level": 4,
+        "nameLocalizationKey": "BowArrow/ARROW_PIERCE_04"
+      }
+    ]
+  }
+}

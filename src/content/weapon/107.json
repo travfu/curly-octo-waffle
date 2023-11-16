@@ -1,0 +1,195 @@
+{
+  "target": "RATHALOS_LONGSWORD_2",
+  "weaponId": 107,
+  "category": "WEAPON_TYPE2_LONG_SWORD",
+  "elementType": "FIRE",
+  "assetKey": "w_w03_037",
+  "grade": 2,
+  "series": "SERIES_RATHALOS",
+  "seriesId": 9,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 410150,
+  "specialSkill": {
+    "skillLevelSettingId": 5201,
+    "specialSkillKind": "SPECIAL_ATTACK_LONGSWORD",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "RATHALOS_LONGSWORD_2",
+      "weaponId": 107,
+      "level": 1,
+      "attack": 127,
+      "elementAttack": 61
+    },
+    {
+      "target": "RATHALOS_LONGSWORD_2",
+      "weaponId": 107,
+      "level": 2,
+      "attack": 137,
+      "elementAttack": 67
+    },
+    {
+      "target": "RATHALOS_LONGSWORD_2",
+      "weaponId": 107,
+      "level": 3,
+      "attack": 146,
+      "elementAttack": 73
+    },
+    {
+      "target": "RATHALOS_LONGSWORD_2",
+      "weaponId": 107,
+      "level": 4,
+      "attack": 155,
+      "elementAttack": 79
+    },
+    {
+      "target": "RATHALOS_LONGSWORD_2",
+      "weaponId": 107,
+      "level": 5,
+      "attack": 164,
+      "elementAttack": 85
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "RATHALOS_LONGSWORD_2",
+      "weaponId": 107,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_LONGSWORD_2",
+      "weaponId": 107,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 817,
+      "_materials": {
+        "id": 817,
+        "zenny": 100,
+        "userItem": [
+          {
+            "id": 2002001,
+            "num": 3
+          },
+          {
+            "id": 2101101,
+            "num": 4
+          },
+          {
+            "id": 1010001,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_LONGSWORD_2",
+      "weaponId": 107,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 818,
+      "_materials": {
+        "id": 818,
+        "zenny": 150,
+        "userItem": [
+          {
+            "id": 2002001,
+            "num": 3
+          },
+          {
+            "id": 2002003,
+            "num": 3
+          },
+          {
+            "id": 1040001,
+            "num": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_LONGSWORD_2",
+      "weaponId": 107,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 819,
+      "_materials": {
+        "id": 819,
+        "zenny": 200,
+        "userItem": [
+          {
+            "id": 2002001,
+            "num": 3
+          },
+          {
+            "id": 2101101,
+            "num": 4
+          },
+          {
+            "id": 1010001,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_LONGSWORD_2",
+      "weaponId": 107,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 820,
+      "_materials": {
+        "id": 820,
+        "zenny": 250,
+        "userItem": [
+          {
+            "id": 2002001,
+            "num": 3
+          },
+          {
+            "id": 1010003,
+            "num": 1
+          },
+          {
+            "id": 1010004,
+            "num": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_LONGSWORD_2",
+      "weaponId": 107,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 181,
+      "_materials": {
+        "id": 181,
+        "zenny": 600,
+        "userItem": [
+          {
+            "id": 2002001,
+            "num": 5
+          },
+          {
+            "id": 2002004,
+            "num": 2
+          },
+          {
+            "id": 1010002,
+            "num": 3
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "target": "ZINOGRE_LIGHTBOWGUN_6",
+  "weaponId": 744,
+  "category": "WEAPON_TYPE2_LIGHT_BOWGUN",
+  "elementType": "THUNDER",
+  "assetKey": "w_w13_175",
+  "grade": 6,
+  "series": "SERIES_ZINOGRE",
+  "seriesId": 25,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 510190,
+  "specialSkill": {
+    "skillLevelSettingId": 5402,
+    "specialSkillKind": "SPECIAL_ATTACK_LIGHTBOWGUN",
+    "skillLevel": 2
+  },
+  "_levels": [
+    {
+      "target": "ZINOGRE_LIGHTBOWGUN_6",
+      "weaponId": 744,
+      "level": 1,
+      "attack": 461,
+      "elementAttack": 320
+    },
+    {
+      "target": "ZINOGRE_LIGHTBOWGUN_6",
+      "weaponId": 744,
+      "level": 2,
+      "attack": 484,
+      "elementAttack": 341
+    },
+    {
+      "target": "ZINOGRE_LIGHTBOWGUN_6",
+      "weaponId": 744,
+      "level": 3,
+      "attack": 507,
+      "elementAttack": 361
+    },
+    {
+      "target": "ZINOGRE_LIGHTBOWGUN_6",
+      "weaponId": 744,
+      "level": 4,
+      "attack": 530,
+      "elementAttack": 382
+    },
+    {
+      "target": "ZINOGRE_LIGHTBOWGUN_6",
+      "weaponId": 744,
+      "level": 5,
+      "attack": 553,
+      "elementAttack": 402
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "ZINOGRE_LIGHTBOWGUN_6",
+      "weaponId": 744,
+      "craftMaterialSettingsId": 1,
+      "upgrade": {
+        "base": "ZINOGRE_LIGHTBOWGUN_5",
+        "baseWeaponId": 743
+      },
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "ZINOGRE_LIGHTBOWGUN_6",
+      "weaponId": 744,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "ZINOGRE_LIGHTBOWGUN_6",
+      "weaponId": 744,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "ZINOGRE_LIGHTBOWGUN_6",
+      "weaponId": 744,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "ZINOGRE_LIGHTBOWGUN_6",
+      "weaponId": 744,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "ZINOGRE_LIGHTBOWGUN_6",
+      "weaponId": 744,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    }
+  ]
+}

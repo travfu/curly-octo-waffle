@@ -1,0 +1,257 @@
+{
+  "target": "AZURE_RATHALOS_BOW_4",
+  "weaponId": 644,
+  "category": "WEAPON_TYPE2_BOW",
+  "elementType": "FIRE",
+  "assetKey": "w_w11_172",
+  "grade": 4,
+  "series": "SERIES_AZURE_RATHALOS",
+  "seriesId": 19,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 610180,
+  "specialSkill": {
+    "skillLevelSettingId": 5501,
+    "specialSkillKind": "SPECIAL_ATTACK_BOW",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "AZURE_RATHALOS_BOW_4",
+      "weaponId": 644,
+      "level": 1,
+      "attack": 304,
+      "elementAttack": 88
+    },
+    {
+      "target": "AZURE_RATHALOS_BOW_4",
+      "weaponId": 644,
+      "level": 2,
+      "attack": 326,
+      "elementAttack": 96
+    },
+    {
+      "target": "AZURE_RATHALOS_BOW_4",
+      "weaponId": 644,
+      "level": 3,
+      "attack": 348,
+      "elementAttack": 104
+    },
+    {
+      "target": "AZURE_RATHALOS_BOW_4",
+      "weaponId": 644,
+      "level": 4,
+      "attack": 370,
+      "elementAttack": 112
+    },
+    {
+      "target": "AZURE_RATHALOS_BOW_4",
+      "weaponId": 644,
+      "level": 5,
+      "attack": 392,
+      "elementAttack": 120
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "AZURE_RATHALOS_BOW_4",
+      "weaponId": 644,
+      "craftMaterialSettingsId": 1506,
+      "_materials": {
+        "id": 1506,
+        "zenny": 900,
+        "userItem": [
+          {
+            "id": 2002101,
+            "num": 8
+          },
+          {
+            "id": 2002104,
+            "num": 4
+          },
+          {
+            "id": 2002105,
+            "num": 2
+          },
+          {
+            "id": 1010002,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "AZURE_RATHALOS_BOW_4",
+      "weaponId": 644,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1507,
+      "_materials": {
+        "id": 1507,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2002101,
+            "num": 8
+          },
+          {
+            "id": 2101101,
+            "num": 24
+          },
+          {
+            "id": 1010001,
+            "num": 16
+          }
+        ]
+      }
+    },
+    {
+      "target": "AZURE_RATHALOS_BOW_4",
+      "weaponId": 644,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1508,
+      "_materials": {
+        "id": 1508,
+        "zenny": 450,
+        "userItem": [
+          {
+            "id": 2002101,
+            "num": 8
+          },
+          {
+            "id": 2002103,
+            "num": 9
+          },
+          {
+            "id": 1040001,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "AZURE_RATHALOS_BOW_4",
+      "weaponId": 644,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1509,
+      "_materials": {
+        "id": 1509,
+        "zenny": 600,
+        "userItem": [
+          {
+            "id": 2002101,
+            "num": 8
+          },
+          {
+            "id": 2101101,
+            "num": 24
+          },
+          {
+            "id": 1010001,
+            "num": 16
+          }
+        ]
+      }
+    },
+    {
+      "target": "AZURE_RATHALOS_BOW_4",
+      "weaponId": 644,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1510,
+      "_materials": {
+        "id": 1510,
+        "zenny": 750,
+        "userItem": [
+          {
+            "id": 2002101,
+            "num": 8
+          },
+          {
+            "id": 1010003,
+            "num": 3
+          },
+          {
+            "id": 1010004,
+            "num": 12
+          }
+        ]
+      }
+    },
+    {
+      "target": "AZURE_RATHALOS_BOW_4",
+      "weaponId": 644,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 1511,
+      "_materials": {
+        "id": 1511,
+        "zenny": 1500,
+        "userItem": [
+          {
+            "id": 2002101,
+            "num": 6
+          },
+          {
+            "id": 2002104,
+            "num": 2
+          },
+          {
+            "id": 2002105,
+            "num": 2
+          },
+          {
+            "id": 1010002,
+            "num": 10
+          }
+        ]
+      }
+    }
+  ],
+  "_bow": {
+    "target": "AZURE_RATHALOS_BOW_4",
+    "weaponId": 644,
+    "bowArrowKind": [
+      "ARROW_SPREAD_02",
+      "ARROW_SPREAD_03",
+      "ARROW_RAPID_03",
+      "ARROW_RAPID_04"
+    ],
+    "bowArrowSettingId": [
+      202,
+      203,
+      103,
+      104
+    ],
+    "_arrows": [
+      {
+        "bowArrowKind": "ARROW_SPREAD_02",
+        "settingId": 202,
+        "arrowType": "SPREAD",
+        "level": 2,
+        "nameLocalizationKey": "BowArrow/ARROW_SPREAD_02"
+      },
+      {
+        "bowArrowKind": "ARROW_SPREAD_03",
+        "settingId": 203,
+        "arrowType": "SPREAD",
+        "level": 3,
+        "nameLocalizationKey": "BowArrow/ARROW_SPREAD_03"
+      },
+      {
+        "bowArrowKind": "ARROW_RAPID_03",
+        "settingId": 103,
+        "arrowType": "RAPID",
+        "level": 3,
+        "nameLocalizationKey": "BowArrow/ARROW_RAPID_03"
+      },
+      {
+        "bowArrowKind": "ARROW_RAPID_04",
+        "settingId": 104,
+        "arrowType": "RAPID",
+        "level": 4,
+        "nameLocalizationKey": "BowArrow/ARROW_RAPID_04"
+      }
+    ]
+  }
+}

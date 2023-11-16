@@ -1,0 +1,250 @@
+{
+  "target": "AZURE_RATHALOS_LIGHTBOWGUN_2",
+  "weaponId": 622,
+  "category": "WEAPON_TYPE2_LIGHT_BOWGUN",
+  "elementType": "FIRE",
+  "assetKey": "w_w13_171",
+  "grade": 2,
+  "series": "SERIES_AZURE_RATHALOS",
+  "seriesId": 19,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 510180,
+  "specialSkill": {
+    "skillLevelSettingId": 5401,
+    "specialSkillKind": "SPECIAL_ATTACK_LIGHTBOWGUN",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "AZURE_RATHALOS_LIGHTBOWGUN_2",
+      "weaponId": 622,
+      "level": 1,
+      "attack": 145,
+      "elementAttack": 37
+    },
+    {
+      "target": "AZURE_RATHALOS_LIGHTBOWGUN_2",
+      "weaponId": 622,
+      "level": 2,
+      "attack": 155,
+      "elementAttack": 41
+    },
+    {
+      "target": "AZURE_RATHALOS_LIGHTBOWGUN_2",
+      "weaponId": 622,
+      "level": 3,
+      "attack": 166,
+      "elementAttack": 44
+    },
+    {
+      "target": "AZURE_RATHALOS_LIGHTBOWGUN_2",
+      "weaponId": 622,
+      "level": 4,
+      "attack": 176,
+      "elementAttack": 48
+    },
+    {
+      "target": "AZURE_RATHALOS_LIGHTBOWGUN_2",
+      "weaponId": 622,
+      "level": 5,
+      "attack": 187,
+      "elementAttack": 51
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "AZURE_RATHALOS_LIGHTBOWGUN_2",
+      "weaponId": 622,
+      "craftMaterialSettingsId": 1496,
+      "_materials": {
+        "id": 1496,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2002101,
+            "num": 3
+          },
+          {
+            "id": 2002104,
+            "num": 1
+          },
+          {
+            "id": 1010002,
+            "num": 1
+          }
+        ]
+      }
+    },
+    {
+      "target": "AZURE_RATHALOS_LIGHTBOWGUN_2",
+      "weaponId": 622,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1497,
+      "_materials": {
+        "id": 1497,
+        "zenny": 100,
+        "userItem": [
+          {
+            "id": 2002101,
+            "num": 3
+          },
+          {
+            "id": 2101101,
+            "num": 4
+          },
+          {
+            "id": 1010001,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "AZURE_RATHALOS_LIGHTBOWGUN_2",
+      "weaponId": 622,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1498,
+      "_materials": {
+        "id": 1498,
+        "zenny": 150,
+        "userItem": [
+          {
+            "id": 2002101,
+            "num": 3
+          },
+          {
+            "id": 2002103,
+            "num": 3
+          },
+          {
+            "id": 1040001,
+            "num": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "AZURE_RATHALOS_LIGHTBOWGUN_2",
+      "weaponId": 622,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1499,
+      "_materials": {
+        "id": 1499,
+        "zenny": 200,
+        "userItem": [
+          {
+            "id": 2002101,
+            "num": 3
+          },
+          {
+            "id": 2101101,
+            "num": 4
+          },
+          {
+            "id": 1010001,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "AZURE_RATHALOS_LIGHTBOWGUN_2",
+      "weaponId": 622,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1500,
+      "_materials": {
+        "id": 1500,
+        "zenny": 250,
+        "userItem": [
+          {
+            "id": 2002101,
+            "num": 3
+          },
+          {
+            "id": 1010003,
+            "num": 1
+          },
+          {
+            "id": 1010004,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "AZURE_RATHALOS_LIGHTBOWGUN_2",
+      "weaponId": 622,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 1501,
+      "_materials": {
+        "id": 1501,
+        "zenny": 600,
+        "userItem": [
+          {
+            "id": 2002101,
+            "num": 5
+          },
+          {
+            "id": 2002104,
+            "num": 2
+          },
+          {
+            "id": 1010002,
+            "num": 3
+          }
+        ]
+      }
+    }
+  ],
+  "_bowgun": {
+    "target": "AZURE_RATHALOS_LIGHTBOWGUN_2",
+    "weaponId": 622,
+    "ammoProperty": [
+      {
+        "capacity": 5,
+        "recoilType": "RECOIL_MEDIUM",
+        "reloadType": "RELOAD_MEDIUM",
+        "bowgunAmmoSettingsId": 601,
+        "_ammo": {
+          "id": 601,
+          "ammoType": "NORMAL",
+          "elementType": "FIRE",
+          "level": 1,
+          "htmlColorCode": "#FF7316"
+        }
+      },
+      {
+        "capacity": 4,
+        "recoilType": "RECOIL_LARGE",
+        "reloadType": "RELOAD_LARGE",
+        "bowgunAmmoSettingsId": 1301,
+        "_ammo": {
+          "id": 1301,
+          "ammoType": "PIERCING",
+          "elementType": "FIRE",
+          "level": 1,
+          "iconId": 2,
+          "htmlColorCode": "#FF7316"
+        }
+      },
+      {
+        "capacity": 2,
+        "recoilType": "RECOIL_EXTRA_LARGE",
+        "reloadType": "RELOAD_LARGE",
+        "bowgunAmmoSettingsId": 2301,
+        "_ammo": {
+          "id": 2301,
+          "ammoType": "STICKY",
+          "elementType": "FIRE",
+          "level": 1,
+          "iconId": 3,
+          "htmlColorCode": "#FF7316"
+        }
+      }
+    ]
+  }
+}

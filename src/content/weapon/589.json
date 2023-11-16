@@ -1,0 +1,230 @@
+{
+  "target": "PINK_RATHIAN_SWORDSHIELD_9",
+  "weaponId": 589,
+  "category": "WEAPON_TYPE2_SWORD_SHIELD",
+  "elementType": "POISON",
+  "assetKey": "w_w01_033",
+  "grade": 9,
+  "series": "SERIES_PINK_RATHIAN",
+  "seriesId": 18,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 110160,
+  "normalSkill": [
+    {
+      "skillLevelSettingId": 1801,
+      "normalSkillKind": "EVADE_EXTENDER",
+      "skillLevel": 1
+    }
+  ],
+  "specialSkill": {
+    "skillLevelSettingId": 5103,
+    "specialSkillKind": "SPECIAL_ATTACK_SWORDSHIELD",
+    "skillLevel": 3
+  },
+  "_levels": [
+    {
+      "target": "PINK_RATHIAN_SWORDSHIELD_9",
+      "weaponId": 589,
+      "level": 1,
+      "attack": 1351,
+      "elementAttack": 281
+    },
+    {
+      "target": "PINK_RATHIAN_SWORDSHIELD_9",
+      "weaponId": 589,
+      "level": 2,
+      "attack": 1418,
+      "elementAttack": 284
+    },
+    {
+      "target": "PINK_RATHIAN_SWORDSHIELD_9",
+      "weaponId": 589,
+      "level": 3,
+      "attack": 1484,
+      "elementAttack": 287
+    },
+    {
+      "target": "PINK_RATHIAN_SWORDSHIELD_9",
+      "weaponId": 589,
+      "level": 4,
+      "attack": 1551,
+      "elementAttack": 291
+    },
+    {
+      "target": "PINK_RATHIAN_SWORDSHIELD_9",
+      "weaponId": 589,
+      "level": 5,
+      "attack": 1618,
+      "elementAttack": 294
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "PINK_RATHIAN_SWORDSHIELD_9",
+      "weaponId": 589,
+      "craftMaterialSettingsId": 1481,
+      "upgrade": {
+        "base": "PINK_RATHIAN_SWORDSHIELD_8",
+        "baseWeaponId": 588
+      },
+      "_materials": {
+        "id": 1481,
+        "zenny": 30000,
+        "userItem": [
+          {
+            "id": 2001106,
+            "num": 10
+          },
+          {
+            "id": 1110004,
+            "num": 6
+          },
+          {
+            "id": 3001018,
+            "num": 7
+          }
+        ]
+      }
+    },
+    {
+      "target": "PINK_RATHIAN_SWORDSHIELD_9",
+      "weaponId": 589,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1482,
+      "_materials": {
+        "id": 1482,
+        "zenny": 10000,
+        "userItem": [
+          {
+            "id": 2001103,
+            "num": 50
+          },
+          {
+            "id": 2101101,
+            "num": 73
+          },
+          {
+            "id": 1020001,
+            "num": 61
+          },
+          {
+            "id": 2001009,
+            "num": 6
+          }
+        ]
+      }
+    },
+    {
+      "target": "PINK_RATHIAN_SWORDSHIELD_9",
+      "weaponId": 589,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1483,
+      "_materials": {
+        "id": 1483,
+        "zenny": 15000,
+        "userItem": [
+          {
+            "id": 2001104,
+            "num": 40
+          },
+          {
+            "id": 1110004,
+            "num": 6
+          },
+          {
+            "id": 1020002,
+            "num": 49
+          },
+          {
+            "id": 1130002,
+            "num": 52
+          }
+        ]
+      }
+    },
+    {
+      "target": "PINK_RATHIAN_SWORDSHIELD_9",
+      "weaponId": 589,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1484,
+      "_materials": {
+        "id": 1484,
+        "zenny": 20000,
+        "userItem": [
+          {
+            "id": 2001105,
+            "num": 30
+          },
+          {
+            "id": 2101101,
+            "num": 73
+          },
+          {
+            "id": 1020001,
+            "num": 61
+          },
+          {
+            "id": 2001005,
+            "num": 6
+          }
+        ]
+      }
+    },
+    {
+      "target": "PINK_RATHIAN_SWORDSHIELD_9",
+      "weaponId": 589,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1485,
+      "_materials": {
+        "id": 1485,
+        "zenny": 25000,
+        "userItem": [
+          {
+            "id": 2001101,
+            "num": 200
+          },
+          {
+            "id": 1110004,
+            "num": 6
+          },
+          {
+            "id": 1020003,
+            "num": 21
+          },
+          {
+            "id": 1020004,
+            "num": 52
+          }
+        ]
+      }
+    },
+    {
+      "target": "PINK_RATHIAN_SWORDSHIELD_9",
+      "weaponId": 589,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 1486,
+      "_materials": {
+        "id": 1486,
+        "zenny": 75000,
+        "userItem": [
+          {
+            "id": 2001106,
+            "num": 20
+          },
+          {
+            "id": 1110004,
+            "num": 10
+          },
+          {
+            "id": 3001018,
+            "num": 9
+          }
+        ]
+      }
+    }
+  ]
+}

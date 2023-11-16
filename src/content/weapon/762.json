@@ -1,0 +1,143 @@
+{
+  "target": "BARIOTH_SWORDSHIELD_10",
+  "weaponId": 762,
+  "category": "WEAPON_TYPE2_SWORD_SHIELD",
+  "elementType": "ICE",
+  "assetKey": "w_w01_162",
+  "grade": 10,
+  "series": "SERIES_BARIOTH",
+  "seriesId": 24,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 110121,
+  "specialSkill": {
+    "skillLevelSettingId": 5103,
+    "specialSkillKind": "SPECIAL_ATTACK_SWORDSHIELD",
+    "skillLevel": 3
+  },
+  "_levels": [
+    {
+      "target": "BARIOTH_SWORDSHIELD_10",
+      "weaponId": 762,
+      "level": 1,
+      "attack": 1293,
+      "elementAttack": 910
+    },
+    {
+      "target": "BARIOTH_SWORDSHIELD_10",
+      "weaponId": 762,
+      "level": 2,
+      "attack": 1357,
+      "elementAttack": 965
+    },
+    {
+      "target": "BARIOTH_SWORDSHIELD_10",
+      "weaponId": 762,
+      "level": 3,
+      "attack": 1421,
+      "elementAttack": 1021
+    },
+    {
+      "target": "BARIOTH_SWORDSHIELD_10",
+      "weaponId": 762,
+      "level": 4,
+      "attack": 1485,
+      "elementAttack": 1076
+    },
+    {
+      "target": "BARIOTH_SWORDSHIELD_10",
+      "weaponId": 762,
+      "level": 5,
+      "attack": 1549,
+      "elementAttack": 1131
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "BARIOTH_SWORDSHIELD_10",
+      "weaponId": 762,
+      "craftMaterialSettingsId": 1,
+      "upgrade": {
+        "base": "BARIOTH_SWORDSHIELD_9",
+        "baseWeaponId": 761
+      },
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARIOTH_SWORDSHIELD_10",
+      "weaponId": 762,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARIOTH_SWORDSHIELD_10",
+      "weaponId": 762,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARIOTH_SWORDSHIELD_10",
+      "weaponId": 762,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARIOTH_SWORDSHIELD_10",
+      "weaponId": 762,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    }
+  ]
+}

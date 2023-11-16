@@ -1,0 +1,248 @@
+{
+  "target": "ANJANATH_LIGHTBOWGUN_5",
+  "weaponId": 354,
+  "category": "WEAPON_TYPE2_LIGHT_BOWGUN",
+  "elementType": "FIRE",
+  "assetKey": "w_w13_053",
+  "grade": 5,
+  "series": "SERIES_ANJANATH",
+  "seriesId": 14,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 510110,
+  "specialSkill": {
+    "skillLevelSettingId": 5401,
+    "specialSkillKind": "SPECIAL_ATTACK_LIGHTBOWGUN",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "ANJANATH_LIGHTBOWGUN_5",
+      "weaponId": 354,
+      "level": 1,
+      "attack": 370,
+      "elementAttack": 181
+    },
+    {
+      "target": "ANJANATH_LIGHTBOWGUN_5",
+      "weaponId": 354,
+      "level": 2,
+      "attack": 388,
+      "elementAttack": 193
+    },
+    {
+      "target": "ANJANATH_LIGHTBOWGUN_5",
+      "weaponId": 354,
+      "level": 3,
+      "attack": 406,
+      "elementAttack": 204
+    },
+    {
+      "target": "ANJANATH_LIGHTBOWGUN_5",
+      "weaponId": 354,
+      "level": 4,
+      "attack": 425,
+      "elementAttack": 216
+    },
+    {
+      "target": "ANJANATH_LIGHTBOWGUN_5",
+      "weaponId": 354,
+      "level": 5,
+      "attack": 443,
+      "elementAttack": 227
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "ANJANATH_LIGHTBOWGUN_5",
+      "weaponId": 354,
+      "craftMaterialSettingsId": 636,
+      "upgrade": {
+        "base": "ANJANATH_LIGHTBOWGUN_4",
+        "baseWeaponId": 353
+      },
+      "_materials": {
+        "id": 636,
+        "zenny": 1500,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 12
+          },
+          {
+            "id": 2100004,
+            "num": 6
+          },
+          {
+            "id": 2100009,
+            "num": 4
+          },
+          {
+            "id": 1020002,
+            "num": 10
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_LIGHTBOWGUN_5",
+      "weaponId": 354,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 637,
+      "_materials": {
+        "id": 637,
+        "zenny": 500,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 12
+          },
+          {
+            "id": 2101101,
+            "num": 32
+          },
+          {
+            "id": 1020001,
+            "num": 24
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_LIGHTBOWGUN_5",
+      "weaponId": 354,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 638,
+      "_materials": {
+        "id": 638,
+        "zenny": 750,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 12
+          },
+          {
+            "id": 2100003,
+            "num": 12
+          },
+          {
+            "id": 1040001,
+            "num": 15
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_LIGHTBOWGUN_5",
+      "weaponId": 354,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 639,
+      "_materials": {
+        "id": 639,
+        "zenny": 1000,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 12
+          },
+          {
+            "id": 2101101,
+            "num": 32
+          },
+          {
+            "id": 1020001,
+            "num": 24
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_LIGHTBOWGUN_5",
+      "weaponId": 354,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 640,
+      "_materials": {
+        "id": 640,
+        "zenny": 1250,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 12
+          },
+          {
+            "id": 1020003,
+            "num": 4
+          },
+          {
+            "id": 1020004,
+            "num": 16
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_LIGHTBOWGUN_5",
+      "weaponId": 354,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 641,
+      "_materials": {
+        "id": 641,
+        "zenny": 3000,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 18
+          },
+          {
+            "id": 2100009,
+            "num": 6
+          },
+          {
+            "id": 2100005,
+            "num": 2
+          },
+          {
+            "id": 3001018,
+            "num": 1
+          }
+        ]
+      }
+    }
+  ],
+  "_bowgun": {
+    "target": "ANJANATH_LIGHTBOWGUN_5",
+    "weaponId": 354,
+    "ammoProperty": [
+      {
+        "capacity": 6,
+        "recoilType": "RECOIL_MEDIUM",
+        "reloadType": "RELOAD_MEDIUM",
+        "bowgunAmmoSettingsId": 601,
+        "_ammo": {
+          "id": 601,
+          "ammoType": "NORMAL",
+          "elementType": "FIRE",
+          "level": 1,
+          "htmlColorCode": "#FF7316"
+        }
+      },
+      {
+        "capacity": 3,
+        "recoilType": "RECOIL_EXTRA_LARGE",
+        "reloadType": "RELOAD_LARGE",
+        "bowgunAmmoSettingsId": 2301,
+        "_ammo": {
+          "id": 2301,
+          "ammoType": "STICKY",
+          "elementType": "FIRE",
+          "level": 1,
+          "iconId": 3,
+          "htmlColorCode": "#FF7316"
+        }
+      }
+    ]
+  }
+}

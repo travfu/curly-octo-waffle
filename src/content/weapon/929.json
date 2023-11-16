@@ -1,0 +1,166 @@
+{
+  "target": "KULUYAKU_LANCE_4",
+  "weaponId": 929,
+  "category": "WEAPON_TYPE2_LANCE",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w06_020",
+  "grade": 4,
+  "series": "SERIES_KULUYAKU",
+  "seriesId": 3,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 810050,
+  "normalSkill": [
+    {
+      "skillLevelSettingId": 4601,
+      "normalSkillKind": "FORTIFY",
+      "skillLevel": 1
+    }
+  ],
+  "specialSkill": {
+    "skillLevelSettingId": 5101,
+    "specialSkillKind": "SPECIAL_ATTACK_SWORDSHIELD",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "KULUYAKU_LANCE_4",
+      "weaponId": 929,
+      "level": 1,
+      "attack": 299,
+      "critical": 15
+    },
+    {
+      "target": "KULUYAKU_LANCE_4",
+      "weaponId": 929,
+      "level": 2,
+      "attack": 321,
+      "critical": 15
+    },
+    {
+      "target": "KULUYAKU_LANCE_4",
+      "weaponId": 929,
+      "level": 3,
+      "attack": 342,
+      "critical": 15
+    },
+    {
+      "target": "KULUYAKU_LANCE_4",
+      "weaponId": 929,
+      "level": 4,
+      "attack": 364,
+      "critical": 15
+    },
+    {
+      "target": "KULUYAKU_LANCE_4",
+      "weaponId": 929,
+      "level": 5,
+      "attack": 385,
+      "critical": 15
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "KULUYAKU_LANCE_4",
+      "weaponId": 929,
+      "craftMaterialSettingsId": 1,
+      "upgrade": {
+        "base": "KULUYAKU_LANCE_3",
+        "baseWeaponId": 928
+      },
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_LANCE_4",
+      "weaponId": 929,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_LANCE_4",
+      "weaponId": 929,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_LANCE_4",
+      "weaponId": 929,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_LANCE_4",
+      "weaponId": 929,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_LANCE_4",
+      "weaponId": 929,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "target": "RATHIAN_BOW_2",
+  "weaponId": 154,
+  "category": "WEAPON_TYPE2_BOW",
+  "elementType": "POISON",
+  "assetKey": "w_w11_038",
+  "grade": 2,
+  "series": "SERIES_RATHIAN",
+  "seriesId": 12,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 610120,
+  "specialSkill": {
+    "skillLevelSettingId": 5501,
+    "specialSkillKind": "SPECIAL_ATTACK_BOW",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "RATHIAN_BOW_2",
+      "weaponId": 154,
+      "level": 1,
+      "attack": 137,
+      "elementAttack": 116
+    },
+    {
+      "target": "RATHIAN_BOW_2",
+      "weaponId": 154,
+      "level": 2,
+      "attack": 147,
+      "elementAttack": 126
+    },
+    {
+      "target": "RATHIAN_BOW_2",
+      "weaponId": 154,
+      "level": 3,
+      "attack": 157,
+      "elementAttack": 135
+    },
+    {
+      "target": "RATHIAN_BOW_2",
+      "weaponId": 154,
+      "level": 4,
+      "attack": 166,
+      "elementAttack": 145
+    },
+    {
+      "target": "RATHIAN_BOW_2",
+      "weaponId": 154,
+      "level": 5,
+      "attack": 176,
+      "elementAttack": 154
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "RATHIAN_BOW_2",
+      "weaponId": 154,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHIAN_BOW_2",
+      "weaponId": 154,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 157,
+      "_materials": {
+        "id": 157,
+        "zenny": 100,
+        "userItem": [
+          {
+            "id": 2001001,
+            "num": 3
+          },
+          {
+            "id": 2101101,
+            "num": 4
+          },
+          {
+            "id": 1020001,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHIAN_BOW_2",
+      "weaponId": 154,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 158,
+      "_materials": {
+        "id": 158,
+        "zenny": 150,
+        "userItem": [
+          {
+            "id": 2001001,
+            "num": 3
+          },
+          {
+            "id": 2001004,
+            "num": 3
+          },
+          {
+            "id": 1130002,
+            "num": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHIAN_BOW_2",
+      "weaponId": 154,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 159,
+      "_materials": {
+        "id": 159,
+        "zenny": 200,
+        "userItem": [
+          {
+            "id": 2001001,
+            "num": 3
+          },
+          {
+            "id": 2101101,
+            "num": 4
+          },
+          {
+            "id": 1020001,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHIAN_BOW_2",
+      "weaponId": 154,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 160,
+      "_materials": {
+        "id": 160,
+        "zenny": 250,
+        "userItem": [
+          {
+            "id": 2001001,
+            "num": 3
+          },
+          {
+            "id": 1020003,
+            "num": 1
+          },
+          {
+            "id": 1020004,
+            "num": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHIAN_BOW_2",
+      "weaponId": 154,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 161,
+      "_materials": {
+        "id": 161,
+        "zenny": 600,
+        "userItem": [
+          {
+            "id": 2001001,
+            "num": 5
+          },
+          {
+            "id": 2001003,
+            "num": 2
+          },
+          {
+            "id": 1020002,
+            "num": 3
+          }
+        ]
+      }
+    }
+  ],
+  "_bow": {
+    "target": "RATHIAN_BOW_2",
+    "weaponId": 154,
+    "bowArrowKind": [
+      "ARROW_RAPID_01",
+      "ARROW_RAPID_02",
+      "ARROW_SPREAD_03",
+      "ARROW_SPREAD_04"
+    ],
+    "bowArrowSettingId": [
+      101,
+      102,
+      203,
+      204
+    ],
+    "_arrows": [
+      {
+        "bowArrowKind": "ARROW_RAPID_01",
+        "settingId": 101,
+        "arrowType": "RAPID",
+        "level": 1,
+        "nameLocalizationKey": "BowArrow/ARROW_RAPID_01"
+      },
+      {
+        "bowArrowKind": "ARROW_RAPID_02",
+        "settingId": 102,
+        "arrowType": "RAPID",
+        "level": 2,
+        "nameLocalizationKey": "BowArrow/ARROW_RAPID_02"
+      },
+      {
+        "bowArrowKind": "ARROW_SPREAD_03",
+        "settingId": 203,
+        "arrowType": "SPREAD",
+        "level": 3,
+        "nameLocalizationKey": "BowArrow/ARROW_SPREAD_03"
+      },
+      {
+        "bowArrowKind": "ARROW_SPREAD_04",
+        "settingId": 204,
+        "arrowType": "SPREAD",
+        "level": 4,
+        "nameLocalizationKey": "BowArrow/ARROW_SPREAD_04"
+      }
+    ]
+  }
+}

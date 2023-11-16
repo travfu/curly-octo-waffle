@@ -1,0 +1,230 @@
+{
+  "target": "RATHALOS_SWORDSHIELD_9",
+  "weaponId": 211,
+  "category": "WEAPON_TYPE2_SWORD_SHIELD",
+  "elementType": "FIRE",
+  "assetKey": "w_w01_022",
+  "grade": 9,
+  "series": "SERIES_RATHALOS",
+  "seriesId": 9,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 110150,
+  "normalSkill": [
+    {
+      "skillLevelSettingId": 3401,
+      "normalSkillKind": "EARPLUGS",
+      "skillLevel": 1
+    }
+  ],
+  "specialSkill": {
+    "skillLevelSettingId": 5103,
+    "specialSkillKind": "SPECIAL_ATTACK_SWORDSHIELD",
+    "skillLevel": 3
+  },
+  "_levels": [
+    {
+      "target": "RATHALOS_SWORDSHIELD_9",
+      "weaponId": 211,
+      "level": 1,
+      "attack": 958,
+      "elementAttack": 835
+    },
+    {
+      "target": "RATHALOS_SWORDSHIELD_9",
+      "weaponId": 211,
+      "level": 2,
+      "attack": 1005,
+      "elementAttack": 887
+    },
+    {
+      "target": "RATHALOS_SWORDSHIELD_9",
+      "weaponId": 211,
+      "level": 3,
+      "attack": 1053,
+      "elementAttack": 938
+    },
+    {
+      "target": "RATHALOS_SWORDSHIELD_9",
+      "weaponId": 211,
+      "level": 4,
+      "attack": 1100,
+      "elementAttack": 989
+    },
+    {
+      "target": "RATHALOS_SWORDSHIELD_9",
+      "weaponId": 211,
+      "level": 5,
+      "attack": 1147,
+      "elementAttack": 1041
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "RATHALOS_SWORDSHIELD_9",
+      "weaponId": 211,
+      "craftMaterialSettingsId": 841,
+      "upgrade": {
+        "base": "RATHALOS_SWORDSHIELD_8",
+        "baseWeaponId": 210
+      },
+      "_materials": {
+        "id": 841,
+        "zenny": 30000,
+        "userItem": [
+          {
+            "id": 2002005,
+            "num": 10
+          },
+          {
+            "id": 1110004,
+            "num": 6
+          },
+          {
+            "id": 3001018,
+            "num": 7
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_SWORDSHIELD_9",
+      "weaponId": 211,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 842,
+      "_materials": {
+        "id": 842,
+        "zenny": 10000,
+        "userItem": [
+          {
+            "id": 2002003,
+            "num": 50
+          },
+          {
+            "id": 2101101,
+            "num": 73
+          },
+          {
+            "id": 1010001,
+            "num": 61
+          },
+          {
+            "id": 2100009,
+            "num": 6
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_SWORDSHIELD_9",
+      "weaponId": 211,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 843,
+      "_materials": {
+        "id": 843,
+        "zenny": 15000,
+        "userItem": [
+          {
+            "id": 2002004,
+            "num": 40
+          },
+          {
+            "id": 1110004,
+            "num": 6
+          },
+          {
+            "id": 1010002,
+            "num": 49
+          },
+          {
+            "id": 1040001,
+            "num": 52
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_SWORDSHIELD_9",
+      "weaponId": 211,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 844,
+      "_materials": {
+        "id": 844,
+        "zenny": 20000,
+        "userItem": [
+          {
+            "id": 2002009,
+            "num": 30
+          },
+          {
+            "id": 2101101,
+            "num": 73
+          },
+          {
+            "id": 1010001,
+            "num": 61
+          },
+          {
+            "id": 2100005,
+            "num": 6
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_SWORDSHIELD_9",
+      "weaponId": 211,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 845,
+      "_materials": {
+        "id": 845,
+        "zenny": 25000,
+        "userItem": [
+          {
+            "id": 2002001,
+            "num": 200
+          },
+          {
+            "id": 1110004,
+            "num": 6
+          },
+          {
+            "id": 1010003,
+            "num": 21
+          },
+          {
+            "id": 1010004,
+            "num": 52
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_SWORDSHIELD_9",
+      "weaponId": 211,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 846,
+      "_materials": {
+        "id": 846,
+        "zenny": 75000,
+        "userItem": [
+          {
+            "id": 2002005,
+            "num": 20
+          },
+          {
+            "id": 1110004,
+            "num": 10
+          },
+          {
+            "id": 3001018,
+            "num": 9
+          }
+        ]
+      }
+    }
+  ]
+}

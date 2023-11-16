@@ -1,0 +1,224 @@
+{
+  "target": "BLACK_DIABLOS_BOW_1",
+  "weaponId": 661,
+  "category": "WEAPON_TYPE2_BOW",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w11_071",
+  "grade": 1,
+  "series": "SERIES_BLACK_DIABLOS",
+  "seriesId": 20,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 610170,
+  "_levels": [
+    {
+      "target": "BLACK_DIABLOS_BOW_1",
+      "weaponId": 661,
+      "level": 1,
+      "attack": 130,
+      "critical": -30
+    },
+    {
+      "target": "BLACK_DIABLOS_BOW_1",
+      "weaponId": 661,
+      "level": 2,
+      "attack": 139,
+      "critical": -30
+    },
+    {
+      "target": "BLACK_DIABLOS_BOW_1",
+      "weaponId": 661,
+      "level": 3,
+      "attack": 149,
+      "critical": -30
+    },
+    {
+      "target": "BLACK_DIABLOS_BOW_1",
+      "weaponId": 661,
+      "level": 4,
+      "attack": 158,
+      "critical": -30
+    },
+    {
+      "target": "BLACK_DIABLOS_BOW_1",
+      "weaponId": 661,
+      "level": 5,
+      "attack": 168,
+      "critical": -30
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "BLACK_DIABLOS_BOW_1",
+      "weaponId": 661,
+      "craftMaterialSettingsId": 1541,
+      "_materials": {
+        "id": 1541,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 2007101,
+            "num": 2
+          },
+          {
+            "id": 1020001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BLACK_DIABLOS_BOW_1",
+      "weaponId": 661,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1542,
+      "_materials": {
+        "id": 1542,
+        "zenny": 20,
+        "userItem": [
+          {
+            "id": 2007101,
+            "num": 2
+          },
+          {
+            "id": 2101101,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BLACK_DIABLOS_BOW_1",
+      "weaponId": 661,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1543,
+      "_materials": {
+        "id": 1543,
+        "zenny": 30,
+        "userItem": [
+          {
+            "id": 2007101,
+            "num": 2
+          },
+          {
+            "id": 2007103,
+            "num": 1
+          }
+        ]
+      }
+    },
+    {
+      "target": "BLACK_DIABLOS_BOW_1",
+      "weaponId": 661,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1544,
+      "_materials": {
+        "id": 1544,
+        "zenny": 40,
+        "userItem": [
+          {
+            "id": 2007101,
+            "num": 2
+          },
+          {
+            "id": 2101101,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BLACK_DIABLOS_BOW_1",
+      "weaponId": 661,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1545,
+      "_materials": {
+        "id": 1545,
+        "zenny": 50,
+        "userItem": [
+          {
+            "id": 2007101,
+            "num": 2
+          },
+          {
+            "id": 1020001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BLACK_DIABLOS_BOW_1",
+      "weaponId": 661,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 1546,
+      "_materials": {
+        "id": 1546,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2007101,
+            "num": 3
+          },
+          {
+            "id": 2007104,
+            "num": 1
+          },
+          {
+            "id": 1020002,
+            "num": 1
+          }
+        ]
+      }
+    }
+  ],
+  "_bow": {
+    "target": "BLACK_DIABLOS_BOW_1",
+    "weaponId": 661,
+    "bowArrowKind": [
+      "ARROW_PIERCE_01",
+      "ARROW_PIERCE_01",
+      "ARROW_PIERCE_04",
+      "ARROW_PIERCE_04"
+    ],
+    "bowArrowSettingId": [
+      301,
+      301,
+      304,
+      304
+    ],
+    "_arrows": [
+      {
+        "bowArrowKind": "ARROW_PIERCE_01",
+        "settingId": 301,
+        "arrowType": "PIERCE",
+        "level": 1,
+        "nameLocalizationKey": "BowArrow/ARROW_PIERCE_01"
+      },
+      {
+        "bowArrowKind": "ARROW_PIERCE_01",
+        "settingId": 301,
+        "arrowType": "PIERCE",
+        "level": 1,
+        "nameLocalizationKey": "BowArrow/ARROW_PIERCE_01"
+      },
+      {
+        "bowArrowKind": "ARROW_PIERCE_04",
+        "settingId": 304,
+        "arrowType": "PIERCE",
+        "level": 4,
+        "nameLocalizationKey": "BowArrow/ARROW_PIERCE_04"
+      },
+      {
+        "bowArrowKind": "ARROW_PIERCE_04",
+        "settingId": 304,
+        "arrowType": "PIERCE",
+        "level": 4,
+        "nameLocalizationKey": "BowArrow/ARROW_PIERCE_04"
+      }
+    ]
+  }
+}

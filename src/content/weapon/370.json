@@ -1,0 +1,225 @@
+{
+  "target": "PAOLUMU_SWORDSHIELD_8",
+  "weaponId": 370,
+  "category": "WEAPON_TYPE2_SWORD_SHIELD",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w01_043",
+  "grade": 8,
+  "series": "SERIES_PAOLUMU",
+  "seriesId": 7,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 110100,
+  "normalSkill": [
+    {
+      "skillLevelSettingId": 2202,
+      "normalSkillKind": "DIVINE_BLESSING",
+      "skillLevel": 2
+    }
+  ],
+  "specialSkill": {
+    "skillLevelSettingId": 5103,
+    "specialSkillKind": "SPECIAL_ATTACK_SWORDSHIELD",
+    "skillLevel": 3
+  },
+  "_levels": [
+    {
+      "target": "PAOLUMU_SWORDSHIELD_8",
+      "weaponId": 370,
+      "level": 1,
+      "attack": 1054
+    },
+    {
+      "target": "PAOLUMU_SWORDSHIELD_8",
+      "weaponId": 370,
+      "level": 2,
+      "attack": 1106
+    },
+    {
+      "target": "PAOLUMU_SWORDSHIELD_8",
+      "weaponId": 370,
+      "level": 3,
+      "attack": 1158
+    },
+    {
+      "target": "PAOLUMU_SWORDSHIELD_8",
+      "weaponId": 370,
+      "level": 4,
+      "attack": 1210
+    },
+    {
+      "target": "PAOLUMU_SWORDSHIELD_8",
+      "weaponId": 370,
+      "level": 5,
+      "attack": 1262
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "PAOLUMU_SWORDSHIELD_8",
+      "weaponId": 370,
+      "craftMaterialSettingsId": 686,
+      "upgrade": {
+        "base": "PAOLUMU_SWORDSHIELD_7",
+        "baseWeaponId": 369
+      },
+      "_materials": {
+        "id": 686,
+        "zenny": 12000,
+        "userItem": [
+          {
+            "id": 2110010,
+            "num": 5
+          },
+          {
+            "id": 1110004,
+            "num": 4
+          },
+          {
+            "id": 3001018,
+            "num": 5
+          }
+        ]
+      }
+    },
+    {
+      "target": "PAOLUMU_SWORDSHIELD_8",
+      "weaponId": 370,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 687,
+      "_materials": {
+        "id": 687,
+        "zenny": 4000,
+        "userItem": [
+          {
+            "id": 2110003,
+            "num": 40
+          },
+          {
+            "id": 2101101,
+            "num": 64
+          },
+          {
+            "id": 1010001,
+            "num": 53
+          },
+          {
+            "id": 2111009,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "PAOLUMU_SWORDSHIELD_8",
+      "weaponId": 370,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 688,
+      "_materials": {
+        "id": 688,
+        "zenny": 6000,
+        "userItem": [
+          {
+            "id": 2110004,
+            "num": 30
+          },
+          {
+            "id": 1110004,
+            "num": 4
+          },
+          {
+            "id": 1010002,
+            "num": 40
+          },
+          {
+            "id": 1140003,
+            "num": 41
+          }
+        ]
+      }
+    },
+    {
+      "target": "PAOLUMU_SWORDSHIELD_8",
+      "weaponId": 370,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 689,
+      "_materials": {
+        "id": 689,
+        "zenny": 8000,
+        "userItem": [
+          {
+            "id": 2110009,
+            "num": 20
+          },
+          {
+            "id": 2101101,
+            "num": 64
+          },
+          {
+            "id": 1010001,
+            "num": 53
+          },
+          {
+            "id": 2111005,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "PAOLUMU_SWORDSHIELD_8",
+      "weaponId": 370,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 690,
+      "_materials": {
+        "id": 690,
+        "zenny": 10000,
+        "userItem": [
+          {
+            "id": 2110001,
+            "num": 100
+          },
+          {
+            "id": 1110004,
+            "num": 4
+          },
+          {
+            "id": 1010003,
+            "num": 17
+          },
+          {
+            "id": 1140002,
+            "num": 41
+          }
+        ]
+      }
+    },
+    {
+      "target": "PAOLUMU_SWORDSHIELD_8",
+      "weaponId": 370,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 691,
+      "_materials": {
+        "id": 691,
+        "zenny": 30000,
+        "userItem": [
+          {
+            "id": 2110010,
+            "num": 10
+          },
+          {
+            "id": 1110004,
+            "num": 6
+          },
+          {
+            "id": 3001018,
+            "num": 7
+          }
+        ]
+      }
+    }
+  ]
+}

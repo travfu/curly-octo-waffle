@@ -1,0 +1,246 @@
+{
+  "target": "LEGIANA_LIGHTBOWGUN_4",
+  "weaponId": 338,
+  "category": "WEAPON_TYPE2_LIGHT_BOWGUN",
+  "elementType": "ICE",
+  "assetKey": "w_w13_091",
+  "grade": 4,
+  "series": "SERIES_LEGIANA",
+  "seriesId": 10,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 510130,
+  "specialSkill": {
+    "skillLevelSettingId": 5401,
+    "specialSkillKind": "SPECIAL_ATTACK_LIGHTBOWGUN",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "LEGIANA_LIGHTBOWGUN_4",
+      "weaponId": 338,
+      "level": 1,
+      "attack": 256,
+      "elementAttack": 150
+    },
+    {
+      "target": "LEGIANA_LIGHTBOWGUN_4",
+      "weaponId": 338,
+      "level": 2,
+      "attack": 274,
+      "elementAttack": 164
+    },
+    {
+      "target": "LEGIANA_LIGHTBOWGUN_4",
+      "weaponId": 338,
+      "level": 3,
+      "attack": 293,
+      "elementAttack": 177
+    },
+    {
+      "target": "LEGIANA_LIGHTBOWGUN_4",
+      "weaponId": 338,
+      "level": 4,
+      "attack": 311,
+      "elementAttack": 191
+    },
+    {
+      "target": "LEGIANA_LIGHTBOWGUN_4",
+      "weaponId": 338,
+      "level": 5,
+      "attack": 330,
+      "elementAttack": 205
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "LEGIANA_LIGHTBOWGUN_4",
+      "weaponId": 338,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "LEGIANA_LIGHTBOWGUN_4",
+      "weaponId": 338,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 177,
+      "_materials": {
+        "id": 177,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2111001,
+            "num": 8
+          },
+          {
+            "id": 2101101,
+            "num": 24
+          },
+          {
+            "id": 1010001,
+            "num": 16
+          }
+        ]
+      }
+    },
+    {
+      "target": "LEGIANA_LIGHTBOWGUN_4",
+      "weaponId": 338,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 178,
+      "_materials": {
+        "id": 178,
+        "zenny": 450,
+        "userItem": [
+          {
+            "id": 2111001,
+            "num": 8
+          },
+          {
+            "id": 2111003,
+            "num": 9
+          },
+          {
+            "id": 1040003,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "LEGIANA_LIGHTBOWGUN_4",
+      "weaponId": 338,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 179,
+      "_materials": {
+        "id": 179,
+        "zenny": 600,
+        "userItem": [
+          {
+            "id": 2111001,
+            "num": 8
+          },
+          {
+            "id": 2101101,
+            "num": 24
+          },
+          {
+            "id": 1010001,
+            "num": 16
+          }
+        ]
+      }
+    },
+    {
+      "target": "LEGIANA_LIGHTBOWGUN_4",
+      "weaponId": 338,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 180,
+      "_materials": {
+        "id": 180,
+        "zenny": 750,
+        "userItem": [
+          {
+            "id": 2111001,
+            "num": 8
+          },
+          {
+            "id": 1010003,
+            "num": 3
+          },
+          {
+            "id": 1010004,
+            "num": 12
+          }
+        ]
+      }
+    },
+    {
+      "target": "LEGIANA_LIGHTBOWGUN_4",
+      "weaponId": 338,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 781,
+      "_materials": {
+        "id": 781,
+        "zenny": 1500,
+        "userItem": [
+          {
+            "id": 2111001,
+            "num": 6
+          },
+          {
+            "id": 2111004,
+            "num": 2
+          },
+          {
+            "id": 2111009,
+            "num": 2
+          },
+          {
+            "id": 1010002,
+            "num": 10
+          }
+        ]
+      }
+    }
+  ],
+  "_bowgun": {
+    "target": "LEGIANA_LIGHTBOWGUN_4",
+    "weaponId": 338,
+    "ammoProperty": [
+      {
+        "capacity": 5,
+        "recoilType": "RECOIL_MEDIUM",
+        "reloadType": "RELOAD_MEDIUM",
+        "bowgunAmmoSettingsId": 801,
+        "_ammo": {
+          "id": 801,
+          "ammoType": "NORMAL",
+          "elementType": "ICE",
+          "level": 1,
+          "htmlColorCode": "#A0CDFF"
+        }
+      },
+      {
+        "capacity": 4,
+        "recoilType": "RECOIL_LARGE",
+        "reloadType": "RELOAD_LARGE",
+        "bowgunAmmoSettingsId": 2001,
+        "_ammo": {
+          "id": 2001,
+          "ammoType": "SPREAD",
+          "elementType": "ICE",
+          "level": 1,
+          "iconId": 1,
+          "htmlColorCode": "#A0CDFF"
+        }
+      },
+      {
+        "capacity": 3,
+        "recoilType": "RECOIL_EXTRA_LARGE",
+        "reloadType": "RELOAD_LARGE",
+        "bowgunAmmoSettingsId": 3001,
+        "_ammo": {
+          "id": 3001,
+          "ammoType": "SLICING",
+          "elementType": "ICE",
+          "level": 1,
+          "iconId": 2,
+          "htmlColorCode": "#A0CDFF"
+        }
+      }
+    ]
+  }
+}

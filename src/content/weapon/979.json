@@ -1,0 +1,159 @@
+{
+  "target": "JYURATODUS_LANCE_5",
+  "weaponId": 979,
+  "category": "WEAPON_TYPE2_LANCE",
+  "elementType": "WATER",
+  "assetKey": "w_w06_064",
+  "grade": 5,
+  "series": "SERIES_JYURATODUS",
+  "seriesId": 17,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 810101,
+  "specialSkill": {
+    "skillLevelSettingId": 5101,
+    "specialSkillKind": "SPECIAL_ATTACK_SWORDSHIELD",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "JYURATODUS_LANCE_5",
+      "weaponId": 979,
+      "level": 1,
+      "attack": 370,
+      "elementAttack": 181
+    },
+    {
+      "target": "JYURATODUS_LANCE_5",
+      "weaponId": 979,
+      "level": 2,
+      "attack": 388,
+      "elementAttack": 193
+    },
+    {
+      "target": "JYURATODUS_LANCE_5",
+      "weaponId": 979,
+      "level": 3,
+      "attack": 406,
+      "elementAttack": 204
+    },
+    {
+      "target": "JYURATODUS_LANCE_5",
+      "weaponId": 979,
+      "level": 4,
+      "attack": 425,
+      "elementAttack": 216
+    },
+    {
+      "target": "JYURATODUS_LANCE_5",
+      "weaponId": 979,
+      "level": 5,
+      "attack": 443,
+      "elementAttack": 227
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "JYURATODUS_LANCE_5",
+      "weaponId": 979,
+      "craftMaterialSettingsId": 1,
+      "upgrade": {
+        "base": "JYURATODUS_LANCE_4",
+        "baseWeaponId": 978
+      },
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_LANCE_5",
+      "weaponId": 979,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_LANCE_5",
+      "weaponId": 979,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_LANCE_5",
+      "weaponId": 979,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_LANCE_5",
+      "weaponId": 979,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_LANCE_5",
+      "weaponId": 979,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    }
+  ]
+}

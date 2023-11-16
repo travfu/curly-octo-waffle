@@ -1,0 +1,138 @@
+{
+  "target": "BANBARO_LIGHTBOWGUN_10",
+  "weaponId": 852,
+  "category": "WEAPON_TYPE2_LIGHT_BOWGUN",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w13_201",
+  "grade": 10,
+  "series": "SERIES_BANBARO",
+  "seriesId": 23,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 510102,
+  "specialSkill": {
+    "skillLevelSettingId": 5403,
+    "specialSkillKind": "SPECIAL_ATTACK_LIGHTBOWGUN",
+    "skillLevel": 3
+  },
+  "_levels": [
+    {
+      "target": "BANBARO_LIGHTBOWGUN_10",
+      "weaponId": 852,
+      "level": 1,
+      "attack": 1764
+    },
+    {
+      "target": "BANBARO_LIGHTBOWGUN_10",
+      "weaponId": 852,
+      "level": 2,
+      "attack": 1851
+    },
+    {
+      "target": "BANBARO_LIGHTBOWGUN_10",
+      "weaponId": 852,
+      "level": 3,
+      "attack": 1938
+    },
+    {
+      "target": "BANBARO_LIGHTBOWGUN_10",
+      "weaponId": 852,
+      "level": 4,
+      "attack": 2026
+    },
+    {
+      "target": "BANBARO_LIGHTBOWGUN_10",
+      "weaponId": 852,
+      "level": 5,
+      "attack": 2113
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "BANBARO_LIGHTBOWGUN_10",
+      "weaponId": 852,
+      "craftMaterialSettingsId": 1,
+      "upgrade": {
+        "base": "BANBARO_LIGHTBOWGUN_9",
+        "baseWeaponId": 851
+      },
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BANBARO_LIGHTBOWGUN_10",
+      "weaponId": 852,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BANBARO_LIGHTBOWGUN_10",
+      "weaponId": 852,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BANBARO_LIGHTBOWGUN_10",
+      "weaponId": 852,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BANBARO_LIGHTBOWGUN_10",
+      "weaponId": 852,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    }
+  ]
+}

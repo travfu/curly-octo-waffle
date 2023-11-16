@@ -1,0 +1,250 @@
+{
+  "target": "BARROTH_LIGHTBOWGUN_4",
+  "weaponId": 323,
+  "category": "WEAPON_TYPE2_LIGHT_BOWGUN",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w13_066",
+  "grade": 4,
+  "series": "SERIES_BARROTH",
+  "seriesId": 13,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 510070,
+  "normalSkill": [
+    {
+      "skillLevelSettingId": 301,
+      "normalSkillKind": "DEFENSE_BOOST",
+      "skillLevel": 1
+    }
+  ],
+  "specialSkill": {
+    "skillLevelSettingId": 5401,
+    "specialSkillKind": "SPECIAL_ATTACK_LIGHTBOWGUN",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "BARROTH_LIGHTBOWGUN_4",
+      "weaponId": 323,
+      "level": 1,
+      "attack": 329
+    },
+    {
+      "target": "BARROTH_LIGHTBOWGUN_4",
+      "weaponId": 323,
+      "level": 2,
+      "attack": 353
+    },
+    {
+      "target": "BARROTH_LIGHTBOWGUN_4",
+      "weaponId": 323,
+      "level": 3,
+      "attack": 376
+    },
+    {
+      "target": "BARROTH_LIGHTBOWGUN_4",
+      "weaponId": 323,
+      "level": 4,
+      "attack": 400
+    },
+    {
+      "target": "BARROTH_LIGHTBOWGUN_4",
+      "weaponId": 323,
+      "level": 5,
+      "attack": 424
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "BARROTH_LIGHTBOWGUN_4",
+      "weaponId": 323,
+      "craftMaterialSettingsId": 91,
+      "upgrade": {
+        "base": "BARROTH_LIGHTBOWGUN_3",
+        "baseWeaponId": 70
+      },
+      "_materials": {
+        "id": 91,
+        "zenny": 900,
+        "userItem": [
+          {
+            "id": 2044002,
+            "num": 8
+          },
+          {
+            "id": 2044004,
+            "num": 4
+          },
+          {
+            "id": 2044007,
+            "num": 2
+          },
+          {
+            "id": 1020002,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARROTH_LIGHTBOWGUN_4",
+      "weaponId": 323,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 92,
+      "_materials": {
+        "id": 92,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2044002,
+            "num": 8
+          },
+          {
+            "id": 2101101,
+            "num": 24
+          },
+          {
+            "id": 1020001,
+            "num": 16
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARROTH_LIGHTBOWGUN_4",
+      "weaponId": 323,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 93,
+      "_materials": {
+        "id": 93,
+        "zenny": 450,
+        "userItem": [
+          {
+            "id": 2044002,
+            "num": 8
+          },
+          {
+            "id": 2044003,
+            "num": 9
+          },
+          {
+            "id": 1140003,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARROTH_LIGHTBOWGUN_4",
+      "weaponId": 323,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 94,
+      "_materials": {
+        "id": 94,
+        "zenny": 600,
+        "userItem": [
+          {
+            "id": 2044002,
+            "num": 8
+          },
+          {
+            "id": 2101101,
+            "num": 24
+          },
+          {
+            "id": 1020001,
+            "num": 16
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARROTH_LIGHTBOWGUN_4",
+      "weaponId": 323,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 95,
+      "_materials": {
+        "id": 95,
+        "zenny": 750,
+        "userItem": [
+          {
+            "id": 2044002,
+            "num": 8
+          },
+          {
+            "id": 1020003,
+            "num": 3
+          },
+          {
+            "id": 1140002,
+            "num": 12
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARROTH_LIGHTBOWGUN_4",
+      "weaponId": 323,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 566,
+      "_materials": {
+        "id": 566,
+        "zenny": 1500,
+        "userItem": [
+          {
+            "id": 2044002,
+            "num": 12
+          },
+          {
+            "id": 2044004,
+            "num": 6
+          },
+          {
+            "id": 2044007,
+            "num": 4
+          },
+          {
+            "id": 1020002,
+            "num": 10
+          }
+        ]
+      }
+    }
+  ],
+  "_bowgun": {
+    "target": "BARROTH_LIGHTBOWGUN_4",
+    "weaponId": 323,
+    "ammoProperty": [
+      {
+        "capacity": 4,
+        "recoilType": "RECOIL_MEDIUM",
+        "reloadType": "RELOAD_MEDIUM",
+        "bowgunAmmoSettingsId": 101,
+        "_ammo": {
+          "id": 101,
+          "ammoType": "NORMAL",
+          "elementType": "NO_ELEMENT",
+          "level": 1,
+          "htmlColorCode": "#FFFFFF"
+        }
+      },
+      {
+        "capacity": 3,
+        "recoilType": "RECOIL_LARGE",
+        "reloadType": "RELOAD_LARGE",
+        "bowgunAmmoSettingsId": 301,
+        "_ammo": {
+          "id": 301,
+          "ammoType": "SPREAD",
+          "elementType": "NO_ELEMENT",
+          "level": 1,
+          "iconId": 1,
+          "htmlColorCode": "#AEAEAE"
+        }
+      }
+    ]
+  }
+}

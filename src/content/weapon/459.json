@@ -1,0 +1,222 @@
+{
+  "target": "DIABLOS_HAMMER_7",
+  "weaponId": 459,
+  "category": "WEAPON_TYPE2_HAMMER",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w04_064",
+  "grade": 7,
+  "series": "SERIES_DIABLOS",
+  "seriesId": 11,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 310140,
+  "specialSkill": {
+    "skillLevelSettingId": 5302,
+    "specialSkillKind": "SPECIAL_ATTACK_HAMMER",
+    "skillLevel": 2
+  },
+  "_levels": [
+    {
+      "target": "DIABLOS_HAMMER_7",
+      "weaponId": 459,
+      "level": 1,
+      "attack": 880
+    },
+    {
+      "target": "DIABLOS_HAMMER_7",
+      "weaponId": 459,
+      "level": 2,
+      "attack": 923
+    },
+    {
+      "target": "DIABLOS_HAMMER_7",
+      "weaponId": 459,
+      "level": 3,
+      "attack": 967
+    },
+    {
+      "target": "DIABLOS_HAMMER_7",
+      "weaponId": 459,
+      "level": 4,
+      "attack": 1010
+    },
+    {
+      "target": "DIABLOS_HAMMER_7",
+      "weaponId": 459,
+      "level": 5,
+      "attack": 1054
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "DIABLOS_HAMMER_7",
+      "weaponId": 459,
+      "craftMaterialSettingsId": 871,
+      "upgrade": {
+        "base": "DIABLOS_HAMMER_6",
+        "baseWeaponId": 458
+      },
+      "_materials": {
+        "id": 871,
+        "zenny": 6000,
+        "userItem": [
+          {
+            "id": 2007003,
+            "num": 24
+          },
+          {
+            "id": 2007009,
+            "num": 12
+          },
+          {
+            "id": 2007005,
+            "num": 3
+          },
+          {
+            "id": 3001018,
+            "num": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "DIABLOS_HAMMER_7",
+      "weaponId": 459,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 872,
+      "_materials": {
+        "id": 872,
+        "zenny": 2000,
+        "userItem": [
+          {
+            "id": 2007003,
+            "num": 24
+          },
+          {
+            "id": 2101101,
+            "num": 51
+          },
+          {
+            "id": 1020001,
+            "num": 42
+          },
+          {
+            "id": 2044003,
+            "num": 6
+          }
+        ]
+      }
+    },
+    {
+      "target": "DIABLOS_HAMMER_7",
+      "weaponId": 459,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 873,
+      "_materials": {
+        "id": 873,
+        "zenny": 3000,
+        "userItem": [
+          {
+            "id": 2007003,
+            "num": 24
+          },
+          {
+            "id": 2007004,
+            "num": 30
+          },
+          {
+            "id": 2007002,
+            "num": 20
+          },
+          {
+            "id": 1140003,
+            "num": 31
+          }
+        ]
+      }
+    },
+    {
+      "target": "DIABLOS_HAMMER_7",
+      "weaponId": 459,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 874,
+      "_materials": {
+        "id": 874,
+        "zenny": 4000,
+        "userItem": [
+          {
+            "id": 2007003,
+            "num": 24
+          },
+          {
+            "id": 2101101,
+            "num": 51
+          },
+          {
+            "id": 1020001,
+            "num": 42
+          },
+          {
+            "id": 2044004,
+            "num": 6
+          }
+        ]
+      }
+    },
+    {
+      "target": "DIABLOS_HAMMER_7",
+      "weaponId": 459,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 875,
+      "_materials": {
+        "id": 875,
+        "zenny": 5000,
+        "userItem": [
+          {
+            "id": 2007003,
+            "num": 24
+          },
+          {
+            "id": 1020002,
+            "num": 30
+          },
+          {
+            "id": 1020003,
+            "num": 11
+          },
+          {
+            "id": 1140002,
+            "num": 31
+          }
+        ]
+      }
+    },
+    {
+      "target": "DIABLOS_HAMMER_7",
+      "weaponId": 459,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 876,
+      "_materials": {
+        "id": 876,
+        "zenny": 12000,
+        "userItem": [
+          {
+            "id": 2007005,
+            "num": 5
+          },
+          {
+            "id": 1110004,
+            "num": 4
+          },
+          {
+            "id": 3001018,
+            "num": 5
+          }
+        ]
+      }
+    }
+  ]
+}

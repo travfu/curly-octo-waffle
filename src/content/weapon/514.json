@@ -1,0 +1,273 @@
+{
+  "target": "PUKEIPUKEI_BOW_7",
+  "weaponId": 514,
+  "category": "WEAPON_TYPE2_BOW",
+  "elementType": "POISON",
+  "assetKey": "w_w11_076",
+  "grade": 7,
+  "series": "SERIES_PUKEIPUKEI",
+  "seriesId": 6,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 610060,
+  "specialSkill": {
+    "skillLevelSettingId": 5502,
+    "specialSkillKind": "SPECIAL_ATTACK_BOW",
+    "skillLevel": 2
+  },
+  "_levels": [
+    {
+      "target": "PUKEIPUKEI_BOW_7",
+      "weaponId": 514,
+      "level": 1,
+      "attack": 727,
+      "elementAttack": 325
+    },
+    {
+      "target": "PUKEIPUKEI_BOW_7",
+      "weaponId": 514,
+      "level": 2,
+      "attack": 763,
+      "elementAttack": 329
+    },
+    {
+      "target": "PUKEIPUKEI_BOW_7",
+      "weaponId": 514,
+      "level": 3,
+      "attack": 799,
+      "elementAttack": 333
+    },
+    {
+      "target": "PUKEIPUKEI_BOW_7",
+      "weaponId": 514,
+      "level": 4,
+      "attack": 835,
+      "elementAttack": 337
+    },
+    {
+      "target": "PUKEIPUKEI_BOW_7",
+      "weaponId": 514,
+      "level": 5,
+      "attack": 871,
+      "elementAttack": 342
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "PUKEIPUKEI_BOW_7",
+      "weaponId": 514,
+      "craftMaterialSettingsId": 541,
+      "upgrade": {
+        "base": "PUKEIPUKEI_BOW_6",
+        "baseWeaponId": 513
+      },
+      "_materials": {
+        "id": 541,
+        "zenny": 6000,
+        "userItem": [
+          {
+            "id": 2102001,
+            "num": 24
+          },
+          {
+            "id": 2102008,
+            "num": 12
+          },
+          {
+            "id": 2102009,
+            "num": 3
+          },
+          {
+            "id": 3001018,
+            "num": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "PUKEIPUKEI_BOW_7",
+      "weaponId": 514,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 542,
+      "_materials": {
+        "id": 542,
+        "zenny": 2000,
+        "userItem": [
+          {
+            "id": 2102001,
+            "num": 24
+          },
+          {
+            "id": 2101101,
+            "num": 51
+          },
+          {
+            "id": 1010001,
+            "num": 42
+          },
+          {
+            "id": 2001004,
+            "num": 6
+          }
+        ]
+      }
+    },
+    {
+      "target": "PUKEIPUKEI_BOW_7",
+      "weaponId": 514,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 543,
+      "_materials": {
+        "id": 543,
+        "zenny": 3000,
+        "userItem": [
+          {
+            "id": 2102001,
+            "num": 24
+          },
+          {
+            "id": 2102003,
+            "num": 30
+          },
+          {
+            "id": 2102004,
+            "num": 20
+          },
+          {
+            "id": 1130002,
+            "num": 31
+          }
+        ]
+      }
+    },
+    {
+      "target": "PUKEIPUKEI_BOW_7",
+      "weaponId": 514,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 544,
+      "_materials": {
+        "id": 544,
+        "zenny": 4000,
+        "userItem": [
+          {
+            "id": 2102001,
+            "num": 24
+          },
+          {
+            "id": 2101101,
+            "num": 51
+          },
+          {
+            "id": 1010001,
+            "num": 42
+          },
+          {
+            "id": 2001003,
+            "num": 6
+          }
+        ]
+      }
+    },
+    {
+      "target": "PUKEIPUKEI_BOW_7",
+      "weaponId": 514,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 545,
+      "_materials": {
+        "id": 545,
+        "zenny": 5000,
+        "userItem": [
+          {
+            "id": 2102001,
+            "num": 24
+          },
+          {
+            "id": 1010002,
+            "num": 30
+          },
+          {
+            "id": 1010003,
+            "num": 11
+          },
+          {
+            "id": 1140002,
+            "num": 31
+          }
+        ]
+      }
+    },
+    {
+      "target": "PUKEIPUKEI_BOW_7",
+      "weaponId": 514,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 546,
+      "_materials": {
+        "id": 546,
+        "zenny": 12000,
+        "userItem": [
+          {
+            "id": 2102009,
+            "num": 5
+          },
+          {
+            "id": 1110004,
+            "num": 4
+          },
+          {
+            "id": 3001018,
+            "num": 5
+          }
+        ]
+      }
+    }
+  ],
+  "_bow": {
+    "target": "PUKEIPUKEI_BOW_7",
+    "weaponId": 514,
+    "bowArrowKind": [
+      "ARROW_RAPID_01",
+      "ARROW_RAPID_02",
+      "ARROW_RAPID_03",
+      "ARROW_SPREAD_04"
+    ],
+    "bowArrowSettingId": [
+      101,
+      102,
+      103,
+      204
+    ],
+    "_arrows": [
+      {
+        "bowArrowKind": "ARROW_RAPID_01",
+        "settingId": 101,
+        "arrowType": "RAPID",
+        "level": 1,
+        "nameLocalizationKey": "BowArrow/ARROW_RAPID_01"
+      },
+      {
+        "bowArrowKind": "ARROW_RAPID_02",
+        "settingId": 102,
+        "arrowType": "RAPID",
+        "level": 2,
+        "nameLocalizationKey": "BowArrow/ARROW_RAPID_02"
+      },
+      {
+        "bowArrowKind": "ARROW_RAPID_03",
+        "settingId": 103,
+        "arrowType": "RAPID",
+        "level": 3,
+        "nameLocalizationKey": "BowArrow/ARROW_RAPID_03"
+      },
+      {
+        "bowArrowKind": "ARROW_SPREAD_04",
+        "settingId": 204,
+        "arrowType": "SPREAD",
+        "level": 4,
+        "nameLocalizationKey": "BowArrow/ARROW_SPREAD_04"
+      }
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "target": "ORE_HAMMER_8",
+  "weaponId": 383,
+  "category": "WEAPON_TYPE2_HAMMER",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w04_013",
+  "grade": 8,
+  "series": "SERIES_ORE",
+  "seriesId": 1,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 310010,
+  "normalSkill": [
+    {
+      "skillLevelSettingId": 502,
+      "normalSkillKind": "POISON_RESISTANCE",
+      "skillLevel": 2
+    }
+  ],
+  "specialSkill": {
+    "skillLevelSettingId": 5303,
+    "specialSkillKind": "SPECIAL_ATTACK_HAMMER",
+    "skillLevel": 3
+  },
+  "_levels": [
+    {
+      "target": "ORE_HAMMER_8",
+      "weaponId": 383,
+      "level": 1,
+      "attack": 945
+    },
+    {
+      "target": "ORE_HAMMER_8",
+      "weaponId": 383,
+      "level": 2,
+      "attack": 992
+    },
+    {
+      "target": "ORE_HAMMER_8",
+      "weaponId": 383,
+      "level": 3,
+      "attack": 1038
+    },
+    {
+      "target": "ORE_HAMMER_8",
+      "weaponId": 383,
+      "level": 4,
+      "attack": 1085
+    },
+    {
+      "target": "ORE_HAMMER_8",
+      "weaponId": 383,
+      "level": 5,
+      "attack": 1132
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "ORE_HAMMER_8",
+      "weaponId": 383,
+      "craftMaterialSettingsId": 456,
+      "upgrade": {
+        "base": "ORE_HAMMER_7",
+        "baseWeaponId": 382
+      },
+      "_materials": {
+        "id": 456,
+        "zenny": 12000,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 50
+          },
+          {
+            "id": 1110004,
+            "num": 4
+          },
+          {
+            "id": 1010003,
+            "num": 40
+          },
+          {
+            "id": 3001018,
+            "num": 5
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_HAMMER_8",
+      "weaponId": 383,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 457,
+      "_materials": {
+        "id": 457,
+        "zenny": 4000,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 50
+          },
+          {
+            "id": 2101101,
+            "num": 60
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_HAMMER_8",
+      "weaponId": 383,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 458,
+      "_materials": {
+        "id": 458,
+        "zenny": 6000,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 50
+          },
+          {
+            "id": 1110004,
+            "num": 4
+          },
+          {
+            "id": 1010002,
+            "num": 50
+          },
+          {
+            "id": 1140003,
+            "num": 40
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_HAMMER_8",
+      "weaponId": 383,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 459,
+      "_materials": {
+        "id": 459,
+        "zenny": 8000,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 50
+          },
+          {
+            "id": 2101101,
+            "num": 60
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_HAMMER_8",
+      "weaponId": 383,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 460,
+      "_materials": {
+        "id": 460,
+        "zenny": 10000,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 100
+          },
+          {
+            "id": 1110004,
+            "num": 4
+          },
+          {
+            "id": 1010004,
+            "num": 50
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_HAMMER_8",
+      "weaponId": 383,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 461,
+      "_materials": {
+        "id": 461,
+        "zenny": 30000,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 50
+          },
+          {
+            "id": 1110004,
+            "num": 6
+          },
+          {
+            "id": 1010003,
+            "num": 50
+          },
+          {
+            "id": 3001018,
+            "num": 7
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "target": "LEGIANA_BOW_6",
+  "weaponId": 534,
+  "category": "WEAPON_TYPE2_BOW",
+  "elementType": "ICE",
+  "assetKey": "w_w11_056",
+  "grade": 6,
+  "series": "SERIES_LEGIANA",
+  "seriesId": 10,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 610130,
+  "normalSkill": [
+    {
+      "skillLevelSettingId": 2201,
+      "normalSkillKind": "DIVINE_BLESSING",
+      "skillLevel": 1
+    }
+  ],
+  "specialSkill": {
+    "skillLevelSettingId": 5502,
+    "specialSkillKind": "SPECIAL_ATTACK_BOW",
+    "skillLevel": 2
+  },
+  "_levels": [
+    {
+      "target": "LEGIANA_BOW_6",
+      "weaponId": 534,
+      "level": 1,
+      "attack": 461,
+      "elementAttack": 320
+    },
+    {
+      "target": "LEGIANA_BOW_6",
+      "weaponId": 534,
+      "level": 2,
+      "attack": 484,
+      "elementAttack": 341
+    },
+    {
+      "target": "LEGIANA_BOW_6",
+      "weaponId": 534,
+      "level": 3,
+      "attack": 507,
+      "elementAttack": 361
+    },
+    {
+      "target": "LEGIANA_BOW_6",
+      "weaponId": 534,
+      "level": 4,
+      "attack": 530,
+      "elementAttack": 382
+    },
+    {
+      "target": "LEGIANA_BOW_6",
+      "weaponId": 534,
+      "level": 5,
+      "attack": 553,
+      "elementAttack": 402
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "LEGIANA_BOW_6",
+      "weaponId": 534,
+      "craftMaterialSettingsId": 786,
+      "upgrade": {
+        "base": "LEGIANA_BOW_5",
+        "baseWeaponId": 533
+      },
+      "_materials": {
+        "id": 786,
+        "zenny": 3000,
+        "userItem": [
+          {
+            "id": 2111001,
+            "num": 18
+          },
+          {
+            "id": 2111009,
+            "num": 6
+          },
+          {
+            "id": 2111005,
+            "num": 2
+          },
+          {
+            "id": 3001018,
+            "num": 1
+          }
+        ]
+      }
+    },
+    {
+      "target": "LEGIANA_BOW_6",
+      "weaponId": 534,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 787,
+      "_materials": {
+        "id": 787,
+        "zenny": 1000,
+        "userItem": [
+          {
+            "id": 2111001,
+            "num": 18
+          },
+          {
+            "id": 2101101,
+            "num": 44
+          },
+          {
+            "id": 1010001,
+            "num": 32
+          },
+          {
+            "id": 2110003,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "LEGIANA_BOW_6",
+      "weaponId": 534,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 788,
+      "_materials": {
+        "id": 788,
+        "zenny": 1500,
+        "userItem": [
+          {
+            "id": 2111001,
+            "num": 18
+          },
+          {
+            "id": 2111003,
+            "num": 20
+          },
+          {
+            "id": 2111004,
+            "num": 15
+          },
+          {
+            "id": 1040003,
+            "num": 20
+          }
+        ]
+      }
+    },
+    {
+      "target": "LEGIANA_BOW_6",
+      "weaponId": 534,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 789,
+      "_materials": {
+        "id": 789,
+        "zenny": 2000,
+        "userItem": [
+          {
+            "id": 2111001,
+            "num": 18
+          },
+          {
+            "id": 2101101,
+            "num": 44
+          },
+          {
+            "id": 1010001,
+            "num": 32
+          },
+          {
+            "id": 2110004,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "LEGIANA_BOW_6",
+      "weaponId": 534,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 790,
+      "_materials": {
+        "id": 790,
+        "zenny": 2500,
+        "userItem": [
+          {
+            "id": 2111001,
+            "num": 18
+          },
+          {
+            "id": 1010002,
+            "num": 20
+          },
+          {
+            "id": 1010003,
+            "num": 7
+          },
+          {
+            "id": 1010004,
+            "num": 20
+          }
+        ]
+      }
+    },
+    {
+      "target": "LEGIANA_BOW_6",
+      "weaponId": 534,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 791,
+      "_materials": {
+        "id": 791,
+        "zenny": 6000,
+        "userItem": [
+          {
+            "id": 2111001,
+            "num": 24
+          },
+          {
+            "id": 2111009,
+            "num": 12
+          },
+          {
+            "id": 2111005,
+            "num": 3
+          },
+          {
+            "id": 3001018,
+            "num": 3
+          }
+        ]
+      }
+    }
+  ],
+  "_bow": {
+    "target": "LEGIANA_BOW_6",
+    "weaponId": 534,
+    "bowArrowKind": [
+      "ARROW_PIERCE_01",
+      "ARROW_PIERCE_02",
+      "ARROW_RAPID_03",
+      "ARROW_RAPID_04"
+    ],
+    "bowArrowSettingId": [
+      301,
+      302,
+      103,
+      104
+    ],
+    "_arrows": [
+      {
+        "bowArrowKind": "ARROW_PIERCE_01",
+        "settingId": 301,
+        "arrowType": "PIERCE",
+        "level": 1,
+        "nameLocalizationKey": "BowArrow/ARROW_PIERCE_01"
+      },
+      {
+        "bowArrowKind": "ARROW_PIERCE_02",
+        "settingId": 302,
+        "arrowType": "PIERCE",
+        "level": 2,
+        "nameLocalizationKey": "BowArrow/ARROW_PIERCE_02"
+      },
+      {
+        "bowArrowKind": "ARROW_RAPID_03",
+        "settingId": 103,
+        "arrowType": "RAPID",
+        "level": 3,
+        "nameLocalizationKey": "BowArrow/ARROW_RAPID_03"
+      },
+      {
+        "bowArrowKind": "ARROW_RAPID_04",
+        "settingId": 104,
+        "arrowType": "RAPID",
+        "level": 4,
+        "nameLocalizationKey": "BowArrow/ARROW_RAPID_04"
+      }
+    ]
+  }
+}

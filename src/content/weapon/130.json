@@ -1,0 +1,199 @@
+{
+  "target": "ANJANATH_HAMMER_3",
+  "weaponId": 130,
+  "category": "WEAPON_TYPE2_HAMMER",
+  "elementType": "FIRE",
+  "assetKey": "w_w04_073",
+  "grade": 3,
+  "series": "SERIES_ANJANATH",
+  "seriesId": 14,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 310110,
+  "specialSkill": {
+    "skillLevelSettingId": 5301,
+    "specialSkillKind": "SPECIAL_ATTACK_HAMMER",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "ANJANATH_HAMMER_3",
+      "weaponId": 130,
+      "level": 1,
+      "attack": 182,
+      "elementAttack": 75
+    },
+    {
+      "target": "ANJANATH_HAMMER_3",
+      "weaponId": 130,
+      "level": 2,
+      "attack": 196,
+      "elementAttack": 82
+    },
+    {
+      "target": "ANJANATH_HAMMER_3",
+      "weaponId": 130,
+      "level": 3,
+      "attack": 209,
+      "elementAttack": 89
+    },
+    {
+      "target": "ANJANATH_HAMMER_3",
+      "weaponId": 130,
+      "level": 4,
+      "attack": 222,
+      "elementAttack": 96
+    },
+    {
+      "target": "ANJANATH_HAMMER_3",
+      "weaponId": 130,
+      "level": 5,
+      "attack": 236,
+      "elementAttack": 103
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "ANJANATH_HAMMER_3",
+      "weaponId": 130,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_HAMMER_3",
+      "weaponId": 130,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 117,
+      "_materials": {
+        "id": 117,
+        "zenny": 200,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 5
+          },
+          {
+            "id": 2101101,
+            "num": 12
+          },
+          {
+            "id": 1020001,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_HAMMER_3",
+      "weaponId": 130,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 118,
+      "_materials": {
+        "id": 118,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 5
+          },
+          {
+            "id": 2100003,
+            "num": 6
+          },
+          {
+            "id": 1040001,
+            "num": 5
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_HAMMER_3",
+      "weaponId": 130,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 119,
+      "_materials": {
+        "id": 119,
+        "zenny": 400,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 5
+          },
+          {
+            "id": 2101101,
+            "num": 12
+          },
+          {
+            "id": 1020001,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_HAMMER_3",
+      "weaponId": 130,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 120,
+      "_materials": {
+        "id": 120,
+        "zenny": 500,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 5
+          },
+          {
+            "id": 1020003,
+            "num": 2
+          },
+          {
+            "id": 1020004,
+            "num": 6
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_HAMMER_3",
+      "weaponId": 130,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 121,
+      "_materials": {
+        "id": 121,
+        "zenny": 900,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 4
+          },
+          {
+            "id": 2100004,
+            "num": 2
+          },
+          {
+            "id": 2100009,
+            "num": 2
+          },
+          {
+            "id": 1020002,
+            "num": 8
+          }
+        ]
+      }
+    }
+  ]
+}
