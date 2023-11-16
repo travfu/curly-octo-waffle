@@ -203,6 +203,13 @@
       }
     }
   ],
+  "_series": {
+    "series": "SERIES_AZURE_RATHALOS",
+    "seriesId": 19,
+    "numRequiredArmor": 40,
+    "sortOrder": 10170,
+    "monsterSettingId": 26
+  },
   "_bowgun": {
     "target": "AZURE_RATHALOS_LIGHTBOWGUN_10",
     "weaponId": 630,

@@ -208,6 +208,13 @@
       }
     }
   ],
+  "_series": {
+    "series": "SERIES_TOBIKADACHI",
+    "seriesId": 8,
+    "numRequiredArmor": 10,
+    "sortOrder": 10090,
+    "monsterSettingId": 5
+  },
   "_bow": {
     "target": "TOBIKADACHI_BOW_3",
     "weaponId": 174,

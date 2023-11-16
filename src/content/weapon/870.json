@@ -139,5 +139,12 @@
         ]
       }
     }
-  ]
+  ],
+  "_series": {
+    "series": "SERIES_RADOBAAN",
+    "seriesId": 22,
+    "numRequiredArmor": 15,
+    "sortOrder": 10200,
+    "monsterSettingId": 31
+  }
 }

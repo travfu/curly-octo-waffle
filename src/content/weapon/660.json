@@ -202,5 +202,12 @@
         ]
       }
     }
-  ]
+  ],
+  "_series": {
+    "series": "SERIES_BLACK_DIABLOS",
+    "seriesId": 20,
+    "numRequiredArmor": 40,
+    "sortOrder": 10180,
+    "monsterSettingId": 27
+  }
 }

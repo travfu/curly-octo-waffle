@@ -175,5 +175,11 @@
         ]
       }
     }
-  ]
+  ],
+  "_series": {
+    "series": "SERIES_PUKEIPUKEI",
+    "seriesId": 6,
+    "sortOrder": 10060,
+    "monsterSettingId": 3
+  }
 }

@@ -212,6 +212,12 @@
       }
     }
   ],
+  "_series": {
+    "series": "SERIES_PUKEIPUKEI",
+    "seriesId": 6,
+    "sortOrder": 10060,
+    "monsterSettingId": 3
+  },
   "_bow": {
     "target": "PUKEIPUKEI_BOW_4",
     "weaponId": 167,

@@ -230,5 +230,11 @@
         ]
       }
     }
-  ]
+  ],
+  "_series": {
+    "series": "SERIES_GREATJAGRAS",
+    "seriesId": 5,
+    "sortOrder": 10040,
+    "monsterSettingId": 1
+  }
 }

@@ -174,5 +174,12 @@
         ]
       }
     }
-  ]
+  ],
+  "_series": {
+    "series": "SERIES_PINK_RATHIAN",
+    "seriesId": 18,
+    "numRequiredArmor": 40,
+    "sortOrder": 10160,
+    "monsterSettingId": 25
+  }
 }

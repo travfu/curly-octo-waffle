@@ -201,6 +201,13 @@
       }
     }
   ],
+  "_series": {
+    "series": "SERIES_TOBIKADACHI",
+    "seriesId": 8,
+    "numRequiredArmor": 10,
+    "sortOrder": 10090,
+    "monsterSettingId": 5
+  },
   "_bowgun": {
     "target": "TOBIKADACHI_LIGHTBOWGUN_2",
     "weaponId": 72,

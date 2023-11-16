@@ -203,5 +203,11 @@
         ]
       }
     }
-  ]
+  ],
+  "_series": {
+    "series": "SERIES_KULUYAKU",
+    "seriesId": 3,
+    "sortOrder": 10050,
+    "monsterSettingId": 2
+  }
 }

@@ -222,6 +222,12 @@
       }
     }
   ],
+  "_series": {
+    "series": "SERIES_BARROTH",
+    "seriesId": 13,
+    "sortOrder": 10070,
+    "monsterSettingId": 4
+  },
   "_bowgun": {
     "target": "BARROTH_LIGHTBOWGUN_9",
     "weaponId": 328,

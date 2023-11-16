@@ -226,5 +226,12 @@
         ]
       }
     }
-  ]
+  ],
+  "_series": {
+    "series": "SERIES_GREATGIRROS",
+    "seriesId": 4,
+    "numRequiredArmor": 10,
+    "sortOrder": 10080,
+    "monsterSettingId": 21
+  }
 }

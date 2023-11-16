@@ -227,6 +227,13 @@
       }
     }
   ],
+  "_series": {
+    "series": "SERIES_LEGIANA",
+    "seriesId": 10,
+    "numRequiredArmor": 30,
+    "sortOrder": 10130,
+    "monsterSettingId": 7
+  },
   "_bow": {
     "target": "LEGIANA_BOW_9",
     "weaponId": 537,
