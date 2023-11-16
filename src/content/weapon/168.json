@@ -1,0 +1,225 @@
+{
+  "target": "KULUYAKU_BOW_1",
+  "weaponId": 168,
+  "category": "WEAPON_TYPE2_BOW",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w11_030",
+  "grade": 1,
+  "series": "SERIES_KULUYAKU",
+  "seriesId": 3,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 610050,
+  "_levels": [
+    {
+      "target": "KULUYAKU_BOW_1",
+      "weaponId": 168,
+      "level": 1,
+      "attack": 100,
+      "critical": 5
+    },
+    {
+      "target": "KULUYAKU_BOW_1",
+      "weaponId": 168,
+      "level": 2,
+      "attack": 107,
+      "critical": 5
+    },
+    {
+      "target": "KULUYAKU_BOW_1",
+      "weaponId": 168,
+      "level": 3,
+      "attack": 115,
+      "critical": 5
+    },
+    {
+      "target": "KULUYAKU_BOW_1",
+      "weaponId": 168,
+      "level": 4,
+      "attack": 122,
+      "critical": 5
+    },
+    {
+      "target": "KULUYAKU_BOW_1",
+      "weaponId": 168,
+      "level": 5,
+      "attack": 129,
+      "critical": 5
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "KULUYAKU_BOW_1",
+      "weaponId": 168,
+      "create": true,
+      "craftMaterialSettingsId": 41,
+      "_materials": {
+        "id": 41,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 2107001,
+            "num": 2
+          },
+          {
+            "id": 1020001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_BOW_1",
+      "weaponId": 168,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 42,
+      "_materials": {
+        "id": 42,
+        "zenny": 20,
+        "userItem": [
+          {
+            "id": 2107001,
+            "num": 2
+          },
+          {
+            "id": 2101101,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_BOW_1",
+      "weaponId": 168,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 43,
+      "_materials": {
+        "id": 43,
+        "zenny": 30,
+        "userItem": [
+          {
+            "id": 2107001,
+            "num": 2
+          },
+          {
+            "id": 2107003,
+            "num": 1
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_BOW_1",
+      "weaponId": 168,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 44,
+      "_materials": {
+        "id": 44,
+        "zenny": 40,
+        "userItem": [
+          {
+            "id": 2107001,
+            "num": 2
+          },
+          {
+            "id": 2101101,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_BOW_1",
+      "weaponId": 168,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 45,
+      "_materials": {
+        "id": 45,
+        "zenny": 50,
+        "userItem": [
+          {
+            "id": 2107001,
+            "num": 2
+          },
+          {
+            "id": 1020001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_BOW_1",
+      "weaponId": 168,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 46,
+      "_materials": {
+        "id": 46,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2107001,
+            "num": 3
+          },
+          {
+            "id": 2107004,
+            "num": 1
+          },
+          {
+            "id": 1020002,
+            "num": 1
+          }
+        ]
+      }
+    }
+  ],
+  "_bow": {
+    "target": "KULUYAKU_BOW_1",
+    "weaponId": 168,
+    "bowArrowKind": [
+      "ARROW_RAPID_01",
+      "ARROW_RAPID_02",
+      "ARROW_RAPID_03",
+      "ARROW_PIERCE_04"
+    ],
+    "bowArrowSettingId": [
+      101,
+      102,
+      103,
+      304
+    ],
+    "_arrows": [
+      {
+        "bowArrowKind": "ARROW_RAPID_01",
+        "settingId": 101,
+        "arrowType": "RAPID",
+        "level": 1,
+        "nameLocalizationKey": "BowArrow/ARROW_RAPID_01"
+      },
+      {
+        "bowArrowKind": "ARROW_RAPID_02",
+        "settingId": 102,
+        "arrowType": "RAPID",
+        "level": 2,
+        "nameLocalizationKey": "BowArrow/ARROW_RAPID_02"
+      },
+      {
+        "bowArrowKind": "ARROW_RAPID_03",
+        "settingId": 103,
+        "arrowType": "RAPID",
+        "level": 3,
+        "nameLocalizationKey": "BowArrow/ARROW_RAPID_03"
+      },
+      {
+        "bowArrowKind": "ARROW_PIERCE_04",
+        "settingId": 304,
+        "arrowType": "PIERCE",
+        "level": 4,
+        "nameLocalizationKey": "BowArrow/ARROW_PIERCE_04"
+      }
+    ]
+  }
+}

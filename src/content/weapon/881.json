@@ -1,0 +1,159 @@
+{
+  "target": "KULUYAKU_DUALBLADES_2",
+  "weaponId": 881,
+  "category": "WEAPON_TYPE2_DUAL_BLADES",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w02_031",
+  "grade": 2,
+  "series": "SERIES_KULUYAKU",
+  "seriesId": 3,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 710050,
+  "specialSkill": {
+    "skillLevelSettingId": 5101,
+    "specialSkillKind": "SPECIAL_ATTACK_SWORDSHIELD",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "KULUYAKU_DUALBLADES_2",
+      "weaponId": 881,
+      "level": 1,
+      "attack": 144,
+      "critical": 10
+    },
+    {
+      "target": "KULUYAKU_DUALBLADES_2",
+      "weaponId": 881,
+      "level": 2,
+      "attack": 154,
+      "critical": 10
+    },
+    {
+      "target": "KULUYAKU_DUALBLADES_2",
+      "weaponId": 881,
+      "level": 3,
+      "attack": 165,
+      "critical": 10
+    },
+    {
+      "target": "KULUYAKU_DUALBLADES_2",
+      "weaponId": 881,
+      "level": 4,
+      "attack": 175,
+      "critical": 10
+    },
+    {
+      "target": "KULUYAKU_DUALBLADES_2",
+      "weaponId": 881,
+      "level": 5,
+      "attack": 186,
+      "critical": 10
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "KULUYAKU_DUALBLADES_2",
+      "weaponId": 881,
+      "craftMaterialSettingsId": 1,
+      "upgrade": {
+        "base": "KULUYAKU_DUALBLADES_1",
+        "baseWeaponId": 880
+      },
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_DUALBLADES_2",
+      "weaponId": 881,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_DUALBLADES_2",
+      "weaponId": 881,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_DUALBLADES_2",
+      "weaponId": 881,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_DUALBLADES_2",
+      "weaponId": 881,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_DUALBLADES_2",
+      "weaponId": 881,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    }
+  ]
+}

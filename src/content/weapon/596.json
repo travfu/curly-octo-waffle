@@ -1,0 +1,277 @@
+{
+  "target": "PINK_RATHIAN_BOW_6",
+  "weaponId": 596,
+  "category": "WEAPON_TYPE2_BOW",
+  "elementType": "DRAGON",
+  "assetKey": "w_w11_167",
+  "grade": 6,
+  "series": "SERIES_PINK_RATHIAN",
+  "seriesId": 18,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 610160,
+  "specialSkill": {
+    "skillLevelSettingId": 5502,
+    "specialSkillKind": "SPECIAL_ATTACK_BOW",
+    "skillLevel": 2
+  },
+  "_levels": [
+    {
+      "target": "PINK_RATHIAN_BOW_6",
+      "weaponId": 596,
+      "level": 1,
+      "attack": 475,
+      "elementAttack": 251
+    },
+    {
+      "target": "PINK_RATHIAN_BOW_6",
+      "weaponId": 596,
+      "level": 2,
+      "attack": 499,
+      "elementAttack": 267
+    },
+    {
+      "target": "PINK_RATHIAN_BOW_6",
+      "weaponId": 596,
+      "level": 3,
+      "attack": 522,
+      "elementAttack": 283
+    },
+    {
+      "target": "PINK_RATHIAN_BOW_6",
+      "weaponId": 596,
+      "level": 4,
+      "attack": 546,
+      "elementAttack": 300
+    },
+    {
+      "target": "PINK_RATHIAN_BOW_6",
+      "weaponId": 596,
+      "level": 5,
+      "attack": 569,
+      "elementAttack": 316
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "PINK_RATHIAN_BOW_6",
+      "weaponId": 596,
+      "craftMaterialSettingsId": 1466,
+      "upgrade": {
+        "base": "PINK_RATHIAN_BOW_5",
+        "baseWeaponId": 595
+      },
+      "_materials": {
+        "id": 1466,
+        "zenny": 3000,
+        "userItem": [
+          {
+            "id": 2001101,
+            "num": 18
+          },
+          {
+            "id": 2001105,
+            "num": 6
+          },
+          {
+            "id": 2001106,
+            "num": 2
+          },
+          {
+            "id": 3001018,
+            "num": 1
+          }
+        ]
+      }
+    },
+    {
+      "target": "PINK_RATHIAN_BOW_6",
+      "weaponId": 596,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1467,
+      "_materials": {
+        "id": 1467,
+        "zenny": 1000,
+        "userItem": [
+          {
+            "id": 2001101,
+            "num": 18
+          },
+          {
+            "id": 2101101,
+            "num": 44
+          },
+          {
+            "id": 1020001,
+            "num": 32
+          },
+          {
+            "id": 2001004,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "PINK_RATHIAN_BOW_6",
+      "weaponId": 596,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1468,
+      "_materials": {
+        "id": 1468,
+        "zenny": 1500,
+        "userItem": [
+          {
+            "id": 2001101,
+            "num": 18
+          },
+          {
+            "id": 2001103,
+            "num": 20
+          },
+          {
+            "id": 2001104,
+            "num": 15
+          },
+          {
+            "id": 1130002,
+            "num": 20
+          }
+        ]
+      }
+    },
+    {
+      "target": "PINK_RATHIAN_BOW_6",
+      "weaponId": 596,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1469,
+      "_materials": {
+        "id": 1469,
+        "zenny": 2000,
+        "userItem": [
+          {
+            "id": 2001101,
+            "num": 18
+          },
+          {
+            "id": 2101101,
+            "num": 44
+          },
+          {
+            "id": 1020001,
+            "num": 32
+          },
+          {
+            "id": 2001003,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "PINK_RATHIAN_BOW_6",
+      "weaponId": 596,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1470,
+      "_materials": {
+        "id": 1470,
+        "zenny": 2500,
+        "userItem": [
+          {
+            "id": 2001101,
+            "num": 18
+          },
+          {
+            "id": 1020002,
+            "num": 20
+          },
+          {
+            "id": 1020003,
+            "num": 7
+          },
+          {
+            "id": 1020004,
+            "num": 20
+          }
+        ]
+      }
+    },
+    {
+      "target": "PINK_RATHIAN_BOW_6",
+      "weaponId": 596,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 1471,
+      "_materials": {
+        "id": 1471,
+        "zenny": 6000,
+        "userItem": [
+          {
+            "id": 2001101,
+            "num": 24
+          },
+          {
+            "id": 2001105,
+            "num": 12
+          },
+          {
+            "id": 2001106,
+            "num": 3
+          },
+          {
+            "id": 3001018,
+            "num": 3
+          }
+        ]
+      }
+    }
+  ],
+  "_bow": {
+    "target": "PINK_RATHIAN_BOW_6",
+    "weaponId": 596,
+    "bowArrowKind": [
+      "ARROW_PIERCE_02",
+      "ARROW_PIERCE_03",
+      "ARROW_SPREAD_03",
+      "ARROW_SPREAD_04"
+    ],
+    "bowArrowSettingId": [
+      302,
+      303,
+      203,
+      204
+    ],
+    "_arrows": [
+      {
+        "bowArrowKind": "ARROW_PIERCE_02",
+        "settingId": 302,
+        "arrowType": "PIERCE",
+        "level": 2,
+        "nameLocalizationKey": "BowArrow/ARROW_PIERCE_02"
+      },
+      {
+        "bowArrowKind": "ARROW_PIERCE_03",
+        "settingId": 303,
+        "arrowType": "PIERCE",
+        "level": 3,
+        "nameLocalizationKey": "BowArrow/ARROW_PIERCE_03"
+      },
+      {
+        "bowArrowKind": "ARROW_SPREAD_03",
+        "settingId": 203,
+        "arrowType": "SPREAD",
+        "level": 3,
+        "nameLocalizationKey": "BowArrow/ARROW_SPREAD_03"
+      },
+      {
+        "bowArrowKind": "ARROW_SPREAD_04",
+        "settingId": 204,
+        "arrowType": "SPREAD",
+        "level": 4,
+        "nameLocalizationKey": "BowArrow/ARROW_SPREAD_04"
+      }
+    ]
+  }
+}

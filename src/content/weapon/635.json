@@ -1,0 +1,219 @@
+{
+  "target": "AZURE_RATHALOS_LONGSWORD_5",
+  "weaponId": 635,
+  "category": "WEAPON_TYPE2_LONG_SWORD",
+  "elementType": "FIRE",
+  "assetKey": "w_w03_039",
+  "grade": 5,
+  "series": "SERIES_AZURE_RATHALOS",
+  "seriesId": 19,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 410180,
+  "normalSkill": [
+    {
+      "skillLevelSettingId": 4301,
+      "normalSkillKind": "PEAK_PERFORMANCE",
+      "skillLevel": 1
+    }
+  ],
+  "specialSkill": {
+    "skillLevelSettingId": 5201,
+    "specialSkillKind": "SPECIAL_ATTACK_LONGSWORD",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "AZURE_RATHALOS_LONGSWORD_5",
+      "weaponId": 635,
+      "level": 1,
+      "attack": 440,
+      "elementAttack": 134
+    },
+    {
+      "target": "AZURE_RATHALOS_LONGSWORD_5",
+      "weaponId": 635,
+      "level": 2,
+      "attack": 462,
+      "elementAttack": 142
+    },
+    {
+      "target": "AZURE_RATHALOS_LONGSWORD_5",
+      "weaponId": 635,
+      "level": 3,
+      "attack": 484,
+      "elementAttack": 151
+    },
+    {
+      "target": "AZURE_RATHALOS_LONGSWORD_5",
+      "weaponId": 635,
+      "level": 4,
+      "attack": 506,
+      "elementAttack": 160
+    },
+    {
+      "target": "AZURE_RATHALOS_LONGSWORD_5",
+      "weaponId": 635,
+      "level": 5,
+      "attack": 528,
+      "elementAttack": 168
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "AZURE_RATHALOS_LONGSWORD_5",
+      "weaponId": 635,
+      "create": true,
+      "craftMaterialSettingsId": 1511,
+      "_materials": {
+        "id": 1511,
+        "zenny": 1500,
+        "userItem": [
+          {
+            "id": 2002101,
+            "num": 6
+          },
+          {
+            "id": 2002104,
+            "num": 2
+          },
+          {
+            "id": 2002105,
+            "num": 2
+          },
+          {
+            "id": 1010002,
+            "num": 10
+          }
+        ]
+      }
+    },
+    {
+      "target": "AZURE_RATHALOS_LONGSWORD_5",
+      "weaponId": 635,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1512,
+      "_materials": {
+        "id": 1512,
+        "zenny": 500,
+        "userItem": [
+          {
+            "id": 2002101,
+            "num": 12
+          },
+          {
+            "id": 2101101,
+            "num": 32
+          },
+          {
+            "id": 1010001,
+            "num": 24
+          }
+        ]
+      }
+    },
+    {
+      "target": "AZURE_RATHALOS_LONGSWORD_5",
+      "weaponId": 635,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1513,
+      "_materials": {
+        "id": 1513,
+        "zenny": 750,
+        "userItem": [
+          {
+            "id": 2002101,
+            "num": 12
+          },
+          {
+            "id": 2002103,
+            "num": 12
+          },
+          {
+            "id": 1040001,
+            "num": 15
+          }
+        ]
+      }
+    },
+    {
+      "target": "AZURE_RATHALOS_LONGSWORD_5",
+      "weaponId": 635,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1514,
+      "_materials": {
+        "id": 1514,
+        "zenny": 1000,
+        "userItem": [
+          {
+            "id": 2002101,
+            "num": 12
+          },
+          {
+            "id": 2101101,
+            "num": 32
+          },
+          {
+            "id": 1010001,
+            "num": 24
+          }
+        ]
+      }
+    },
+    {
+      "target": "AZURE_RATHALOS_LONGSWORD_5",
+      "weaponId": 635,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1515,
+      "_materials": {
+        "id": 1515,
+        "zenny": 1250,
+        "userItem": [
+          {
+            "id": 2002101,
+            "num": 12
+          },
+          {
+            "id": 1010003,
+            "num": 4
+          },
+          {
+            "id": 1010004,
+            "num": 16
+          }
+        ]
+      }
+    },
+    {
+      "target": "AZURE_RATHALOS_LONGSWORD_5",
+      "weaponId": 635,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 1516,
+      "_materials": {
+        "id": 1516,
+        "zenny": 3000,
+        "userItem": [
+          {
+            "id": 2002101,
+            "num": 18
+          },
+          {
+            "id": 2002105,
+            "num": 6
+          },
+          {
+            "id": 2002106,
+            "num": 2
+          },
+          {
+            "id": 3001018,
+            "num": 1
+          }
+        ]
+      }
+    }
+  ]
+}

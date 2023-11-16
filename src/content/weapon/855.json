@@ -1,0 +1,159 @@
+{
+  "target": "RADOBAAN_GREATSWORD_4",
+  "weaponId": 855,
+  "category": "WEAPON_TYPE2_GREAT_SWORD",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w00_074",
+  "grade": 4,
+  "series": "SERIES_RADOBAAN",
+  "seriesId": 22,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 210091,
+  "specialSkill": {
+    "skillLevelSettingId": 5001,
+    "specialSkillKind": "SPECIAL_ATTACK_GREATSWORD",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "RADOBAAN_GREATSWORD_4",
+      "weaponId": 855,
+      "level": 1,
+      "attack": 299,
+      "elementAttack": 200
+    },
+    {
+      "target": "RADOBAAN_GREATSWORD_4",
+      "weaponId": 855,
+      "level": 2,
+      "attack": 321,
+      "elementAttack": 208
+    },
+    {
+      "target": "RADOBAAN_GREATSWORD_4",
+      "weaponId": 855,
+      "level": 3,
+      "attack": 342,
+      "elementAttack": 217
+    },
+    {
+      "target": "RADOBAAN_GREATSWORD_4",
+      "weaponId": 855,
+      "level": 4,
+      "attack": 364,
+      "elementAttack": 225
+    },
+    {
+      "target": "RADOBAAN_GREATSWORD_4",
+      "weaponId": 855,
+      "level": 5,
+      "attack": 385,
+      "elementAttack": 233
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "RADOBAAN_GREATSWORD_4",
+      "weaponId": 855,
+      "craftMaterialSettingsId": 1,
+      "upgrade": {
+        "base": "RADOBAAN_GREATSWORD_3",
+        "baseWeaponId": 854
+      },
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "RADOBAAN_GREATSWORD_4",
+      "weaponId": 855,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "RADOBAAN_GREATSWORD_4",
+      "weaponId": 855,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "RADOBAAN_GREATSWORD_4",
+      "weaponId": 855,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "RADOBAAN_GREATSWORD_4",
+      "weaponId": 855,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "RADOBAAN_GREATSWORD_4",
+      "weaponId": 855,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    }
+  ]
+}

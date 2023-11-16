@@ -1,0 +1,258 @@
+{
+  "target": "ANJANATH_BOW_4",
+  "weaponId": 505,
+  "category": "WEAPON_TYPE2_BOW",
+  "elementType": "FIRE",
+  "assetKey": "w_w11_079",
+  "grade": 4,
+  "series": "SERIES_ANJANATH",
+  "seriesId": 14,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 610110,
+  "specialSkill": {
+    "skillLevelSettingId": 5501,
+    "specialSkillKind": "SPECIAL_ATTACK_BOW",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "ANJANATH_BOW_4",
+      "weaponId": 505,
+      "level": 1,
+      "attack": 260,
+      "elementAttack": 117
+    },
+    {
+      "target": "ANJANATH_BOW_4",
+      "weaponId": 505,
+      "level": 2,
+      "attack": 279,
+      "elementAttack": 128
+    },
+    {
+      "target": "ANJANATH_BOW_4",
+      "weaponId": 505,
+      "level": 3,
+      "attack": 298,
+      "elementAttack": 138
+    },
+    {
+      "target": "ANJANATH_BOW_4",
+      "weaponId": 505,
+      "level": 4,
+      "attack": 317,
+      "elementAttack": 149
+    },
+    {
+      "target": "ANJANATH_BOW_4",
+      "weaponId": 505,
+      "level": 5,
+      "attack": 335,
+      "elementAttack": 159
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "ANJANATH_BOW_4",
+      "weaponId": 505,
+      "create": true,
+      "craftMaterialSettingsId": 121,
+      "_materials": {
+        "id": 121,
+        "zenny": 900,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 4
+          },
+          {
+            "id": 2100004,
+            "num": 2
+          },
+          {
+            "id": 2100009,
+            "num": 2
+          },
+          {
+            "id": 1020002,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_BOW_4",
+      "weaponId": 505,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 122,
+      "_materials": {
+        "id": 122,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 8
+          },
+          {
+            "id": 2101101,
+            "num": 24
+          },
+          {
+            "id": 1020001,
+            "num": 16
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_BOW_4",
+      "weaponId": 505,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 123,
+      "_materials": {
+        "id": 123,
+        "zenny": 450,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 8
+          },
+          {
+            "id": 2100003,
+            "num": 9
+          },
+          {
+            "id": 1040001,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_BOW_4",
+      "weaponId": 505,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 124,
+      "_materials": {
+        "id": 124,
+        "zenny": 600,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 8
+          },
+          {
+            "id": 2101101,
+            "num": 24
+          },
+          {
+            "id": 1020001,
+            "num": 16
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_BOW_4",
+      "weaponId": 505,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 125,
+      "_materials": {
+        "id": 125,
+        "zenny": 750,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 8
+          },
+          {
+            "id": 1020003,
+            "num": 3
+          },
+          {
+            "id": 1020004,
+            "num": 12
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_BOW_4",
+      "weaponId": 505,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 636,
+      "_materials": {
+        "id": 636,
+        "zenny": 1500,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 12
+          },
+          {
+            "id": 2100004,
+            "num": 6
+          },
+          {
+            "id": 2100009,
+            "num": 4
+          },
+          {
+            "id": 1020002,
+            "num": 10
+          }
+        ]
+      }
+    }
+  ],
+  "_bow": {
+    "target": "ANJANATH_BOW_4",
+    "weaponId": 505,
+    "bowArrowKind": [
+      "ARROW_SPREAD_01",
+      "ARROW_SPREAD_02",
+      "ARROW_SPREAD_03",
+      "ARROW_SPREAD_04"
+    ],
+    "bowArrowSettingId": [
+      201,
+      202,
+      203,
+      204
+    ],
+    "_arrows": [
+      {
+        "bowArrowKind": "ARROW_SPREAD_01",
+        "settingId": 201,
+        "arrowType": "SPREAD",
+        "level": 1,
+        "nameLocalizationKey": "BowArrow/ARROW_SPREAD_01"
+      },
+      {
+        "bowArrowKind": "ARROW_SPREAD_02",
+        "settingId": 202,
+        "arrowType": "SPREAD",
+        "level": 2,
+        "nameLocalizationKey": "BowArrow/ARROW_SPREAD_02"
+      },
+      {
+        "bowArrowKind": "ARROW_SPREAD_03",
+        "settingId": 203,
+        "arrowType": "SPREAD",
+        "level": 3,
+        "nameLocalizationKey": "BowArrow/ARROW_SPREAD_03"
+      },
+      {
+        "bowArrowKind": "ARROW_SPREAD_04",
+        "settingId": 204,
+        "arrowType": "SPREAD",
+        "level": 4,
+        "nameLocalizationKey": "BowArrow/ARROW_SPREAD_04"
+      }
+    ]
+  }
+}

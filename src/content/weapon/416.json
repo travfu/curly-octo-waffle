@@ -1,0 +1,212 @@
+{
+  "target": "RATHALOS_LONGSWORD_5",
+  "weaponId": 416,
+  "category": "WEAPON_TYPE2_LONG_SWORD",
+  "elementType": "FIRE",
+  "assetKey": "w_w03_037",
+  "grade": 5,
+  "series": "SERIES_RATHALOS",
+  "seriesId": 9,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 410150,
+  "specialSkill": {
+    "skillLevelSettingId": 5201,
+    "specialSkillKind": "SPECIAL_ATTACK_LONGSWORD",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "RATHALOS_LONGSWORD_5",
+      "weaponId": 416,
+      "level": 1,
+      "attack": 361,
+      "elementAttack": 232
+    },
+    {
+      "target": "RATHALOS_LONGSWORD_5",
+      "weaponId": 416,
+      "level": 2,
+      "attack": 379,
+      "elementAttack": 246
+    },
+    {
+      "target": "RATHALOS_LONGSWORD_5",
+      "weaponId": 416,
+      "level": 3,
+      "attack": 397,
+      "elementAttack": 261
+    },
+    {
+      "target": "RATHALOS_LONGSWORD_5",
+      "weaponId": 416,
+      "level": 4,
+      "attack": 415,
+      "elementAttack": 276
+    },
+    {
+      "target": "RATHALOS_LONGSWORD_5",
+      "weaponId": 416,
+      "level": 5,
+      "attack": 433,
+      "elementAttack": 291
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "RATHALOS_LONGSWORD_5",
+      "weaponId": 416,
+      "create": true,
+      "craftMaterialSettingsId": 821,
+      "_materials": {
+        "id": 821,
+        "zenny": 1500,
+        "userItem": [
+          {
+            "id": 2002001,
+            "num": 6
+          },
+          {
+            "id": 2002004,
+            "num": 2
+          },
+          {
+            "id": 2002009,
+            "num": 2
+          },
+          {
+            "id": 1010002,
+            "num": 10
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_LONGSWORD_5",
+      "weaponId": 416,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 822,
+      "_materials": {
+        "id": 822,
+        "zenny": 500,
+        "userItem": [
+          {
+            "id": 2002001,
+            "num": 12
+          },
+          {
+            "id": 2101101,
+            "num": 32
+          },
+          {
+            "id": 1010001,
+            "num": 24
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_LONGSWORD_5",
+      "weaponId": 416,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 823,
+      "_materials": {
+        "id": 823,
+        "zenny": 750,
+        "userItem": [
+          {
+            "id": 2002001,
+            "num": 12
+          },
+          {
+            "id": 2002003,
+            "num": 12
+          },
+          {
+            "id": 1040001,
+            "num": 15
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_LONGSWORD_5",
+      "weaponId": 416,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 824,
+      "_materials": {
+        "id": 824,
+        "zenny": 1000,
+        "userItem": [
+          {
+            "id": 2002001,
+            "num": 12
+          },
+          {
+            "id": 2101101,
+            "num": 32
+          },
+          {
+            "id": 1010001,
+            "num": 24
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_LONGSWORD_5",
+      "weaponId": 416,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 825,
+      "_materials": {
+        "id": 825,
+        "zenny": 1250,
+        "userItem": [
+          {
+            "id": 2002001,
+            "num": 12
+          },
+          {
+            "id": 1010003,
+            "num": 4
+          },
+          {
+            "id": 1010004,
+            "num": 16
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_LONGSWORD_5",
+      "weaponId": 416,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 826,
+      "_materials": {
+        "id": 826,
+        "zenny": 3000,
+        "userItem": [
+          {
+            "id": 2002001,
+            "num": 18
+          },
+          {
+            "id": 2002009,
+            "num": 6
+          },
+          {
+            "id": 2002005,
+            "num": 2
+          },
+          {
+            "id": 3001018,
+            "num": 1
+          }
+        ]
+      }
+    }
+  ]
+}

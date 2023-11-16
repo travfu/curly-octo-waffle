@@ -1,0 +1,159 @@
+{
+  "target": "BARIOTH_GREATSWORD_5",
+  "weaponId": 750,
+  "category": "WEAPON_TYPE2_GREAT_SWORD",
+  "elementType": "ICE",
+  "assetKey": "w_w00_159",
+  "grade": 5,
+  "series": "SERIES_BARIOTH",
+  "seriesId": 24,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 210121,
+  "specialSkill": {
+    "skillLevelSettingId": 5001,
+    "specialSkillKind": "SPECIAL_ATTACK_GREATSWORD",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "BARIOTH_GREATSWORD_5",
+      "weaponId": 750,
+      "level": 1,
+      "attack": 370,
+      "elementAttack": 181
+    },
+    {
+      "target": "BARIOTH_GREATSWORD_5",
+      "weaponId": 750,
+      "level": 2,
+      "attack": 388,
+      "elementAttack": 193
+    },
+    {
+      "target": "BARIOTH_GREATSWORD_5",
+      "weaponId": 750,
+      "level": 3,
+      "attack": 406,
+      "elementAttack": 204
+    },
+    {
+      "target": "BARIOTH_GREATSWORD_5",
+      "weaponId": 750,
+      "level": 4,
+      "attack": 425,
+      "elementAttack": 216
+    },
+    {
+      "target": "BARIOTH_GREATSWORD_5",
+      "weaponId": 750,
+      "level": 5,
+      "attack": 443,
+      "elementAttack": 227
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "BARIOTH_GREATSWORD_5",
+      "weaponId": 750,
+      "craftMaterialSettingsId": 1,
+      "upgrade": {
+        "base": "BARIOTH_GREATSWORD_4",
+        "baseWeaponId": 749
+      },
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARIOTH_GREATSWORD_5",
+      "weaponId": 750,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARIOTH_GREATSWORD_5",
+      "weaponId": 750,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARIOTH_GREATSWORD_5",
+      "weaponId": 750,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARIOTH_GREATSWORD_5",
+      "weaponId": 750,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARIOTH_GREATSWORD_5",
+      "weaponId": 750,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "target": "RADOBAAN_SWORDSHIELD_2",
+  "weaponId": 862,
+  "category": "WEAPON_TYPE2_SWORD_SHIELD",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w01_079",
+  "grade": 2,
+  "series": "SERIES_RADOBAAN",
+  "seriesId": 22,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 110091,
+  "specialSkill": {
+    "skillLevelSettingId": 5101,
+    "specialSkillKind": "SPECIAL_ATTACK_SWORDSHIELD",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "RADOBAAN_SWORDSHIELD_2",
+      "weaponId": 862,
+      "level": 1,
+      "attack": 144,
+      "elementAttack": 100
+    },
+    {
+      "target": "RADOBAAN_SWORDSHIELD_2",
+      "weaponId": 862,
+      "level": 2,
+      "attack": 154,
+      "elementAttack": 108
+    },
+    {
+      "target": "RADOBAAN_SWORDSHIELD_2",
+      "weaponId": 862,
+      "level": 3,
+      "attack": 165,
+      "elementAttack": 117
+    },
+    {
+      "target": "RADOBAAN_SWORDSHIELD_2",
+      "weaponId": 862,
+      "level": 4,
+      "attack": 175,
+      "elementAttack": 125
+    },
+    {
+      "target": "RADOBAAN_SWORDSHIELD_2",
+      "weaponId": 862,
+      "level": 5,
+      "attack": 186,
+      "elementAttack": 133
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "RADOBAAN_SWORDSHIELD_2",
+      "weaponId": 862,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "RADOBAAN_SWORDSHIELD_2",
+      "weaponId": 862,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "RADOBAAN_SWORDSHIELD_2",
+      "weaponId": 862,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "RADOBAAN_SWORDSHIELD_2",
+      "weaponId": 862,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "RADOBAAN_SWORDSHIELD_2",
+      "weaponId": 862,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "RADOBAAN_SWORDSHIELD_2",
+      "weaponId": 862,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    }
+  ]
+}

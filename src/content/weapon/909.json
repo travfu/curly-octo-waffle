@@ -1,0 +1,166 @@
+{
+  "target": "JYURATODUS_DUALBLADES_9",
+  "weaponId": 909,
+  "category": "WEAPON_TYPE2_DUAL_BLADES",
+  "elementType": "WATER",
+  "assetKey": "w_w02_063",
+  "grade": 9,
+  "series": "SERIES_JYURATODUS",
+  "seriesId": 17,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 710101,
+  "normalSkill": [
+    {
+      "skillLevelSettingId": 3201,
+      "normalSkillKind": "LAST_STAND",
+      "skillLevel": 1
+    }
+  ],
+  "specialSkill": {
+    "skillLevelSettingId": 5103,
+    "specialSkillKind": "SPECIAL_ATTACK_SWORDSHIELD",
+    "skillLevel": 3
+  },
+  "_levels": [
+    {
+      "target": "JYURATODUS_DUALBLADES_9",
+      "weaponId": 909,
+      "level": 1,
+      "attack": 1007,
+      "elementAttack": 663
+    },
+    {
+      "target": "JYURATODUS_DUALBLADES_9",
+      "weaponId": 909,
+      "level": 2,
+      "attack": 1057,
+      "elementAttack": 704
+    },
+    {
+      "target": "JYURATODUS_DUALBLADES_9",
+      "weaponId": 909,
+      "level": 3,
+      "attack": 1107,
+      "elementAttack": 745
+    },
+    {
+      "target": "JYURATODUS_DUALBLADES_9",
+      "weaponId": 909,
+      "level": 4,
+      "attack": 1156,
+      "elementAttack": 785
+    },
+    {
+      "target": "JYURATODUS_DUALBLADES_9",
+      "weaponId": 909,
+      "level": 5,
+      "attack": 1206,
+      "elementAttack": 826
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "JYURATODUS_DUALBLADES_9",
+      "weaponId": 909,
+      "craftMaterialSettingsId": 1,
+      "upgrade": {
+        "base": "JYURATODUS_DUALBLADES_8",
+        "baseWeaponId": 908
+      },
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_DUALBLADES_9",
+      "weaponId": 909,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_DUALBLADES_9",
+      "weaponId": 909,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_DUALBLADES_9",
+      "weaponId": 909,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_DUALBLADES_9",
+      "weaponId": 909,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_DUALBLADES_9",
+      "weaponId": 909,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    }
+  ]
+}

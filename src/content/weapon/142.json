@@ -1,0 +1,195 @@
+{
+  "target": "JYURATODUS_GREATSWORD_2",
+  "weaponId": 142,
+  "category": "WEAPON_TYPE2_GREAT_SWORD",
+  "elementType": "WATER",
+  "assetKey": "w_w00_062",
+  "grade": 2,
+  "series": "SERIES_JYURATODUS",
+  "seriesId": 17,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 210101,
+  "specialSkill": {
+    "skillLevelSettingId": 5001,
+    "specialSkillKind": "SPECIAL_ATTACK_GREATSWORD",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "JYURATODUS_GREATSWORD_2",
+      "weaponId": 142,
+      "level": 1,
+      "attack": 128,
+      "elementAttack": 47
+    },
+    {
+      "target": "JYURATODUS_GREATSWORD_2",
+      "weaponId": 142,
+      "level": 2,
+      "attack": 137,
+      "elementAttack": 52
+    },
+    {
+      "target": "JYURATODUS_GREATSWORD_2",
+      "weaponId": 142,
+      "level": 3,
+      "attack": 147,
+      "elementAttack": 56
+    },
+    {
+      "target": "JYURATODUS_GREATSWORD_2",
+      "weaponId": 142,
+      "level": 4,
+      "attack": 156,
+      "elementAttack": 61
+    },
+    {
+      "target": "JYURATODUS_GREATSWORD_2",
+      "weaponId": 142,
+      "level": 5,
+      "attack": 165,
+      "elementAttack": 65
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "JYURATODUS_GREATSWORD_2",
+      "weaponId": 142,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_GREATSWORD_2",
+      "weaponId": 142,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 897,
+      "_materials": {
+        "id": 897,
+        "zenny": 100,
+        "userItem": [
+          {
+            "id": 2108002,
+            "num": 3
+          },
+          {
+            "id": 2101101,
+            "num": 4
+          },
+          {
+            "id": 1020001,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_GREATSWORD_2",
+      "weaponId": 142,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 898,
+      "_materials": {
+        "id": 898,
+        "zenny": 150,
+        "userItem": [
+          {
+            "id": 2108002,
+            "num": 3
+          },
+          {
+            "id": 2108003,
+            "num": 3
+          },
+          {
+            "id": 1040002,
+            "num": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_GREATSWORD_2",
+      "weaponId": 142,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 899,
+      "_materials": {
+        "id": 899,
+        "zenny": 200,
+        "userItem": [
+          {
+            "id": 2108002,
+            "num": 3
+          },
+          {
+            "id": 2101101,
+            "num": 4
+          },
+          {
+            "id": 1020001,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_GREATSWORD_2",
+      "weaponId": 142,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 900,
+      "_materials": {
+        "id": 900,
+        "zenny": 250,
+        "userItem": [
+          {
+            "id": 2108002,
+            "num": 3
+          },
+          {
+            "id": 1020003,
+            "num": 1
+          },
+          {
+            "id": 1140002,
+            "num": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_GREATSWORD_2",
+      "weaponId": 142,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 901,
+      "_materials": {
+        "id": 901,
+        "zenny": 600,
+        "userItem": [
+          {
+            "id": 2108002,
+            "num": 5
+          },
+          {
+            "id": 2108004,
+            "num": 2
+          },
+          {
+            "id": 1020002,
+            "num": 3
+          }
+        ]
+      }
+    }
+  ]
+}

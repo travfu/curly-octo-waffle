@@ -1,0 +1,212 @@
+{
+  "target": "ANJANATH_LONGSWORD_4",
+  "weaponId": 422,
+  "category": "WEAPON_TYPE2_LONG_SWORD",
+  "elementType": "FIRE",
+  "assetKey": "w_w03_051",
+  "grade": 4,
+  "series": "SERIES_ANJANATH",
+  "seriesId": 14,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 410110,
+  "specialSkill": {
+    "skillLevelSettingId": 5201,
+    "specialSkillKind": "SPECIAL_ATTACK_LONGSWORD",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "ANJANATH_LONGSWORD_4",
+      "weaponId": 422,
+      "level": 1,
+      "attack": 260,
+      "elementAttack": 117
+    },
+    {
+      "target": "ANJANATH_LONGSWORD_4",
+      "weaponId": 422,
+      "level": 2,
+      "attack": 279,
+      "elementAttack": 128
+    },
+    {
+      "target": "ANJANATH_LONGSWORD_4",
+      "weaponId": 422,
+      "level": 3,
+      "attack": 298,
+      "elementAttack": 138
+    },
+    {
+      "target": "ANJANATH_LONGSWORD_4",
+      "weaponId": 422,
+      "level": 4,
+      "attack": 317,
+      "elementAttack": 149
+    },
+    {
+      "target": "ANJANATH_LONGSWORD_4",
+      "weaponId": 422,
+      "level": 5,
+      "attack": 335,
+      "elementAttack": 159
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "ANJANATH_LONGSWORD_4",
+      "weaponId": 422,
+      "create": true,
+      "craftMaterialSettingsId": 121,
+      "_materials": {
+        "id": 121,
+        "zenny": 900,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 4
+          },
+          {
+            "id": 2100004,
+            "num": 2
+          },
+          {
+            "id": 2100009,
+            "num": 2
+          },
+          {
+            "id": 1020002,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_LONGSWORD_4",
+      "weaponId": 422,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 122,
+      "_materials": {
+        "id": 122,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 8
+          },
+          {
+            "id": 2101101,
+            "num": 24
+          },
+          {
+            "id": 1020001,
+            "num": 16
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_LONGSWORD_4",
+      "weaponId": 422,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 123,
+      "_materials": {
+        "id": 123,
+        "zenny": 450,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 8
+          },
+          {
+            "id": 2100003,
+            "num": 9
+          },
+          {
+            "id": 1040001,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_LONGSWORD_4",
+      "weaponId": 422,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 124,
+      "_materials": {
+        "id": 124,
+        "zenny": 600,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 8
+          },
+          {
+            "id": 2101101,
+            "num": 24
+          },
+          {
+            "id": 1020001,
+            "num": 16
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_LONGSWORD_4",
+      "weaponId": 422,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 125,
+      "_materials": {
+        "id": 125,
+        "zenny": 750,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 8
+          },
+          {
+            "id": 1020003,
+            "num": 3
+          },
+          {
+            "id": 1020004,
+            "num": 12
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_LONGSWORD_4",
+      "weaponId": 422,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 636,
+      "_materials": {
+        "id": 636,
+        "zenny": 1500,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 12
+          },
+          {
+            "id": 2100004,
+            "num": 6
+          },
+          {
+            "id": 2100009,
+            "num": 4
+          },
+          {
+            "id": 1020002,
+            "num": 10
+          }
+        ]
+      }
+    }
+  ]
+}

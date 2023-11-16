@@ -1,0 +1,267 @@
+{
+  "target": "GREATJAGRAS_LIGHTBOWGUN_7",
+  "weaponId": 319,
+  "category": "WEAPON_TYPE2_LIGHT_BOWGUN",
+  "elementType": "WATER",
+  "assetKey": "w_w13_030",
+  "grade": 7,
+  "series": "SERIES_GREATJAGRAS",
+  "seriesId": 5,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 510040,
+  "normalSkill": [
+    {
+      "skillLevelSettingId": 101,
+      "normalSkillKind": "HEALTH_BOOST",
+      "skillLevel": 1
+    }
+  ],
+  "specialSkill": {
+    "skillLevelSettingId": 5402,
+    "specialSkillKind": "SPECIAL_ATTACK_LIGHTBOWGUN",
+    "skillLevel": 2
+  },
+  "_levels": [
+    {
+      "target": "GREATJAGRAS_LIGHTBOWGUN_7",
+      "weaponId": 319,
+      "level": 1,
+      "attack": 647,
+      "elementAttack": 251
+    },
+    {
+      "target": "GREATJAGRAS_LIGHTBOWGUN_7",
+      "weaponId": 319,
+      "level": 2,
+      "attack": 679,
+      "elementAttack": 266
+    },
+    {
+      "target": "GREATJAGRAS_LIGHTBOWGUN_7",
+      "weaponId": 319,
+      "level": 3,
+      "attack": 711,
+      "elementAttack": 282
+    },
+    {
+      "target": "GREATJAGRAS_LIGHTBOWGUN_7",
+      "weaponId": 319,
+      "level": 4,
+      "attack": 743,
+      "elementAttack": 297
+    },
+    {
+      "target": "GREATJAGRAS_LIGHTBOWGUN_7",
+      "weaponId": 319,
+      "level": 5,
+      "attack": 775,
+      "elementAttack": 313
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "GREATJAGRAS_LIGHTBOWGUN_7",
+      "weaponId": 319,
+      "craftMaterialSettingsId": 481,
+      "upgrade": {
+        "base": "GREATJAGRAS_LIGHTBOWGUN_6",
+        "baseWeaponId": 318
+      },
+      "_materials": {
+        "id": 481,
+        "zenny": 6000,
+        "userItem": [
+          {
+            "id": 2101001,
+            "num": 24
+          },
+          {
+            "id": 2101008,
+            "num": 12
+          },
+          {
+            "id": 1110003,
+            "num": 3
+          },
+          {
+            "id": 3001018,
+            "num": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "GREATJAGRAS_LIGHTBOWGUN_7",
+      "weaponId": 319,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 482,
+      "_materials": {
+        "id": 482,
+        "zenny": 2000,
+        "userItem": [
+          {
+            "id": 2101001,
+            "num": 24
+          },
+          {
+            "id": 2101101,
+            "num": 51
+          },
+          {
+            "id": 1010001,
+            "num": 42
+          },
+          {
+            "id": 2108003,
+            "num": 6
+          }
+        ]
+      }
+    },
+    {
+      "target": "GREATJAGRAS_LIGHTBOWGUN_7",
+      "weaponId": 319,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 483,
+      "_materials": {
+        "id": 483,
+        "zenny": 3000,
+        "userItem": [
+          {
+            "id": 2101001,
+            "num": 24
+          },
+          {
+            "id": 2101003,
+            "num": 30
+          },
+          {
+            "id": 2101004,
+            "num": 20
+          },
+          {
+            "id": 1040002,
+            "num": 31
+          }
+        ]
+      }
+    },
+    {
+      "target": "GREATJAGRAS_LIGHTBOWGUN_7",
+      "weaponId": 319,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 484,
+      "_materials": {
+        "id": 484,
+        "zenny": 4000,
+        "userItem": [
+          {
+            "id": 2101001,
+            "num": 24
+          },
+          {
+            "id": 2101101,
+            "num": 51
+          },
+          {
+            "id": 1010001,
+            "num": 42
+          },
+          {
+            "id": 2108004,
+            "num": 6
+          }
+        ]
+      }
+    },
+    {
+      "target": "GREATJAGRAS_LIGHTBOWGUN_7",
+      "weaponId": 319,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 485,
+      "_materials": {
+        "id": 485,
+        "zenny": 5000,
+        "userItem": [
+          {
+            "id": 2101001,
+            "num": 24
+          },
+          {
+            "id": 1010002,
+            "num": 30
+          },
+          {
+            "id": 1010003,
+            "num": 11
+          },
+          {
+            "id": 1010004,
+            "num": 31
+          }
+        ]
+      }
+    },
+    {
+      "target": "GREATJAGRAS_LIGHTBOWGUN_7",
+      "weaponId": 319,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 486,
+      "_materials": {
+        "id": 486,
+        "zenny": 12000,
+        "userItem": [
+          {
+            "id": 1110003,
+            "num": 5
+          },
+          {
+            "id": 1110004,
+            "num": 4
+          },
+          {
+            "id": 3001018,
+            "num": 5
+          }
+        ]
+      }
+    }
+  ],
+  "_bowgun": {
+    "target": "GREATJAGRAS_LIGHTBOWGUN_7",
+    "weaponId": 319,
+    "ammoProperty": [
+      {
+        "capacity": 6,
+        "recoilType": "RECOIL_MEDIUM",
+        "reloadType": "RELOAD_MEDIUM",
+        "bowgunAmmoSettingsId": 701,
+        "_ammo": {
+          "id": 701,
+          "ammoType": "NORMAL",
+          "elementType": "WATER",
+          "level": 1,
+          "htmlColorCode": "#476EFF"
+        }
+      },
+      {
+        "capacity": 2,
+        "recoilType": "RECOIL_EXTRA_LARGE",
+        "reloadType": "RELOAD_LARGE",
+        "bowgunAmmoSettingsId": 2901,
+        "_ammo": {
+          "id": 2901,
+          "ammoType": "SLICING",
+          "elementType": "WATER",
+          "level": 1,
+          "iconId": 2,
+          "htmlColorCode": "#476EFF"
+        }
+      }
+    ]
+  }
+}

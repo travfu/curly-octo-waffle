@@ -1,0 +1,230 @@
+{
+  "target": "GREATGIRROS_HAMMER_8",
+  "weaponId": 474,
+  "category": "WEAPON_TYPE2_HAMMER",
+  "elementType": "PARALYSIS",
+  "assetKey": "w_w04_031",
+  "grade": 8,
+  "series": "SERIES_GREATGIRROS",
+  "seriesId": 4,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 310080,
+  "normalSkill": [
+    {
+      "skillLevelSettingId": 4201,
+      "normalSkillKind": "SNEAK_ATTACK",
+      "skillLevel": 1
+    }
+  ],
+  "specialSkill": {
+    "skillLevelSettingId": 5303,
+    "specialSkillKind": "SPECIAL_ATTACK_HAMMER",
+    "skillLevel": 3
+  },
+  "_levels": [
+    {
+      "target": "GREATGIRROS_HAMMER_8",
+      "weaponId": 474,
+      "level": 1,
+      "attack": 945,
+      "elementAttack": 350
+    },
+    {
+      "target": "GREATGIRROS_HAMMER_8",
+      "weaponId": 474,
+      "level": 2,
+      "attack": 992,
+      "elementAttack": 354
+    },
+    {
+      "target": "GREATGIRROS_HAMMER_8",
+      "weaponId": 474,
+      "level": 3,
+      "attack": 1038,
+      "elementAttack": 358
+    },
+    {
+      "target": "GREATGIRROS_HAMMER_8",
+      "weaponId": 474,
+      "level": 4,
+      "attack": 1085,
+      "elementAttack": 362
+    },
+    {
+      "target": "GREATGIRROS_HAMMER_8",
+      "weaponId": 474,
+      "level": 5,
+      "attack": 1132,
+      "elementAttack": 367
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "GREATGIRROS_HAMMER_8",
+      "weaponId": 474,
+      "craftMaterialSettingsId": 616,
+      "upgrade": {
+        "base": "GREATGIRROS_HAMMER_7",
+        "baseWeaponId": 473
+      },
+      "_materials": {
+        "id": 616,
+        "zenny": 12000,
+        "userItem": [
+          {
+            "id": 2112009,
+            "num": 5
+          },
+          {
+            "id": 1110004,
+            "num": 4
+          },
+          {
+            "id": 3001018,
+            "num": 5
+          }
+        ]
+      }
+    },
+    {
+      "target": "GREATGIRROS_HAMMER_8",
+      "weaponId": 474,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 617,
+      "_materials": {
+        "id": 617,
+        "zenny": 4000,
+        "userItem": [
+          {
+            "id": 2112003,
+            "num": 40
+          },
+          {
+            "id": 2101101,
+            "num": 64
+          },
+          {
+            "id": 1010001,
+            "num": 53
+          },
+          {
+            "id": 2109009,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "GREATGIRROS_HAMMER_8",
+      "weaponId": 474,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 618,
+      "_materials": {
+        "id": 618,
+        "zenny": 6000,
+        "userItem": [
+          {
+            "id": 2112004,
+            "num": 30
+          },
+          {
+            "id": 1110004,
+            "num": 4
+          },
+          {
+            "id": 1010002,
+            "num": 40
+          },
+          {
+            "id": 1130001,
+            "num": 41
+          }
+        ]
+      }
+    },
+    {
+      "target": "GREATGIRROS_HAMMER_8",
+      "weaponId": 474,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 619,
+      "_materials": {
+        "id": 619,
+        "zenny": 8000,
+        "userItem": [
+          {
+            "id": 2112008,
+            "num": 20
+          },
+          {
+            "id": 2101101,
+            "num": 64
+          },
+          {
+            "id": 1010001,
+            "num": 53
+          },
+          {
+            "id": 2109003,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "GREATGIRROS_HAMMER_8",
+      "weaponId": 474,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 620,
+      "_materials": {
+        "id": 620,
+        "zenny": 10000,
+        "userItem": [
+          {
+            "id": 2112002,
+            "num": 100
+          },
+          {
+            "id": 1110004,
+            "num": 4
+          },
+          {
+            "id": 1010003,
+            "num": 17
+          },
+          {
+            "id": 1010004,
+            "num": 41
+          }
+        ]
+      }
+    },
+    {
+      "target": "GREATGIRROS_HAMMER_8",
+      "weaponId": 474,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 621,
+      "_materials": {
+        "id": 621,
+        "zenny": 30000,
+        "userItem": [
+          {
+            "id": 2112009,
+            "num": 10
+          },
+          {
+            "id": 1110004,
+            "num": 6
+          },
+          {
+            "id": 3001018,
+            "num": 7
+          }
+        ]
+      }
+    }
+  ]
+}

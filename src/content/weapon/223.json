@@ -1,0 +1,238 @@
+{
+  "target": "RATHIAN_SWORDSHIELD_6",
+  "weaponId": 223,
+  "category": "WEAPON_TYPE2_SWORD_SHIELD",
+  "elementType": "POISON",
+  "assetKey": "w_w01_031",
+  "grade": 6,
+  "series": "SERIES_RATHIAN",
+  "seriesId": 12,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 110120,
+  "normalSkill": [
+    {
+      "skillLevelSettingId": 101,
+      "normalSkillKind": "HEALTH_BOOST",
+      "skillLevel": 1
+    }
+  ],
+  "specialSkill": {
+    "skillLevelSettingId": 5102,
+    "specialSkillKind": "SPECIAL_ATTACK_SWORDSHIELD",
+    "skillLevel": 2
+  },
+  "_levels": [
+    {
+      "target": "RATHIAN_SWORDSHIELD_6",
+      "weaponId": 223,
+      "level": 1,
+      "attack": 531,
+      "elementAttack": 360
+    },
+    {
+      "target": "RATHIAN_SWORDSHIELD_6",
+      "weaponId": 223,
+      "level": 2,
+      "attack": 557,
+      "elementAttack": 365
+    },
+    {
+      "target": "RATHIAN_SWORDSHIELD_6",
+      "weaponId": 223,
+      "level": 3,
+      "attack": 584,
+      "elementAttack": 370
+    },
+    {
+      "target": "RATHIAN_SWORDSHIELD_6",
+      "weaponId": 223,
+      "level": 4,
+      "attack": 610,
+      "elementAttack": 375
+    },
+    {
+      "target": "RATHIAN_SWORDSHIELD_6",
+      "weaponId": 223,
+      "level": 5,
+      "attack": 636,
+      "elementAttack": 380
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "RATHIAN_SWORDSHIELD_6",
+      "weaponId": 223,
+      "craftMaterialSettingsId": 746,
+      "upgrade": {
+        "base": "RATHIAN_SWORDSHIELD_5",
+        "baseWeaponId": 222
+      },
+      "_materials": {
+        "id": 746,
+        "zenny": 3000,
+        "userItem": [
+          {
+            "id": 2001001,
+            "num": 18
+          },
+          {
+            "id": 2001009,
+            "num": 6
+          },
+          {
+            "id": 2001005,
+            "num": 2
+          },
+          {
+            "id": 3001018,
+            "num": 1
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHIAN_SWORDSHIELD_6",
+      "weaponId": 223,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 747,
+      "_materials": {
+        "id": 747,
+        "zenny": 1000,
+        "userItem": [
+          {
+            "id": 2001001,
+            "num": 18
+          },
+          {
+            "id": 2101101,
+            "num": 44
+          },
+          {
+            "id": 1020001,
+            "num": 32
+          },
+          {
+            "id": 2102003,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHIAN_SWORDSHIELD_6",
+      "weaponId": 223,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 748,
+      "_materials": {
+        "id": 748,
+        "zenny": 1500,
+        "userItem": [
+          {
+            "id": 2001001,
+            "num": 18
+          },
+          {
+            "id": 2001004,
+            "num": 20
+          },
+          {
+            "id": 2001003,
+            "num": 15
+          },
+          {
+            "id": 1130002,
+            "num": 20
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHIAN_SWORDSHIELD_6",
+      "weaponId": 223,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 749,
+      "_materials": {
+        "id": 749,
+        "zenny": 2000,
+        "userItem": [
+          {
+            "id": 2001001,
+            "num": 18
+          },
+          {
+            "id": 2101101,
+            "num": 44
+          },
+          {
+            "id": 1020001,
+            "num": 32
+          },
+          {
+            "id": 2102004,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHIAN_SWORDSHIELD_6",
+      "weaponId": 223,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 750,
+      "_materials": {
+        "id": 750,
+        "zenny": 2500,
+        "userItem": [
+          {
+            "id": 2001001,
+            "num": 18
+          },
+          {
+            "id": 1020002,
+            "num": 20
+          },
+          {
+            "id": 1020003,
+            "num": 7
+          },
+          {
+            "id": 1020004,
+            "num": 20
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHIAN_SWORDSHIELD_6",
+      "weaponId": 223,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 751,
+      "_materials": {
+        "id": 751,
+        "zenny": 6000,
+        "userItem": [
+          {
+            "id": 2001001,
+            "num": 24
+          },
+          {
+            "id": 2001009,
+            "num": 12
+          },
+          {
+            "id": 2001005,
+            "num": 3
+          },
+          {
+            "id": 3001018,
+            "num": 3
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "target": "PAOLUMU_LIGHTBOWGUN_1",
+  "weaponId": 88,
+  "category": "WEAPON_TYPE2_LIGHT_BOWGUN",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w13_020",
+  "grade": 1,
+  "series": "SERIES_PAOLUMU",
+  "seriesId": 7,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 510100,
+  "_levels": [
+    {
+      "target": "PAOLUMU_LIGHTBOWGUN_1",
+      "weaponId": 88,
+      "level": 1,
+      "attack": 115
+    },
+    {
+      "target": "PAOLUMU_LIGHTBOWGUN_1",
+      "weaponId": 88,
+      "level": 2,
+      "attack": 123
+    },
+    {
+      "target": "PAOLUMU_LIGHTBOWGUN_1",
+      "weaponId": 88,
+      "level": 3,
+      "attack": 132
+    },
+    {
+      "target": "PAOLUMU_LIGHTBOWGUN_1",
+      "weaponId": 88,
+      "level": 4,
+      "attack": 140
+    },
+    {
+      "target": "PAOLUMU_LIGHTBOWGUN_1",
+      "weaponId": 88,
+      "level": 5,
+      "attack": 148
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "PAOLUMU_LIGHTBOWGUN_1",
+      "weaponId": 88,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "PAOLUMU_LIGHTBOWGUN_1",
+      "weaponId": 88,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 667,
+      "_materials": {
+        "id": 667,
+        "zenny": 20,
+        "userItem": [
+          {
+            "id": 2110001,
+            "num": 2
+          },
+          {
+            "id": 2101101,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "PAOLUMU_LIGHTBOWGUN_1",
+      "weaponId": 88,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 668,
+      "_materials": {
+        "id": 668,
+        "zenny": 30,
+        "userItem": [
+          {
+            "id": 2110001,
+            "num": 2
+          },
+          {
+            "id": 2110003,
+            "num": 1
+          }
+        ]
+      }
+    },
+    {
+      "target": "PAOLUMU_LIGHTBOWGUN_1",
+      "weaponId": 88,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 669,
+      "_materials": {
+        "id": 669,
+        "zenny": 40,
+        "userItem": [
+          {
+            "id": 2110001,
+            "num": 2
+          },
+          {
+            "id": 2101101,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "PAOLUMU_LIGHTBOWGUN_1",
+      "weaponId": 88,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 670,
+      "_materials": {
+        "id": 670,
+        "zenny": 50,
+        "userItem": [
+          {
+            "id": 2110001,
+            "num": 2
+          },
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "PAOLUMU_LIGHTBOWGUN_1",
+      "weaponId": 88,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 126,
+      "_materials": {
+        "id": 126,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2110001,
+            "num": 3
+          },
+          {
+            "id": 2110004,
+            "num": 1
+          },
+          {
+            "id": 1010002,
+            "num": 1
+          }
+        ]
+      }
+    }
+  ],
+  "_bowgun": {
+    "target": "PAOLUMU_LIGHTBOWGUN_1",
+    "weaponId": 88,
+    "ammoProperty": [
+      {
+        "capacity": 5,
+        "recoilType": "RECOIL_MEDIUM",
+        "reloadType": "RELOAD_MEDIUM",
+        "bowgunAmmoSettingsId": 101,
+        "_ammo": {
+          "id": 101,
+          "ammoType": "NORMAL",
+          "elementType": "NO_ELEMENT",
+          "level": 1,
+          "htmlColorCode": "#FFFFFF"
+        }
+      },
+      {
+        "capacity": 4,
+        "recoilType": "RECOIL_LARGE",
+        "reloadType": "RELOAD_LARGE",
+        "bowgunAmmoSettingsId": 301,
+        "_ammo": {
+          "id": 301,
+          "ammoType": "SPREAD",
+          "elementType": "NO_ELEMENT",
+          "level": 1,
+          "iconId": 1,
+          "htmlColorCode": "#AEAEAE"
+        }
+      },
+      {
+        "capacity": 4,
+        "recoilType": "RECOIL_LARGE",
+        "reloadType": "RELOAD_LARGE",
+        "bowgunAmmoSettingsId": 201,
+        "_ammo": {
+          "id": 201,
+          "ammoType": "PIERCING",
+          "elementType": "NO_ELEMENT",
+          "level": 1,
+          "iconId": 2,
+          "htmlColorCode": "#5AAAFF"
+        }
+      }
+    ]
+  }
+}

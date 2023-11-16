@@ -1,0 +1,215 @@
+{
+  "target": "GREATGIRROS_SWORDSHIELD_4",
+  "weaponId": 235,
+  "category": "WEAPON_TYPE2_SWORD_SHIELD",
+  "elementType": "PARALYSIS",
+  "assetKey": "w_w01_098",
+  "grade": 4,
+  "series": "SERIES_GREATGIRROS",
+  "seriesId": 4,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 110080,
+  "specialSkill": {
+    "skillLevelSettingId": 5101,
+    "specialSkillKind": "SPECIAL_ATTACK_SWORDSHIELD",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "GREATGIRROS_SWORDSHIELD_4",
+      "weaponId": 235,
+      "level": 1,
+      "attack": 299,
+      "elementAttack": 200
+    },
+    {
+      "target": "GREATGIRROS_SWORDSHIELD_4",
+      "weaponId": 235,
+      "level": 2,
+      "attack": 321,
+      "elementAttack": 208
+    },
+    {
+      "target": "GREATGIRROS_SWORDSHIELD_4",
+      "weaponId": 235,
+      "level": 3,
+      "attack": 342,
+      "elementAttack": 217
+    },
+    {
+      "target": "GREATGIRROS_SWORDSHIELD_4",
+      "weaponId": 235,
+      "level": 4,
+      "attack": 364,
+      "elementAttack": 225
+    },
+    {
+      "target": "GREATGIRROS_SWORDSHIELD_4",
+      "weaponId": 235,
+      "level": 5,
+      "attack": 385,
+      "elementAttack": 233
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "GREATGIRROS_SWORDSHIELD_4",
+      "weaponId": 235,
+      "craftMaterialSettingsId": 106,
+      "upgrade": {
+        "base": "GREATGIRROS_SWORDSHIELD_3",
+        "baseWeaponId": 28
+      },
+      "_materials": {
+        "id": 106,
+        "zenny": 900,
+        "userItem": [
+          {
+            "id": 2112002,
+            "num": 8
+          },
+          {
+            "id": 2112004,
+            "num": 4
+          },
+          {
+            "id": 2112008,
+            "num": 2
+          },
+          {
+            "id": 1010002,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "GREATGIRROS_SWORDSHIELD_4",
+      "weaponId": 235,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 107,
+      "_materials": {
+        "id": 107,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2112002,
+            "num": 8
+          },
+          {
+            "id": 2101101,
+            "num": 24
+          },
+          {
+            "id": 1010001,
+            "num": 16
+          }
+        ]
+      }
+    },
+    {
+      "target": "GREATGIRROS_SWORDSHIELD_4",
+      "weaponId": 235,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 108,
+      "_materials": {
+        "id": 108,
+        "zenny": 450,
+        "userItem": [
+          {
+            "id": 2112002,
+            "num": 8
+          },
+          {
+            "id": 2112003,
+            "num": 9
+          },
+          {
+            "id": 1130001,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "GREATGIRROS_SWORDSHIELD_4",
+      "weaponId": 235,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 109,
+      "_materials": {
+        "id": 109,
+        "zenny": 600,
+        "userItem": [
+          {
+            "id": 2112002,
+            "num": 8
+          },
+          {
+            "id": 2101101,
+            "num": 24
+          },
+          {
+            "id": 1010001,
+            "num": 16
+          }
+        ]
+      }
+    },
+    {
+      "target": "GREATGIRROS_SWORDSHIELD_4",
+      "weaponId": 235,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 110,
+      "_materials": {
+        "id": 110,
+        "zenny": 750,
+        "userItem": [
+          {
+            "id": 2112002,
+            "num": 8
+          },
+          {
+            "id": 1010003,
+            "num": 3
+          },
+          {
+            "id": 1010004,
+            "num": 12
+          }
+        ]
+      }
+    },
+    {
+      "target": "GREATGIRROS_SWORDSHIELD_4",
+      "weaponId": 235,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 601,
+      "_materials": {
+        "id": 601,
+        "zenny": 1500,
+        "userItem": [
+          {
+            "id": 2112002,
+            "num": 12
+          },
+          {
+            "id": 2112004,
+            "num": 6
+          },
+          {
+            "id": 2112008,
+            "num": 4
+          },
+          {
+            "id": 1010002,
+            "num": 10
+          }
+        ]
+      }
+    }
+  ]
+}

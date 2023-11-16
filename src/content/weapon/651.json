@@ -1,0 +1,178 @@
+{
+  "target": "BLACK_DIABLOS_HAMMER_1",
+  "weaponId": 651,
+  "category": "WEAPON_TYPE2_HAMMER",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w04_203",
+  "grade": 1,
+  "series": "SERIES_BLACK_DIABLOS",
+  "seriesId": 20,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 310170,
+  "_levels": [
+    {
+      "target": "BLACK_DIABLOS_HAMMER_1",
+      "weaponId": 651,
+      "level": 1,
+      "attack": 130,
+      "critical": -30
+    },
+    {
+      "target": "BLACK_DIABLOS_HAMMER_1",
+      "weaponId": 651,
+      "level": 2,
+      "attack": 139,
+      "critical": -30
+    },
+    {
+      "target": "BLACK_DIABLOS_HAMMER_1",
+      "weaponId": 651,
+      "level": 3,
+      "attack": 149,
+      "critical": -30
+    },
+    {
+      "target": "BLACK_DIABLOS_HAMMER_1",
+      "weaponId": 651,
+      "level": 4,
+      "attack": 158,
+      "critical": -30
+    },
+    {
+      "target": "BLACK_DIABLOS_HAMMER_1",
+      "weaponId": 651,
+      "level": 5,
+      "attack": 168,
+      "critical": -30
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "BLACK_DIABLOS_HAMMER_1",
+      "weaponId": 651,
+      "craftMaterialSettingsId": 1541,
+      "_materials": {
+        "id": 1541,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 2007101,
+            "num": 2
+          },
+          {
+            "id": 1020001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BLACK_DIABLOS_HAMMER_1",
+      "weaponId": 651,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1542,
+      "_materials": {
+        "id": 1542,
+        "zenny": 20,
+        "userItem": [
+          {
+            "id": 2007101,
+            "num": 2
+          },
+          {
+            "id": 2101101,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BLACK_DIABLOS_HAMMER_1",
+      "weaponId": 651,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1543,
+      "_materials": {
+        "id": 1543,
+        "zenny": 30,
+        "userItem": [
+          {
+            "id": 2007101,
+            "num": 2
+          },
+          {
+            "id": 2007103,
+            "num": 1
+          }
+        ]
+      }
+    },
+    {
+      "target": "BLACK_DIABLOS_HAMMER_1",
+      "weaponId": 651,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1544,
+      "_materials": {
+        "id": 1544,
+        "zenny": 40,
+        "userItem": [
+          {
+            "id": 2007101,
+            "num": 2
+          },
+          {
+            "id": 2101101,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BLACK_DIABLOS_HAMMER_1",
+      "weaponId": 651,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1545,
+      "_materials": {
+        "id": 1545,
+        "zenny": 50,
+        "userItem": [
+          {
+            "id": 2007101,
+            "num": 2
+          },
+          {
+            "id": 1020001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BLACK_DIABLOS_HAMMER_1",
+      "weaponId": 651,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 1546,
+      "_materials": {
+        "id": 1546,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2007101,
+            "num": 3
+          },
+          {
+            "id": 2007104,
+            "num": 1
+          },
+          {
+            "id": 1020002,
+            "num": 1
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 import { z, defineCollection } from 'astro:content';
+import { weaponCollection } from './weapon/_config';
 
 const guideBookSchema = z.object({
 	Id: z.number(),
@@ -110,6 +111,7 @@ const i18nMessagesCollection = defineCollection({
 export const collections = {
   monster: monsterCollection,
   messages: i18nMessagesCollection,
+  weapon: weaponCollection
 };
 
 export type PartsType = z.infer<typeof partsSchema>

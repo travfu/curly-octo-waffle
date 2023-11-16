@@ -1,0 +1,234 @@
+{
+  "target": "KULUYAKU_LONGSWORD_7",
+  "weaponId": 388,
+  "category": "WEAPON_TYPE2_LONG_SWORD",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w03_028",
+  "grade": 7,
+  "series": "SERIES_KULUYAKU",
+  "seriesId": 3,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 410050,
+  "normalSkill": [
+    {
+      "skillLevelSettingId": 4601,
+      "normalSkillKind": "FORTIFY",
+      "skillLevel": 1
+    }
+  ],
+  "specialSkill": {
+    "skillLevelSettingId": 5202,
+    "specialSkillKind": "SPECIAL_ATTACK_LONGSWORD",
+    "skillLevel": 2
+  },
+  "_levels": [
+    {
+      "target": "KULUYAKU_LONGSWORD_7",
+      "weaponId": 388,
+      "level": 1,
+      "attack": 727,
+      "critical": 20
+    },
+    {
+      "target": "KULUYAKU_LONGSWORD_7",
+      "weaponId": 388,
+      "level": 2,
+      "attack": 763,
+      "critical": 20
+    },
+    {
+      "target": "KULUYAKU_LONGSWORD_7",
+      "weaponId": 388,
+      "level": 3,
+      "attack": 799,
+      "critical": 20
+    },
+    {
+      "target": "KULUYAKU_LONGSWORD_7",
+      "weaponId": 388,
+      "level": 4,
+      "attack": 835,
+      "critical": 20
+    },
+    {
+      "target": "KULUYAKU_LONGSWORD_7",
+      "weaponId": 388,
+      "level": 5,
+      "attack": 871,
+      "critical": 20
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "KULUYAKU_LONGSWORD_7",
+      "weaponId": 388,
+      "craftMaterialSettingsId": 511,
+      "upgrade": {
+        "base": "KULUYAKU_LONGSWORD_6",
+        "baseWeaponId": 387
+      },
+      "_materials": {
+        "id": 511,
+        "zenny": 6000,
+        "userItem": [
+          {
+            "id": 2107001,
+            "num": 24
+          },
+          {
+            "id": 2107009,
+            "num": 12
+          },
+          {
+            "id": 2107010,
+            "num": 3
+          },
+          {
+            "id": 3001018,
+            "num": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_LONGSWORD_7",
+      "weaponId": 388,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 512,
+      "_materials": {
+        "id": 512,
+        "zenny": 2000,
+        "userItem": [
+          {
+            "id": 2107001,
+            "num": 24
+          },
+          {
+            "id": 2101101,
+            "num": 51
+          },
+          {
+            "id": 1020001,
+            "num": 42
+          },
+          {
+            "id": 2101003,
+            "num": 6
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_LONGSWORD_7",
+      "weaponId": 388,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 513,
+      "_materials": {
+        "id": 513,
+        "zenny": 3000,
+        "userItem": [
+          {
+            "id": 2107001,
+            "num": 24
+          },
+          {
+            "id": 2107003,
+            "num": 30
+          },
+          {
+            "id": 2107004,
+            "num": 20
+          },
+          {
+            "id": 1140003,
+            "num": 31
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_LONGSWORD_7",
+      "weaponId": 388,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 514,
+      "_materials": {
+        "id": 514,
+        "zenny": 4000,
+        "userItem": [
+          {
+            "id": 2107001,
+            "num": 24
+          },
+          {
+            "id": 2101101,
+            "num": 51
+          },
+          {
+            "id": 1020001,
+            "num": 42
+          },
+          {
+            "id": 2101004,
+            "num": 6
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_LONGSWORD_7",
+      "weaponId": 388,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 515,
+      "_materials": {
+        "id": 515,
+        "zenny": 5000,
+        "userItem": [
+          {
+            "id": 2107001,
+            "num": 24
+          },
+          {
+            "id": 1020002,
+            "num": 30
+          },
+          {
+            "id": 1020003,
+            "num": 11
+          },
+          {
+            "id": 1020004,
+            "num": 31
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_LONGSWORD_7",
+      "weaponId": 388,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 516,
+      "_materials": {
+        "id": 516,
+        "zenny": 12000,
+        "userItem": [
+          {
+            "id": 2107010,
+            "num": 5
+          },
+          {
+            "id": 1110004,
+            "num": 4
+          },
+          {
+            "id": 3001018,
+            "num": 5
+          }
+        ]
+      }
+    }
+  ]
+}

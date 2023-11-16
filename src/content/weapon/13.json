@@ -1,0 +1,174 @@
+{
+  "target": "TOBIKADACHI_SWORDSHIELD_1",
+  "weaponId": 13,
+  "category": "WEAPON_TYPE2_SWORD_SHIELD",
+  "elementType": "THUNDER",
+  "assetKey": "w_w01_058",
+  "grade": 1,
+  "series": "SERIES_TOBIKADACHI",
+  "seriesId": 8,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 110090,
+  "_levels": [
+    {
+      "target": "TOBIKADACHI_SWORDSHIELD_1",
+      "weaponId": 13,
+      "level": 1,
+      "attack": 90,
+      "elementAttack": 30
+    },
+    {
+      "target": "TOBIKADACHI_SWORDSHIELD_1",
+      "weaponId": 13,
+      "level": 2,
+      "attack": 97,
+      "elementAttack": 33
+    },
+    {
+      "target": "TOBIKADACHI_SWORDSHIELD_1",
+      "weaponId": 13,
+      "level": 3,
+      "attack": 103,
+      "elementAttack": 36
+    },
+    {
+      "target": "TOBIKADACHI_SWORDSHIELD_1",
+      "weaponId": 13,
+      "level": 4,
+      "attack": 110,
+      "elementAttack": 38
+    },
+    {
+      "target": "TOBIKADACHI_SWORDSHIELD_1",
+      "weaponId": 13,
+      "level": 5,
+      "attack": 116,
+      "elementAttack": 41
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "TOBIKADACHI_SWORDSHIELD_1",
+      "weaponId": 13,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_SWORDSHIELD_1",
+      "weaponId": 13,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 702,
+      "_materials": {
+        "id": 702,
+        "zenny": 20,
+        "userItem": [
+          {
+            "id": 2109002,
+            "num": 2
+          },
+          {
+            "id": 2101101,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_SWORDSHIELD_1",
+      "weaponId": 13,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 703,
+      "_materials": {
+        "id": 703,
+        "zenny": 30,
+        "userItem": [
+          {
+            "id": 2109002,
+            "num": 2
+          },
+          {
+            "id": 2109008,
+            "num": 1
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_SWORDSHIELD_1",
+      "weaponId": 13,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 704,
+      "_materials": {
+        "id": 704,
+        "zenny": 40,
+        "userItem": [
+          {
+            "id": 2109002,
+            "num": 2
+          },
+          {
+            "id": 2101101,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_SWORDSHIELD_1",
+      "weaponId": 13,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 705,
+      "_materials": {
+        "id": 705,
+        "zenny": 50,
+        "userItem": [
+          {
+            "id": 2109002,
+            "num": 2
+          },
+          {
+            "id": 1020001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_SWORDSHIELD_1",
+      "weaponId": 13,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 141,
+      "_materials": {
+        "id": 141,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2109002,
+            "num": 3
+          },
+          {
+            "id": 2109004,
+            "num": 1
+          },
+          {
+            "id": 1020002,
+            "num": 1
+          }
+        ]
+      }
+    }
+  ]
+}

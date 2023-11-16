@@ -1,0 +1,159 @@
+{
+  "target": "BARIOTH_HAMMER_9",
+  "weaponId": 782,
+  "category": "WEAPON_TYPE2_HAMMER",
+  "elementType": "ICE",
+  "assetKey": "w_w04_164",
+  "grade": 9,
+  "series": "SERIES_BARIOTH",
+  "seriesId": 24,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 310121,
+  "specialSkill": {
+    "skillLevelSettingId": 5303,
+    "specialSkillKind": "SPECIAL_ATTACK_HAMMER",
+    "skillLevel": 3
+  },
+  "_levels": [
+    {
+      "target": "BARIOTH_HAMMER_9",
+      "weaponId": 782,
+      "level": 1,
+      "attack": 1007,
+      "elementAttack": 663
+    },
+    {
+      "target": "BARIOTH_HAMMER_9",
+      "weaponId": 782,
+      "level": 2,
+      "attack": 1057,
+      "elementAttack": 704
+    },
+    {
+      "target": "BARIOTH_HAMMER_9",
+      "weaponId": 782,
+      "level": 3,
+      "attack": 1107,
+      "elementAttack": 745
+    },
+    {
+      "target": "BARIOTH_HAMMER_9",
+      "weaponId": 782,
+      "level": 4,
+      "attack": 1156,
+      "elementAttack": 785
+    },
+    {
+      "target": "BARIOTH_HAMMER_9",
+      "weaponId": 782,
+      "level": 5,
+      "attack": 1206,
+      "elementAttack": 826
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "BARIOTH_HAMMER_9",
+      "weaponId": 782,
+      "craftMaterialSettingsId": 1,
+      "upgrade": {
+        "base": "BARIOTH_HAMMER_8",
+        "baseWeaponId": 781
+      },
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARIOTH_HAMMER_9",
+      "weaponId": 782,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARIOTH_HAMMER_9",
+      "weaponId": 782,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARIOTH_HAMMER_9",
+      "weaponId": 782,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARIOTH_HAMMER_9",
+      "weaponId": 782,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARIOTH_HAMMER_9",
+      "weaponId": 782,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    }
+  ]
+}

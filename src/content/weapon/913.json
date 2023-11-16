@@ -1,0 +1,159 @@
+{
+  "target": "TOBIKADACHI_DUALBLADES_4",
+  "weaponId": 913,
+  "category": "WEAPON_TYPE2_DUAL_BLADES",
+  "elementType": "THUNDER",
+  "assetKey": "w_w02_073",
+  "grade": 4,
+  "series": "SERIES_TOBIKADACHI",
+  "seriesId": 8,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 710090,
+  "specialSkill": {
+    "skillLevelSettingId": 5101,
+    "specialSkillKind": "SPECIAL_ATTACK_SWORDSHIELD",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "TOBIKADACHI_DUALBLADES_4",
+      "weaponId": 913,
+      "level": 1,
+      "attack": 260,
+      "elementAttack": 117
+    },
+    {
+      "target": "TOBIKADACHI_DUALBLADES_4",
+      "weaponId": 913,
+      "level": 2,
+      "attack": 279,
+      "elementAttack": 128
+    },
+    {
+      "target": "TOBIKADACHI_DUALBLADES_4",
+      "weaponId": 913,
+      "level": 3,
+      "attack": 298,
+      "elementAttack": 138
+    },
+    {
+      "target": "TOBIKADACHI_DUALBLADES_4",
+      "weaponId": 913,
+      "level": 4,
+      "attack": 317,
+      "elementAttack": 149
+    },
+    {
+      "target": "TOBIKADACHI_DUALBLADES_4",
+      "weaponId": 913,
+      "level": 5,
+      "attack": 335,
+      "elementAttack": 159
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "TOBIKADACHI_DUALBLADES_4",
+      "weaponId": 913,
+      "craftMaterialSettingsId": 1,
+      "upgrade": {
+        "base": "TOBIKADACHI_DUALBLADES_3",
+        "baseWeaponId": 912
+      },
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_DUALBLADES_4",
+      "weaponId": 913,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_DUALBLADES_4",
+      "weaponId": 913,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_DUALBLADES_4",
+      "weaponId": 913,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_DUALBLADES_4",
+      "weaponId": 913,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_DUALBLADES_4",
+      "weaponId": 913,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    }
+  ]
+}

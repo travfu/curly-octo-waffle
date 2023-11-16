@@ -1,0 +1,265 @@
+{
+  "target": "RATHIAN_BOW_4",
+  "weaponId": 156,
+  "category": "WEAPON_TYPE2_BOW",
+  "elementType": "POISON",
+  "assetKey": "w_w11_038",
+  "grade": 4,
+  "series": "SERIES_RATHIAN",
+  "seriesId": 12,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 610120,
+  "normalSkill": [
+    {
+      "skillLevelSettingId": 101,
+      "normalSkillKind": "HEALTH_BOOST",
+      "skillLevel": 1
+    }
+  ],
+  "specialSkill": {
+    "skillLevelSettingId": 5501,
+    "specialSkillKind": "SPECIAL_ATTACK_BOW",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "RATHIAN_BOW_4",
+      "weaponId": 156,
+      "level": 1,
+      "attack": 284,
+      "elementAttack": 236
+    },
+    {
+      "target": "RATHIAN_BOW_4",
+      "weaponId": 156,
+      "level": 2,
+      "attack": 305,
+      "elementAttack": 246
+    },
+    {
+      "target": "RATHIAN_BOW_4",
+      "weaponId": 156,
+      "level": 3,
+      "attack": 325,
+      "elementAttack": 255
+    },
+    {
+      "target": "RATHIAN_BOW_4",
+      "weaponId": 156,
+      "level": 4,
+      "attack": 346,
+      "elementAttack": 265
+    },
+    {
+      "target": "RATHIAN_BOW_4",
+      "weaponId": 156,
+      "level": 5,
+      "attack": 366,
+      "elementAttack": 275
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "RATHIAN_BOW_4",
+      "weaponId": 156,
+      "create": true,
+      "craftMaterialSettingsId": 166,
+      "_materials": {
+        "id": 166,
+        "zenny": 900,
+        "userItem": [
+          {
+            "id": 2001001,
+            "num": 4
+          },
+          {
+            "id": 2001003,
+            "num": 2
+          },
+          {
+            "id": 2001009,
+            "num": 2
+          },
+          {
+            "id": 1020002,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHIAN_BOW_4",
+      "weaponId": 156,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 167,
+      "_materials": {
+        "id": 167,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2001001,
+            "num": 8
+          },
+          {
+            "id": 2101101,
+            "num": 24
+          },
+          {
+            "id": 1020001,
+            "num": 16
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHIAN_BOW_4",
+      "weaponId": 156,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 168,
+      "_materials": {
+        "id": 168,
+        "zenny": 450,
+        "userItem": [
+          {
+            "id": 2001001,
+            "num": 8
+          },
+          {
+            "id": 2001004,
+            "num": 9
+          },
+          {
+            "id": 1130002,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHIAN_BOW_4",
+      "weaponId": 156,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 169,
+      "_materials": {
+        "id": 169,
+        "zenny": 600,
+        "userItem": [
+          {
+            "id": 2001001,
+            "num": 8
+          },
+          {
+            "id": 2101101,
+            "num": 24
+          },
+          {
+            "id": 1020001,
+            "num": 16
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHIAN_BOW_4",
+      "weaponId": 156,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 170,
+      "_materials": {
+        "id": 170,
+        "zenny": 750,
+        "userItem": [
+          {
+            "id": 2001001,
+            "num": 8
+          },
+          {
+            "id": 1020003,
+            "num": 3
+          },
+          {
+            "id": 1020004,
+            "num": 12
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHIAN_BOW_4",
+      "weaponId": 156,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 741,
+      "_materials": {
+        "id": 741,
+        "zenny": 1500,
+        "userItem": [
+          {
+            "id": 2001001,
+            "num": 12
+          },
+          {
+            "id": 2001003,
+            "num": 6
+          },
+          {
+            "id": 2001009,
+            "num": 4
+          },
+          {
+            "id": 1020002,
+            "num": 10
+          }
+        ]
+      }
+    }
+  ],
+  "_bow": {
+    "target": "RATHIAN_BOW_4",
+    "weaponId": 156,
+    "bowArrowKind": [
+      "ARROW_RAPID_01",
+      "ARROW_RAPID_02",
+      "ARROW_SPREAD_03",
+      "ARROW_SPREAD_04"
+    ],
+    "bowArrowSettingId": [
+      101,
+      102,
+      203,
+      204
+    ],
+    "_arrows": [
+      {
+        "bowArrowKind": "ARROW_RAPID_01",
+        "settingId": 101,
+        "arrowType": "RAPID",
+        "level": 1,
+        "nameLocalizationKey": "BowArrow/ARROW_RAPID_01"
+      },
+      {
+        "bowArrowKind": "ARROW_RAPID_02",
+        "settingId": 102,
+        "arrowType": "RAPID",
+        "level": 2,
+        "nameLocalizationKey": "BowArrow/ARROW_RAPID_02"
+      },
+      {
+        "bowArrowKind": "ARROW_SPREAD_03",
+        "settingId": 203,
+        "arrowType": "SPREAD",
+        "level": 3,
+        "nameLocalizationKey": "BowArrow/ARROW_SPREAD_03"
+      },
+      {
+        "bowArrowKind": "ARROW_SPREAD_04",
+        "settingId": 204,
+        "arrowType": "SPREAD",
+        "level": 4,
+        "nameLocalizationKey": "BowArrow/ARROW_SPREAD_04"
+      }
+    ]
+  }
+}

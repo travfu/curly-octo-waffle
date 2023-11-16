@@ -1,0 +1,222 @@
+{
+  "target": "KULUYAKU_LONGSWORD_4",
+  "weaponId": 111,
+  "category": "WEAPON_TYPE2_LONG_SWORD",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w03_025",
+  "grade": 4,
+  "series": "SERIES_KULUYAKU",
+  "seriesId": 3,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 410050,
+  "normalSkill": [
+    {
+      "skillLevelSettingId": 4601,
+      "normalSkillKind": "FORTIFY",
+      "skillLevel": 1
+    }
+  ],
+  "specialSkill": {
+    "skillLevelSettingId": 5201,
+    "specialSkillKind": "SPECIAL_ATTACK_LONGSWORD",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "KULUYAKU_LONGSWORD_4",
+      "weaponId": 111,
+      "level": 1,
+      "attack": 299,
+      "critical": 15
+    },
+    {
+      "target": "KULUYAKU_LONGSWORD_4",
+      "weaponId": 111,
+      "level": 2,
+      "attack": 321,
+      "critical": 15
+    },
+    {
+      "target": "KULUYAKU_LONGSWORD_4",
+      "weaponId": 111,
+      "level": 3,
+      "attack": 342,
+      "critical": 15
+    },
+    {
+      "target": "KULUYAKU_LONGSWORD_4",
+      "weaponId": 111,
+      "level": 4,
+      "attack": 364,
+      "critical": 15
+    },
+    {
+      "target": "KULUYAKU_LONGSWORD_4",
+      "weaponId": 111,
+      "level": 5,
+      "attack": 385,
+      "critical": 15
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "KULUYAKU_LONGSWORD_4",
+      "weaponId": 111,
+      "craftMaterialSettingsId": 56,
+      "upgrade": {
+        "base": "KULUYAKU_LONGSWORD_3",
+        "baseWeaponId": 97
+      },
+      "_materials": {
+        "id": 56,
+        "zenny": 900,
+        "userItem": [
+          {
+            "id": 2107001,
+            "num": 8
+          },
+          {
+            "id": 2107004,
+            "num": 4
+          },
+          {
+            "id": 2107009,
+            "num": 2
+          },
+          {
+            "id": 1020002,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_LONGSWORD_4",
+      "weaponId": 111,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 57,
+      "_materials": {
+        "id": 57,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2107001,
+            "num": 8
+          },
+          {
+            "id": 2101101,
+            "num": 24
+          },
+          {
+            "id": 1020001,
+            "num": 16
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_LONGSWORD_4",
+      "weaponId": 111,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 58,
+      "_materials": {
+        "id": 58,
+        "zenny": 450,
+        "userItem": [
+          {
+            "id": 2107001,
+            "num": 8
+          },
+          {
+            "id": 2107003,
+            "num": 9
+          },
+          {
+            "id": 1140003,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_LONGSWORD_4",
+      "weaponId": 111,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 59,
+      "_materials": {
+        "id": 59,
+        "zenny": 600,
+        "userItem": [
+          {
+            "id": 2107001,
+            "num": 8
+          },
+          {
+            "id": 2101101,
+            "num": 24
+          },
+          {
+            "id": 1020001,
+            "num": 16
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_LONGSWORD_4",
+      "weaponId": 111,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 60,
+      "_materials": {
+        "id": 60,
+        "zenny": 750,
+        "userItem": [
+          {
+            "id": 2107001,
+            "num": 8
+          },
+          {
+            "id": 1020003,
+            "num": 3
+          },
+          {
+            "id": 1020004,
+            "num": 12
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_LONGSWORD_4",
+      "weaponId": 111,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 501,
+      "_materials": {
+        "id": 501,
+        "zenny": 1500,
+        "userItem": [
+          {
+            "id": 2107001,
+            "num": 12
+          },
+          {
+            "id": 2107004,
+            "num": 6
+          },
+          {
+            "id": 2107009,
+            "num": 4
+          },
+          {
+            "id": 1020002,
+            "num": 10
+          }
+        ]
+      }
+    }
+  ]
+}

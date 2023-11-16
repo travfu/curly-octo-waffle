@@ -1,0 +1,207 @@
+{
+  "target": "BLACK_DIABLOS_HAMMER_3",
+  "weaponId": 653,
+  "category": "WEAPON_TYPE2_HAMMER",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w04_203",
+  "grade": 3,
+  "series": "SERIES_BLACK_DIABLOS",
+  "seriesId": 20,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 310170,
+  "specialSkill": {
+    "skillLevelSettingId": 5301,
+    "specialSkillKind": "SPECIAL_ATTACK_HAMMER",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "BLACK_DIABLOS_HAMMER_3",
+      "weaponId": 653,
+      "level": 1,
+      "attack": 273,
+      "critical": -30
+    },
+    {
+      "target": "BLACK_DIABLOS_HAMMER_3",
+      "weaponId": 653,
+      "level": 2,
+      "attack": 293,
+      "critical": -30
+    },
+    {
+      "target": "BLACK_DIABLOS_HAMMER_3",
+      "weaponId": 653,
+      "level": 3,
+      "attack": 313,
+      "critical": -30
+    },
+    {
+      "target": "BLACK_DIABLOS_HAMMER_3",
+      "weaponId": 653,
+      "level": 4,
+      "attack": 333,
+      "critical": -30
+    },
+    {
+      "target": "BLACK_DIABLOS_HAMMER_3",
+      "weaponId": 653,
+      "level": 5,
+      "attack": 353,
+      "critical": -30
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "BLACK_DIABLOS_HAMMER_3",
+      "weaponId": 653,
+      "craftMaterialSettingsId": 1551,
+      "_materials": {
+        "id": 1551,
+        "zenny": 600,
+        "userItem": [
+          {
+            "id": 2007101,
+            "num": 5
+          },
+          {
+            "id": 2007104,
+            "num": 2
+          },
+          {
+            "id": 1020002,
+            "num": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "BLACK_DIABLOS_HAMMER_3",
+      "weaponId": 653,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1552,
+      "_materials": {
+        "id": 1552,
+        "zenny": 200,
+        "userItem": [
+          {
+            "id": 2007101,
+            "num": 5
+          },
+          {
+            "id": 2101101,
+            "num": 12
+          },
+          {
+            "id": 1020001,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "BLACK_DIABLOS_HAMMER_3",
+      "weaponId": 653,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1553,
+      "_materials": {
+        "id": 1553,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2007101,
+            "num": 5
+          },
+          {
+            "id": 2007103,
+            "num": 6
+          },
+          {
+            "id": 1140003,
+            "num": 5
+          }
+        ]
+      }
+    },
+    {
+      "target": "BLACK_DIABLOS_HAMMER_3",
+      "weaponId": 653,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1554,
+      "_materials": {
+        "id": 1554,
+        "zenny": 400,
+        "userItem": [
+          {
+            "id": 2007101,
+            "num": 5
+          },
+          {
+            "id": 2101101,
+            "num": 12
+          },
+          {
+            "id": 1020001,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "BLACK_DIABLOS_HAMMER_3",
+      "weaponId": 653,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1555,
+      "_materials": {
+        "id": 1555,
+        "zenny": 500,
+        "userItem": [
+          {
+            "id": 2007101,
+            "num": 5
+          },
+          {
+            "id": 1020003,
+            "num": 2
+          },
+          {
+            "id": 1140002,
+            "num": 6
+          }
+        ]
+      }
+    },
+    {
+      "target": "BLACK_DIABLOS_HAMMER_3",
+      "weaponId": 653,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 1556,
+      "_materials": {
+        "id": 1556,
+        "zenny": 900,
+        "userItem": [
+          {
+            "id": 2007101,
+            "num": 8
+          },
+          {
+            "id": 2007104,
+            "num": 4
+          },
+          {
+            "id": 2007105,
+            "num": 2
+          },
+          {
+            "id": 1020002,
+            "num": 8
+          }
+        ]
+      }
+    }
+  ]
+}

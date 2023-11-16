@@ -1,0 +1,186 @@
+{
+  "target": "ORE_HAMMER_3",
+  "weaponId": 93,
+  "category": "WEAPON_TYPE2_HAMMER",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w04_010",
+  "grade": 3,
+  "series": "SERIES_ORE",
+  "seriesId": 1,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 310010,
+  "specialSkill": {
+    "skillLevelSettingId": 5301,
+    "specialSkillKind": "SPECIAL_ATTACK_HAMMER",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "ORE_HAMMER_3",
+      "weaponId": 93,
+      "level": 1,
+      "attack": 207
+    },
+    {
+      "target": "ORE_HAMMER_3",
+      "weaponId": 93,
+      "level": 2,
+      "attack": 222
+    },
+    {
+      "target": "ORE_HAMMER_3",
+      "weaponId": 93,
+      "level": 3,
+      "attack": 237
+    },
+    {
+      "target": "ORE_HAMMER_3",
+      "weaponId": 93,
+      "level": 4,
+      "attack": 253
+    },
+    {
+      "target": "ORE_HAMMER_3",
+      "weaponId": 93,
+      "level": 5,
+      "attack": 268
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "ORE_HAMMER_3",
+      "weaponId": 93,
+      "craftMaterialSettingsId": 11,
+      "upgrade": {
+        "base": "ORE_HAMMER_2",
+        "baseWeaponId": 92
+      },
+      "_materials": {
+        "id": 11,
+        "zenny": 600,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 12
+          },
+          {
+            "id": 1010002,
+            "num": 8
+          },
+          {
+            "id": 1010003,
+            "num": 5
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_HAMMER_3",
+      "weaponId": 93,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 12,
+      "_materials": {
+        "id": 12,
+        "zenny": 200,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 12
+          },
+          {
+            "id": 2101101,
+            "num": 12
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_HAMMER_3",
+      "weaponId": 93,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 13,
+      "_materials": {
+        "id": 13,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 12
+          },
+          {
+            "id": 1140003,
+            "num": 5
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_HAMMER_3",
+      "weaponId": 93,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 14,
+      "_materials": {
+        "id": 14,
+        "zenny": 400,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 12
+          },
+          {
+            "id": 2101101,
+            "num": 12
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_HAMMER_3",
+      "weaponId": 93,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 15,
+      "_materials": {
+        "id": 15,
+        "zenny": 500,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 12
+          },
+          {
+            "id": 1010004,
+            "num": 15
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_HAMMER_3",
+      "weaponId": 93,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 16,
+      "_materials": {
+        "id": 16,
+        "zenny": 900,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 18
+          },
+          {
+            "id": 1010002,
+            "num": 15
+          },
+          {
+            "id": 1010003,
+            "num": 10
+          }
+        ]
+      }
+    }
+  ]
+}

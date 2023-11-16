@@ -1,0 +1,233 @@
+{
+  "target": "BARROTH_SWORDSHIELD_6",
+  "weaponId": 230,
+  "category": "WEAPON_TYPE2_SWORD_SHIELD",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w01_076",
+  "grade": 6,
+  "series": "SERIES_BARROTH",
+  "seriesId": 13,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 110070,
+  "normalSkill": [
+    {
+      "skillLevelSettingId": 301,
+      "normalSkillKind": "DEFENSE_BOOST",
+      "skillLevel": 1
+    }
+  ],
+  "specialSkill": {
+    "skillLevelSettingId": 5102,
+    "specialSkillKind": "SPECIAL_ATTACK_SWORDSHIELD",
+    "skillLevel": 2
+  },
+  "_levels": [
+    {
+      "target": "BARROTH_SWORDSHIELD_6",
+      "weaponId": 230,
+      "level": 1,
+      "attack": 615
+    },
+    {
+      "target": "BARROTH_SWORDSHIELD_6",
+      "weaponId": 230,
+      "level": 2,
+      "attack": 645
+    },
+    {
+      "target": "BARROTH_SWORDSHIELD_6",
+      "weaponId": 230,
+      "level": 3,
+      "attack": 676
+    },
+    {
+      "target": "BARROTH_SWORDSHIELD_6",
+      "weaponId": 230,
+      "level": 4,
+      "attack": 706
+    },
+    {
+      "target": "BARROTH_SWORDSHIELD_6",
+      "weaponId": 230,
+      "level": 5,
+      "attack": 737
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "BARROTH_SWORDSHIELD_6",
+      "weaponId": 230,
+      "craftMaterialSettingsId": 571,
+      "upgrade": {
+        "base": "BARROTH_SWORDSHIELD_5",
+        "baseWeaponId": 229
+      },
+      "_materials": {
+        "id": 571,
+        "zenny": 3000,
+        "userItem": [
+          {
+            "id": 2044002,
+            "num": 18
+          },
+          {
+            "id": 2044007,
+            "num": 6
+          },
+          {
+            "id": 2044008,
+            "num": 2
+          },
+          {
+            "id": 3001018,
+            "num": 1
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARROTH_SWORDSHIELD_6",
+      "weaponId": 230,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 572,
+      "_materials": {
+        "id": 572,
+        "zenny": 1000,
+        "userItem": [
+          {
+            "id": 2044002,
+            "num": 18
+          },
+          {
+            "id": 2101101,
+            "num": 44
+          },
+          {
+            "id": 1020001,
+            "num": 32
+          },
+          {
+            "id": 2007004,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARROTH_SWORDSHIELD_6",
+      "weaponId": 230,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 573,
+      "_materials": {
+        "id": 573,
+        "zenny": 1500,
+        "userItem": [
+          {
+            "id": 2044002,
+            "num": 18
+          },
+          {
+            "id": 2044003,
+            "num": 20
+          },
+          {
+            "id": 2044004,
+            "num": 15
+          },
+          {
+            "id": 1140003,
+            "num": 20
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARROTH_SWORDSHIELD_6",
+      "weaponId": 230,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 574,
+      "_materials": {
+        "id": 574,
+        "zenny": 2000,
+        "userItem": [
+          {
+            "id": 2044002,
+            "num": 18
+          },
+          {
+            "id": 2101101,
+            "num": 44
+          },
+          {
+            "id": 1020001,
+            "num": 32
+          },
+          {
+            "id": 2007002,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARROTH_SWORDSHIELD_6",
+      "weaponId": 230,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 575,
+      "_materials": {
+        "id": 575,
+        "zenny": 2500,
+        "userItem": [
+          {
+            "id": 2044002,
+            "num": 18
+          },
+          {
+            "id": 1020002,
+            "num": 20
+          },
+          {
+            "id": 1020003,
+            "num": 7
+          },
+          {
+            "id": 1140002,
+            "num": 20
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARROTH_SWORDSHIELD_6",
+      "weaponId": 230,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 576,
+      "_materials": {
+        "id": 576,
+        "zenny": 6000,
+        "userItem": [
+          {
+            "id": 2044002,
+            "num": 24
+          },
+          {
+            "id": 2044007,
+            "num": 12
+          },
+          {
+            "id": 2044008,
+            "num": 3
+          },
+          {
+            "id": 3001018,
+            "num": 3
+          }
+        ]
+      }
+    }
+  ]
+}

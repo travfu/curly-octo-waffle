@@ -1,0 +1,260 @@
+{
+  "target": "TOBIKADACHI_LIGHTBOWGUN_7",
+  "weaponId": 333,
+  "category": "WEAPON_TYPE2_LIGHT_BOWGUN",
+  "elementType": "THUNDER",
+  "assetKey": "w_w13_040",
+  "grade": 7,
+  "series": "SERIES_TOBIKADACHI",
+  "seriesId": 8,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 510090,
+  "specialSkill": {
+    "skillLevelSettingId": 5402,
+    "specialSkillKind": "SPECIAL_ATTACK_LIGHTBOWGUN",
+    "skillLevel": 2
+  },
+  "_levels": [
+    {
+      "target": "TOBIKADACHI_LIGHTBOWGUN_7",
+      "weaponId": 333,
+      "level": 1,
+      "attack": 611,
+      "elementAttack": 349
+    },
+    {
+      "target": "TOBIKADACHI_LIGHTBOWGUN_7",
+      "weaponId": 333,
+      "level": 2,
+      "attack": 641,
+      "elementAttack": 371
+    },
+    {
+      "target": "TOBIKADACHI_LIGHTBOWGUN_7",
+      "weaponId": 333,
+      "level": 3,
+      "attack": 671,
+      "elementAttack": 393
+    },
+    {
+      "target": "TOBIKADACHI_LIGHTBOWGUN_7",
+      "weaponId": 333,
+      "level": 4,
+      "attack": 701,
+      "elementAttack": 414
+    },
+    {
+      "target": "TOBIKADACHI_LIGHTBOWGUN_7",
+      "weaponId": 333,
+      "level": 5,
+      "attack": 732,
+      "elementAttack": 436
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "TOBIKADACHI_LIGHTBOWGUN_7",
+      "weaponId": 333,
+      "craftMaterialSettingsId": 716,
+      "upgrade": {
+        "base": "TOBIKADACHI_LIGHTBOWGUN_6",
+        "baseWeaponId": 332
+      },
+      "_materials": {
+        "id": 716,
+        "zenny": 6000,
+        "userItem": [
+          {
+            "id": 2109002,
+            "num": 24
+          },
+          {
+            "id": 2109009,
+            "num": 12
+          },
+          {
+            "id": 2109003,
+            "num": 3
+          },
+          {
+            "id": 3001018,
+            "num": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_LIGHTBOWGUN_7",
+      "weaponId": 333,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 717,
+      "_materials": {
+        "id": 717,
+        "zenny": 2000,
+        "userItem": [
+          {
+            "id": 2109002,
+            "num": 24
+          },
+          {
+            "id": 2101101,
+            "num": 51
+          },
+          {
+            "id": 1020001,
+            "num": 42
+          },
+          {
+            "id": 2112003,
+            "num": 6
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_LIGHTBOWGUN_7",
+      "weaponId": 333,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 718,
+      "_materials": {
+        "id": 718,
+        "zenny": 3000,
+        "userItem": [
+          {
+            "id": 2109002,
+            "num": 24
+          },
+          {
+            "id": 2109008,
+            "num": 30
+          },
+          {
+            "id": 2109004,
+            "num": 20
+          },
+          {
+            "id": 1140001,
+            "num": 31
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_LIGHTBOWGUN_7",
+      "weaponId": 333,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 719,
+      "_materials": {
+        "id": 719,
+        "zenny": 4000,
+        "userItem": [
+          {
+            "id": 2109002,
+            "num": 24
+          },
+          {
+            "id": 2101101,
+            "num": 51
+          },
+          {
+            "id": 1020001,
+            "num": 42
+          },
+          {
+            "id": 2112004,
+            "num": 6
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_LIGHTBOWGUN_7",
+      "weaponId": 333,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 720,
+      "_materials": {
+        "id": 720,
+        "zenny": 5000,
+        "userItem": [
+          {
+            "id": 2109002,
+            "num": 24
+          },
+          {
+            "id": 1020002,
+            "num": 30
+          },
+          {
+            "id": 1020003,
+            "num": 11
+          },
+          {
+            "id": 1020004,
+            "num": 31
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_LIGHTBOWGUN_7",
+      "weaponId": 333,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 721,
+      "_materials": {
+        "id": 721,
+        "zenny": 12000,
+        "userItem": [
+          {
+            "id": 2109003,
+            "num": 5
+          },
+          {
+            "id": 1110004,
+            "num": 4
+          },
+          {
+            "id": 3001018,
+            "num": 5
+          }
+        ]
+      }
+    }
+  ],
+  "_bowgun": {
+    "target": "TOBIKADACHI_LIGHTBOWGUN_7",
+    "weaponId": 333,
+    "ammoProperty": [
+      {
+        "capacity": 5,
+        "recoilType": "RECOIL_MEDIUM",
+        "reloadType": "RELOAD_MEDIUM",
+        "bowgunAmmoSettingsId": 901,
+        "_ammo": {
+          "id": 901,
+          "ammoType": "NORMAL",
+          "elementType": "THUNDER",
+          "level": 1,
+          "htmlColorCode": "#FFFF71"
+        }
+      },
+      {
+        "capacity": 3,
+        "recoilType": "RECOIL_EXTRA_LARGE",
+        "reloadType": "RELOAD_LARGE",
+        "bowgunAmmoSettingsId": 3101,
+        "_ammo": {
+          "id": 3101,
+          "ammoType": "SLICING",
+          "elementType": "THUNDER",
+          "level": 1,
+          "iconId": 2,
+          "htmlColorCode": "#FFFF71"
+        }
+      }
+    ]
+  }
+}

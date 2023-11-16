@@ -1,0 +1,159 @@
+{
+  "target": "TOBIKADACHI_LANCE_5",
+  "weaponId": 939,
+  "category": "WEAPON_TYPE2_LANCE",
+  "elementType": "THUNDER",
+  "assetKey": "w_w06_028",
+  "grade": 5,
+  "series": "SERIES_TOBIKADACHI",
+  "seriesId": 8,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 810090,
+  "specialSkill": {
+    "skillLevelSettingId": 5102,
+    "specialSkillKind": "SPECIAL_ATTACK_SWORDSHIELD",
+    "skillLevel": 2
+  },
+  "_levels": [
+    {
+      "target": "TOBIKADACHI_LANCE_5",
+      "weaponId": 939,
+      "level": 1,
+      "attack": 370,
+      "elementAttack": 181
+    },
+    {
+      "target": "TOBIKADACHI_LANCE_5",
+      "weaponId": 939,
+      "level": 2,
+      "attack": 388,
+      "elementAttack": 193
+    },
+    {
+      "target": "TOBIKADACHI_LANCE_5",
+      "weaponId": 939,
+      "level": 3,
+      "attack": 406,
+      "elementAttack": 204
+    },
+    {
+      "target": "TOBIKADACHI_LANCE_5",
+      "weaponId": 939,
+      "level": 4,
+      "attack": 425,
+      "elementAttack": 216
+    },
+    {
+      "target": "TOBIKADACHI_LANCE_5",
+      "weaponId": 939,
+      "level": 5,
+      "attack": 443,
+      "elementAttack": 227
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "TOBIKADACHI_LANCE_5",
+      "weaponId": 939,
+      "craftMaterialSettingsId": 1,
+      "upgrade": {
+        "base": "TOBIKADACHI_LANCE_4",
+        "baseWeaponId": 938
+      },
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_LANCE_5",
+      "weaponId": 939,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_LANCE_5",
+      "weaponId": 939,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_LANCE_5",
+      "weaponId": 939,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_LANCE_5",
+      "weaponId": 939,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "TOBIKADACHI_LANCE_5",
+      "weaponId": 939,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    }
+  ]
+}

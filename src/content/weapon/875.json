@@ -1,0 +1,159 @@
+{
+  "target": "RADOBAAN_HAMMER_6",
+  "weaponId": 875,
+  "category": "WEAPON_TYPE2_HAMMER",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w04_051",
+  "grade": 6,
+  "series": "SERIES_RADOBAAN",
+  "seriesId": 22,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 310091,
+  "specialSkill": {
+    "skillLevelSettingId": 5302,
+    "specialSkillKind": "SPECIAL_ATTACK_HAMMER",
+    "skillLevel": 2
+  },
+  "_levels": [
+    {
+      "target": "RADOBAAN_HAMMER_6",
+      "weaponId": 875,
+      "level": 1,
+      "attack": 559,
+      "elementAttack": 300
+    },
+    {
+      "target": "RADOBAAN_HAMMER_6",
+      "weaponId": 875,
+      "level": 2,
+      "attack": 587,
+      "elementAttack": 304
+    },
+    {
+      "target": "RADOBAAN_HAMMER_6",
+      "weaponId": 875,
+      "level": 3,
+      "attack": 614,
+      "elementAttack": 308
+    },
+    {
+      "target": "RADOBAAN_HAMMER_6",
+      "weaponId": 875,
+      "level": 4,
+      "attack": 642,
+      "elementAttack": 312
+    },
+    {
+      "target": "RADOBAAN_HAMMER_6",
+      "weaponId": 875,
+      "level": 5,
+      "attack": 670,
+      "elementAttack": 317
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "RADOBAAN_HAMMER_6",
+      "weaponId": 875,
+      "craftMaterialSettingsId": 1,
+      "upgrade": {
+        "base": "RADOBAAN_HAMMER_5",
+        "baseWeaponId": 874
+      },
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "RADOBAAN_HAMMER_6",
+      "weaponId": 875,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "RADOBAAN_HAMMER_6",
+      "weaponId": 875,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "RADOBAAN_HAMMER_6",
+      "weaponId": 875,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "RADOBAAN_HAMMER_6",
+      "weaponId": 875,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "RADOBAAN_HAMMER_6",
+      "weaponId": 875,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    }
+  ]
+}

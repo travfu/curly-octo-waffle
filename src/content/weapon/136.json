@@ -1,0 +1,232 @@
+{
+  "target": "ORE_BOW_3",
+  "weaponId": 136,
+  "category": "WEAPON_TYPE2_BOW",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w11_020",
+  "grade": 3,
+  "series": "SERIES_ORE",
+  "seriesId": 1,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 610010,
+  "specialSkill": {
+    "skillLevelSettingId": 5501,
+    "specialSkillKind": "SPECIAL_ATTACK_BOW",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "ORE_BOW_3",
+      "weaponId": 136,
+      "level": 1,
+      "attack": 207
+    },
+    {
+      "target": "ORE_BOW_3",
+      "weaponId": 136,
+      "level": 2,
+      "attack": 222
+    },
+    {
+      "target": "ORE_BOW_3",
+      "weaponId": 136,
+      "level": 3,
+      "attack": 237
+    },
+    {
+      "target": "ORE_BOW_3",
+      "weaponId": 136,
+      "level": 4,
+      "attack": 253
+    },
+    {
+      "target": "ORE_BOW_3",
+      "weaponId": 136,
+      "level": 5,
+      "attack": 268
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "ORE_BOW_3",
+      "weaponId": 136,
+      "craftMaterialSettingsId": 11,
+      "upgrade": {
+        "base": "ORE_BOW_2",
+        "baseWeaponId": 135
+      },
+      "_materials": {
+        "id": 11,
+        "zenny": 600,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 12
+          },
+          {
+            "id": 1010002,
+            "num": 8
+          },
+          {
+            "id": 1010003,
+            "num": 5
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_BOW_3",
+      "weaponId": 136,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 12,
+      "_materials": {
+        "id": 12,
+        "zenny": 200,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 12
+          },
+          {
+            "id": 2101101,
+            "num": 12
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_BOW_3",
+      "weaponId": 136,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 13,
+      "_materials": {
+        "id": 13,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 12
+          },
+          {
+            "id": 1140003,
+            "num": 5
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_BOW_3",
+      "weaponId": 136,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 14,
+      "_materials": {
+        "id": 14,
+        "zenny": 400,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 12
+          },
+          {
+            "id": 2101101,
+            "num": 12
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_BOW_3",
+      "weaponId": 136,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 15,
+      "_materials": {
+        "id": 15,
+        "zenny": 500,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 12
+          },
+          {
+            "id": 1010004,
+            "num": 15
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_BOW_3",
+      "weaponId": 136,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 16,
+      "_materials": {
+        "id": 16,
+        "zenny": 900,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 18
+          },
+          {
+            "id": 1010002,
+            "num": 15
+          },
+          {
+            "id": 1010003,
+            "num": 10
+          }
+        ]
+      }
+    }
+  ],
+  "_bow": {
+    "target": "ORE_BOW_3",
+    "weaponId": 136,
+    "bowArrowKind": [
+      "ARROW_RAPID_01",
+      "ARROW_RAPID_02",
+      "ARROW_RAPID_03",
+      "ARROW_RAPID_04"
+    ],
+    "bowArrowSettingId": [
+      101,
+      102,
+      103,
+      104
+    ],
+    "_arrows": [
+      {
+        "bowArrowKind": "ARROW_RAPID_01",
+        "settingId": 101,
+        "arrowType": "RAPID",
+        "level": 1,
+        "nameLocalizationKey": "BowArrow/ARROW_RAPID_01"
+      },
+      {
+        "bowArrowKind": "ARROW_RAPID_02",
+        "settingId": 102,
+        "arrowType": "RAPID",
+        "level": 2,
+        "nameLocalizationKey": "BowArrow/ARROW_RAPID_02"
+      },
+      {
+        "bowArrowKind": "ARROW_RAPID_03",
+        "settingId": 103,
+        "arrowType": "RAPID",
+        "level": 3,
+        "nameLocalizationKey": "BowArrow/ARROW_RAPID_03"
+      },
+      {
+        "bowArrowKind": "ARROW_RAPID_04",
+        "settingId": 104,
+        "arrowType": "RAPID",
+        "level": 4,
+        "nameLocalizationKey": "BowArrow/ARROW_RAPID_04"
+      }
+    ]
+  }
+}

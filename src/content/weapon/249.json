@@ -1,0 +1,197 @@
+{
+  "target": "ORE_GREATSWORD_5",
+  "weaponId": 249,
+  "category": "WEAPON_TYPE2_GREAT_SWORD",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w00_010",
+  "grade": 5,
+  "series": "SERIES_ORE",
+  "seriesId": 1,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 210010,
+  "normalSkill": [
+    {
+      "skillLevelSettingId": 501,
+      "normalSkillKind": "POISON_RESISTANCE",
+      "skillLevel": 1
+    }
+  ],
+  "specialSkill": {
+    "skillLevelSettingId": 5001,
+    "specialSkillKind": "SPECIAL_ATTACK_GREATSWORD",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "ORE_GREATSWORD_5",
+      "weaponId": 249,
+      "level": 1,
+      "attack": 430
+    },
+    {
+      "target": "ORE_GREATSWORD_5",
+      "weaponId": 249,
+      "level": 2,
+      "attack": 451
+    },
+    {
+      "target": "ORE_GREATSWORD_5",
+      "weaponId": 249,
+      "level": 3,
+      "attack": 473
+    },
+    {
+      "target": "ORE_GREATSWORD_5",
+      "weaponId": 249,
+      "level": 4,
+      "attack": 494
+    },
+    {
+      "target": "ORE_GREATSWORD_5",
+      "weaponId": 249,
+      "level": 5,
+      "attack": 515
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "ORE_GREATSWORD_5",
+      "weaponId": 249,
+      "craftMaterialSettingsId": 441,
+      "upgrade": {
+        "base": "ORE_GREATSWORD_4",
+        "baseWeaponId": 35
+      },
+      "_materials": {
+        "id": 441,
+        "zenny": 1500,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 24
+          },
+          {
+            "id": 1010002,
+            "num": 20
+          },
+          {
+            "id": 1010003,
+            "num": 15
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_GREATSWORD_5",
+      "weaponId": 249,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 442,
+      "_materials": {
+        "id": 442,
+        "zenny": 500,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 24
+          },
+          {
+            "id": 2101101,
+            "num": 32
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_GREATSWORD_5",
+      "weaponId": 249,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 443,
+      "_materials": {
+        "id": 443,
+        "zenny": 750,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 24
+          },
+          {
+            "id": 1140003,
+            "num": 15
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_GREATSWORD_5",
+      "weaponId": 249,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 444,
+      "_materials": {
+        "id": 444,
+        "zenny": 1000,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 24
+          },
+          {
+            "id": 2101101,
+            "num": 32
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_GREATSWORD_5",
+      "weaponId": 249,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 445,
+      "_materials": {
+        "id": 445,
+        "zenny": 1250,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 24
+          },
+          {
+            "id": 1010004,
+            "num": 25
+          }
+        ]
+      }
+    },
+    {
+      "target": "ORE_GREATSWORD_5",
+      "weaponId": 249,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 446,
+      "_materials": {
+        "id": 446,
+        "zenny": 3000,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 30
+          },
+          {
+            "id": 1010002,
+            "num": 30
+          },
+          {
+            "id": 1010003,
+            "num": 20
+          },
+          {
+            "id": 3001018,
+            "num": 1
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "target": "PAOLUMU_SWORDSHIELD_2",
+  "weaponId": 86,
+  "category": "WEAPON_TYPE2_SWORD_SHIELD",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w01_041",
+  "grade": 2,
+  "series": "SERIES_PAOLUMU",
+  "seriesId": 7,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 110100,
+  "specialSkill": {
+    "skillLevelSettingId": 5101,
+    "specialSkillKind": "SPECIAL_ATTACK_SWORDSHIELD",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "PAOLUMU_SWORDSHIELD_2",
+      "weaponId": 86,
+      "level": 1,
+      "attack": 165
+    },
+    {
+      "target": "PAOLUMU_SWORDSHIELD_2",
+      "weaponId": 86,
+      "level": 2,
+      "attack": 177
+    },
+    {
+      "target": "PAOLUMU_SWORDSHIELD_2",
+      "weaponId": 86,
+      "level": 3,
+      "attack": 189
+    },
+    {
+      "target": "PAOLUMU_SWORDSHIELD_2",
+      "weaponId": 86,
+      "level": 4,
+      "attack": 201
+    },
+    {
+      "target": "PAOLUMU_SWORDSHIELD_2",
+      "weaponId": 86,
+      "level": 5,
+      "attack": 212
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "PAOLUMU_SWORDSHIELD_2",
+      "weaponId": 86,
+      "craftMaterialSettingsId": 126,
+      "_materials": {
+        "id": 126,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2110001,
+            "num": 3
+          },
+          {
+            "id": 2110004,
+            "num": 1
+          },
+          {
+            "id": 1010002,
+            "num": 1
+          }
+        ]
+      }
+    },
+    {
+      "target": "PAOLUMU_SWORDSHIELD_2",
+      "weaponId": 86,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 127,
+      "_materials": {
+        "id": 127,
+        "zenny": 100,
+        "userItem": [
+          {
+            "id": 2110001,
+            "num": 3
+          },
+          {
+            "id": 2101101,
+            "num": 4
+          },
+          {
+            "id": 1010001,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "PAOLUMU_SWORDSHIELD_2",
+      "weaponId": 86,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 128,
+      "_materials": {
+        "id": 128,
+        "zenny": 150,
+        "userItem": [
+          {
+            "id": 2110001,
+            "num": 3
+          },
+          {
+            "id": 2110003,
+            "num": 3
+          },
+          {
+            "id": 1140003,
+            "num": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "PAOLUMU_SWORDSHIELD_2",
+      "weaponId": 86,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 129,
+      "_materials": {
+        "id": 129,
+        "zenny": 200,
+        "userItem": [
+          {
+            "id": 2110001,
+            "num": 3
+          },
+          {
+            "id": 2101101,
+            "num": 4
+          },
+          {
+            "id": 1010001,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "PAOLUMU_SWORDSHIELD_2",
+      "weaponId": 86,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 130,
+      "_materials": {
+        "id": 130,
+        "zenny": 250,
+        "userItem": [
+          {
+            "id": 2110001,
+            "num": 3
+          },
+          {
+            "id": 1010003,
+            "num": 1
+          },
+          {
+            "id": 1140002,
+            "num": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "PAOLUMU_SWORDSHIELD_2",
+      "weaponId": 86,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 131,
+      "_materials": {
+        "id": 131,
+        "zenny": 600,
+        "userItem": [
+          {
+            "id": 2110001,
+            "num": 5
+          },
+          {
+            "id": 2110004,
+            "num": 2
+          },
+          {
+            "id": 1010002,
+            "num": 3
+          }
+        ]
+      }
+    }
+  ]
+}

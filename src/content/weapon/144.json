@@ -1,0 +1,174 @@
+{
+  "target": "JYURATODUS_LONGSWORD_1",
+  "weaponId": 144,
+  "category": "WEAPON_TYPE2_LONG_SWORD",
+  "elementType": "WATER",
+  "assetKey": "w_w03_056",
+  "grade": 1,
+  "series": "SERIES_JYURATODUS",
+  "seriesId": 17,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 410101,
+  "_levels": [
+    {
+      "target": "JYURATODUS_LONGSWORD_1",
+      "weaponId": 144,
+      "level": 1,
+      "attack": 90,
+      "elementAttack": 30
+    },
+    {
+      "target": "JYURATODUS_LONGSWORD_1",
+      "weaponId": 144,
+      "level": 2,
+      "attack": 97,
+      "elementAttack": 33
+    },
+    {
+      "target": "JYURATODUS_LONGSWORD_1",
+      "weaponId": 144,
+      "level": 3,
+      "attack": 103,
+      "elementAttack": 36
+    },
+    {
+      "target": "JYURATODUS_LONGSWORD_1",
+      "weaponId": 144,
+      "level": 4,
+      "attack": 110,
+      "elementAttack": 38
+    },
+    {
+      "target": "JYURATODUS_LONGSWORD_1",
+      "weaponId": 144,
+      "level": 5,
+      "attack": 116,
+      "elementAttack": 41
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "JYURATODUS_LONGSWORD_1",
+      "weaponId": 144,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_LONGSWORD_1",
+      "weaponId": 144,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 892,
+      "_materials": {
+        "id": 892,
+        "zenny": 20,
+        "userItem": [
+          {
+            "id": 2108002,
+            "num": 2
+          },
+          {
+            "id": 2101101,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_LONGSWORD_1",
+      "weaponId": 144,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 893,
+      "_materials": {
+        "id": 893,
+        "zenny": 30,
+        "userItem": [
+          {
+            "id": 2108002,
+            "num": 2
+          },
+          {
+            "id": 2108003,
+            "num": 1
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_LONGSWORD_1",
+      "weaponId": 144,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 894,
+      "_materials": {
+        "id": 894,
+        "zenny": 40,
+        "userItem": [
+          {
+            "id": 2108002,
+            "num": 2
+          },
+          {
+            "id": 2101101,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_LONGSWORD_1",
+      "weaponId": 144,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 895,
+      "_materials": {
+        "id": 895,
+        "zenny": 50,
+        "userItem": [
+          {
+            "id": 2108002,
+            "num": 2
+          },
+          {
+            "id": 1020001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_LONGSWORD_1",
+      "weaponId": 144,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 896,
+      "_materials": {
+        "id": 896,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2108002,
+            "num": 3
+          },
+          {
+            "id": 2108004,
+            "num": 1
+          },
+          {
+            "id": 1020002,
+            "num": 1
+          }
+        ]
+      }
+    }
+  ]
+}

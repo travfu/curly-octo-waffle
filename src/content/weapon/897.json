@@ -1,0 +1,150 @@
+{
+  "target": "DIABLOS_DUALBLADES_5",
+  "weaponId": 897,
+  "category": "WEAPON_TYPE2_DUAL_BLADES",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w02_055",
+  "grade": 5,
+  "series": "SERIES_DIABLOS",
+  "seriesId": 11,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 710140,
+  "specialSkill": {
+    "skillLevelSettingId": 5101,
+    "specialSkillKind": "SPECIAL_ATTACK_SWORDSHIELD",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "DIABLOS_DUALBLADES_5",
+      "weaponId": 897,
+      "level": 1,
+      "attack": 512
+    },
+    {
+      "target": "DIABLOS_DUALBLADES_5",
+      "weaponId": 897,
+      "level": 2,
+      "attack": 537
+    },
+    {
+      "target": "DIABLOS_DUALBLADES_5",
+      "weaponId": 897,
+      "level": 3,
+      "attack": 562
+    },
+    {
+      "target": "DIABLOS_DUALBLADES_5",
+      "weaponId": 897,
+      "level": 4,
+      "attack": 588
+    },
+    {
+      "target": "DIABLOS_DUALBLADES_5",
+      "weaponId": 897,
+      "level": 5,
+      "attack": 613
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "DIABLOS_DUALBLADES_5",
+      "weaponId": 897,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "DIABLOS_DUALBLADES_5",
+      "weaponId": 897,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "DIABLOS_DUALBLADES_5",
+      "weaponId": 897,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "DIABLOS_DUALBLADES_5",
+      "weaponId": 897,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "DIABLOS_DUALBLADES_5",
+      "weaponId": 897,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "DIABLOS_DUALBLADES_5",
+      "weaponId": 897,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    }
+  ]
+}

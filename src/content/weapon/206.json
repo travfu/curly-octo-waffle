@@ -1,0 +1,199 @@
+{
+  "target": "RATHALOS_SWORDSHIELD_4",
+  "weaponId": 206,
+  "category": "WEAPON_TYPE2_SWORD_SHIELD",
+  "elementType": "FIRE",
+  "assetKey": "w_w01_020",
+  "grade": 4,
+  "series": "SERIES_RATHALOS",
+  "seriesId": 9,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 110150,
+  "specialSkill": {
+    "skillLevelSettingId": 5101,
+    "specialSkillKind": "SPECIAL_ATTACK_SWORDSHIELD",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "RATHALOS_SWORDSHIELD_4",
+      "weaponId": 206,
+      "level": 1,
+      "attack": 256,
+      "elementAttack": 150
+    },
+    {
+      "target": "RATHALOS_SWORDSHIELD_4",
+      "weaponId": 206,
+      "level": 2,
+      "attack": 274,
+      "elementAttack": 164
+    },
+    {
+      "target": "RATHALOS_SWORDSHIELD_4",
+      "weaponId": 206,
+      "level": 3,
+      "attack": 293,
+      "elementAttack": 177
+    },
+    {
+      "target": "RATHALOS_SWORDSHIELD_4",
+      "weaponId": 206,
+      "level": 4,
+      "attack": 311,
+      "elementAttack": 191
+    },
+    {
+      "target": "RATHALOS_SWORDSHIELD_4",
+      "weaponId": 206,
+      "level": 5,
+      "attack": 330,
+      "elementAttack": 205
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "RATHALOS_SWORDSHIELD_4",
+      "weaponId": 206,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_SWORDSHIELD_4",
+      "weaponId": 206,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 187,
+      "_materials": {
+        "id": 187,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2002001,
+            "num": 8
+          },
+          {
+            "id": 2101101,
+            "num": 24
+          },
+          {
+            "id": 1010001,
+            "num": 16
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_SWORDSHIELD_4",
+      "weaponId": 206,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 188,
+      "_materials": {
+        "id": 188,
+        "zenny": 450,
+        "userItem": [
+          {
+            "id": 2002001,
+            "num": 8
+          },
+          {
+            "id": 2002003,
+            "num": 9
+          },
+          {
+            "id": 1040001,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_SWORDSHIELD_4",
+      "weaponId": 206,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 189,
+      "_materials": {
+        "id": 189,
+        "zenny": 600,
+        "userItem": [
+          {
+            "id": 2002001,
+            "num": 8
+          },
+          {
+            "id": 2101101,
+            "num": 24
+          },
+          {
+            "id": 1010001,
+            "num": 16
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_SWORDSHIELD_4",
+      "weaponId": 206,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 190,
+      "_materials": {
+        "id": 190,
+        "zenny": 750,
+        "userItem": [
+          {
+            "id": 2002001,
+            "num": 8
+          },
+          {
+            "id": 1010003,
+            "num": 3
+          },
+          {
+            "id": 1010004,
+            "num": 12
+          }
+        ]
+      }
+    },
+    {
+      "target": "RATHALOS_SWORDSHIELD_4",
+      "weaponId": 206,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 821,
+      "_materials": {
+        "id": 821,
+        "zenny": 1500,
+        "userItem": [
+          {
+            "id": 2002001,
+            "num": 6
+          },
+          {
+            "id": 2002004,
+            "num": 2
+          },
+          {
+            "id": 2002009,
+            "num": 2
+          },
+          {
+            "id": 1010002,
+            "num": 10
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "target": "KULUYAKU_BOW_2",
+  "weaponId": 169,
+  "category": "WEAPON_TYPE2_BOW",
+  "elementType": "NO_ELEMENT",
+  "assetKey": "w_w11_030",
+  "grade": 2,
+  "series": "SERIES_KULUYAKU",
+  "seriesId": 3,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 610050,
+  "specialSkill": {
+    "skillLevelSettingId": 5501,
+    "specialSkillKind": "SPECIAL_ATTACK_BOW",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "KULUYAKU_BOW_2",
+      "weaponId": 169,
+      "level": 1,
+      "attack": 144,
+      "critical": 10
+    },
+    {
+      "target": "KULUYAKU_BOW_2",
+      "weaponId": 169,
+      "level": 2,
+      "attack": 154,
+      "critical": 10
+    },
+    {
+      "target": "KULUYAKU_BOW_2",
+      "weaponId": 169,
+      "level": 3,
+      "attack": 165,
+      "critical": 10
+    },
+    {
+      "target": "KULUYAKU_BOW_2",
+      "weaponId": 169,
+      "level": 4,
+      "attack": 175,
+      "critical": 10
+    },
+    {
+      "target": "KULUYAKU_BOW_2",
+      "weaponId": 169,
+      "level": 5,
+      "attack": 186,
+      "critical": 10
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "KULUYAKU_BOW_2",
+      "weaponId": 169,
+      "craftMaterialSettingsId": 46,
+      "upgrade": {
+        "base": "KULUYAKU_BOW_1",
+        "baseWeaponId": 168
+      },
+      "_materials": {
+        "id": 46,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2107001,
+            "num": 3
+          },
+          {
+            "id": 2107004,
+            "num": 1
+          },
+          {
+            "id": 1020002,
+            "num": 1
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_BOW_2",
+      "weaponId": 169,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 47,
+      "_materials": {
+        "id": 47,
+        "zenny": 100,
+        "userItem": [
+          {
+            "id": 2107001,
+            "num": 3
+          },
+          {
+            "id": 2101101,
+            "num": 4
+          },
+          {
+            "id": 1020001,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_BOW_2",
+      "weaponId": 169,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 48,
+      "_materials": {
+        "id": 48,
+        "zenny": 150,
+        "userItem": [
+          {
+            "id": 2107001,
+            "num": 3
+          },
+          {
+            "id": 2107003,
+            "num": 3
+          },
+          {
+            "id": 1140003,
+            "num": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_BOW_2",
+      "weaponId": 169,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 49,
+      "_materials": {
+        "id": 49,
+        "zenny": 200,
+        "userItem": [
+          {
+            "id": 2107001,
+            "num": 3
+          },
+          {
+            "id": 2101101,
+            "num": 4
+          },
+          {
+            "id": 1020001,
+            "num": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_BOW_2",
+      "weaponId": 169,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 50,
+      "_materials": {
+        "id": 50,
+        "zenny": 250,
+        "userItem": [
+          {
+            "id": 2107001,
+            "num": 3
+          },
+          {
+            "id": 1020003,
+            "num": 1
+          },
+          {
+            "id": 1020004,
+            "num": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "KULUYAKU_BOW_2",
+      "weaponId": 169,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 51,
+      "_materials": {
+        "id": 51,
+        "zenny": 600,
+        "userItem": [
+          {
+            "id": 2107001,
+            "num": 5
+          },
+          {
+            "id": 2107004,
+            "num": 2
+          },
+          {
+            "id": 1020002,
+            "num": 3
+          }
+        ]
+      }
+    }
+  ],
+  "_bow": {
+    "target": "KULUYAKU_BOW_2",
+    "weaponId": 169,
+    "bowArrowKind": [
+      "ARROW_RAPID_01",
+      "ARROW_RAPID_02",
+      "ARROW_RAPID_03",
+      "ARROW_PIERCE_04"
+    ],
+    "bowArrowSettingId": [
+      101,
+      102,
+      103,
+      304
+    ],
+    "_arrows": [
+      {
+        "bowArrowKind": "ARROW_RAPID_01",
+        "settingId": 101,
+        "arrowType": "RAPID",
+        "level": 1,
+        "nameLocalizationKey": "BowArrow/ARROW_RAPID_01"
+      },
+      {
+        "bowArrowKind": "ARROW_RAPID_02",
+        "settingId": 102,
+        "arrowType": "RAPID",
+        "level": 2,
+        "nameLocalizationKey": "BowArrow/ARROW_RAPID_02"
+      },
+      {
+        "bowArrowKind": "ARROW_RAPID_03",
+        "settingId": 103,
+        "arrowType": "RAPID",
+        "level": 3,
+        "nameLocalizationKey": "BowArrow/ARROW_RAPID_03"
+      },
+      {
+        "bowArrowKind": "ARROW_PIERCE_04",
+        "settingId": 304,
+        "arrowType": "PIERCE",
+        "level": 4,
+        "nameLocalizationKey": "BowArrow/ARROW_PIERCE_04"
+      }
+    ]
+  }
+}

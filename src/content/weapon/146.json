@@ -1,0 +1,208 @@
+{
+  "target": "JYURATODUS_LONGSWORD_3",
+  "weaponId": 146,
+  "category": "WEAPON_TYPE2_LONG_SWORD",
+  "elementType": "WATER",
+  "assetKey": "w_w03_056",
+  "grade": 3,
+  "series": "SERIES_JYURATODUS",
+  "seriesId": 17,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 410101,
+  "specialSkill": {
+    "skillLevelSettingId": 5201,
+    "specialSkillKind": "SPECIAL_ATTACK_LONGSWORD",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "JYURATODUS_LONGSWORD_3",
+      "weaponId": 146,
+      "level": 1,
+      "attack": 182,
+      "elementAttack": 75
+    },
+    {
+      "target": "JYURATODUS_LONGSWORD_3",
+      "weaponId": 146,
+      "level": 2,
+      "attack": 196,
+      "elementAttack": 82
+    },
+    {
+      "target": "JYURATODUS_LONGSWORD_3",
+      "weaponId": 146,
+      "level": 3,
+      "attack": 209,
+      "elementAttack": 89
+    },
+    {
+      "target": "JYURATODUS_LONGSWORD_3",
+      "weaponId": 146,
+      "level": 4,
+      "attack": 222,
+      "elementAttack": 96
+    },
+    {
+      "target": "JYURATODUS_LONGSWORD_3",
+      "weaponId": 146,
+      "level": 5,
+      "attack": 236,
+      "elementAttack": 103
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "JYURATODUS_LONGSWORD_3",
+      "weaponId": 146,
+      "create": true,
+      "craftMaterialSettingsId": 901,
+      "_materials": {
+        "id": 901,
+        "zenny": 600,
+        "userItem": [
+          {
+            "id": 2108002,
+            "num": 5
+          },
+          {
+            "id": 2108004,
+            "num": 2
+          },
+          {
+            "id": 1020002,
+            "num": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_LONGSWORD_3",
+      "weaponId": 146,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 902,
+      "_materials": {
+        "id": 902,
+        "zenny": 200,
+        "userItem": [
+          {
+            "id": 2108002,
+            "num": 5
+          },
+          {
+            "id": 2101101,
+            "num": 12
+          },
+          {
+            "id": 1020001,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_LONGSWORD_3",
+      "weaponId": 146,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 903,
+      "_materials": {
+        "id": 903,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2108002,
+            "num": 5
+          },
+          {
+            "id": 2108003,
+            "num": 6
+          },
+          {
+            "id": 1040002,
+            "num": 5
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_LONGSWORD_3",
+      "weaponId": 146,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 904,
+      "_materials": {
+        "id": 904,
+        "zenny": 400,
+        "userItem": [
+          {
+            "id": 2108002,
+            "num": 5
+          },
+          {
+            "id": 2101101,
+            "num": 12
+          },
+          {
+            "id": 1020001,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_LONGSWORD_3",
+      "weaponId": 146,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 905,
+      "_materials": {
+        "id": 905,
+        "zenny": 500,
+        "userItem": [
+          {
+            "id": 2108002,
+            "num": 5
+          },
+          {
+            "id": 1020003,
+            "num": 2
+          },
+          {
+            "id": 1140002,
+            "num": 6
+          }
+        ]
+      }
+    },
+    {
+      "target": "JYURATODUS_LONGSWORD_3",
+      "weaponId": 146,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 906,
+      "_materials": {
+        "id": 906,
+        "zenny": 900,
+        "userItem": [
+          {
+            "id": 2108002,
+            "num": 8
+          },
+          {
+            "id": 2108004,
+            "num": 4
+          },
+          {
+            "id": 2108008,
+            "num": 2
+          },
+          {
+            "id": 1020002,
+            "num": 8
+          }
+        ]
+      }
+    }
+  ]
+}

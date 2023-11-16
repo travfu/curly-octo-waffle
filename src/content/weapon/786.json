@@ -1,0 +1,159 @@
+{
+  "target": "BARIOTH_LANCE_6",
+  "weaponId": 786,
+  "category": "WEAPON_TYPE2_LANCE",
+  "elementType": "ICE",
+  "assetKey": "w_w06_163",
+  "grade": 6,
+  "series": "SERIES_BARIOTH",
+  "seriesId": 24,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 810121,
+  "specialSkill": {
+    "skillLevelSettingId": 5102,
+    "specialSkillKind": "SPECIAL_ATTACK_SWORDSHIELD",
+    "skillLevel": 2
+  },
+  "_levels": [
+    {
+      "target": "BARIOTH_LANCE_6",
+      "weaponId": 786,
+      "level": 1,
+      "attack": 475,
+      "elementAttack": 251
+    },
+    {
+      "target": "BARIOTH_LANCE_6",
+      "weaponId": 786,
+      "level": 2,
+      "attack": 499,
+      "elementAttack": 267
+    },
+    {
+      "target": "BARIOTH_LANCE_6",
+      "weaponId": 786,
+      "level": 3,
+      "attack": 522,
+      "elementAttack": 283
+    },
+    {
+      "target": "BARIOTH_LANCE_6",
+      "weaponId": 786,
+      "level": 4,
+      "attack": 546,
+      "elementAttack": 300
+    },
+    {
+      "target": "BARIOTH_LANCE_6",
+      "weaponId": 786,
+      "level": 5,
+      "attack": 569,
+      "elementAttack": 316
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "BARIOTH_LANCE_6",
+      "weaponId": 786,
+      "craftMaterialSettingsId": 1,
+      "upgrade": {
+        "base": "BARIOTH_LANCE_5",
+        "baseWeaponId": 785
+      },
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARIOTH_LANCE_6",
+      "weaponId": 786,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARIOTH_LANCE_6",
+      "weaponId": 786,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARIOTH_LANCE_6",
+      "weaponId": 786,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARIOTH_LANCE_6",
+      "weaponId": 786,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "BARIOTH_LANCE_6",
+      "weaponId": 786,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    }
+  ]
+}

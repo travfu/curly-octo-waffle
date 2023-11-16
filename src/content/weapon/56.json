@@ -1,0 +1,211 @@
+{
+  "target": "GREATGIRROS_GREATSWORD_3",
+  "weaponId": 56,
+  "category": "WEAPON_TYPE2_GREAT_SWORD",
+  "elementType": "PARALYSIS",
+  "assetKey": "w_w00_031",
+  "grade": 3,
+  "series": "SERIES_GREATGIRROS",
+  "seriesId": 4,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 210080,
+  "specialSkill": {
+    "skillLevelSettingId": 5001,
+    "specialSkillKind": "SPECIAL_ATTACK_GREATSWORD",
+    "skillLevel": 1
+  },
+  "_levels": [
+    {
+      "target": "GREATGIRROS_GREATSWORD_3",
+      "weaponId": 56,
+      "level": 1,
+      "attack": 207,
+      "elementAttack": 150
+    },
+    {
+      "target": "GREATGIRROS_GREATSWORD_3",
+      "weaponId": 56,
+      "level": 2,
+      "attack": 222,
+      "elementAttack": 158
+    },
+    {
+      "target": "GREATGIRROS_GREATSWORD_3",
+      "weaponId": 56,
+      "level": 3,
+      "attack": 237,
+      "elementAttack": 167
+    },
+    {
+      "target": "GREATGIRROS_GREATSWORD_3",
+      "weaponId": 56,
+      "level": 4,
+      "attack": 253,
+      "elementAttack": 175
+    },
+    {
+      "target": "GREATGIRROS_GREATSWORD_3",
+      "weaponId": 56,
+      "level": 5,
+      "attack": 268,
+      "elementAttack": 183
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "GREATGIRROS_GREATSWORD_3",
+      "weaponId": 56,
+      "craftMaterialSettingsId": 101,
+      "upgrade": {
+        "base": "GREATGIRROS_GREATSWORD_2",
+        "baseWeaponId": 55
+      },
+      "_materials": {
+        "id": 101,
+        "zenny": 600,
+        "userItem": [
+          {
+            "id": 2112002,
+            "num": 5
+          },
+          {
+            "id": 2112004,
+            "num": 2
+          },
+          {
+            "id": 1010002,
+            "num": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "GREATGIRROS_GREATSWORD_3",
+      "weaponId": 56,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 102,
+      "_materials": {
+        "id": 102,
+        "zenny": 200,
+        "userItem": [
+          {
+            "id": 2112002,
+            "num": 5
+          },
+          {
+            "id": 2101101,
+            "num": 12
+          },
+          {
+            "id": 1010001,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "GREATGIRROS_GREATSWORD_3",
+      "weaponId": 56,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 103,
+      "_materials": {
+        "id": 103,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2112002,
+            "num": 5
+          },
+          {
+            "id": 2112003,
+            "num": 6
+          },
+          {
+            "id": 1130001,
+            "num": 5
+          }
+        ]
+      }
+    },
+    {
+      "target": "GREATGIRROS_GREATSWORD_3",
+      "weaponId": 56,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 104,
+      "_materials": {
+        "id": 104,
+        "zenny": 400,
+        "userItem": [
+          {
+            "id": 2112002,
+            "num": 5
+          },
+          {
+            "id": 2101101,
+            "num": 12
+          },
+          {
+            "id": 1010001,
+            "num": 8
+          }
+        ]
+      }
+    },
+    {
+      "target": "GREATGIRROS_GREATSWORD_3",
+      "weaponId": 56,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 105,
+      "_materials": {
+        "id": 105,
+        "zenny": 500,
+        "userItem": [
+          {
+            "id": 2112002,
+            "num": 5
+          },
+          {
+            "id": 1010003,
+            "num": 2
+          },
+          {
+            "id": 1010004,
+            "num": 6
+          }
+        ]
+      }
+    },
+    {
+      "target": "GREATGIRROS_GREATSWORD_3",
+      "weaponId": 56,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 106,
+      "_materials": {
+        "id": 106,
+        "zenny": 900,
+        "userItem": [
+          {
+            "id": 2112002,
+            "num": 8
+          },
+          {
+            "id": 2112004,
+            "num": 4
+          },
+          {
+            "id": 2112008,
+            "num": 2
+          },
+          {
+            "id": 1010002,
+            "num": 8
+          }
+        ]
+      }
+    }
+  ]
+}

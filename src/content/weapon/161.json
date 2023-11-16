@@ -1,0 +1,220 @@
+{
+  "target": "ANJANATH_BOW_1",
+  "weaponId": 161,
+  "category": "WEAPON_TYPE2_BOW",
+  "elementType": "FIRE",
+  "assetKey": "w_w11_079",
+  "grade": 1,
+  "series": "SERIES_ANJANATH",
+  "seriesId": 14,
+  "requiredHunterRank": 1,
+  "decorationSlotLevel": [
+    0,
+    0
+  ],
+  "sortOrder": 610110,
+  "_levels": [
+    {
+      "target": "ANJANATH_BOW_1",
+      "weaponId": 161,
+      "level": 1,
+      "attack": 90,
+      "elementAttack": 30
+    },
+    {
+      "target": "ANJANATH_BOW_1",
+      "weaponId": 161,
+      "level": 2,
+      "attack": 97,
+      "elementAttack": 33
+    },
+    {
+      "target": "ANJANATH_BOW_1",
+      "weaponId": 161,
+      "level": 3,
+      "attack": 103,
+      "elementAttack": 36
+    },
+    {
+      "target": "ANJANATH_BOW_1",
+      "weaponId": 161,
+      "level": 4,
+      "attack": 110,
+      "elementAttack": 38
+    },
+    {
+      "target": "ANJANATH_BOW_1",
+      "weaponId": 161,
+      "level": 5,
+      "attack": 116,
+      "elementAttack": 41
+    }
+  ],
+  "_crafting": [
+    {
+      "target": "ANJANATH_BOW_1",
+      "weaponId": 161,
+      "craftMaterialSettingsId": 1,
+      "_materials": {
+        "id": 1,
+        "zenny": 10,
+        "userItem": [
+          {
+            "id": 1010001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_BOW_1",
+      "weaponId": 161,
+      "OneLevelUpFrom": 1,
+      "craftMaterialSettingsId": 632,
+      "_materials": {
+        "id": 632,
+        "zenny": 20,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 2
+          },
+          {
+            "id": 2101101,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_BOW_1",
+      "weaponId": 161,
+      "OneLevelUpFrom": 2,
+      "craftMaterialSettingsId": 633,
+      "_materials": {
+        "id": 633,
+        "zenny": 30,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 2
+          },
+          {
+            "id": 2100003,
+            "num": 1
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_BOW_1",
+      "weaponId": 161,
+      "OneLevelUpFrom": 3,
+      "craftMaterialSettingsId": 634,
+      "_materials": {
+        "id": 634,
+        "zenny": 40,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 2
+          },
+          {
+            "id": 2101101,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_BOW_1",
+      "weaponId": 161,
+      "OneLevelUpFrom": 4,
+      "craftMaterialSettingsId": 635,
+      "_materials": {
+        "id": 635,
+        "zenny": 50,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 2
+          },
+          {
+            "id": 1020001,
+            "num": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "ANJANATH_BOW_1",
+      "weaponId": 161,
+      "OneLevelUpFrom": 5,
+      "craftMaterialSettingsId": 111,
+      "_materials": {
+        "id": 111,
+        "zenny": 300,
+        "userItem": [
+          {
+            "id": 2100002,
+            "num": 3
+          },
+          {
+            "id": 2100004,
+            "num": 1
+          },
+          {
+            "id": 1020002,
+            "num": 1
+          }
+        ]
+      }
+    }
+  ],
+  "_bow": {
+    "target": "ANJANATH_BOW_1",
+    "weaponId": 161,
+    "bowArrowKind": [
+      "ARROW_SPREAD_01",
+      "ARROW_SPREAD_02",
+      "ARROW_SPREAD_03",
+      "ARROW_SPREAD_04"
+    ],
+    "bowArrowSettingId": [
+      201,
+      202,
+      203,
+      204
+    ],
+    "_arrows": [
+      {
+        "bowArrowKind": "ARROW_SPREAD_01",
+        "settingId": 201,
+        "arrowType": "SPREAD",
+        "level": 1,
+        "nameLocalizationKey": "BowArrow/ARROW_SPREAD_01"
+      },
+      {
+        "bowArrowKind": "ARROW_SPREAD_02",
+        "settingId": 202,
+        "arrowType": "SPREAD",
+        "level": 2,
+        "nameLocalizationKey": "BowArrow/ARROW_SPREAD_02"
+      },
+      {
+        "bowArrowKind": "ARROW_SPREAD_03",
+        "settingId": 203,
+        "arrowType": "SPREAD",
+        "level": 3,
+        "nameLocalizationKey": "BowArrow/ARROW_SPREAD_03"
+      },
+      {
+        "bowArrowKind": "ARROW_SPREAD_04",
+        "settingId": 204,
+        "arrowType": "SPREAD",
+        "level": 4,
+        "nameLocalizationKey": "BowArrow/ARROW_SPREAD_04"
+      }
+    ]
+  }
+}
