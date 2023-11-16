@@ -139,5 +139,12 @@
         ]
       }
     }
-  ]
+  ],
+  "_series": {
+    "series": "SERIES_BARIOTH",
+    "seriesId": 24,
+    "numRequiredArmor": 20,
+    "sortOrder": 10220,
+    "monsterSettingId": 29
+  }
 }

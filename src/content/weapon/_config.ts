@@ -77,6 +77,15 @@ const bowSpecSettings = z.object({
   }))
 })
 
+const seriesSpecSettings = z.object({
+  series: z.string(),
+  seriesId: z.number(),
+  numRequiredArmor: z.number(),
+  sortOrder: z.number(),
+  monsterSettingId: z.number(),
+  discoveredItemId: z.array(z.number()),
+})
+
 export const weaponCollection = defineCollection({
   type: 'data',
   schema: z.object({
@@ -98,6 +107,7 @@ export const weaponCollection = defineCollection({
     specialSkill: skill,
     _levels: z.array(weaponLevelSpecSettings),
     _crafting: z.array(weaponCraftSharedSettings),
+    _series: seriesSpecSettings,
     _bowgun: z.optional(bowgunSpecSettings),
     _bow: z.optional(bowSpecSettings),
   })

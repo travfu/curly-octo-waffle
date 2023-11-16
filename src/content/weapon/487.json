@@ -227,6 +227,13 @@
       }
     }
   ],
+  "_series": {
+    "series": "SERIES_RATHIAN",
+    "seriesId": 12,
+    "numRequiredArmor": 20,
+    "sortOrder": 10120,
+    "monsterSettingId": 6
+  },
   "_bow": {
     "target": "RATHIAN_BOW_9",
     "weaponId": 487,

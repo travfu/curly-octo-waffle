@@ -165,5 +165,12 @@
         ]
       }
     }
-  ]
+  ],
+  "_series": {
+    "series": "SERIES_DIABLOS",
+    "seriesId": 11,
+    "numRequiredArmor": 30,
+    "sortOrder": 10140,
+    "monsterSettingId": 9
+  }
 }

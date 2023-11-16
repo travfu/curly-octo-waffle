@@ -209,6 +209,13 @@
       }
     }
   ],
+  "_series": {
+    "series": "SERIES_ANJANATH",
+    "seriesId": 14,
+    "numRequiredArmor": 20,
+    "sortOrder": 10110,
+    "monsterSettingId": 22
+  },
   "_bow": {
     "target": "ANJANATH_BOW_4",
     "weaponId": 505,

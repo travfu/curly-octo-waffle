@@ -208,6 +208,12 @@
       }
     }
   ],
+  "_series": {
+    "series": "SERIES_GREATJAGRAS",
+    "seriesId": 5,
+    "sortOrder": 10040,
+    "monsterSettingId": 1
+  },
   "_bowgun": {
     "target": "GREATJAGRAS_LIGHTBOWGUN_3",
     "weaponId": 66,

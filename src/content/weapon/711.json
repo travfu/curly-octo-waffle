@@ -155,5 +155,12 @@
         ]
       }
     }
-  ]
+  ],
+  "_series": {
+    "series": "SERIES_ZINOGRE",
+    "seriesId": 25,
+    "numRequiredArmor": 40,
+    "sortOrder": 10230,
+    "monsterSettingId": 28
+  }
 }

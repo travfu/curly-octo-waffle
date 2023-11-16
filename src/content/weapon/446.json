@@ -221,5 +221,11 @@
         ]
       }
     }
-  ]
+  ],
+  "_series": {
+    "series": "SERIES_BARROTH",
+    "seriesId": 13,
+    "sortOrder": 10070,
+    "monsterSettingId": 4
+  }
 }

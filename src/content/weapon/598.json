@@ -227,6 +227,13 @@
       }
     }
   ],
+  "_series": {
+    "series": "SERIES_PINK_RATHIAN",
+    "seriesId": 18,
+    "numRequiredArmor": 40,
+    "sortOrder": 10160,
+    "monsterSettingId": 25
+  },
   "_bow": {
     "target": "PINK_RATHIAN_BOW_8",
     "weaponId": 598,

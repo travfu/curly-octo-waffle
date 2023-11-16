@@ -198,6 +198,12 @@
       }
     }
   ],
+  "_series": {
+    "series": "SERIES_ORE",
+    "seriesId": 1,
+    "sortOrder": 10010,
+    "monsterSettingId": 1
+  },
   "_bowgun": {
     "target": "ORE_LIGHTBOWGUN_7",
     "weaponId": 313,

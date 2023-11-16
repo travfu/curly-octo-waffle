@@ -162,5 +162,12 @@
         ]
       }
     }
-  ]
+  ],
+  "_series": {
+    "series": "SERIES_RATHALOS",
+    "seriesId": 9,
+    "numRequiredArmor": 30,
+    "sortOrder": 10150,
+    "monsterSettingId": 8
+  }
 }

@@ -197,5 +197,12 @@
         ]
       }
     }
-  ]
+  ],
+  "_series": {
+    "series": "SERIES_PAOLUMU",
+    "seriesId": 7,
+    "numRequiredArmor": 15,
+    "sortOrder": 10100,
+    "monsterSettingId": 23
+  }
 }

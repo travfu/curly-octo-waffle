@@ -197,5 +197,11 @@
         ]
       }
     }
-  ]
+  ],
+  "_series": {
+    "series": "SERIES_ORE",
+    "seriesId": 1,
+    "sortOrder": 10010,
+    "monsterSettingId": 1
+  }
 }

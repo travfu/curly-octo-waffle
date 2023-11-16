@@ -171,6 +171,13 @@
       }
     }
   ],
+  "_series": {
+    "series": "SERIES_JYURATODUS",
+    "seriesId": 17,
+    "numRequiredArmor": 15,
+    "sortOrder": 10105,
+    "monsterSettingId": 24
+  },
   "_bow": {
     "target": "JYURATODUS_BOW_1",
     "weaponId": 177,

@@ -228,6 +228,13 @@
       }
     }
   ],
+  "_series": {
+    "series": "SERIES_RATHALOS",
+    "seriesId": 9,
+    "numRequiredArmor": 30,
+    "sortOrder": 10150,
+    "monsterSettingId": 8
+  },
   "_bow": {
     "target": "RATHALOS_BOW_6",
     "weaponId": 492,

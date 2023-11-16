@@ -150,5 +150,12 @@
         ]
       }
     }
-  ]
+  ],
+  "_series": {
+    "series": "SERIES_BANBARO",
+    "seriesId": 23,
+    "numRequiredArmor": 15,
+    "sortOrder": 10210,
+    "monsterSettingId": 30
+  }
 }

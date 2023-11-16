@@ -166,6 +166,13 @@
       }
     }
   ],
+  "_series": {
+    "series": "SERIES_DIABLOS",
+    "seriesId": 11,
+    "numRequiredArmor": 30,
+    "sortOrder": 10140,
+    "monsterSettingId": 9
+  },
   "_bow": {
     "target": "DIABLOS_BOW_1",
     "weaponId": 159,
