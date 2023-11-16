@@ -10,6 +10,7 @@ import type { LocaleCode } from '@i18n/utils';
 import MonsterIcon from '@components/icons/MonsterIcon.astro';
 import BreakablePartsTable from '@components/BreakablePartsTable.astro';
 import PartsDamageTable from '@components/PartsDamageTable.astro';
+import WeaponsList from '@components/WeaponsList.astro';
 
 export async function getStaticPaths() {
   // generate [locale]/monsters/[monsterName] routes as a product
@@ -50,7 +51,6 @@ const { id } = Astro.props;
 const t = useTranslation(locale);
 
 const monster = (await getEntry('monster', id)).data;
-
 const name = t(['Enemy', monster.nameLocalizationKey]);
 ---
 
@@ -84,4 +84,6 @@ const name = t(['Enemy', monster.nameLocalizationKey]);
     <PartsDamageTable data={monster._parts?.parameter.partDataList} locale={locale} />
     <BreakablePartsTable data={monster._parts?.parameter.partDataList} locale={locale} />
   </div>
+
+  <WeaponsList forMonsterId={monster.id} locale={locale} />
 </Layout>

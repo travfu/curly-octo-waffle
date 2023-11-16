@@ -5,6 +5,7 @@ const weaponLevelSpecSettings = z.object({
   weaponId: z.number(),
   level: z.number(),
   attack: z.number(),
+  critical: z.number().optional(),
   elementAttack: z.number().optional(),
 })
 
