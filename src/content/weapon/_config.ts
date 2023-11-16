@@ -5,14 +5,14 @@ const weaponLevelSpecSettings = z.object({
   weaponId: z.number(),
   level: z.number(),
   attack: z.number(),
-  elementAttack: z.number(),
+  elementAttack: z.number().optional(),
 })
 
 const skill = z.object({
-  skillLevelSettingId: z.string(),
-  normalSkillKind: z.number(),
-  specialSkillKind: z.number(),
-  skillLevel: z.string(),
+  skillLevelSettingId: z.number(),
+  normalSkillKind: z.string().optional(),
+  specialSkillKind: z.string().optional(),
+  skillLevel: z.number(),
 })
 
 const userItem = z.object({
@@ -29,16 +29,16 @@ const equipmentCraftMaterialSettings = z.object({
 const weaponCraftSharedSettings = z.object({
   target: z.string(),
   weaponId: z.number(),
-  create: z.boolean(),
-  upgradeFrom: z.string(),
-  OneLevelUpFrom: z.number(),
-  zenny: z.number(),
-  userItem: z.array(userItem),
+  create: z.boolean().optional(),
+  upgradeFrom: z.string().optional(),
+  OneLevelUpFrom: z.number().optional(),
+  zenny: z.number().optional(),
+  userItem: z.array(userItem).optional(),
   craftMaterialSettingsId: z.number(),
   upgrade: z.object({
     base: z.string(),
     baseWeaponId: z.number(),
-  }),
+  }).optional(),
   _materials: equipmentCraftMaterialSettings
 })
 
@@ -46,7 +46,7 @@ const bowgunSpecSettings = z.object({
   target: z.string(),
   weaponId: z.number(),
   ammoProperty: z.array(z.object({
-    ammoId: z.number(),
+    // ammoId: z.number().optional(),
     capacity: z.number(),
     recoilType: z.string(),
     reloadType: z.string(),
@@ -56,8 +56,8 @@ const bowgunSpecSettings = z.object({
       ammoType: z.string(),
       elementType: z.string(),
       level: z.number(),
-      iconId: z.number(),
-      colorCode: z.number(),
+      // iconId: z.number().optional(),
+      // colorCode: z.number().optional(),
       htmlColorCode: z.string(),
     })
   }))
@@ -66,8 +66,8 @@ const bowgunSpecSettings = z.object({
 const bowSpecSettings = z.object({
   target: z.string(),
   weaponId: z.number(),
-  bowArrowKind: z.string(),
-  bowArrowSettingId: z.number(),
+  // bowArrowKind: z.array(z.string()),
+  // bowArrowSettingId: z.array(z.number()),
   _arrows: z.array(z.object({
     bowArrowKind: z.string(),
     settingId: z.number(),
@@ -80,10 +80,10 @@ const bowSpecSettings = z.object({
 const seriesSpecSettings = z.object({
   series: z.string(),
   seriesId: z.number(),
-  numRequiredArmor: z.number(),
+  numRequiredArmor: z.number().optional(),
   sortOrder: z.number(),
   monsterSettingId: z.number(),
-  discoveredItemId: z.array(z.number()),
+  discoveredItemId: z.array(z.number()).optional(),
 })
 
 export const weaponCollection = defineCollection({
@@ -98,17 +98,17 @@ export const weaponCollection = defineCollection({
     series: z.string(),
     seriesId: z.number(),
     requiredHunterRank: z.number(),
-    skillId: z.array(z.number()),
+    skillId: z.array(z.number()).optional(),
     decorationSlotLevel: z.array(z.number()),
     sortOrder: z.number(),
-    normalSkillId: z.array(z.number()),
-    specialSkillId: z.number(),
-    normalSkill: z.array(skill),
-    specialSkill: skill,
+    normalSkillId: z.array(z.number()).optional(),
+    specialSkillId: z.number().optional(),
+    normalSkill: z.array(skill).optional(),
+    specialSkill: skill.optional(),
     _levels: z.array(weaponLevelSpecSettings),
     _crafting: z.array(weaponCraftSharedSettings),
     _series: seriesSpecSettings,
-    _bowgun: z.optional(bowgunSpecSettings),
-    _bow: z.optional(bowSpecSettings),
+    _bowgun: bowgunSpecSettings.optional(),
+    _bow: bowSpecSettings.optional(),
   })
 })
