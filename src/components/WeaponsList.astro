@@ -1,0 +1,70 @@
+---
+import { useTranslation } from '@i18n/useTranslation';
+import type { LocaleCode } from '@i18n/utils';
+import { getCollection } from 'astro:content';
+import EquipmentIcon from './icons/EquipmentIcon.astro';
+
+interface Props {
+  locale: LocaleCode;
+  forMonsterId?: number;
+}
+
+const { locale, forMonsterId } = Astro.props;
+const t = useTranslation(locale);
+
+const weapons = await getCollection(
+  'weapon',
+  forMonsterId ? ({ data }) => data._series.monsterSettingId === forMonsterId : undefined
+);
+if (!weapons.length) return;
+
+const minGradeMap: Map<string, number> = new Map();
+const availableWeapons = weapons
+  .sort(
+    (w1, w2) =>
+      w1.data.series.localeCompare(w2.data.series) ||
+      w1.data.category.localeCompare(w2.data.category) ||
+      w1.data.grade - w2.data.grade
+  )
+  .filter(({ data }) => {
+    // exclude weapons below minimum crafting grade
+    const key = [data.series, data.category].join('-');
+    if (data._crafting?.[0].create) {
+      minGradeMap.set(key, data.grade);
+      return true;
+    }
+    return (minGradeMap.get(key) || 100) <= data.grade;
+  });
+---
+
+<table>
+  <thead>
+    <tr class="uppercase text-xs text-gray-500">
+      <td class="px-2">{t('Common/SETTINGS_ACCOUNT_NAME')}</td>
+      <td class="px-2 text-right">{t('Common/GRADE')}</td>
+      <td class="px-2 text-right">{t('Common/ATTACK')}</td>
+      <td class="px-2 text-right">{t('Common/AFFINITY')}</td>
+      <td class="px-2 text-right">{t('Common/ATTACK_ELEMENT')}</td>
+    </tr>
+  </thead>
+  <tbody class="text-sm">
+    {
+      availableWeapons.map(({ data }) => {
+        const name = t(`Weapon/NAME_${data.weaponId}`);
+        const { attack, critical, elementAttack } = data._levels[0] || {};
+        return (
+          <tr>
+            <td class="px-2 flex gap-1 items-center">
+              <EquipmentIcon key={data.assetKey} alt={name} width={25} />
+              {name}
+            </td>
+            <td class="px-2 text-right">{data.grade}</td>
+            <td class="px-2 text-right">{attack}</td>
+            <td class="px-2 text-right">{critical ? `${critical}%` : '-'}</td>
+            <td class="px-2 text-right">{elementAttack || '-'}</td>
+          </tr>
+        );
+      })
+    }
+  </tbody>
+</table>
