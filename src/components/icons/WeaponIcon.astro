@@ -1,0 +1,48 @@
+---
+import { Image } from 'astro:assets';
+
+import WEAPON_TYPE2_BOW from '@assets/icons/weapon/WEAPON_TYPE2_BOW.png';
+import WEAPON_TYPE2_GUNLANCE from '@assets/icons/weapon/WEAPON_TYPE2_GUNLANCE.png';
+import WEAPON_TYPE2_INSECT_GLAIVE from '@assets/icons/weapon/WEAPON_TYPE2_INSECT_GLAIVE.png';
+import WEAPON_TYPE2_SWITCH_AXE from '@assets/icons/weapon/WEAPON_TYPE2_SWITCH_AXE.png';
+import WEAPON_TYPE2_CHARGE_BLADE from '@assets/icons/weapon/WEAPON_TYPE2_CHARGE_BLADE.png';
+import WEAPON_TYPE2_HAMMER from '@assets/icons/weapon/WEAPON_TYPE2_HAMMER.png';
+import WEAPON_TYPE2_LANCE from '@assets/icons/weapon/WEAPON_TYPE2_LANCE.png';
+import WEAPON_TYPE2_SWORD_SHIELD from '@assets/icons/weapon/WEAPON_TYPE2_SWORD_SHIELD.png';
+import WEAPON_TYPE2_DUAL_BLADES from '@assets/icons/weapon/WEAPON_TYPE2_DUAL_BLADES.png';
+import WEAPON_TYPE2_HEAVY_BOWGUN from '@assets/icons/weapon/WEAPON_TYPE2_HEAVY_BOWGUN.png';
+import WEAPON_TYPE2_LIGHT_BOWGUN from '@assets/icons/weapon/WEAPON_TYPE2_LIGHT_BOWGUN.png';
+import WEAPON_TYPE2_GREAT_SWORD from '@assets/icons/weapon/WEAPON_TYPE2_GREAT_SWORD.png';
+import WEAPON_TYPE2_HUNTING_HORN from '@assets/icons/weapon/WEAPON_TYPE2_HUNTING_HORN.png';
+import WEAPON_TYPE2_LONG_SWORD from '@assets/icons/weapon/WEAPON_TYPE2_LONG_SWORD.png';
+
+interface Props {
+  key: string;
+  alt: string;
+  width?: number;
+  height?: number;
+}
+
+const { key, alt, width, height } = Astro.props;
+
+const map: Record<string, ImageMetadata> = {
+  WEAPON_TYPE2_BOW,
+  WEAPON_TYPE2_GUNLANCE,
+  WEAPON_TYPE2_INSECT_GLAIVE,
+  WEAPON_TYPE2_SWITCH_AXE,
+  WEAPON_TYPE2_CHARGE_BLADE,
+  WEAPON_TYPE2_HAMMER,
+  WEAPON_TYPE2_LANCE,
+  WEAPON_TYPE2_SWORD_SHIELD,
+  WEAPON_TYPE2_DUAL_BLADES,
+  WEAPON_TYPE2_HEAVY_BOWGUN,
+  WEAPON_TYPE2_LIGHT_BOWGUN,
+  WEAPON_TYPE2_GREAT_SWORD,
+  WEAPON_TYPE2_HUNTING_HORN,
+  WEAPON_TYPE2_LONG_SWORD,
+};
+
+const src = map[key];
+---
+
+{!!src && <Image src={src} alt={alt} width={width} height={height} />}
