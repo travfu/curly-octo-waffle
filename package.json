@@ -12,6 +12,7 @@
   "dependencies": {
     "@astrojs/check": "^0.2.1",
     "@astrojs/tailwind": "^5.0.2",
+    "@fontsource-variable/jetbrains-mono": "^5.0.18",
     "@fontsource-variable/overpass": "^5.0.16",
     "astro": "^3.4.0",
     "astro-icon": "^0.8.1",
