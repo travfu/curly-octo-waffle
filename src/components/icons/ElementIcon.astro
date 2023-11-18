@@ -1,0 +1,38 @@
+---
+import { Image } from 'astro:assets';
+
+import BLAST from '@assets/icons/element/BLAST.png';
+import DRAGON from '@assets/icons/element/DRAGON.png';
+import FIRE from '@assets/icons/element/FIRE.png';
+import ICE from '@assets/icons/element/ICE.png';
+import PARALYSIS from '@assets/icons/element/PARALYSIS.png';
+import POISON from '@assets/icons/element/POISON.png';
+import SLEEP from '@assets/icons/element/SLEEP.png';
+import THUNDER from '@assets/icons/element/THUNDER.png';
+import WATER from '@assets/icons/element/WATER.png';
+
+interface Props {
+  key: string;
+  alt: string;
+  width?: number;
+  height?: number;
+}
+
+const { key, alt, width, height } = Astro.props;
+
+const elementMap: Record<string, ImageMetadata> = {
+  BLAST,
+  DRAGON,
+  FIRE,
+  ICE,
+  PARALYSIS,
+  POISON,
+  SLEEP,
+  THUNDER,
+  WATER,
+};
+
+const src = elementMap[key] || elementMap['FIRE'];
+---
+
+{!!src && <Image src={src} alt={alt} width={width} height={height} />}
