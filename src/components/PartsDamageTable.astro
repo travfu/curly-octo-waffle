@@ -2,6 +2,7 @@
 import type { PartsType } from '@content/config';
 import { useTranslation } from '@i18n/useTranslation';
 import type { LocaleCode } from '@i18n/utils';
+import ElementIcon from './icons/ElementIcon.astro';
 
 interface Props {
   data?: PartsType['parameter']['partDataList'];
@@ -27,11 +28,21 @@ const t = useTranslation(locale);
         <td class="px-2 text-right uppercase text-xs text-gray-500">Sever</td>
         <td class="px-2 text-right uppercase text-xs text-gray-500">Blunt</td>
         <td class="px-2 text-right uppercase text-xs text-gray-500">Ammo</td>
-        <td class="px-2 text-right uppercase text-xs text-gray-500">Fire</td>
-        <td class="px-2 text-right uppercase text-xs text-gray-500">Water</td>
-        <td class="px-2 text-right uppercase text-xs text-gray-500">Thunder</td>
-        <td class="px-2 text-right uppercase text-xs text-gray-500">Ice</td>
-        <td class="px-2 text-right uppercase text-xs text-gray-500">Dragon</td>
+        <td class="px-2 text-center uppercase text-xs text-gray-500">
+          <ElementIcon key="FIRE" alt="fire" width={15} />
+        </td>
+        <td class="px-2 text-center uppercase text-xs text-gray-500">
+          <ElementIcon key="WATER" alt="water" width={15} />
+        </td>
+        <td class="px-2 text-center uppercase text-xs text-gray-500">
+          <ElementIcon key="THUNDER" alt="thunder" width={15} />
+        </td>
+        <td class="px-2 text-center uppercase text-xs text-gray-500">
+          <ElementIcon key="ICE" alt="ice" width={15} />
+        </td>
+        <td class="px-2 text-center uppercase text-xs text-gray-500">
+          <ElementIcon key="DRAGON" alt="dragon" width={15} />
+        </td>
       </tr>
     </thead>
     <tbody>
@@ -45,11 +56,11 @@ const t = useTranslation(locale);
               <td class="px-2 text-right text-sm">{obj.damageData[0].physical.cut}</td>
               <td class="px-2 text-right text-sm">{obj.damageData[0].physical.blunt}</td>
               <td class="px-2 text-right text-sm">{obj.damageData[0].physical.ammo}</td>
-              <td class="px-2 text-right text-sm">{obj.damageData[0].elemental.fire}</td>
-              <td class="px-2 text-right text-sm">{obj.damageData[0].elemental.water}</td>
-              <td class="px-2 text-right text-sm">{obj.damageData[0].elemental.thunder}</td>
-              <td class="px-2 text-right text-sm">{obj.damageData[0].elemental.ice}</td>
-              <td class="px-2 text-right text-sm">{obj.damageData[0].elemental.dragon}</td>
+              <td class="px-2 text-center text-sm">{obj.damageData[0].elemental.fire}</td>
+              <td class="px-2 text-center text-sm">{obj.damageData[0].elemental.water}</td>
+              <td class="px-2 text-center text-sm">{obj.damageData[0].elemental.thunder}</td>
+              <td class="px-2 text-center text-sm">{obj.damageData[0].elemental.ice}</td>
+              <td class="px-2 text-center text-sm">{obj.damageData[0].elemental.dragon}</td>
             </tr>
           );
         })

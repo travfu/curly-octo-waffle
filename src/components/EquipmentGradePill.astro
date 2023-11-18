@@ -1,0 +1,43 @@
+---
+interface Props {
+  grade: number;
+  level: number;
+}
+
+const { grade, level } = Astro.props;
+const text = [grade, level].join('-');
+---
+
+<div class:list={['opacity-80 text-xs rounded bg-red-500 px-2 w-fit', `grade-${grade}`]}>
+  {text}
+</div>
+
+<style>
+  .grade-1 {
+    @apply bg-slate-600;
+  }
+
+  .grade-2 {
+    @apply bg-green-700;
+  }
+
+  .grade-3 {
+    @apply bg-blue-600;
+  }
+
+  .grade-4 {
+    @apply bg-purple-700;
+  }
+
+  .grade-5 {
+    @apply bg-yellow-500;
+  }
+
+  .grade-6,
+  .grade-7,
+  .grade-8,
+  .grade-9,
+  .grade-10 {
+    @apply bg-rose-500;
+  }
+</style>
