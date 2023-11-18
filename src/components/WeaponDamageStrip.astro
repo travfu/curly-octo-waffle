@@ -1,0 +1,57 @@
+---
+interface Props {
+  attack: number;
+  elementAttack?: number;
+  elementType: string;
+  maxAttack?: number;
+}
+
+const { attack, elementAttack = 0, elementType, maxAttack = 3000 } = Astro.props;
+
+const atkWidth = (attack / maxAttack) * 100;
+const eAtkWidth = (elementAttack / maxAttack) * 100;
+const elementClassname = `bg-${elementType.toLowerCase()}`;
+const isStatus = ['POISON', 'PARALYSIS', 'SLEEP', 'BLAST'].includes(elementType);
+---
+
+<div class="flex items-center">
+  <div class="bg-stone-200 h-3" style={`width:${atkWidth}%`}></div>
+  {
+    !!elementAttack && (
+      <div
+        class:list={['bg-red-500 h-3', elementClassname, { 'ml-1': isStatus }]}
+        style={`width:${eAtkWidth}%`}
+      />
+    )
+  }
+</div>
+
+<style>
+  .bg-fire {
+    @apply bg-red-500;
+  }
+  .bg-water {
+    @apply bg-blue-500;
+  }
+  .bg-thunder {
+    @apply bg-yellow-500;
+  }
+  .bg-ice {
+    @apply bg-sky-300;
+  }
+  .bg-dragon {
+    @apply bg-indigo-600;
+  }
+  .bg-sleep {
+    background-color: #6089bf;
+  }
+  .bg-poison {
+    @apply bg-violet-700;
+  }
+  .bg-paralysis {
+    @apply bg-emerald-500;
+  }
+  .bg-blast {
+    /* TODO */
+  }
+</style>

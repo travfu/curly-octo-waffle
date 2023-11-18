@@ -1,0 +1,17 @@
+---
+import Layout from '@layouts/Layout.astro';
+import { getStaticLocalePaths, type LocaleCode } from '@i18n/utils';
+import { useTranslation } from '@i18n/useTranslation';
+import WeaponsList from '@components/WeaponsList.astro';
+
+export async function getStaticPaths() {
+  return getStaticLocalePaths();
+}
+
+const locale = Astro.params.locale as LocaleCode;
+const t = useTranslation(locale);
+---
+
+<Layout title={t('Common/WEAPON')} locale={locale}>
+  <WeaponsList locale={locale} />
+</Layout>
