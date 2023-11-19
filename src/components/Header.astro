@@ -3,6 +3,7 @@ import { useTranslation } from '@i18n/useTranslation';
 import LanguageSelect from './LanguageSelect.astro';
 import type { LocaleCode } from '@i18n/utils';
 import { NAV_CONFIG } from '@config/navigation';
+import NavBurgerButton from './NavBurgerButton.astro';
 
 interface Props {
   locale?: LocaleCode;
@@ -21,29 +22,63 @@ const navItems = NAV_CONFIG.map(({ labelKey, path }) => ({
 ---
 
 <header class="sticky top-0 backdrop-blur bg-transparent text-gray-200 z-50">
-  <nav class="flex gap-8 items-center px-9 py-5">
+  <wyverian-nav class="flex flex-wrap gap-8 items-center px-9 py-5">
     <div class="justify-self-start text-lg font-semibold flex-shrink-0">
       WYVERIAN | MH<span
         class="bg-gradient-to-tr from-purple-600 via-purple-400 to-white text-transparent bg-clip-text font-black"
         style="background-size: 100%;">NOW</span
       >
     </div>
-    <ul class="flex gap-4 items-center">
-      {
-        navItems.map(({ label, href, isActive }) => (
-          <li
-            class:list={{
-              'hover:border-b-4 hover:border-purple-600 hover:text-slate-400': !isActive,
-              'text-purple-500': isActive,
-            }}
-          >
-            <a href={href} set:text={label} />
-          </li>
-        ))
-      }
-    </ul>
-    <div class="ml-auto flex items-center">
-      <LanguageSelect />
+    <NavBurgerButton size="32px" class="ml-auto lg:hidden" id="burger" />
+    <div
+      class="hidden w-9/12 absolute top-full right-0 text-right pr-9 lg:relative lg:w-auto lg:pr-0 lg:flex lg:flex-grow"
+      id="menu"
+    >
+      <ul class="flex flex-col gap-4 lg:w-full lg:flex-row lg:items-center">
+        {
+          navItems.map(({ label, href, isActive }) => (
+            <li
+              class:list={{
+                'lg:hover:border-b-4 hover:border-purple-600 hover:text-slate-400': !isActive,
+                'text-purple-500': isActive,
+              }}
+            >
+              <a href={href} set:text={label} />
+            </li>
+          ))
+        }
+        <li class="flex items-center justify-end lg:ml-auto">
+          <LanguageSelect />
+        </li>
+      </ul>
     </div>
-  </nav>
+  </wyverian-nav>
 </header>
+
+<style>
+  #menu {
+    background: #13151a;
+    height: 100svh;
+  }
+  @media (min-width: 1024px) {
+    #menu {
+      background: none;
+      height: auto;
+    }
+  }
+</style>
+
+<script>
+  class WyverianNav extends HTMLElement {
+    constructor() {
+      super();
+
+      const menuList = this.querySelector('#menu');
+      const navBurgerBtn = this.querySelector('#burger');
+      navBurgerBtn?.addEventListener('click', () => {
+        menuList?.classList.toggle('hidden');
+      });
+    }
+  }
+  customElements.define('wyverian-nav', WyverianNav);
+</script>
