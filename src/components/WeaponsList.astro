@@ -1,7 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import { useTranslation } from '@i18n/useTranslation';
-import type { LocaleCode } from '@i18n/utils';
+import { type LocaleCode, getWeaponType2LocalizationKey } from '@i18n/utils';
 import { getCollection } from 'astro:content';
 import EquipmentIcon from './icons/EquipmentIcon.astro';
 import ElementIcon from './icons/ElementIcon.astro';
@@ -9,6 +9,9 @@ import EquipmentGradePill from './EquipmentGradePill.astro';
 import WeaponDamageStrip from './WeaponDamageStrip.astro';
 import AffinityIcon from '@assets/icons/affinity.png';
 import WeaponIcon from './icons/WeaponIcon.astro';
+import TabGroup from './TabGroup.astro';
+import { map } from 'astro/zod';
+import { WeaponType2 } from '@constants';
 
 interface Props {
   locale: LocaleCode;
@@ -20,7 +23,12 @@ const t = useTranslation(locale);
 
 const weapons = await getCollection(
   'weapon',
-  forMonsterId ? ({ data }) => data._series.monsterSettingId === forMonsterId : undefined
+  forMonsterId
+    ? ({ data }) => {
+        if (data._series.series === 'SERIES_ORE') return false;
+        return data._series.monsterSettingId === forMonsterId;
+      }
+    : undefined
 );
 if (!weapons.length) return;
 
@@ -41,66 +49,117 @@ const availableWeapons = weapons
     }
     return (minGradeMap.get(key) || 100) <= data.grade;
   });
+
+const weaponsByCategory: Record<string, typeof weapons> = {};
+availableWeapons.forEach((obj) => {
+  if (weaponsByCategory[obj.data.category]) {
+    weaponsByCategory[obj.data.category].push(obj);
+  } else {
+    weaponsByCategory[obj.data.category] = [obj];
+  }
+});
+const categories = Object.keys(weaponsByCategory).sort((a, b) => WeaponType2[a] - WeaponType2[b]);
 ---
 
-<table class="border-spacing-y-3 table-fixed text-xs">
-  <thead>
-    <tr class="uppercase text-xs text-gray-500">
-      <td class="px-2 pl-12 col-name">{t('Common/SETTINGS_ACCOUNT_NAME')}</td>
-      <td class="px-2 text-center col-atk">{t('Common/ATTACK')}</td>
-    </tr>
-  </thead>
-  <tbody class="text-xs">
+<div>
+  <TabGroup defaultTab={categories[0]}>
+    <ul class="flex gap-5 items-center text-sm mt-3 mb-5">
+      {
+        categories.map((cat) => (
+          <li class="tab" tab-value={cat}>
+            <button class="flex gap-2 items-center">
+              <WeaponIcon key={cat} alt={cat} height={20} />
+              <span>{t(getWeaponType2LocalizationKey(cat))}</span>
+            </button>
+          </li>
+        ))
+      }
+    </ul>
+
     {
-      availableWeapons.map(({ data }) => {
-        const name = t(`Weapon/NAME_${data.weaponId}`);
-        const { attack, critical, elementAttack } = data._levels[0] || {};
-        return (
-          <tr>
-            <td class="px-2 flex gap-1 items-center col-name">
-              <div style="width:35px">
-                <EquipmentIcon key={data.assetKey} alt={name} height={35} />
-              </div>
-              <div class="flex flex-col">
-                {name}
-                <div class="flex gap-1">
-                  <WeaponIcon key={data.category} alt={data.category} height={15} />
-                  <EquipmentGradePill grade={data.grade} level={1} />
-                </div>
-              </div>
-            </td>
-            <td class="px-2 col-atk">
-              <div>
-                <div class="flex justify-between items.center gap-1">
-                  <span>{attack}</span>
-                  {elementAttack && (
-                    <div class="flex items-center">
-                      <ElementIcon key={data.elementType} alt={data.elementType} width={15} />
-                      <span>{elementAttack}</span>
-                    </div>
-                  )}
-                  <div class="flex items-center">
-                    <Image src={AffinityIcon} alt={t('Common/AFFINITY')} width={20} />
-                    <span>{critical ? `${critical}%` : '-'}</span>
-                  </div>
-                </div>
-                <WeaponDamageStrip
-                  attack={attack}
-                  elementAttack={elementAttack}
-                  elementType={data.elementType}
-                />
-              </div>
-            </td>
-          </tr>
-        );
-      })
+      categories.map((cat) => (
+        <section tab-value={cat} class="hidden">
+          <table class="border-separate border-spacing-y-3 table-fixed text-xs">
+            <thead>
+              <tr class="uppercase text-gray-500">
+                <td class="px-2 pl-12 col-name">{t('Common/SETTINGS_ACCOUNT_NAME')}</td>
+                <td class="px-2 text-center col-atk">{t('Common/ATTACK')}</td>
+              </tr>
+            </thead>
+            <tbody>
+              {weaponsByCategory[cat].map(({ data }) => {
+                const name = t(`Weapon/NAME_${data.weaponId}`);
+                return data._levels.map((lvl) => {
+                  return (
+                    <tr>
+                      <td class="px-2 flex gap-1 items-center col-name">
+                        <div class="hidden md:block" style="width:35px">
+                          <EquipmentIcon key={data.assetKey} alt={name} height={35} />
+                        </div>
+                        <div class="flex flex-col">
+                          {name}
+                          <div class="flex gap-1">
+                            <WeaponIcon key={data.category} alt={data.category} height={15} />
+                            <EquipmentGradePill grade={data.grade} level={lvl.level} />
+                          </div>
+                        </div>
+                      </td>
+                      <td class="col-atk">
+                        <div>
+                          <div class="flex justify-between items-center gap-1">
+                            <span>{lvl.attack}</span>
+                            {lvl.elementAttack && (
+                              <div class="flex items-center">
+                                <ElementIcon
+                                  key={data.elementType}
+                                  alt={data.elementType}
+                                  width={15}
+                                />
+                                <span>{lvl.elementAttack}</span>
+                              </div>
+                            )}
+                            <div class="flex items-center">
+                              <Image src={AffinityIcon} alt={t('Common/AFFINITY')} width={20} />
+                              <span>{lvl.critical ? `${lvl.critical}%` : '-'}</span>
+                            </div>
+                          </div>
+                          <WeaponDamageStrip
+                            attack={lvl.attack}
+                            elementAttack={lvl.elementAttack}
+                            elementType={data.elementType}
+                          />
+                        </div>
+                      </td>
+                    </tr>
+                  );
+                });
+              })}
+            </tbody>
+          </table>
+        </section>
+      ))
     }
-  </tbody>
-</table>
+  </TabGroup>
+</div>
 
 <style>
+  .tab span {
+    @apply hidden;
+  }
+
+  .tab.active span {
+    @apply border-b-4 border-violet-500;
+  }
+
+  .tab.active button {
+  }
+
+  .tab.active span {
+    @apply block;
+  }
+
   table tbody td {
-    @apply bg-slate-800 p-2;
+    @apply bg-zinc-800 p-2;
   }
   table tbody td:first-child {
     @apply rounded-l;
@@ -110,9 +169,10 @@ const availableWeapons = weapons
   }
 
   .col-name {
-    @apply w-80;
+    @apply w-60;
   }
   .col-atk {
     @apply w-36;
+    min-width: 130px;
   }
 </style>
