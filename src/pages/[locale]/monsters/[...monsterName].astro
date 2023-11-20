@@ -11,6 +11,7 @@ import MonsterIcon from '@components/icons/MonsterIcon.astro';
 import BreakablePartsTable from '@components/BreakablePartsTable.astro';
 import PartsDamageTable from '@components/PartsDamageTable.astro';
 import WeaponsList from '@components/WeaponsList.astro';
+import ElementIcon from '@components/icons/ElementIcon.astro';
 
 export async function getStaticPaths() {
   // generate [locale]/monsters/[monsterName] routes as a product
@@ -52,38 +53,104 @@ const t = useTranslation(locale);
 
 const monster = (await getEntry('monster', id)).data;
 const name = t(['Enemy', monster.nameLocalizationKey]);
+const atkElements = [monster._guidebook?.AttackElement1, monster._guidebook?.AttackElement2].filter(
+  Boolean
+);
+const elementWeaknessKeys = Object.entries(monster._parts?.elementalWeaknessChart || {})
+  .filter(([_, id]) => Boolean(id))
+  .map((obj) => obj[0].toUpperCase());
 ---
 
 <Layout title={`${t('Common/MONSTER_LIST')}: ${name}`} locale={locale}>
-  <div class="flex border border-purple-500 p-2">
-    <div class="flex flex-col gap-4">
-      <div class="flex items-center gap-2">
-        <div transition:name={monster.assetKey}>
-          <MonsterIcon
-            variant="icon"
-            key={monster.assetKey}
-            alt={`${name}-icon`}
-            width={50}
-            height={50}
-          />
+  <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3" id="xyz">
+    <div class="md:col-span-2 flex items-center gap-2">
+      <div transition:name={monster.assetKey}>
+        <MonsterIcon
+          variant="icon"
+          key={monster.assetKey}
+          alt={`${name}-icon`}
+          width={50}
+          height={50}
+        />
+      </div>
+      <div class="flex flex-col">
+        <h2 class="text-3xl">{name}</h2>
+        <div class="text-xs text-gray-400">{t(monster._guidebook?.SpeciesKey)}</div>
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-5 lg:row-span-2 md:col-end-3 lg:col-end-4">
+      <MonsterIcon variant="portrait" key={monster.assetKey} alt={`${name}-portrait`} />
+      <div class="flex flex-col gap-3 px-[5%]">
+        <div class="flex justify-between items-center">
+          <div>{t('Common/ATTACK_ELEMENT')}</div>
+          <div class="flex gap-1">
+            {
+              atkElements.length
+                ? atkElements.map((id) => <ElementIcon key={String(id)} alt="todo" height={20} />)
+                : '-'
+            }
+          </div>
         </div>
-        <div class="flex flex-col">
-          <h2 class="text-3xl">{name}</h2>
-          <div class="text-xs text-gray-400">{t(monster._guidebook?.SpeciesKey)}</div>
+        <div class="flex justify-between">
+          <div>{t('Common/WEAK_ELEMENT')}</div>
+          <div class="flex gap-1">
+            {
+              elementWeaknessKeys.length
+                ? elementWeaknessKeys.map((key) => <ElementIcon key={key} alt="todo" height={20} />)
+                : '-'
+            }
+          </div>
+        </div>
+        <div class="flex justify-between">
+          <!-- TODO: use icons -->
+          <div>{t('Common/WHERE_TO_APPEAR')}</div>
+          <div class="flex gap-1">
+            {monster._guidebook?.ForestAreaFlag ? <div>F</div> : null}
+            {monster._guidebook?.DesertAreaFlag ? <div>D</div> : null}
+            {monster._guidebook?.SwampAreaFlag ? <div>S</div> : null}
+          </div>
         </div>
       </div>
-      <p>{t(monster._guidebook?.DescriptionKey)}</p>
-      <p>{t(monster._guidebook?.HintKey)}</p>
     </div>
-    <div class="self-end">
-      <MonsterIcon variant="portrait" key={monster.assetKey} alt={`${name}-portrait`} />
+
+    <div class="md:row-start-2">
+      <h3 class="font-semibold text-violet-500">
+        {t('Common/MONSTER_DETAIL_DESCRIPTION_TITLE')}
+      </h3>
+      <p class="text-sm">{t(monster._guidebook?.DescriptionKey)}</p>
+    </div>
+
+    <div class="">
+      <h3 class="font-semibold text-violet-500">{t('Common/USEFUL_INFORMATION')}</h3>
+      <p class="text-sm">{t(monster._guidebook?.HintKey)}</p>
+    </div>
+
+    <div>
+      <h3 class="font-semibold text-violet-500">{t('Common/BREAKABLE_PARTS')}</h3>
+      <div class="pl-2">
+        <BreakablePartsTable data={monster._parts?.parameter.partDataList} locale={locale} />
+      </div>
+    </div>
+
+    <div class="md:col-span-2 p-10">
+      <h3 class="font-semibold text-violet-500">Parts</h3>
+      <div class="overflow-auto">
+        <PartsDamageTable data={monster._parts?.parameter.partDataList} locale={locale} />
+      </div>
+    </div>
+
+    <div class="md:col-span-2 p-10">
+      <h3 class="font-semibold text-violet-500">{t('Common/WEAPON')}</h3>
+      <div class="overflow-auto">
+        <WeaponsList forMonsterId={monster.id} locale={locale} />
+      </div>
     </div>
   </div>
 
-  <div class="flex gap-10">
-    <PartsDamageTable data={monster._parts?.parameter.partDataList} locale={locale} />
-    <BreakablePartsTable data={monster._parts?.parameter.partDataList} locale={locale} />
-  </div>
-
-  <WeaponsList forMonsterId={monster.id} locale={locale} />
+  <style>
+    #xyz > div {
+      @apply bg-zinc-900 rounded-lg border border-zinc-700 p-5;
+    }
+  </style>
 </Layout>

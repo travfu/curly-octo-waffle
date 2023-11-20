@@ -43,14 +43,14 @@ const availableWeapons = weapons
   });
 ---
 
-<table class="border-spacing-y-3 table-fixed">
+<table class="border-spacing-y-3 table-fixed text-xs">
   <thead>
     <tr class="uppercase text-xs text-gray-500">
       <td class="px-2 pl-12 col-name">{t('Common/SETTINGS_ACCOUNT_NAME')}</td>
       <td class="px-2 text-center col-atk">{t('Common/ATTACK')}</td>
     </tr>
   </thead>
-  <tbody class="text-sm">
+  <tbody class="text-xs">
     {
       availableWeapons.map(({ data }) => {
         const name = t(`Weapon/NAME_${data.weaponId}`);
