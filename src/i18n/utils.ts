@@ -1,3 +1,5 @@
+import { WeaponType2 } from "@constants";
+
 export const localeOptions = [
   { label: 'Deutsch', locale: 'de', key: 'de-de' },
   { label: 'English', locale: 'en', key: 'en-us' },
@@ -18,5 +20,12 @@ export const toGameLocaleKey = (locale: string) =>
 export const getStaticLocalePaths = () =>
   localeOptions.map(({ locale }) => ({ params: { locale }, props: {} }));
 
+
+/** Transform WeaponType2 enum to localization key */
+export const getWeaponType2LocalizationKey = (weaponType: string): string => {
+  const id = WeaponType2[weaponType as keyof typeof WeaponType2]
+  if (id === undefined) return ""
+  return `Common/WEAPON_TYPE_${String(id - 1).padStart(2, "0")}`
+}
 
 export type LocaleCode = typeof localeOptions[number]['locale']

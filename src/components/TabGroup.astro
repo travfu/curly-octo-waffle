@@ -1,0 +1,54 @@
+---
+interface Props {
+  defaultTab?: string;
+}
+
+const { defaultTab } = Astro.props;
+---
+
+<wyverian-tabs defaultTab={defaultTab}>
+  <slot />
+</wyverian-tabs>
+
+<script>
+  class WyverianTabs extends HTMLElement {
+    constructor() {
+      super();
+
+      const TAB_VALUE = 'tab-value';
+
+      const tabs = this.querySelectorAll(`ul li[${TAB_VALUE}]`);
+      const sections = this.querySelectorAll(`section[${TAB_VALUE}]`);
+      const defaultTabValue = this.getAttribute('defaultTab') || tabs[0].getAttribute(TAB_VALUE);
+
+      // make default tab visible
+      tabs.forEach((tab) => {
+        if (tab.getAttribute(TAB_VALUE) === defaultTabValue) {
+          tab.classList.add('active');
+        }
+      });
+      sections.forEach((section) => {
+        if (section.getAttribute(TAB_VALUE) === defaultTabValue) {
+          section.classList.remove('hidden');
+        }
+      });
+
+      tabs.forEach((tab) =>
+        tab.addEventListener('click', () => {
+          const tabValue = tab.getAttribute(TAB_VALUE);
+          tabs.forEach((t) => {
+            t.getAttribute(TAB_VALUE) === tabValue
+              ? t.classList.add('active')
+              : t.classList.remove('active');
+          });
+          sections.forEach((section) => {
+            section.getAttribute(TAB_VALUE) === tabValue
+              ? section.classList.remove('hidden')
+              : section.classList.add('hidden');
+          });
+        })
+      );
+    }
+  }
+  customElements.define('wyverian-tabs', WyverianTabs);
+</script>
