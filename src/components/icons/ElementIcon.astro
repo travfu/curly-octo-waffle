@@ -10,6 +10,7 @@ import POISON from '@assets/icons/element/POISON.png';
 import SLEEP from '@assets/icons/element/SLEEP.png';
 import THUNDER from '@assets/icons/element/THUNDER.png';
 import WATER from '@assets/icons/element/WATER.png';
+import { ElementType } from '@constants';
 
 interface Props {
   key: string;
@@ -21,18 +22,27 @@ interface Props {
 const { key, alt, width, height } = Astro.props;
 
 const elementMap: Record<string, ImageMetadata> = {
-  BLAST,
-  DRAGON,
+  [ElementType.FIRE]: FIRE,
   FIRE,
-  ICE,
-  PARALYSIS,
-  POISON,
-  SLEEP,
-  THUNDER,
+  [ElementType.WATER]: WATER,
   WATER,
+  [ElementType.THUNDER]: THUNDER,
+  THUNDER,
+  [ElementType.ICE]: ICE,
+  ICE,
+  [ElementType.DRAGON]: DRAGON,
+  DRAGON,
+  [ElementType.POISON]: POISON,
+  POISON,
+  [ElementType.PARALYSIS]: PARALYSIS,
+  PARALYSIS,
+  [ElementType.SLEEP]: SLEEP,
+  SLEEP,
+  [ElementType.BLAST]: BLAST,
+  BLAST,
 };
 
-const src = elementMap[key] || elementMap['FIRE'];
+const src = elementMap[key];
 ---
 
 {!!src && <Image src={src} alt={alt} width={width} height={height} />}
