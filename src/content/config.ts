@@ -44,7 +44,7 @@ const guideBookSchema = z.object({
 	AcquireMaterialMaxMonsterGrade10: z.number(),
 	AcquireMaterialId10: z.number(),
 	AttackElement1: z.number(),
-	AttackElement2: z.coerce.number(),
+	AttackElement2: z.preprocess(arg => arg === "" ? null : arg, z.number().nullish()),
 })
 
 const partsSchema = z.object({
