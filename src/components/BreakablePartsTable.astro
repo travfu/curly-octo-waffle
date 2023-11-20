@@ -23,20 +23,17 @@ const extraTextMap: Record<number, string> = {
 };
 ---
 
-<div>
-  <div>{t('Common/BREAKABLE_PARTS')}</div>
-  <ul class="flex flex-col gap-1">
-    {
-      breakableParts.map((obj) => {
-        const extraText = t(extraTextMap[obj.partBreakData.partBreakType]);
+<ul class="flex flex-col gap-1">
+  {
+    breakableParts.map((obj) => {
+      const extraText = t(extraTextMap[obj.partBreakData.partBreakType]);
 
-        return (
-          <li class="flex items-center gap-2">
-            <p>{t(['EnemyPart', obj.localizeKey])}</p>
-            {!!extraText && <p class="text-xs text-gray-400">{extraText}</p>}
-          </li>
-        );
-      })
-    }
-  </ul>
-</div>
+      return (
+        <li class="flex items-center gap-2">
+          <p>{t(['EnemyPart', obj.localizeKey])}</p>
+          {!!extraText && <p class="text-xs text-gray-400">{extraText}</p>}
+        </li>
+      );
+    })
+  }
+</ul>
