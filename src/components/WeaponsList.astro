@@ -10,7 +10,6 @@ import WeaponDamageStrip from './WeaponDamageStrip.astro';
 import AffinityIcon from '@assets/icons/affinity.png';
 import WeaponIcon from './icons/WeaponIcon.astro';
 import TabGroup from './TabGroup.astro';
-import { map } from 'astro/zod';
 import { WeaponType2 } from '@constants';
 
 interface Props {
@@ -58,7 +57,9 @@ availableWeapons.forEach((obj) => {
     weaponsByCategory[obj.data.category] = [obj];
   }
 });
-const categories = Object.keys(weaponsByCategory).sort((a, b) => WeaponType2[a] - WeaponType2[b]);
+const categories = Object.keys(weaponsByCategory).sort(
+  (a, b) => WeaponType2[a as keyof typeof WeaponType2] - WeaponType2[b as keyof typeof WeaponType2]
+);
 ---
 
 <div>
