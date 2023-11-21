@@ -1,0 +1,51 @@
+---
+import Forest from '@assets/icons/spr_ui_atlas_icon_map_area_1.png';
+import Desert from '@assets/icons/spr_ui_atlas_icon_map_area_2.png';
+import Swamp from '@assets/icons/spr_ui_atlas_icon_map_area_3.png';
+import { useTranslation } from '@i18n/useTranslation';
+import type { LocaleCode } from '@i18n/utils';
+import { Image } from 'astro:assets';
+
+interface Props {
+  locale?: LocaleCode;
+  key: 'desert' | 'forest' | 'swamp';
+  size?: number;
+}
+
+const { locale = 'en', key, size } = Astro.props;
+const t = useTranslation(locale);
+
+const map = {
+  forest: {
+    image: Forest,
+    localizationKey: 'Common/AREA_TYPE_FOREST',
+    filter:
+      'invert(13%) sepia(13%) saturate(4092%) hue-rotate(102deg) brightness(50%) contrast(96%)',
+  },
+  desert: {
+    image: Desert,
+    localizationKey: 'Common/AREA_TYPE_SAND',
+    filter:
+      'invert(41%) sepia(92%) saturate(3671%) hue-rotate(29deg) brightness(89%) contrast(94%)',
+  },
+  swamp: {
+    image: Swamp,
+    localizationKey: 'Common/AREA_TYPE_SWAMP',
+    filter:
+      'invert(8%) sepia(77%) saturate(7392%) hue-rotate(276deg) brightness(45%) contrast(85%)',
+  },
+};
+
+const item = map[key];
+if (!item) return;
+
+const name = t(item.localizationKey);
+---
+
+<Image
+  src={item.image}
+  style={{ filter: item.filter, height: 'fit-content' }}
+  alt={name}
+  aria-label={name}
+  width={size}
+/>
