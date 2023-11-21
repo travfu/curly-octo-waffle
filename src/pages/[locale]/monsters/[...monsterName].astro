@@ -12,6 +12,7 @@ import BreakablePartsTable from '@components/BreakablePartsTable.astro';
 import PartsDamageTable from '@components/PartsDamageTable.astro';
 import WeaponsList from '@components/WeaponsList.astro';
 import ElementIcon from '@components/icons/ElementIcon.astro';
+import BiomeIcon from '@components/icons/BiomeIcon.astro';
 
 export async function getStaticPaths() {
   // generate [locale]/monsters/[monsterName] routes as a product
@@ -103,12 +104,11 @@ const elementWeaknessKeys = Object.entries(monster._parts?.elementalWeaknessChar
           </div>
         </div>
         <div class="flex justify-between">
-          <!-- TODO: use icons -->
           <div>{t('Common/WHERE_TO_APPEAR')}</div>
           <div class="flex gap-1">
-            {monster._guidebook?.ForestAreaFlag ? <div>F</div> : null}
-            {monster._guidebook?.DesertAreaFlag ? <div>D</div> : null}
-            {monster._guidebook?.SwampAreaFlag ? <div>S</div> : null}
+            {monster._guidebook?.ForestAreaFlag ? <BiomeIcon key="forest" size={30} /> : null}
+            {monster._guidebook?.DesertAreaFlag ? <BiomeIcon key="desert" size={30} /> : null}
+            {monster._guidebook?.SwampAreaFlag ? <BiomeIcon key="swamp" size={30} /> : null}
           </div>
         </div>
       </div>
