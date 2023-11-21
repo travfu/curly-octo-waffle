@@ -85,27 +85,27 @@ const elementWeaknessKeys = Object.entries(monster._parts?.elementalWeaknessChar
       <div class="flex flex-col gap-3 px-[5%]">
         <div class="flex justify-between items-center">
           <div>{t('Common/ATTACK_ELEMENT')}</div>
-          <div class="flex gap-1">
+          <div class="flex gap-1 items-center">
             {
               atkElements.length
-                ? atkElements.map((id) => <ElementIcon key={String(id)} alt="todo" height={20} />)
+                ? atkElements.map((id) => <ElementIcon key={String(id)} alt="todo" width={30} />)
                 : '-'
             }
           </div>
         </div>
         <div class="flex justify-between">
           <div>{t('Common/WEAK_ELEMENT')}</div>
-          <div class="flex gap-1">
+          <div class="flex gap-1 items-center">
             {
               elementWeaknessKeys.length
-                ? elementWeaknessKeys.map((key) => <ElementIcon key={key} alt="todo" height={20} />)
+                ? elementWeaknessKeys.map((key) => <ElementIcon key={key} alt="todo" width={30} />)
                 : '-'
             }
           </div>
         </div>
         <div class="flex justify-between">
           <div>{t('Common/WHERE_TO_APPEAR')}</div>
-          <div class="flex gap-1">
+          <div class="flex gap-1 items-center">
             {monster._guidebook?.ForestAreaFlag ? <BiomeIcon key="forest" size={30} /> : null}
             {monster._guidebook?.DesertAreaFlag ? <BiomeIcon key="desert" size={30} /> : null}
             {monster._guidebook?.SwampAreaFlag ? <BiomeIcon key="swamp" size={30} /> : null}
