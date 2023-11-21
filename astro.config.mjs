@@ -1,6 +1,8 @@
 import { defineConfig } from 'astro/config';
 import tailwind from "@astrojs/tailwind";
 
+import react from "@astrojs/react";
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://travfu.github.io',
@@ -8,5 +10,5 @@ export default defineConfig({
   // in development and in production build. All static asset imports and URLs should be prefixed
   // with `import.meta.env.BASE_URL`.
   base: '/curly-octo-waffle',
-  integrations: [tailwind()]
+  integrations: [tailwind(), react()]
 });
