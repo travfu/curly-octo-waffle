@@ -1,10 +1,14 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "/Users/tfu/Developer/personal/wyverian-now",
     "paths": {
-      "@*": ["src/*"]
+      "@*": [
+        "src/*"
+      ]
     },
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
   }
 }
