@@ -67,7 +67,7 @@ const bowgunSpecSettings = z.object({
 const bowSpecSettings = z.object({
   target: z.string(),
   weaponId: z.number(),
-  // bowArrowKind: z.array(z.string()),
+  bowArrowKind: z.array(z.string()),
   // bowArrowSettingId: z.array(z.number()),
   _arrows: z.array(z.object({
     bowArrowKind: z.string(),

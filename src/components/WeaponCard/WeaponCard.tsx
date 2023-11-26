@@ -5,6 +5,7 @@ import { type LocaleCode } from '@i18n/utils';
 import { IconSrc } from '@utils/icon';
 import { GradePillSelect } from './GradePillSelect';
 import { DamageDetails } from './DamageDetails';
+import { BowDetails } from './BowDetails';
 
 type GradeAndLevelOption = {
   label: React.ReactNode;
@@ -31,6 +32,8 @@ export default ({ data, locale }: Props) => {
   const t = useTranslation(locale);
 
   const weapon = data.find((obj) => obj.data.grade === grade);
+  const bowData = weapon?.data._bow;
+  console.log({ bowData });
   const attack = weapon?.data._levels.find((obj) => obj.level === level);
 
   return (
@@ -64,6 +67,16 @@ export default ({ data, locale }: Props) => {
             critical={attack?.critical}
           />
           <div className="bg-zinc-700 w-full h-[1px]" />
+
+          {!!bowData && (
+            <>
+              <BowDetails
+                locale={locale}
+                arrowLocalizationKeys={bowData._arrows.map((obj) => obj.nameLocalizationKey)}
+              />
+              <div className="bg-zinc-700 w-full h-[1px]" />
+            </>
+          )}
           <div className="text-xs">SKILLS</div>
         </div>
       </div>
