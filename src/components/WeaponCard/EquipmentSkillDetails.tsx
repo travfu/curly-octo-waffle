@@ -35,7 +35,7 @@ export const EquipmentSkillDetails = ({
         </button>
       </div>
       <SkillLevel level={level} max={maxLevel} />
-      {showDesc && <div className="text-zinc-600">{description}</div>}
+      {showDesc && <div className="text-zinc-400">{description}</div>}
     </div>
   );
 };

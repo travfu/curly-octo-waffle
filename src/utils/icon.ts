@@ -3,8 +3,13 @@ import { ElementType } from "@constants";
 const BASE_URL = '/curly-octo-waffle';
 
 
-const elementTemplate = (key: keyof typeof ElementType) => {
-  const id = String(ElementType[key]).padStart(2, '0')
+const elementTemplate = (key: keyof typeof ElementType | number) => {
+  let id;
+  if (typeof key === "number") {
+    id = String(key).padStart(2, '0')
+  } else {
+    id = String(ElementType[key]).padStart(2, '0')
+  }
   return `${BASE_URL}/icons/element/spr_ui_atlas_element_${id}.png`
 }
 
