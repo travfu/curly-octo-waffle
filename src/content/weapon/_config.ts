@@ -1,4 +1,4 @@
-import { zElementType } from '@content/common';
+import { zElementType } from '@content/_common';
 import { z, defineCollection } from 'astro:content';
 
 const weaponLevelSpecSettings = z.object({

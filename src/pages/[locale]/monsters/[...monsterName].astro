@@ -14,7 +14,7 @@ import BiomeIcon from '@components/icons/BiomeIcon.astro';
 import WeaponCard from '@components/WeaponCard';
 import { getWeaponsByCategory } from '@content/utils';
 import { IconSrc } from '@utils/icon';
-import type { zElementType } from '@content/common';
+import type { zElementType } from '@content/_common';
 
 export async function getStaticPaths() {
   // generate [locale]/monsters/[monsterName] routes as a product
@@ -168,3 +168,4 @@ const weaponsByCategory = await getWeaponsByCategory({ forMonsterId: monster.id 
     }
   </style>
 </Layout>
+ @content/_common
