@@ -1,6 +1,7 @@
 import React from 'react';
 import { IconSrc } from '@utils/icon';
 import type { ElementType } from '@constants';
+import clsx from 'clsx';
 
 interface WeaponAttackRowProps {
   attack?: number;
@@ -33,9 +34,9 @@ export const WeaponAttackRow = ({
         </div>
       )}
 
-      <div className="flex gap-0.5 items-center">
+      <div className={clsx('flex gap-0.5 items-center', !critical && 'opacity-40')}>
         <img src={IconSrc.CRITICAL} className="h-[20px] self-start" />
-        <span>{critical ? `${critical}%` : '-'}</span>
+        <span>{critical ? `${critical}%` : '0%'}</span>
       </div>
     </div>
   );
