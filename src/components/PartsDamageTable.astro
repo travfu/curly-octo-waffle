@@ -2,7 +2,7 @@
 import type { PartsType } from '@content/config';
 import { useTranslation } from '@i18n/useTranslation';
 import type { LocaleCode } from '@i18n/utils';
-import ElementIcon from './icons/ElementIcon.astro';
+import { IconSrc } from '@utils/icon';
 
 interface Props {
   data?: PartsType['parameter']['partDataList'];
@@ -27,29 +27,19 @@ const t = useTranslation(locale);
       <td class="px-2 uppercase text-xs text-gray-500" align="right">Blunt</td>
       <td class="px-2 uppercase text-xs text-gray-500" align="right">Ammo</td>
       <td class="mx-2 uppercase text-xs text-gray-500" align="center">
-        <div class="flex justify-center">
-          <ElementIcon key="FIRE" alt="fire" width={15} />
-        </div>
+        <img src={IconSrc.ELEMENT('FIRE')} class="w-[15px]" />
       </td>
       <td class="mx-2 uppercase text-xs text-gray-500" align="center">
-        <div class="flex justify-center">
-          <ElementIcon key="WATER" alt="water" width={15} />
-        </div>
+        <img src={IconSrc.ELEMENT('WATER')} class="w-[15px]" />
       </td>
       <td class="mx-2 uppercase text-xs text-gray-500" align="center">
-        <div class="flex justify-center">
-          <ElementIcon key="THUNDER" alt="thunder" width={15} />
-        </div>
+        <img src={IconSrc.ELEMENT('THUNDER')} class="w-[15px]" />
       </td>
       <td class="mx-2 uppercase text-xs text-gray-500" align="center">
-        <div class="flex justify-center">
-          <ElementIcon key="ICE" alt="ice" width={15} />
-        </div>
+        <img src={IconSrc.ELEMENT('ICE')} class="w-[15px]" />
       </td>
       <td class="mx-2 uppercase text-xs text-gray-500" align="center">
-        <div class="flex justify-center">
-          <ElementIcon key="DRAGON" alt="dragon" width={15} />
-        </div>
+        <img src={IconSrc.ELEMENT('DRAGON')} class="w-[15px]" />
       </td>
     </tr>
   </thead>

@@ -1,5 +1,5 @@
 ---
-import { getCollection, getEntry } from 'astro:content';
+import { getCollection, getEntry, z } from 'astro:content';
 
 import { MONSTER_CONFIG } from '@config/monsters';
 import Layout from '@layouts/Layout.astro';
@@ -10,10 +10,11 @@ import type { LocaleCode } from '@i18n/utils';
 import MonsterIcon from '@components/icons/MonsterIcon.astro';
 import BreakablePartsTable from '@components/BreakablePartsTable.astro';
 import PartsDamageTable from '@components/PartsDamageTable.astro';
-import ElementIcon from '@components/icons/ElementIcon.astro';
 import BiomeIcon from '@components/icons/BiomeIcon.astro';
 import WeaponCard from '@components/WeaponCard';
 import { getWeaponsByCategory } from '@content/utils';
+import { IconSrc } from '@utils/icon';
+import type { zElementType } from '@content/common';
 
 export async function getStaticPaths() {
   // generate [locale]/monsters/[monsterName] routes as a product
@@ -57,10 +58,10 @@ const monster = (await getEntry('monster', id)).data;
 const name = t(['Enemy', monster.nameLocalizationKey]);
 const atkElements = [monster._guidebook?.AttackElement1, monster._guidebook?.AttackElement2].filter(
   Boolean
-);
+) as number[];
 const elementWeaknessKeys = Object.entries(monster._parts?.elementalWeaknessChart || {})
   .filter(([_, id]) => Boolean(id))
-  .map((obj) => obj[0].toUpperCase());
+  .map((obj) => obj[0].toUpperCase()) as z.infer<typeof zElementType>[];
 
 const weaponsByCategory = await getWeaponsByCategory({ forMonsterId: monster.id });
 ---
@@ -91,7 +92,7 @@ const weaponsByCategory = await getWeaponsByCategory({ forMonsterId: monster.id 
           <div class="flex gap-1 items-center">
             {
               atkElements.length
-                ? atkElements.map((id) => <ElementIcon key={String(id)} alt="todo" width={30} />)
+                ? atkElements.map((id) => <img src={IconSrc.ELEMENT(id)} class="w-[30px]" />)
                 : '-'
             }
           </div>
@@ -101,7 +102,9 @@ const weaponsByCategory = await getWeaponsByCategory({ forMonsterId: monster.id 
           <div class="flex gap-1 items-center">
             {
               elementWeaknessKeys.length
-                ? elementWeaknessKeys.map((key) => <ElementIcon key={key} alt="todo" width={30} />)
+                ? elementWeaknessKeys.map((key) => (
+                    <img src={IconSrc.ELEMENT(key)} class="w-[30px]" />
+                  ))
                 : '-'
             }
           </div>
