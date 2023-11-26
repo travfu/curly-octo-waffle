@@ -34,7 +34,7 @@ export default ({ data, locale }: Props) => {
   const attack = weapon?.data._levels.find((obj) => obj.level === level);
 
   return (
-    <div className="w-full flex flex-col gap-4">
+    <div className="w-full flex flex-col gap-4 lg:w-[300px]">
       <div className="flex gap-1 justify-between items-center w-full">
         <div className="flex gap-2 items-center">
           <img src={IconSrc.WEAPON_TYPE(weapon?.data.category)} className="h-[18px]" />
