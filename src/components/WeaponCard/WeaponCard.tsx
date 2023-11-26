@@ -59,7 +59,7 @@ export default ({ data, locale }: Props) => {
 
       <div className="flex gap-4">
         <img
-          src={`/curly-octo-waffle/weapons/spr_ui_thumb_${weapon?.data.assetKey}.png`}
+          src={`/weapons/spr_ui_thumb_${weapon?.data.assetKey}.png`}
           className="w-[100px] self-start"
         />
         <div className="flex flex-col w-full gap-4">

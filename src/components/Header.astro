@@ -12,11 +12,10 @@ interface Props {
 const { locale = 'en' } = Astro.props;
 const t = useTranslation(locale);
 
-const basePath = [import.meta.env.BASE_URL, locale].join('/');
-const currRelPath = Astro.url.pathname.split('/').slice(3).join('/');
+const currRelPath = Astro.url.pathname.split('/').slice(2).join('/');
 const navItems = NAV_CONFIG.map(({ labelKey, path }) => ({
   label: t(labelKey),
-  href: [basePath, path].join('/'),
+  href: '/' + [locale, path].join('/'),
   isActive: currRelPath && currRelPath === path,
 }));
 ---
@@ -24,7 +23,7 @@ const navItems = NAV_CONFIG.map(({ labelKey, path }) => ({
 <header class="sticky top-0 backdrop-blur bg-transparent text-gray-200 z-50">
   <wyverian-nav class="flex flex-wrap gap-8 items-center px-9 py-5">
     <div class="justify-self-start text-lg font-semibold flex-shrink-0">
-      WYVERIAN | MH<span
+      MH-DB | MH<span
         class="bg-gradient-to-tr from-purple-600 via-purple-400 to-white text-transparent bg-clip-text font-black"
         style="background-size: 100%;">NOW</span
       >

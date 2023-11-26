@@ -19,7 +19,7 @@ const t = useTranslation(locale);
 
 const toMonsterPath = (key: string): string => {
   const monsterSlug = t(['Enemy', key], 'en')?.toLocaleLowerCase().replace(' ', '-');
-  return [import.meta.env.BASE_URL, locale, 'monsters', monsterSlug].join('/');
+  return ['', locale, 'monsters', monsterSlug].join('/');
 };
 ---
 
