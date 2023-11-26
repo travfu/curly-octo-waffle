@@ -49,6 +49,7 @@ const toNameKey = (ammoType: string, elementType: keyof typeof ElementType) => {
   if (elementType === 'NO_ELEMENT') {
     return `Ammo/${ammoType}1`;
   }
+
   if (ammoType === 'NORMAL') {
     switch (elementType) {
       case 'FIRE':
@@ -59,5 +60,11 @@ const toNameKey = (ammoType: string, elementType: keyof typeof ElementType) => {
         return `Ammo/${elementType}`;
     }
   }
-  return `Ammo/${ammoType}_${elementType}`;
+
+  switch (elementType) {
+    case 'ICE':
+      return `Ammo/${ammoType}_FREEZE`;
+    default:
+      return `Ammo/${ammoType}_${elementType}`;
+  }
 };
