@@ -44,6 +44,7 @@ export const GradePillSelect = ({
           <Select.Viewport className="p-[5px]">
             {options.map(({ value, label }) => (
               <Select.Item
+                key={value}
                 value={value}
                 className="pl-4 pr-2 rounded hover:bg-purple-400 outline-none flex items-center"
               >
