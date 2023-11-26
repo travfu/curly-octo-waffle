@@ -38,7 +38,7 @@ export default ({ data, locale }: Props) => {
     <div className="w-full flex flex-col gap-4">
       <div className="flex gap-1 justify-between items-center w-full">
         <div className="flex gap-2 items-center">
-          <img src={IconSrc.WEAPON_TYPE(weapon.data.category)} className="h-[18px]" />
+          <img src={IconSrc.WEAPON_TYPE(weapon?.data.category)} className="h-[18px]" />
           <h3 className="text-sm font-semibold">
             {weapon?.data.weaponId ? t(`Weapon/NAME_${weapon.data.weaponId}`) : '-'}
           </h3>
