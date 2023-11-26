@@ -13,7 +13,7 @@ const elementTemplate = (key: keyof typeof ElementType | number) => {
   return `${BASE_URL}/icons/element/spr_ui_atlas_element_${id}.png`
 }
 
-const weaponTypeTemplate = (key) => {
+const weaponTypeTemplate = (key: string) => {
   return `${BASE_URL}/icons/weapon/${key}.png`
 }
 
