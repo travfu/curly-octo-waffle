@@ -7,6 +7,7 @@ import { GradePillSelect } from './GradePillSelect';
 import { DamageDetails } from './DamageDetails';
 import { BowDetails } from './BowDetails';
 import { BowgunDetails } from './BowgunDetails';
+import { EquipmentSkillDetails } from './EquipmentSkillDetails';
 
 type GradeAndLevelOption = {
   label: React.ReactNode;
@@ -36,6 +37,7 @@ export default ({ data, locale }: Props) => {
   const bowData = weapon?.data._bow;
   const bowgunData = weapon?.data._bowgun;
   const attack = weapon?.data._levels.find((obj) => obj.level === level);
+  const skills = weapon?.data._skills || [];
 
   return (
     <div className="w-full flex flex-col gap-4 lg:w-[300px]">
@@ -85,7 +87,14 @@ export default ({ data, locale }: Props) => {
               <div className="bg-zinc-700 w-full h-[1px]" />
             </>
           )}
-          <div className="text-xs">SKILLS</div>
+
+          {!!skills.length && (
+            <div>
+              {skills.map((skill) => (
+                <EquipmentSkillDetails key={skill.skillId} locale={locale} data={skill} />
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </div>
