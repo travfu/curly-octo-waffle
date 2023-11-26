@@ -118,7 +118,7 @@ const GradePillSelect = ({
     <Select.Root value={value} onValueChange={onChange}>
       <Select.Trigger
         className={clsx(
-          'w-18 flex gap-0.5 items-center justify-around rounded-md px-2 py-1 text-xs outline-none',
+          'w-[60px] flex gap-0.5 items-center justify-around rounded-md px-2 py-1 text-xs outline-none',
           bgColor
         )}
       >
