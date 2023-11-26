@@ -4,6 +4,7 @@ import { useTranslation } from '@i18n/useTranslation';
 import { type LocaleCode } from '@i18n/utils';
 import { IconSrc } from '@utils/icon';
 import { GradePillSelect } from './GradePillSelect';
+import { WeaponAttackRow } from './WeaponAttackRow';
 
 type GradeAndLevelOption = {
   label: React.ReactNode;
@@ -55,31 +56,13 @@ export default ({ data, locale }: Props) => {
           src={`/curly-octo-waffle/weapons/spr_ui_thumb_${weapon?.data.assetKey}.png`}
           className="w-[100px] self-start"
         />
-
         <div className="flex flex-col w-full gap-4">
-          <div className="flex gap-4 text-xs">
-            <div className="flex gap-0.5 items-center">
-              <img src={IconSrc.ATTACK} className="h-[20px] self-start" />
-              <span>{attack?.attack || '-'}</span>
-            </div>
-            {!!attack?.elementAttack && !!weapon?.data.elementType && (
-              <div className="flex gap-0.5 items-center">
-                {weapon.data.elementType === 'NO_ELEMENT' ? (
-                  <img src={IconSrc.ATTACK} className="h-[20px] self-start" />
-                ) : (
-                  <img
-                    src={IconSrc.ELEMENT(weapon.data.elementType)}
-                    className="h-[20px] self-start"
-                  />
-                )}
-                <span>{attack?.elementAttack || '-'}</span>
-              </div>
-            )}
-            <div className="flex gap-0.5 items-center">
-              <img src={IconSrc.CRITICAL} className="h-[20px] self-start" />
-              <span>{attack?.critical ? `${attack.critical}%` : '-'}</span>
-            </div>
-          </div>
+          <WeaponAttackRow
+            elementType={weapon?.data.elementType}
+            attack={attack?.attack}
+            elementAttack={attack?.elementAttack}
+            critical={attack?.critical}
+          />
           <div className="bg-zinc-700 w-full h-[1px]" />
           <div className="text-xs">SKILLS</div>
         </div>
