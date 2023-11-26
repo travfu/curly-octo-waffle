@@ -6,6 +6,7 @@ import { IconSrc } from '@utils/icon';
 import { GradePillSelect } from './GradePillSelect';
 import { DamageDetails } from './DamageDetails';
 import { BowDetails } from './BowDetails';
+import { BowgunDetails } from './BowgunDetails';
 
 type GradeAndLevelOption = {
   label: React.ReactNode;
@@ -33,7 +34,7 @@ export default ({ data, locale }: Props) => {
 
   const weapon = data.find((obj) => obj.data.grade === grade);
   const bowData = weapon?.data._bow;
-  console.log({ bowData });
+  const bowgunData = weapon?.data._bowgun;
   const attack = weapon?.data._levels.find((obj) => obj.level === level);
 
   return (
@@ -74,6 +75,13 @@ export default ({ data, locale }: Props) => {
                 locale={locale}
                 arrowLocalizationKeys={bowData._arrows.map((obj) => obj.nameLocalizationKey)}
               />
+              <div className="bg-zinc-700 w-full h-[1px]" />
+            </>
+          )}
+
+          {!!bowgunData && (
+            <>
+              <BowgunDetails locale={locale} ammoProperties={bowgunData.ammoProperty} />
               <div className="bg-zinc-700 w-full h-[1px]" />
             </>
           )}
