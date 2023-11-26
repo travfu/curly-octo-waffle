@@ -3,19 +3,19 @@ import { IconSrc } from '@utils/icon';
 import type { ElementType } from '@constants';
 import clsx from 'clsx';
 
-interface WeaponAttackRowProps {
+interface DamageDetailsProps {
   attack?: number;
   elementType?: keyof typeof ElementType;
   elementAttack?: number;
   critical?: number;
 }
 
-export const WeaponAttackRow = ({
+export const DamageDetails = ({
   attack,
   elementAttack,
   elementType,
   critical,
-}: WeaponAttackRowProps) => {
+}: DamageDetailsProps) => {
   return (
     <div className="flex gap-4 text-xs">
       <div className="flex gap-0.5 items-center">
