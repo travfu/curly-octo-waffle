@@ -4,7 +4,7 @@ import { useTranslation } from '@i18n/useTranslation';
 import { type LocaleCode } from '@i18n/utils';
 import { IconSrc } from '@utils/icon';
 import { GradePillSelect } from './GradePillSelect';
-import { WeaponAttackRow } from './WeaponAttackRow';
+import { DamageDetails } from './DamageDetails';
 
 type GradeAndLevelOption = {
   label: React.ReactNode;
@@ -57,7 +57,7 @@ export default ({ data, locale }: Props) => {
           className="w-[100px] self-start"
         />
         <div className="flex flex-col w-full gap-4">
-          <WeaponAttackRow
+          <DamageDetails
             elementType={weapon?.data.elementType}
             attack={attack?.attack}
             elementAttack={attack?.elementAttack}
