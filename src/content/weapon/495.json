@@ -279,5 +279,17 @@
         "nameLocalizationKey": "BowArrow/ARROW_PIERCE_04"
       }
     ]
-  }
+  },
+  "_skills": [
+    {
+      "iconId": 34,
+      "level": 1,
+      "descriptionKey": "SkillDescription/EARPLUGS_1",
+      "skillConditionParameter": null,
+      "skillEffectParameter": [
+        50,
+        0
+      ]
+    }
+  ]
 }

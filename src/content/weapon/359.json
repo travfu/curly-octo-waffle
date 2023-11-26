@@ -242,5 +242,19 @@
         }
       }
     ]
-  }
+  },
+  "_skills": [
+    {
+      "iconId": 37,
+      "level": 1,
+      "descriptionKey": "SkillDescription/SLOW_STARTER_1",
+      "skillConditionParameter": [
+        3
+      ],
+      "skillEffectParameter": [
+        30,
+        10
+      ]
+    }
+  ]
 }

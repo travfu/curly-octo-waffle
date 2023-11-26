@@ -233,5 +233,16 @@
     "numRequiredArmor": 40,
     "sortOrder": 10180,
     "monsterSettingId": 27
-  }
+  },
+  "_skills": [
+    {
+      "iconId": 20,
+      "level": 1,
+      "descriptionKey": "SkillDescription/PARTBREAKER_0",
+      "skillConditionParameter": null,
+      "skillEffectParameter": [
+        5
+      ]
+    }
+  ]
 }

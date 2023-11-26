@@ -245,5 +245,16 @@
         "nameLocalizationKey": "BowArrow/ARROW_RAPID_04"
       }
     ]
-  }
+  },
+  "_skills": [
+    {
+      "iconId": 5,
+      "level": 1,
+      "descriptionKey": "SkillDescription/POISON_RESISTANCE_0",
+      "skillConditionParameter": null,
+      "skillEffectParameter": [
+        20
+      ]
+    }
+  ]
 }

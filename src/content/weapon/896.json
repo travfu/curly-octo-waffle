@@ -153,5 +153,19 @@
     "numRequiredArmor": 20,
     "sortOrder": 10110,
     "monsterSettingId": 22
-  }
+  },
+  "_skills": [
+    {
+      "iconId": 37,
+      "level": 1,
+      "descriptionKey": "SkillDescription/SLOW_STARTER_1",
+      "skillConditionParameter": [
+        3
+      ],
+      "skillEffectParameter": [
+        30,
+        10
+      ]
+    }
+  ]
 }

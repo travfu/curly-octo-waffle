@@ -227,5 +227,16 @@
     "seriesId": 13,
     "sortOrder": 10070,
     "monsterSettingId": 4
-  }
+  },
+  "_skills": [
+    {
+      "iconId": 3,
+      "level": 2,
+      "descriptionKey": "SkillDescription/DEFENSE_UP_0",
+      "skillConditionParameter": null,
+      "skillEffectParameter": [
+        40
+      ]
+    }
+  ]
 }

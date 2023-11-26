@@ -280,5 +280,18 @@
         }
       }
     ]
-  }
+  },
+  "_skills": [
+    {
+      "iconId": 43,
+      "level": 2,
+      "descriptionKey": "SkillDescription/PEAK_PERFORMANCE",
+      "skillConditionParameter": [
+        100
+      ],
+      "skillEffectParameter": [
+        60
+      ]
+    }
+  ]
 }

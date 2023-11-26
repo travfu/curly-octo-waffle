@@ -283,5 +283,18 @@
         "nameLocalizationKey": "BowArrow/ARROW_RAPID_04"
       }
     ]
-  }
+  },
+  "_skills": [
+    {
+      "iconId": 43,
+      "level": 1,
+      "descriptionKey": "SkillDescription/PEAK_PERFORMANCE",
+      "skillConditionParameter": [
+        100
+      ],
+      "skillEffectParameter": [
+        30
+      ]
+    }
+  ]
 }
