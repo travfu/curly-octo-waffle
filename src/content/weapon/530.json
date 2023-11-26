@@ -255,5 +255,16 @@
         "nameLocalizationKey": "BowArrow/ARROW_PIERCE_04"
       }
     ]
-  }
+  },
+  "_skills": [
+    {
+      "iconId": 18,
+      "level": 1,
+      "descriptionKey": "SkillDescription/AGILITY_UP_1",
+      "skillConditionParameter": null,
+      "skillEffectParameter": [
+        20
+      ]
+    }
+  ]
 }

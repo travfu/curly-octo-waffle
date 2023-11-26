@@ -268,5 +268,16 @@
         }
       }
     ]
-  }
+  },
+  "_skills": [
+    {
+      "iconId": 3,
+      "level": 1,
+      "descriptionKey": "SkillDescription/DEFENSE_UP_0",
+      "skillConditionParameter": null,
+      "skillEffectParameter": [
+        20
+      ]
+    }
+  ]
 }

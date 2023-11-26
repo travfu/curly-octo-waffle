@@ -270,5 +270,17 @@
         "nameLocalizationKey": "BowArrow/ARROW_PIERCE_04"
       }
     ]
-  }
+  },
+  "_skills": [
+    {
+      "iconId": 46,
+      "level": 1,
+      "descriptionKey": "SkillDescription/FORTIFY",
+      "skillConditionParameter": null,
+      "skillEffectParameter": [
+        10,
+        10
+      ]
+    }
+  ]
 }

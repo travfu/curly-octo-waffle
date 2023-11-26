@@ -222,5 +222,16 @@
     "numRequiredArmor": 20,
     "sortOrder": 10120,
     "monsterSettingId": 6
-  }
+  },
+  "_skills": [
+    {
+      "iconId": 1,
+      "level": 1,
+      "descriptionKey": "SkillDescription/HEALTH_UP_0",
+      "skillConditionParameter": null,
+      "skillEffectParameter": [
+        10
+      ]
+    }
+  ]
 }

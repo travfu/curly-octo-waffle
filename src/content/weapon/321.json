@@ -265,5 +265,16 @@
         }
       }
     ]
-  }
+  },
+  "_skills": [
+    {
+      "iconId": 1,
+      "level": 2,
+      "descriptionKey": "SkillDescription/HEALTH_UP_0",
+      "skillConditionParameter": null,
+      "skillEffectParameter": [
+        20
+      ]
+    }
+  ]
 }

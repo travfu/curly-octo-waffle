@@ -241,5 +241,18 @@
     "numRequiredArmor": 40,
     "sortOrder": 10170,
     "monsterSettingId": 26
-  }
+  },
+  "_skills": [
+    {
+      "iconId": 43,
+      "level": 1,
+      "descriptionKey": "SkillDescription/PEAK_PERFORMANCE",
+      "skillConditionParameter": [
+        100
+      ],
+      "skillEffectParameter": [
+        30
+      ]
+    }
+  ]
 }

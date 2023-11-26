@@ -279,5 +279,18 @@
         "nameLocalizationKey": "BowArrow/ARROW_RAPID_04"
       }
     ]
-  }
+  },
+  "_skills": [
+    {
+      "iconId": 32,
+      "level": 1,
+      "descriptionKey": "SkillDescription/LAST_DITCH_GUARDIAN",
+      "skillConditionParameter": [
+        29
+      ],
+      "skillEffectParameter": [
+        50
+      ]
+    }
+  ]
 }

@@ -215,5 +215,16 @@
     "seriesId": 1,
     "sortOrder": 10010,
     "monsterSettingId": 1
-  }
+  },
+  "_skills": [
+    {
+      "iconId": 5,
+      "level": 2,
+      "descriptionKey": "SkillDescription/POISON_RESISTANCE_0",
+      "skillConditionParameter": null,
+      "skillEffectParameter": [
+        40
+      ]
+    }
+  ]
 }

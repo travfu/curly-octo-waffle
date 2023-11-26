@@ -233,5 +233,18 @@
     "numRequiredArmor": 15,
     "sortOrder": 10105,
     "monsterSettingId": 24
-  }
+  },
+  "_skills": [
+    {
+      "iconId": 32,
+      "level": 1,
+      "descriptionKey": "SkillDescription/LAST_DITCH_GUARDIAN",
+      "skillConditionParameter": [
+        29
+      ],
+      "skillEffectParameter": [
+        50
+      ]
+    }
+  ]
 }
