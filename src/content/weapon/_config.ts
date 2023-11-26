@@ -1,3 +1,4 @@
+import { zElementType } from '@content/common';
 import { z, defineCollection } from 'astro:content';
 
 const weaponLevelSpecSettings = z.object({
@@ -55,7 +56,7 @@ const bowgunSpecSettings = z.object({
     _ammo: z.object({
       id: z.number(),
       ammoType: z.string(),
-      elementType: z.string(),
+      elementType: zElementType,
       level: z.number(),
       // iconId: z.number().optional(),
       // colorCode: z.number().optional(),
@@ -93,18 +94,7 @@ export const weaponCollection = defineCollection({
     target: z.string(),
     weaponId: z.number(),
     category: z.string(),
-    elementType: z.enum([
-      "NO_ELEMENT",
-      "FIRE",
-      "WATER",
-      "THUNDER",
-      "ICE",
-      "DRAGON",
-      "POISON",
-      "PARALYSIS",
-      "SLEEP",
-      "BLAST"
-    ]),
+    elementType: zElementType,
     assetKey: z.string(),
     grade: z.number(),
     series: z.string(),
