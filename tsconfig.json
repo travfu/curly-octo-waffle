@@ -1,7 +1,7 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "baseUrl": "/Users/tfu/Developer/personal/wyverian-now",
+    "baseUrl": ".",
     "paths": {
       "@*": [
         "src/*"
