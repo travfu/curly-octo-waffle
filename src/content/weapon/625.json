@@ -272,8 +272,9 @@
   },
   "_skills": [
     {
-      "iconId": 43,
+      "skillId": 43,
       "level": 1,
+      "maxLevel": 5,
       "descriptionKey": "SkillDescription/PEAK_PERFORMANCE",
       "skillConditionParameter": [
         100

@@ -172,8 +172,9 @@
   },
   "_skills": [
     {
-      "iconId": 32,
+      "skillId": 32,
       "level": 1,
+      "maxLevel": 5,
       "descriptionKey": "SkillDescription/LAST_DITCH_GUARDIAN",
       "skillConditionParameter": [
         29

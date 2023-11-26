@@ -168,8 +168,9 @@
   },
   "_skills": [
     {
-      "iconId": 22,
+      "skillId": 22,
       "level": 1,
+      "maxLevel": 5,
       "descriptionKey": "SkillDescription/DIVINE_BLESSING_0",
       "skillConditionParameter": [
         30

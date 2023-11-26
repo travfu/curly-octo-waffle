@@ -267,8 +267,9 @@
   },
   "_skills": [
     {
-      "iconId": 3,
+      "skillId": 3,
       "level": 1,
+      "maxLevel": 5,
       "descriptionKey": "SkillDescription/DEFENSE_UP_0",
       "skillConditionParameter": null,
       "skillEffectParameter": [

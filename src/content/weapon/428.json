@@ -212,8 +212,9 @@
   },
   "_skills": [
     {
-      "iconId": 37,
+      "skillId": 37,
       "level": 1,
+      "maxLevel": 5,
       "descriptionKey": "SkillDescription/SLOW_STARTER_1",
       "skillConditionParameter": [
         3

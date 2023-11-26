@@ -269,8 +269,9 @@
   },
   "_skills": [
     {
-      "iconId": 18,
+      "skillId": 18,
       "level": 1,
+      "maxLevel": 5,
       "descriptionKey": "SkillDescription/AGILITY_UP_1",
       "skillConditionParameter": null,
       "skillEffectParameter": [

@@ -285,8 +285,9 @@
   },
   "_skills": [
     {
-      "iconId": 46,
+      "skillId": 46,
       "level": 1,
+      "maxLevel": 5,
       "descriptionKey": "SkillDescription/FORTIFY",
       "skillConditionParameter": null,
       "skillEffectParameter": [
