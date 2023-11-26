@@ -88,6 +88,15 @@ const seriesSpecSettings = z.object({
   discoveredItemId: z.array(z.number()).optional(),
 })
 
+const skillDetails = z.object({
+  skillId: z.number(),
+  level: z.number(),
+  maxLevel: z.number(),
+  descriptionKey: z.string(),
+  skillConditionParameter: z.array(z.number()).nullable(),
+  skillEffectParameter: z.array(z.number()).nullable()
+})
+
 export const weaponCollection = defineCollection({
   type: 'data',
   schema: z.object({
@@ -112,5 +121,6 @@ export const weaponCollection = defineCollection({
     _series: seriesSpecSettings,
     _bowgun: bowgunSpecSettings.optional(),
     _bow: bowSpecSettings.optional(),
+    _skills: z.array(skillDetails).optional()
   })
 })

@@ -155,8 +155,9 @@
   },
   "_skills": [
     {
-      "iconId": 42,
+      "skillId": 42,
       "level": 1,
+      "maxLevel": 5,
       "descriptionKey": "SkillDescription/SNEAK_ATTACK",
       "skillConditionParameter": null,
       "skillEffectParameter": [
