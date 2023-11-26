@@ -5,6 +5,8 @@ import { ViewTransitions } from 'astro:transitions';
 import '@fontsource-variable/overpass';
 // Supports weights 100-800
 import '@fontsource-variable/jetbrains-mono';
+// Supports weights 100-900
+import '@fontsource-variable/inter';
 
 import Header from '@components/Header.astro';
 import type { LocaleCode } from '@i18n/utils';
@@ -30,7 +32,7 @@ const { title, locale = 'en' } = Astro.props;
   </head>
   <body>
     <Header locale={locale} />
-    <div class="mx-8 md:mx-20 lg:mx-52 text-white">
+    <div class="mx-2 md:mx-20 lg:mx-52 text-white">
       <slot />
     </div>
   </body>
@@ -50,7 +52,7 @@ const { title, locale = 'en' } = Astro.props;
     );
   }
   html {
-    font-family: 'Overpass Variable', sans-serif;
+    font-family: 'Inter Variable', sans-serif;
     background: #13151a;
     background-size: 224px;
   }
