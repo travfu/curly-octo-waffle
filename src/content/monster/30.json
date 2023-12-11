@@ -4,7 +4,51 @@
   "monsterSize": "LARGE",
   "assetKey": "w_em123_00",
   "nameLocalizationKey": "BANBARO",
-  "_guidebook": null,
+  "_guidebook": {
+    "Id": 28,
+    "MonsterId": 30,
+    "Obsolete": false,
+    "Order": 18,
+    "SpeciesKey": "MonsterSpecies/BRUTE",
+    "DescriptionKey": "MonsterDescription/MONSTER_DESCRIPTION_BANBARO",
+    "HintKey": "MonsterHint/MONSTER_HINT_BANBARO",
+    "ForestAreaFlag": true,
+    "DesertAreaFlag": false,
+    "SwampAreaFlag": true,
+    "MinGrade": 3,
+    "AcquireMaterialMinMonsterGrade1": 3,
+    "AcquireMaterialMaxMonsterGrade1": 10,
+    "AcquireMaterialId1": 2012301,
+    "AcquireMaterialMinMonsterGrade2": 3,
+    "AcquireMaterialMaxMonsterGrade2": 10,
+    "AcquireMaterialId2": 2012302,
+    "AcquireMaterialMinMonsterGrade3": 3,
+    "AcquireMaterialMaxMonsterGrade3": 10,
+    "AcquireMaterialId3": 2012303,
+    "AcquireMaterialMinMonsterGrade4": 3,
+    "AcquireMaterialMaxMonsterGrade4": 10,
+    "AcquireMaterialId4": 2012304,
+    "AcquireMaterialMinMonsterGrade5": 4,
+    "AcquireMaterialMaxMonsterGrade5": 10,
+    "AcquireMaterialId5": 2012305,
+    "AcquireMaterialMinMonsterGrade6": 6,
+    "AcquireMaterialMaxMonsterGrade6": 10,
+    "AcquireMaterialId6": 2012306,
+    "AcquireMaterialMinMonsterGrade7": 8,
+    "AcquireMaterialMaxMonsterGrade7": 10,
+    "AcquireMaterialId7": 1110004,
+    "AcquireMaterialMinMonsterGrade8": 0,
+    "AcquireMaterialMaxMonsterGrade8": 0,
+    "AcquireMaterialId8": "",
+    "AcquireMaterialMinMonsterGrade9": 0,
+    "AcquireMaterialMaxMonsterGrade9": 0,
+    "AcquireMaterialId9": "",
+    "AcquireMaterialMinMonsterGrade10": 0,
+    "AcquireMaterialMaxMonsterGrade10": 0,
+    "AcquireMaterialId10": "",
+    "AttackElement1": 0,
+    "AttackElement2": 0
+  },
   "_parts": {
     "m_Name": "dat_monster_parts_w_em123_00",
     "elementalWeaknessChart": {
@@ -14,7 +58,8 @@
       "ice": 0,
       "dragon": 1,
       "poison": 0,
-      "paralysis": 0
+      "paralysis": 0,
+      "sleep": 0
     },
     "parameter": {
       "partDataList": [
@@ -24,7 +69,7 @@
           "headFlag": 1,
           "partBreakData": {
             "partBreakType": 0,
-            "monsterPart": 0
+            "monsterPart": 25
           },
           "damageData": [
             {
@@ -32,7 +77,8 @@
               "physical": {
                 "cut": 80,
                 "blunt": 100,
-                "ammo": 80
+                "ammo": 80,
+                "ammoSeason2023Winter": 65
               },
               "elemental": {
                 "fire": 100,
@@ -45,9 +91,10 @@
             {
               "statusKey": "Broken",
               "physical": {
-                "cut": 160,
-                "blunt": 200,
-                "ammo": 160
+                "cut": 140,
+                "blunt": 145,
+                "ammo": 140,
+                "ammoSeason2023Winter": 0
               },
               "elemental": {
                 "fire": 100,
@@ -68,7 +115,7 @@
               "damagePercentage": 100
             }
           ],
-          "partToOverrideDamageStatusKey": 12
+          "partToOverrideDamageStatusKey": 0
         },
         {
           "partKey": "Horn_L",
@@ -84,7 +131,8 @@
               "physical": {
                 "cut": 0,
                 "blunt": 0,
-                "ammo": 0
+                "ammo": 0,
+                "ammoSeason2023Winter": 0
               },
               "elemental": {
                 "fire": 100,
@@ -112,7 +160,8 @@
               "physical": {
                 "cut": 0,
                 "blunt": 0,
-                "ammo": 0
+                "ammo": 0,
+                "ammoSeason2023Winter": 0
               },
               "elemental": {
                 "fire": 100,
@@ -140,7 +189,8 @@
               "physical": {
                 "cut": 140,
                 "blunt": 145,
-                "ammo": 140
+                "ammo": 140,
+                "ammoSeason2023Winter": 0
               },
               "elemental": {
                 "fire": 100,
@@ -177,7 +227,8 @@
               "physical": {
                 "cut": 90,
                 "blunt": 100,
-                "ammo": 90
+                "ammo": 90,
+                "ammoSeason2023Winter": 70
               },
               "elemental": {
                 "fire": 100,
@@ -205,7 +256,8 @@
               "physical": {
                 "cut": 80,
                 "blunt": 90,
-                "ammo": 80
+                "ammo": 80,
+                "ammoSeason2023Winter": 65
               },
               "elemental": {
                 "fire": 100,
@@ -233,7 +285,24 @@
               "physical": {
                 "cut": 90,
                 "blunt": 100,
-                "ammo": 90
+                "ammo": 90,
+                "ammoSeason2023Winter": 70
+              },
+              "elemental": {
+                "fire": 100,
+                "water": 0,
+                "thunder": 0,
+                "ice": 0,
+                "dragon": 100
+              }
+            },
+            {
+              "statusKey": "Broken",
+              "physical": {
+                "cut": 130,
+                "blunt": 135,
+                "ammo": 130,
+                "ammoSeason2023Winter": 0
               },
               "elemental": {
                 "fire": 100,
@@ -261,7 +330,24 @@
               "physical": {
                 "cut": 90,
                 "blunt": 100,
-                "ammo": 90
+                "ammo": 90,
+                "ammoSeason2023Winter": 70
+              },
+              "elemental": {
+                "fire": 100,
+                "water": 0,
+                "thunder": 0,
+                "ice": 0,
+                "dragon": 100
+              }
+            },
+            {
+              "statusKey": "Broken",
+              "physical": {
+                "cut": 130,
+                "blunt": 135,
+                "ammo": 130,
+                "ammoSeason2023Winter": 0
               },
               "elemental": {
                 "fire": 100,
@@ -289,7 +375,8 @@
               "physical": {
                 "cut": 100,
                 "blunt": 80,
-                "ammo": 80
+                "ammo": 80,
+                "ammoSeason2023Winter": 65
               },
               "elemental": {
                 "fire": 100,
@@ -317,7 +404,8 @@
               "physical": {
                 "cut": 0,
                 "blunt": 0,
-                "ammo": 0
+                "ammo": 0,
+                "ammoSeason2023Winter": 0
               },
               "elemental": {
                 "fire": 0,

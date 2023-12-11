@@ -36,18 +36,18 @@
     "AcquireMaterialId6": "",
     "AcquireMaterialMinMonsterGrade7": 8,
     "AcquireMaterialMaxMonsterGrade7": 10,
-    "AcquireMaterialId7": 0,
+    "AcquireMaterialId7": "",
     "AcquireMaterialMinMonsterGrade8": 0,
     "AcquireMaterialMaxMonsterGrade8": 0,
-    "AcquireMaterialId8": 0,
+    "AcquireMaterialId8": "",
     "AcquireMaterialMinMonsterGrade9": 0,
     "AcquireMaterialMaxMonsterGrade9": 0,
-    "AcquireMaterialId9": 0,
+    "AcquireMaterialId9": "",
     "AcquireMaterialMinMonsterGrade10": 0,
     "AcquireMaterialMaxMonsterGrade10": 0,
-    "AcquireMaterialId10": 0,
+    "AcquireMaterialId10": "",
     "AttackElement1": 0,
-    "AttackElement2": ""
+    "AttackElement2": 0
   },
   "_parts": null
 }

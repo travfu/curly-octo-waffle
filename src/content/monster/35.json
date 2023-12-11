@@ -5,5 +5,109 @@
   "assetKey": "w_em043_00",
   "nameLocalizationKey": "DEVILJHO",
   "_guidebook": null,
-  "_parts": null
+  "_parts": {
+    "m_Name": "dat_monster_parts_w_em043_00",
+    "elementalWeaknessChart": {
+      "fire": 0,
+      "water": 0,
+      "thunder": 1,
+      "ice": 0,
+      "dragon": 0,
+      "poison": 0,
+      "paralysis": 0,
+      "sleep": 0
+    },
+    "parameter": {
+      "partDataList": [
+        {
+          "partKey": "Head",
+          "localizeKey": "HEAD",
+          "headFlag": 1,
+          "partBreakData": {
+            "partBreakType": 1,
+            "monsterPart": 2
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 130,
+                "blunt": 135,
+                "ammo": 130,
+                "ammoSeason2023Winter": 0
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 100,
+                "ice": 0,
+                "dragon": 0
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Stomach",
+          "localizeKey": "",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 1,
+            "monsterPart": 8
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 90,
+                "blunt": 90,
+                "ammo": 100,
+                "ammoSeason2023Winter": 80
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 100,
+                "ice": 0,
+                "dragon": 0
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Tail",
+          "localizeKey": "TAIL",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 2,
+            "monsterPart": 3
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 130,
+                "blunt": 120,
+                "ammo": 120,
+                "ammoSeason2023Winter": 95
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 100,
+                "ice": 0,
+                "dragon": 0
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        }
+      ]
+    },
+    "id": "104300"
+  }
 }

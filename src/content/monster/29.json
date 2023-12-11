@@ -4,7 +4,51 @@
   "monsterSize": "LARGE",
   "assetKey": "w_em042_00",
   "nameLocalizationKey": "BARIOTH",
-  "_guidebook": null,
+  "_guidebook": {
+    "Id": 29,
+    "MonsterId": 29,
+    "Obsolete": false,
+    "Order": 19,
+    "SpeciesKey": "MonsterSpecies/FLYING",
+    "DescriptionKey": "MonsterDescription/MONSTER_DESCRIPTION_BARIOTH",
+    "HintKey": "MonsterHint/MONSTER_HINT_BARIOTH",
+    "ForestAreaFlag": true,
+    "DesertAreaFlag": false,
+    "SwampAreaFlag": false,
+    "MinGrade": 4,
+    "AcquireMaterialMinMonsterGrade1": 4,
+    "AcquireMaterialMaxMonsterGrade1": 10,
+    "AcquireMaterialId1": 2004201,
+    "AcquireMaterialMinMonsterGrade2": 4,
+    "AcquireMaterialMaxMonsterGrade2": 10,
+    "AcquireMaterialId2": 2004202,
+    "AcquireMaterialMinMonsterGrade3": 4,
+    "AcquireMaterialMaxMonsterGrade3": 10,
+    "AcquireMaterialId3": 2004203,
+    "AcquireMaterialMinMonsterGrade4": 4,
+    "AcquireMaterialMaxMonsterGrade4": 10,
+    "AcquireMaterialId4": 2004204,
+    "AcquireMaterialMinMonsterGrade5": 4,
+    "AcquireMaterialMaxMonsterGrade5": 10,
+    "AcquireMaterialId5": 2004205,
+    "AcquireMaterialMinMonsterGrade6": 6,
+    "AcquireMaterialMaxMonsterGrade6": 10,
+    "AcquireMaterialId6": 2004206,
+    "AcquireMaterialMinMonsterGrade7": 8,
+    "AcquireMaterialMaxMonsterGrade7": 10,
+    "AcquireMaterialId7": 1110004,
+    "AcquireMaterialMinMonsterGrade8": 0,
+    "AcquireMaterialMaxMonsterGrade8": 0,
+    "AcquireMaterialId8": "",
+    "AcquireMaterialMinMonsterGrade9": 0,
+    "AcquireMaterialMaxMonsterGrade9": 0,
+    "AcquireMaterialId9": "",
+    "AcquireMaterialMinMonsterGrade10": 0,
+    "AcquireMaterialMaxMonsterGrade10": 0,
+    "AcquireMaterialId10": "",
+    "AttackElement1": 4,
+    "AttackElement2": 0
+  },
   "_parts": {
     "m_Name": "dat_monster_parts_w_em042_00",
     "elementalWeaknessChart": {
@@ -14,7 +58,8 @@
       "ice": 0,
       "dragon": 0,
       "poison": 0,
-      "paralysis": 0
+      "paralysis": 0,
+      "sleep": 0
     },
     "parameter": {
       "partDataList": [
@@ -32,7 +77,8 @@
               "physical": {
                 "cut": 140,
                 "blunt": 145,
-                "ammo": 140
+                "ammo": 140,
+                "ammoSeason2023Winter": 0
               },
               "elemental": {
                 "fire": 100,
@@ -60,7 +106,8 @@
               "physical": {
                 "cut": 100,
                 "blunt": 110,
-                "ammo": 100
+                "ammo": 80,
+                "ammoSeason2023Winter": 0
               },
               "elemental": {
                 "fire": 100,
@@ -88,7 +135,8 @@
               "physical": {
                 "cut": 100,
                 "blunt": 110,
-                "ammo": 100
+                "ammo": 80,
+                "ammoSeason2023Winter": 0
               },
               "elemental": {
                 "fire": 100,
@@ -114,9 +162,10 @@
             {
               "statusKey": "",
               "physical": {
-                "cut": 80,
+                "cut": 90,
                 "blunt": 130,
-                "ammo": 80
+                "ammo": 70,
+                "ammoSeason2023Winter": 0
               },
               "elemental": {
                 "fire": 100,
@@ -142,9 +191,10 @@
             {
               "statusKey": "",
               "physical": {
-                "cut": 80,
+                "cut": 90,
                 "blunt": 130,
-                "ammo": 80
+                "ammo": 70,
+                "ammoSeason2023Winter": 0
               },
               "elemental": {
                 "fire": 100,
@@ -172,7 +222,8 @@
               "physical": {
                 "cut": 130,
                 "blunt": 135,
-                "ammo": 130
+                "ammo": 130,
+                "ammoSeason2023Winter": 0
               },
               "elemental": {
                 "fire": 100,
@@ -205,7 +256,8 @@
               "physical": {
                 "cut": 130,
                 "blunt": 135,
-                "ammo": 130
+                "ammo": 130,
+                "ammoSeason2023Winter": 0
               },
               "elemental": {
                 "fire": 100,
@@ -236,9 +288,10 @@
             {
               "statusKey": "",
               "physical": {
-                "cut": 80,
-                "blunt": 90,
-                "ammo": 80
+                "cut": 90,
+                "blunt": 100,
+                "ammo": 70,
+                "ammoSeason2023Winter": 0
               },
               "elemental": {
                 "fire": 100,
@@ -264,9 +317,10 @@
             {
               "statusKey": "",
               "physical": {
-                "cut": 100,
+                "cut": 110,
                 "blunt": 135,
-                "ammo": 90
+                "ammo": 80,
+                "ammoSeason2023Winter": 0
               },
               "elemental": {
                 "fire": 100,
@@ -297,9 +351,10 @@
             {
               "statusKey": "",
               "physical": {
-                "cut": 100,
+                "cut": 110,
                 "blunt": 135,
-                "ammo": 90
+                "ammo": 80,
+                "ammoSeason2023Winter": 0
               },
               "elemental": {
                 "fire": 100,
@@ -331,8 +386,9 @@
               "statusKey": "",
               "physical": {
                 "cut": 130,
-                "blunt": 80,
-                "ammo": 130
+                "blunt": 90,
+                "ammo": 130,
+                "ammoSeason2023Winter": 0
               },
               "elemental": {
                 "fire": 100,
@@ -360,7 +416,8 @@
               "physical": {
                 "cut": 145,
                 "blunt": 130,
-                "ammo": 130
+                "ammo": 130,
+                "ammoSeason2023Winter": 0
               },
               "elemental": {
                 "fire": 100,

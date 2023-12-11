@@ -5,5 +5,225 @@
   "assetKey": "w_em113_00",
   "nameLocalizationKey": "ODOGARON",
   "_guidebook": null,
-  "_parts": null
+  "_parts": {
+    "m_Name": "dat_monster_parts_w_em113_00",
+    "elementalWeaknessChart": {
+      "fire": 0,
+      "water": 0,
+      "thunder": 0,
+      "ice": 1,
+      "dragon": 0,
+      "poison": 0,
+      "paralysis": 1,
+      "sleep": 0
+    },
+    "parameter": {
+      "partDataList": [
+        {
+          "partKey": "Head",
+          "localizeKey": "HEAD",
+          "headFlag": 1,
+          "partBreakData": {
+            "partBreakType": 1,
+            "monsterPart": 2
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 130,
+                "blunt": 135,
+                "ammo": 130,
+                "ammoSeason2023Winter": 0
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 0,
+                "ice": 100,
+                "dragon": 0
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Neck",
+          "localizeKey": "",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 0,
+            "monsterPart": 0
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 140,
+                "blunt": 140,
+                "ammo": 140,
+                "ammoSeason2023Winter": 0
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 0,
+                "ice": 100,
+                "dragon": 0
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Body",
+          "localizeKey": "",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 0,
+            "monsterPart": 20
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 100,
+                "blunt": 110,
+                "ammo": 100,
+                "ammoSeason2023Winter": 80
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 0,
+                "ice": 100,
+                "dragon": 0
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Back",
+          "localizeKey": "BACK",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 0,
+            "monsterPart": 7
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 100,
+                "blunt": 100,
+                "ammo": 120,
+                "ammoSeason2023Winter": 95
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 0,
+                "ice": 100,
+                "dragon": 0
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Forelegs",
+          "localizeKey": "FORELEGS",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 1,
+            "monsterPart": 6
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 90,
+                "blunt": 90,
+                "ammo": 70,
+                "ammoSeason2023Winter": 55
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 0,
+                "ice": 100,
+                "dragon": 0
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Hindlegs",
+          "localizeKey": "HINDLEGS",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 1,
+            "monsterPart": 24
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 90,
+                "blunt": 90,
+                "ammo": 70,
+                "ammoSeason2023Winter": 55
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 0,
+                "ice": 100,
+                "dragon": 0
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        },
+        {
+          "partKey": "Tail",
+          "localizeKey": "TAIL",
+          "headFlag": 0,
+          "partBreakData": {
+            "partBreakType": 2,
+            "monsterPart": 3
+          },
+          "damageData": [
+            {
+              "statusKey": "",
+              "physical": {
+                "cut": 140,
+                "blunt": 140,
+                "ammo": 140,
+                "ammoSeason2023Winter": 0
+              },
+              "elemental": {
+                "fire": 0,
+                "water": 0,
+                "thunder": 0,
+                "ice": 100,
+                "dragon": 0
+              }
+            }
+          ],
+          "damageInfluences": [],
+          "partToOverrideDamageStatusKey": 0
+        }
+      ]
+    },
+    "id": "110900"
+  }
 }
