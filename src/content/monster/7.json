@@ -39,15 +39,15 @@
     "AcquireMaterialId7": 1110004,
     "AcquireMaterialMinMonsterGrade8": 0,
     "AcquireMaterialMaxMonsterGrade8": 0,
-    "AcquireMaterialId8": 0,
+    "AcquireMaterialId8": "",
     "AcquireMaterialMinMonsterGrade9": 0,
     "AcquireMaterialMaxMonsterGrade9": 0,
-    "AcquireMaterialId9": 0,
+    "AcquireMaterialId9": "",
     "AcquireMaterialMinMonsterGrade10": 0,
     "AcquireMaterialMaxMonsterGrade10": 0,
-    "AcquireMaterialId10": 0,
+    "AcquireMaterialId10": "",
     "AttackElement1": 4,
-    "AttackElement2": ""
+    "AttackElement2": 0
   },
   "_parts": {
     "m_Name": "dat_monster_parts_w_em111_00",
@@ -58,7 +58,8 @@
       "ice": 0,
       "dragon": 0,
       "poison": 1,
-      "paralysis": 0
+      "paralysis": 0,
+      "sleep": 0
     },
     "parameter": {
       "partDataList": [
@@ -76,7 +77,8 @@
               "physical": {
                 "cut": 140,
                 "blunt": 145,
-                "ammo": 140
+                "ammo": 140,
+                "ammoSeason2023Winter": 0
               },
               "elemental": {
                 "fire": 100,
@@ -104,7 +106,8 @@
               "physical": {
                 "cut": 80,
                 "blunt": 90,
-                "ammo": 80
+                "ammo": 80,
+                "ammoSeason2023Winter": 65
               },
               "elemental": {
                 "fire": 100,
@@ -137,7 +140,8 @@
               "physical": {
                 "cut": 130,
                 "blunt": 130,
-                "ammo": 140
+                "ammo": 140,
+                "ammoSeason2023Winter": 0
               },
               "elemental": {
                 "fire": 100,
@@ -165,7 +169,8 @@
               "physical": {
                 "cut": 130,
                 "blunt": 130,
-                "ammo": 140
+                "ammo": 140,
+                "ammoSeason2023Winter": 0
               },
               "elemental": {
                 "fire": 100,
@@ -193,7 +198,8 @@
               "physical": {
                 "cut": 90,
                 "blunt": 100,
-                "ammo": 90
+                "ammo": 90,
+                "ammoSeason2023Winter": 70
               },
               "elemental": {
                 "fire": 100,
@@ -221,7 +227,8 @@
               "physical": {
                 "cut": 120,
                 "blunt": 110,
-                "ammo": 110
+                "ammo": 110,
+                "ammoSeason2023Winter": 90
               },
               "elemental": {
                 "fire": 100,
@@ -249,7 +256,8 @@
               "physical": {
                 "cut": 80,
                 "blunt": 90,
-                "ammo": 80
+                "ammo": 80,
+                "ammoSeason2023Winter": 65
               },
               "elemental": {
                 "fire": 100,
