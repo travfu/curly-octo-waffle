@@ -42,7 +42,7 @@ const guideBookSchema = z.object({
 	AcquireMaterialId9: z.coerce.number(),
 	AcquireMaterialMinMonsterGrade10: z.number(),
 	AcquireMaterialMaxMonsterGrade10: z.number(),
-	AcquireMaterialId10: z.number(),
+	AcquireMaterialId10: z.coerce.number(),
 	AttackElement1: z.number(),
 	AttackElement2: z.preprocess(arg => arg === "" ? null : arg, z.number().nullish()),
 })
