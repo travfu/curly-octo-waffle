@@ -9,5 +9,13 @@ export default defineConfig({
   redirects: {
     '/': '/en/monsters'
   },
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "de", "es", "fr", "it", "ja", "ko", "pt", "zh"],
+    routing: {
+      // All URLs, including default language, will have a /[locale]/ prefix.
+      prefixDefaultLocale: true,
+    }
+  },
   integrations: [tailwind(), react()]
 });
