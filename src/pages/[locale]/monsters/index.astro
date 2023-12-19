@@ -7,6 +7,7 @@ import MonsterIcon from '@components/icons/MonsterIcon.astro';
 import { getStaticLocalePaths, type LocaleCode } from '@i18n/utils';
 import { useTranslation } from '@i18n/useTranslation';
 import { MONSTER_CONFIG } from '@config/monsters';
+import { slugify } from '@utils/url';
 
 export async function getStaticPaths() {
   return getStaticLocalePaths();
@@ -19,7 +20,7 @@ const monsters = (await getCollection('monster')).filter(
 const t = useTranslation(locale);
 
 const toMonsterPath = (key: string): string => {
-  const slug = t(['Enemy', key], 'en')?.toLocaleLowerCase().trim().replace(' ', '-');
+  const slug = slugify(t(['Enemy', key], 'en') || '');
   return getRelativeLocaleUrl(locale, `monsters/${slug}`);
 };
 ---

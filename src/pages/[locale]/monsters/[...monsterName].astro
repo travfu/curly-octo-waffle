@@ -15,6 +15,7 @@ import WeaponCard from '@components/WeaponCard';
 import { getWeaponsByCategory } from '@utils/content/weapons';
 import { IconSrc } from '@utils/icon';
 import type { zElementType } from '@content/_common';
+import { slugify } from '@utils/url';
 
 export async function getStaticPaths() {
   // generate [locale]/monsters/[monsterName] routes as a product
@@ -25,10 +26,7 @@ export async function getStaticPaths() {
   const enMessages = await getEntry('messages', 'en-us');
   const values = monsters
     .map((obj) => ({
-      name: (enMessages['data'][`Enemy/${obj.data.nameLocalizationKey}`] || '')
-        .trim()
-        .toLowerCase()
-        .replace(' ', '-'),
+      name: slugify(enMessages['data'][`Enemy/${obj.data.nameLocalizationKey}`] || ''),
       id: obj.data.id,
     }))
     .filter(({ name }) => !!name);
