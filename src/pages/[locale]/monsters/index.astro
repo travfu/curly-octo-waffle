@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import { getRelativeLocaleUrl } from 'astro:i18n';
 
 import Layout from '@layouts/Layout.astro';
 import MonsterIcon from '@components/icons/MonsterIcon.astro';
@@ -18,8 +19,8 @@ const monsters = (await getCollection('monster')).filter(
 const t = useTranslation(locale);
 
 const toMonsterPath = (key: string): string => {
-  const monsterSlug = t(['Enemy', key], 'en')?.toLocaleLowerCase().replace(' ', '-');
-  return ['', locale, 'monsters', monsterSlug].join('/');
+  const slug = t(['Enemy', key], 'en')?.toLocaleLowerCase().trim().replace(' ', '-');
+  return getRelativeLocaleUrl(locale, `monsters/${slug}`);
 };
 ---
 

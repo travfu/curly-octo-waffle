@@ -1,4 +1,6 @@
 ---
+import { getRelativeLocaleUrl } from 'astro:i18n';
+
 import { useTranslation } from '@i18n/useTranslation';
 import LanguageSelect from './LanguageSelect.astro';
 import type { LocaleCode } from '@i18n/utils';
@@ -15,7 +17,7 @@ const t = useTranslation(locale);
 const currRelPath = Astro.url.pathname.split('/').slice(2).join('/');
 const navItems = NAV_CONFIG.map(({ labelKey, path }) => ({
   label: t(labelKey),
-  href: '/' + [locale, path].join('/'),
+  href: getRelativeLocaleUrl(locale, path),
   isActive: currRelPath && currRelPath === path,
 }));
 ---
